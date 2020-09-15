@@ -1,0 +1,124 @@
+{template 'header.html'}
+<div class="box line_4">
+{template 'left.html'}
+<!--left_1 end-->
+
+<div class="right_2">
+<div class="t_2 mb10"><div><h3>访客留言</h3><span>Archive list</span></div></div>
+<div id="position">
+<strong>当前位置：</strong><a title="{get('sitename')}" href="{$base_url}">{get('sitename')}</a><a title="访客留言" href="#">访客留言</a>
+</div>
+
+<div id="textDiv" style="width:650px;" class="text">
+<div style="border:1px solid #DBE2E6;margin:6px 0px 15px;background:#F7F7F7; text-align:center;color:#0F409C; font-weight:bold; font-size:14px;">签写留言</div>
+
+<div style="text-align:center;color:red;"><?php if(hasflash()) { ?>
+<?php echo showflash(); ?>
+<?php } ?>
+</div>
+<style>
+table tr td {line-height:32px;}
+table input {height:16px;font-size:14px;line-height:16px;}
+</style>
+<form method="post" action="" name="form1">
+		  <table width="650" border="0" align="center" cellpadding="7" cellspacing="0" style="font-size:14px;">
+             <tr>
+                <td width="100">&nbsp;&nbsp;&nbsp;联系人：</td>
+                <td>{form::input('nickname',get('username'))}
+                <span style="color:#FF0000"> *</span></td>
+                <td width="100"></td>
+              </tr>
+			  <tr>
+                <td width="100">&nbsp;&nbsp;&nbsp;联系电话：</td>
+                <td>{form::input('guesttel',get('guesttel'))}
+                <span style="color:#FF0000"> *</span></td>
+                <td width="100"></td>
+              </tr>
+			  <tr>
+                <td width="100">&nbsp;&nbsp;&nbsp;联系邮箱：</td>
+                <td>{form::input('guestemail',get('guestemail'))}
+                <span style="color:#FF0000"> *</span></td>
+                <td width="100"></td>
+              </tr>
+			  <tr>
+                <td width="100">&nbsp;&nbsp;&nbsp;联系QQ：</td>
+                <td>{form::input('guestqq',get('guestqq'))}
+                <span style="color:#FF0000"> *</span></td>
+                <td width="100"></td>
+              </tr>
+			  {loop $field $f}
+<?php
+ $name=$f['name'];
+ if($name==$primary_key) continue; ?>
+<tr>
+                <td>&nbsp;&nbsp;&nbsp;{$name|lang}：</td>
+                <td colspan="2">{form::getform($name,@$form,$field,@$data)} </td>
+              </tr>
+ {/loop}
+  <tr>
+                <td colspan="3" align="center" height="10">&nbsp;
+                  </td>
+              </tr>
+            
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;验证码：</td>
+                <td colspan="2"><span style="float:left;">{verify()}</span><span style="float:left;padding-left:10px;"><input type='text' id="verify"  name="verify" size="10" style="height:16px;" /></span><span style="color:#FF0000;float:left;">*</span>&nbsp;&nbsp;&nbsp;</td>
+              </tr>
+			  <tr>
+                <td colspan="3" align="center" height="10">&nbsp;
+                  </td>
+              </tr>
+              <tr>
+                <td colspan="3" align="center"><input type="submit" name="submit" value="提交" style="float:right;padding:2px; background:none; border:0px none; background-color:#DDDDDD; color:#000000; width:70px;height:20px;line-height:20px;font-size:12px;" />
+                  </td>
+              </tr>
+            </table>
+</form>
+		<div class="blank30"></div>
+		{if $user}
+
+    <h5></h5>
+
+		<div style="border:1px solid #DBE2E6;margin:6px 0px 15px;background:#F7F7F7; text-align:center;color:#0F409C; font-weight:bold; font-size:14px;">留言列表</div>
+    
+    <table width="650" border="1" align="center" cellpadding="7" cellspacing="0" bordercolor="#EDEDED">
+
+		{loop $data $d}
+		<tr>
+            <td scope="col" colspan="2"><strong>{$d[username]}</strong><span style="padding-left:20px;">{sdate($d[adddate],'Y-m-d H:i')}</span>
+            </td>
+        </tr>
+        <tr>
+		  <td style="width:80px;font-weight:bold;" align="center">留言内容</td>
+            <td scope="col">{$d[content]}</td>
+			</tr>
+         {if $d['reply']}<tr>
+		 <td align="center">管理员回复</td>
+            <td scope="col">
+                {$d['reply']}
+            </td>
+        </tr>{/if}
+		{/loop}
+    </table>
+              </td>
+            </tr>
+          </table>
+		  <div class="clear"></div>
+<div class="blank30"></div>
+    <div class="pages"><?php echo pagination::html($record_count); ?></div>
+{/if}
+
+<div class="blank30"></div></td>
+            </tr>
+          </table>
+<div class="blank30"></div>
+		<a title="返回顶部" href="#" class="clear floatright"><img alt="返回顶部" src="{$skin_url}/gotop.gif"></a>
+	<div class="clear"></div>
+
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<!--box end-->
+{template 'footer.html'}

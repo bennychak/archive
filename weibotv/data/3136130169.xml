@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3136130169</channel_id>
+<channel_name><![CDATA[艺术人文]]></channel_name>
+<channel_typeid><![CDATA[24]]></channel_typeid>
+<channel_typename><![CDATA[上海文广]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24057451]]></cur_program_id>
+<cur_program_name><![CDATA[音乐前线]]></cur_program_name>
+<cur_program_time><![CDATA[17:00]]></cur_program_time>
+<next_program_name><![CDATA[光阴的歌]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[努力打造上海这座城市的艺术盛典,关注自己家园的文化生态.以上海文化艺术的电视表述为主体... ]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/smg.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shanghai.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shanghai.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100040</chat_id>
+   <chat_title><![CDATA[艺术人文]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[东方宽频]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[新青年影院]]></pn>
+		<tm><![CDATA[06:03]]></tm>
+		<id><![CDATA[24057440]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[音乐前线]]></pn>
+		<tm><![CDATA[07:40]]></tm>
+		<id><![CDATA[24057441]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[光影空间]]></pn>
+		<tm><![CDATA[09:15]]></tm>
+		<id><![CDATA[24057442]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《光阴的歌》]]></pn>
+		<tm><![CDATA[09:45]]></tm>
+		<id><![CDATA[24057443]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新青年]]></pn>
+		<tm><![CDATA[10:45]]></tm>
+		<id><![CDATA[24057444]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新青年影院]]></pn>
+		<tm><![CDATA[11:15]]></tm>
+		<id><![CDATA[24057445]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《万象》]]></pn>
+		<tm><![CDATA[12:56]]></tm>
+		<id><![CDATA[24057446]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[光阴的歌]]></pn>
+		<tm><![CDATA[13:26]]></tm>
+		<id><![CDATA[24057447]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[文化天空]]></pn>
+		<tm><![CDATA[14:00]]></tm>
+		<id><![CDATA[24057448]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[纵横经典]]></pn>
+		<tm><![CDATA[15:00]]></tm>
+		<id><![CDATA[24057449]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新青年]]></pn>
+		<tm><![CDATA[16:30]]></tm>
+		<id><![CDATA[24057450]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[音乐前线]]></pn>
+		<tm><![CDATA[17:00]]></tm>
+		<id><![CDATA[24057451]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[光阴的歌]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24057452]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[光阴的歌]]></pn>
+		<tm><![CDATA[18:38]]></tm>
+		<id><![CDATA[24057453]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《万象》]]></pn>
+		<tm><![CDATA[19:08]]></tm>
+		<id><![CDATA[24057454]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[艺文传奇]]></pn>
+		<tm><![CDATA[19:30]]></tm>
+		<id><![CDATA[24057455]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[文化天空]]></pn>
+		<tm><![CDATA[20:00]]></tm>
+		<id><![CDATA[24057456]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新青年]]></pn>
+		<tm><![CDATA[21:00]]></tm>
+		<id><![CDATA[24057457]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新青年剧场]]></pn>
+		<tm><![CDATA[21:30]]></tm>
+		<id><![CDATA[24057458]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[音乐前线]]></pn>
+		<tm><![CDATA[23:25]]></tm>
+		<id><![CDATA[24057459]]></id>
+	</p>
+
+</root>

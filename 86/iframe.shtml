@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>我的首页 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<!--#include file="inc/head.shtml"-->
+
+<div id="ui_wrap1" class="tb_wrap7">
+
+    <div id="ui_contain">
+		<iframe id="ifr" name="ifr" width="100%" height="550" src="iframe_right.shtml" frameborder="0"></iframe>
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+
+</div>
+
+<!--#include file="inc/foot.shtml"-->
+
+<!--
+<script language="javascript" type="text/javascript">
+	var aa_value="我是父窗口的一个变量！";
+	
+	var ifr_id=document.getElementById("ifr");
+	var ifr_window=window.frames["ifr"];
+	
+	alert("父：无法通过ifr_id获取iframe的变量，它会返回：" + ifr_id.bb_var);
+	alert("父：无法通过ifr_id获取iframe的DOM模型，它会返回：" + ifr_id.window);
+	alert("父：通过ifr_id获取src：" + ifr_id.src);
+	alert("父：通过window获取href：" + ifr_window.document.location.href);
+	
+	//由于bb.htm可能还未装载完成,所以,下冇的可能引发错误 
+	//调用iframe内的函数 ifr_window.bb();
+	
+	//调用iframe内的变量
+	alert("父：" + ifr_window.bb_var);
+	
+	alert("父：" + ifr_window.document.body.innerHTML);
+	
+	
+	function aa(msg){
+		alert("我是父窗口的一个alerting，我收到一条消息：\n" + msg);
+	}
+</script>
+-->
+</body>
+</html>

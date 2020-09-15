@@ -1,0 +1,25 @@
+<div class="top">
+    <div class="topmenu">
+        <div class="left">
+            <div class="t1"><span>About Us</span></div>
+            <div class="t2"><span>Art Class</span></div>
+            <div class="clear"></div>
+        </div>
+        <div class="right">
+            <div class="t3"><span>Art Zone</span></div>
+            <div class="t4"><span>Contact</span></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="left">
+            <div class="m1"><a href="#"></a></div>
+            <div class="m2"><a href="#"></a></div>
+        </div>
+        <div class="right">
+            <div class="m3"><a href="#"></a></div>
+            <div class="m4"><a href="#"></a></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>

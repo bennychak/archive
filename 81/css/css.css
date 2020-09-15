@@ -1,0 +1,44 @@
+/*ENTIRE STYLE*/
+body{ text-align:center; margin:auto; text-decoration:none; color:#666; font-size:12px; font-family:Arial, Helvetica, sans-serif; background-color:#CEA;}
+a{ text-decoration:none; color:#333;}
+a:hover{ color:#F00;}
+img{ border:0px;}
+ul{ margin:0px; padding:0px; list-style:none;}
+/*FRAME STYLE*/
+#bien_logo{ width:200px; height:60px; border:#FFF 1px solid; float:left; +margin-right:-4px; overflow:hidden;}
+#bien_banner{ height:50px; padding-top:10px; border:#FFF 1px solid; overflow:hidden; text-indent:1em; text-align:left; color:#000;}
+#bien_lefttop{ width:190px; height:190px; border:#FFF 1px solid; border-top:none; float:left; padding:5px; +margin-right:-4px; overflow:hidden;}
+#bien_righttop{ height:200px; border:#FFF 1px solid; border-top:none; margin-left:0px; +padding-left:5px; overflow:hidden;}
+#bien_leftmain{ width:190px; height:auto; border-left:#FFF 1px solid; border-right:#FFF 1px solid; float:right; +margin-right:-4px; padding:5px; background-color:#CEA; margin-left:30px; margin-right:10px; margin-bottom:10px; line-height:2em; overflow:hidden;}
+#bien_rightmain{ height:auto; text-align:left; padding:30px; line-height:2em; border-bottom:#999999 1px dashed; font-size:14px; background-color:#BD9; color:#000;}
+#bien_bottom{ height:100px; width:90%; float:left; padding:10px; text-align:left; text-indent:2em;}
+.bien_righttopcontainer{ width:28%; height:172px; padding:8px; margin-top:5px; margin-left:5px; +margin-left:0px; +margin-right:5px; border:#FFF 1px solid; float:left; overflow:hidden; text-align:left; line-height:2em;}
+.bien_lefttopcontainer{ width:190px; height:172px; padding:8px; margin-left:5px; +margin-left:0px; +margin-right:5px; border:#FFF 1px solid; float:left; overflow:hidden; text-align:left; line-height:2em;}
+#bien_copy{ width:100%; height:30px; padding-top:30px; text-align:center;}
+.bien_clear{ clear:both;}
+/*NAVIGATION LIST STYLE*/
+#bien_lefttop li{ float:left; margin-right:5px; text-align:center;}
+#bien_lefttop li a{ width:40px; height:23px; display:block; padding-top:2px;}
+#bien_lefttop li a:hover{ background:#9C0; color:#FFF;}
+#bien_page{ margin:10px;}
+/*ARTICLE LIST STYLE*/
+#bien_leftmain li{ text-align:left; text-indent:10px;}
+#bien_leftmain a{ width:auto; height:20px; padding-top:5px; border-bottom:#FFF 1px solid; display:block; overflow:hidden;}
+#bien_leftmain a:hover{ background:#F3F3F3;}
+#bien_rightmain ul li{ text-indent:2em; width:49%; height:24px; padding-top:6px; border-left:#FFF 1px dashed; float:left; overflow:hidden;}
+/*GUESTBOOK STYLE*/
+/*OTHER STYLE*/
+.bien_article_title{ height:30px; font-size:14px; color:#FF0000; margin-bottom:10px; text-align:left; font-weight:bold; font-size:16px;}
+.bien_article_title a{ color:#669;}
+.bien_article_bottom{ text-align:right; margin-top:10px;}
+.bien_top4{ margin-bottom:0px;}
+.linktop{ margin-bottom:15px; margin-left:30px; line-height:2em;}
+.bien_indent{ text-indent:2em;}
+/*A LITTLE DEFAULT.CSS*/
+.tt_title {  font-family: "georgia", "Arial", "Helvetica", "sans-serif"; font-size: 30px; color: #FCC; font-weight: bold}
+/*COMMENT STYLE*/
+#bien_comment{ width:80%; text-align:left; margin-left:30px; float:left; margin-top:10px; padding-bottom:10px; margin-bottom:30px; border-bottom:#FFF 1px dashed;}
+#bien_comment ul li{ margin-top:10px;}
+#bien_comment_show{ width:80%; text-align:left; margin-left:30px; float:left; margin-top:10px; padding-bottom:10px; border-bottom:#FFF 1px dashed;}
+#bien_comment_show ul li{ margin-top:10px;}
+.bien_comment_author{ color:#669; margin-top:10px; padding-bottom:10px;}

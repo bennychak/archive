@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>{if !empty($archive[mtitle])}{$archive[mtitle]}-{elseif !empty($archive[title])}{$archive[title]}-{/if}{if $type[meta_title]}{$type[meta_title]}-{elseif typename($type[typeid])}{typename($type[typeid])}-{/if}{if $category[$catid][meta_title]}{$category[$catid][meta_title]}-{elseif !empty($catid)}{catname($catid)}-{/if}{get('fullname')} - Powered by CmsEasy</title>
+<meta name="keywords" content="{if $archive[keyword]}{$archive[keyword]}{else}{if $type[keyword]}{$type[keyword]}{elseif $category[$catid][keyword]}{$category[$catid][keyword]}{else}{get('site_keyword')}{/if}{/if}" />
+<meta name="description" content="{if $archive[description]}{$archive[description]}{else}{if $type[description]}{$type[description]}{elseif $category[$catid][description]}{$category[$catid][description]}{else}{get('site_description')}{/if}{/if}" />
+<meta name="author" content="CmsEasy Team" />
+<link rel="icon" href="{get(site_url)}favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{get(site_url)}favicon.ico" type="image/x-icon" />
+<link href="{$skin_path}/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript">
+<!-- 
+function ResumeError()  
+{ 
+    return true; 
+} 
+window.onerror = ResumeError; 
+function check()
+{
+if(document.search.keyword.value.length==0){
+     alert("{lang(pleaceinputtext)}");
+     document.search.keyword.focus();
+     return false;
+    }
+
+	}
+// --> 
+</script>
+
+<style type="text/css">
+body {
+  background:#FFF url({$skin_path}/bg.gif) left 470px repeat-x;
+}
+#i_bg {
+
+  background:url({$skin_path}/i_bg.jpg) center top no-repeat;
+  }
+  #i_news {
+  float:left;
+  width:280px;
+  height:140px;
+  margin:210px 50px 66px 0px;
+
+}
+
+#i_news h5 {
+  height:30px;
+  line-height:30px;
+  background:url({$skin_path}/line.gif) right center no-repeat;
+}
+
+#i_news ul li .date {
+  float:right;
+  color:#ccc;
+}
+
+#i_pic {
+  float:left;
+  width:230px;
+  height:230px;
+  margin:100px 0px 0px;
+}
+
+#i_pic a img {
+  float:left;
+  width:70px;
+  height:70px;
+  border:3px solid white;
+}
+
+#i_pic a:hover img {
+  border:3px solid #FF9900;
+}
+#about {
+  clear:both;
+  float:left;
+  width:170px;
+  height:130px;
+  margin:30px 50px 20px 0px;
+  padding-left:120px;
+  background:url({$skin_path}/about_bg.jpg) left bottom no-repeat;
+}
+
+#about p {
+  width:170px;
+  height:110px;
+  overflow:hidden;
+}
+</style>
+</head>
+<body>
+
+<div id="i_bg">
+<div id="main">
+<!-- logo -->
+<div id="logo"><a href="{$base_url}"><img src="{$skin_path}/logo.gif" /></a></div>
+<div id="top">
+<a id="StranLink" title="繁简转换">&nbsp;繁体 -	&nbsp;</a>
+<a title="{lang(feedback)}" href="{url('guestbook')}" target="_blank">&nbsp;{lang(feedback)} -	</a>
+<a href="{$site_url}" onclick="window.external.addFavorite(this.href,this.title);return false;" title='{get(sitename)}' rel="sidebar">&nbsp;{lang(favorite)} -	</a>
+</div>
+<div class="clear"></div>
+<div id="i_news">
+<h5>Top News</h5>
+<ul>
+{loop archive(2,0,0,'0,0,0',16,'aid',4,false,0) $i $arc} 
+<li><span class="date">{$arc[adddate]}</span><a href="{$arc[url]}">{$arc[title]}</a></li>
+{/loop}
+</ul>
+</div>
+<style type="text/css">.p3 {clear:both;}</style>
+<div id="i_pic">
+{loop archive(3,0,0,'0,0,0',20,'aid',10,true,0) $i $arc}
+<a href="{$arc[url]}"><img src="{get(site_url)}{$arc[thumb]}" class="p$i" alt="{$arc[title]}" /></a>
+{/loop}
+<img src="{$skin_path}/i_pic.jpg" />
+</div>
+
+
+<div id="nav">
+<span>
+<a title="{lang(backhome)}" href="{get(site_url)}"{if $catid==0} class="on"{/if}>{lang(homepage)}</a>
+{loop categories_nav() $t}
+<a title="{$t[catname]}" href="{$t[url]}"{if isset($topid) && $topid==$t[catid]} class="on"{/if}>{$t[catname]}</a>
+{/loop}
+</span>
+</div>
+
+<div id="about">
+<p>{tag_公司简介}</p>
+</div>
+
+<div id="contact">
+<div style="background:url({$skin_path}/address.gif) 5px center no-repeat;" />
+{get('address')}
+</div>
+
+<div style="background:url({$skin_path}/mail.gif) 5px center no-repeat;" />
+{get('email')}
+</div>
+
+<div style="background:url({$skin_path}/tel.gif) 5px center no-repeat;" />
+{get('tel')}
+</div>
+</div>
+
+
+</div>
+</div>
+<div id="footer">
+<div class="center">
+<ul class="copy">
+<li>
+<?php $t=position_p($typeid=1);?>
+<a href="{$t.url}" title="{$t['name']}">{$t['name']}</a>	|	
+<?php?>
+<!-- {loop archive(1,0,0,'0,0,0',20,'aid',10,false,0) $i $arc} -->
+<a href="{$arc[url]}" title="{$arc[title]}">{$arc[title]}</a>	|	
+<!-- {/loop} --><?php $t=position_p($typeid=5);?>
+<a href="{$t.url}" title="{$t['name']}">{$t['name']}</a>	|	
+<?php?>
+<a href="#">TOP</a>
+</li>
+<li>Copyright © 2010 <a href="{get(site_url)}">{get(sitename)}</a>. All Rights Reserved.
+<a href="http://www.miibeian.gov.cn/" target="_blank">{get('site_icp')}</a></li>
+<li><div class="copyright"><a href="http://www.cmseasy.cn" title="Powered by CmsEasy.cn" target="_blank">Powered by CmsEasy</a>&nbsp;&nbsp;{getcnzzcount()}</div>
+</div></li>
+</ul>
+
+</div>
+
+</div>
+
+{template 'system/servers.html'}
+</body>
+</html>

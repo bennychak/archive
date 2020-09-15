@@ -1,0 +1,36 @@
+/* CSS Document */
+
+.table1,
+.table2{}
+.table1{ font-size:14px; background:#fefefb;}
+	.table1 th{ color:#974604; font-weight:bold; font-size:16px;}
+		.table1 th a{ text-decoration:none; color:#58a119;}
+	.table1 td{ padding:8px;}
+.table2{ font-size:12px;}
+	.table2 th{ color:#874604; width:100px; font-size:12px; padding:3px; font-weight:normal;}
+	.table2 th a{ color:#874604; text-decoration:none;}
+	.table2 td{ padding:8px; text-align:left;}
+	.table2 td a{ color:#000; text-decoration:none; margin-right:20px;}
+	.table2 td a:hover{ color:#F00; text-decoration:underline;}
+	.table2odd{ background-color:#FFF;}
+
+.bg1{ background-color:#fafff3;}
+
+#cse-search-box{ float:left;}
+.weatherbox{ float:right;}
+
+.icon16{ width:16px; height:16px; background-image:url(../../images/icon.png); background-repeat:no-repeat; display:block; float:left; margin-right:3px; position:relative; top:4px;}
+	.icon1{ background-position:0px 0px;}
+
+#loadgroup{}
+	#loadgroup ul li{ font-size:12px; text-align:center; width:74px; overflow:hidden; padding:0 0 5px;}
+	#loadgroup ul li p{ height:20px; white-space:nowrap; overflow:hidden; margin:0px;}
+
+.b{ font-weight:bold;}
+
+.ad_banner1{ height:30px; margin-bottom:5px;}
+/*清除浮动补丁*/
+.clear:after {content: '\0020';display: block;height: 0;clear: both;}
+.clear{*zoom:1;}
+
+.searchinput{ height:28px; +height:24px; font-weight:bold!important; font:16px Arial, Helvetica, sans-serif;}

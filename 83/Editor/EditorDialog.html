@@ -1,0 +1,91 @@
+<HTML>
+<HEAD>
+<TITLE>在线内容编辑器</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<style type="text/css">body{margin: 0px; border: 0px; background-color: buttonface; }</style>
+<script src="common/bin.js"></script>
+</HEAD>
+<BODY scroll="no">
+<div style="display:none"><form><textarea id="dialogContent" name="dialogContent"></textarea></form></div>
+<script>
+
+var	URLParams = new Object();
+var	oCollUrlParams = window.location.search.substr(1).split("&");
+for(i=0;i<oCollUrlParams.length;i++)
+{
+	var arroCollUrlParams=oCollUrlParams[i].split("=");
+	URLParams[arroCollUrlParams[0].toLowerCase()]=arroCollUrlParams[1];
+}
+
+var sUrl;
+var obj = opener.document.all[URLParams["lnk"]];
+
+getObjectValue(obj);
+
+if(!String.isEmpty(URLParams["uploadpath"]))
+{
+	sUrl = URLParams["file"] + "?lnk=dialogContent&uploadpath=" + URLParams["uploadpath"];
+}
+else
+{
+	sUrl = URLParams["file"] + "?lnk=dialogContent";
+}
+
+function returnValue(obj,s)
+{
+	if(obj.tagName.toLowerCase()=="input"||obj.tagName.toLowerCase()=="textarea"){
+		obj.value = s;
+	}
+	else{
+		obj.innerHTML = s;
+	}
+}
+
+function getObjectValue(obj)
+{
+	if(obj.tagName.toLowerCase()=="input"||obj.tagName.toLowerCase()=="textarea"){
+		document.all.dialogContent.value = obj.value;
+	}
+	else{
+		document.all.dialogContent.value = obj.innerHTML;
+	}
+}
+
+function window.onbeforeunload()
+{
+	var sContent = Editor.getBodyHTML();
+	sContent = Editor.URLFilters(sContent);
+	returnValue(obj,sContent);
+	obj.focus();
+	self.close();
+}
+
+function SaveEdit()
+{
+	var sContent = Editor.getBodyHTML();
+	sContent = Editor.URLFilters(sContent);
+	returnValue(obj,sContent);
+	obj.focus();
+	self.close();
+}
+
+function window.onerror(sMsg,sUrl,sLine)
+{
+	alert(sMsg);
+	return true;
+}
+</script>
+<table width="100%"  height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="100%" height="100%">
+  <script>document.write("<iframe ID='Editor' src='" + sUrl + "' frameborder='0' marginheight='0' marginwidth='0' scrolling='no' width='100%' height='100%'></iframe>");</script>
+</td>
+</tr>
+<tr>
+<td height="40" align="center">
+  <input name="submitSaveEidt" type="image" src="images/SaveEdit.gif" width="116" height="24" onClick="SaveEdit()">
+</td>
+</tr>
+</table>
+</BODY>
+</HTML>

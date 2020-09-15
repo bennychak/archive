@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Language Name="Chinese" Codes="zh-cn" Charset="gb2312">
+	<Declare>
+		<Version>1.0</Version>
+		<Author>Jalon Huang</Author>
+		<ReleaseDate>2004-09-01</ReleaseDate>
+	</Declare>
+	<Group Type="ModeBtn">
+		<item id="ModeBtn_VIEW">预览</item>
+		<item id="ModeBtn_CODE">代码</item>
+		<item id="ModeBtn_EDIT">视图</item>
+	</Group>
+	<Group Type="Select">
+		<select id="FontName" class="TBGen" title="字体" onchange="ExecCommand(true,'fontname',this.value);this.selectedIndex=0;">
+			<option selected="true">字体</option>
+			<option value="宋体">宋体</option>
+			<option value="黑体">黑体</option>
+			<option value="楷体_GB2312">楷体</option>
+			<option value="仿宋_GB2312">仿宋</option>
+			<option value="隶书">隶书</option>
+			<option value="幼圆">幼圆</option>
+			<option value="Arial">Arial</option>
+			<option value="Arial Black">Arial Black</option>
+			<option value="Arial Narrow">Arial Narrow</option>
+			<option value="Brush Script	MT">Brush Script MT</option>
+			<option value="Century Gothic">Century Gothic</option>
+			<option value="Comic Sans MS">Comic Sans MS</option>
+			<option value="Courier">Courier</option>
+			<option value="Courier New">Courier New</option>
+			<option value="MS Sans Serif">MS Sans Serif</option>
+			<option value="Script">Script</option>
+			<option value="System">System</option>
+			<option value="Times New Roman">Times New Roman</option>
+			<option value="Verdana">Verdana</option>
+			<option value="Wide Latin">Wide Latin</option>
+			<option value="Wingdings">Wingdings</option>
+		</select>
+		<select id="FontSize" class="TBGen" title="字号" onchange="ExecCommand(true,'fontsize',this.value);this.selectedIndex=0;">
+			<option selected="true">字号</option>
+			<option value="7">一号</option>
+			<option value="6">二号</option>
+			<option value="5">三号</option>
+			<option value="4">四号</option>
+			<option value="3">五号</option>
+			<option value="2">六号</option>
+			<option value="1">七号</option>
+		</select>
+		<select id="FormatBlock" class="TBGen" title="段落样式" onchange="ExecCommand(true,'FormatBlock',this.value);this.selectedIndex=0;">
+			<option selected="true">段落样式</option>
+			<option value="&lt;P&gt;">普通</option>
+			<option value="&lt;H1&gt;">标题一</option>
+			<option value="&lt;H2&gt;">标题二</option>
+			<option value="&lt;H3&gt;">标题三</option>
+			<option value="&lt;H4&gt;">标题四</option>
+			<option value="&lt;H5&gt;">标题五</option>
+			<option value="&lt;H6&gt;">标题六</option>
+			<option value="&lt;p&gt;">段落</option>
+			<option value="&lt;dd&gt;">定义</option>
+			<option value="&lt;dt&gt;">术语定义</option>
+			<option value="&lt;dir&gt;">目录列表</option>
+			<option value="&lt;menu&gt;">菜单列表</option>
+			<option value="&lt;PRE&gt;">已编排格式</option>
+		</select>
+		<select id="EditorZoom" class="TBGen" title="编辑器缩放" onchange="doEditorZoom(this.value);">
+			<option value="10">10%</option>
+			<option value="25">25%</option>
+			<option value="50">50%</option>
+			<option value="75">75%</option>
+			<option value="100" selected="true">100%</option>
+			<option value="150">150%</option>
+			<option value="200">200%</option>
+			<option value="500">500%</option>
+		</select>		
+	</Group>
+	<Group Type="ImgBtn">
+		<item id="TBHandle">工具栏头</item>
+		<item id="TBSep">分隔线</item>
+		<item id="Bold">粗体</item>
+		<item id="Italic">斜体</item>
+		<item id="UnderLine">下划线</item>
+		<item id="StrikeThrough">中划线</item>
+		<item id="Big">字体增大</item>
+		<item id="Small">字体减小</item>
+		<item id="JustifyLeft">左对齐</item>
+		<item id="JustifyCenter">居中对齐</item>
+		<item id="JustifyRight">右对齐</item>
+		<item id="JustifyFull">两端对齐</item>
+		<item id="OrderedList">编号</item>
+		<item id="UnOrderedList">项目符号</item>
+		<item id="Indent">增加缩进量</item>
+		<item id="Outdent">减少缩进量</item>
+		<item id="ForeColor">字体颜色</item>
+		<item id="BgColor">对象背景颜色</item>
+		<item id="BackColor">字体背景颜色</item>
+		<item id="BackImage">背景图片</item>
+		<item id="SuperScript">上标</item>
+		<item id="SubScript">下标</item>
+		<item id="UnDo">撤消</item>
+		<item id="ReDo">恢复</item>
+		<item id="FindReplace">查找替换</item>
+		<item id="SelectAll">全部选中</item>
+		<item id="UnSelect">取消选择</item>
+		<item id="Cut">剪切</item>
+		<item id="Copy">复制</item>
+		<item id="Paste">常规粘贴</item>
+		<item id="PasteText">纯文本粘贴</item>
+		<item id="PasteWord">从Word中粘贴</item>
+		<item id="FindReplace">查找替换</item>
+		<item id="Delete">删除</item>
+		<item id="RemoveFormat">删除文字格式</item>
+		<item id="TableInsert">插入表格</item>
+		<item id="TableProp">修改表格属性</item>
+		<item id="TableCellProp">单元格属性</item>
+		<item id="TableCellSplit">拆分单元格</item>
+		<item id="TableRowProp">表格行属性</item>
+		<item id="TableRowInsertAbove">插入行（在上方）</item>
+		<item id="TableRowInsertBelow">插入行（在下方）</item>
+		<item id="TableRowMerge">合并行（向下方）</item>
+		<item id="TableRowSplit">拆分行</item>
+		<item id="TableRowDelete">删除行</item>
+		<item id="TableColInsertLeft">插入列（在左侧）</item>
+		<item id="TableColInsertRight">插入列（在右侧）</item>
+		<item id="TableColMerge">合并列（向右侧）</item>
+		<item id="TableColSplit">拆分列</item>
+		<item id="TableColDelete">删除列</item>
+		<item id="FormText">插入输入框</item>
+		<item id="FormTextArea">插入文字输入区</item>
+		<item id="FormRadio">插入单选钮</item>
+		<item id="FormCheckbox">插入复选框</item>
+		<item id="FormDropdown">插入下拉框</item>
+		<item id="FormButton">插入按钮</item>
+		<item id="Marquee">插入或修改字幕</item>
+		<item id="HorizontalRule">插入水平尺</item>
+		<item id="BR">插入换行符</item>
+		<item id="Paragraph">插入段落</item>
+		<item id="CreateLink">插入或修改超级链接</item>
+		<item id="Unlink">取消超级链接或标签</item>
+		<item id="Map">图形热点链接</item>
+		<item id="Anchor">书签管理</item>
+		<item id="Fieldset">插入或修改栏目框</item>
+		<item id="Iframe">插入或修改网页帧</item>
+		<item id="Image">插入或修改图片</item>
+		<item id="Flash">插入Flash动画</item>
+		<item id="Media">插入媒体文件</item>
+		<item id="File">插入其他文件</item>
+		<item id="Excel">插入Excel表格</item>
+		<item id="Symbol">插入特殊字符</item>
+		<item id="Icon">插入图标</item>
+		<item id="NowDate">插入当前日期</item>
+		<item id="NowTime">插入当前时间</item>
+		<item id="Quote">引用样式</item>
+		<item id="Code">代码样式</item>
+		<item id="absolutePosition">绝对或相对位置</item>
+		<item id="zIndexBackward">下移一层</item>
+		<item id="zIndexForward">上移一层</item>
+		<item id="SizePlus">增高编辑区</item>
+		<item id="SizeMinus">减小编辑区</item>
+		<item id="Maximize">全屏编辑</item>
+		<item id="Minimize">全屏返回</item>
+		<item id="Print">打印</item>
+		<item id="Help">查看使用帮助</item>
+		<item id="About">关于 - Editor</item>
+	</Group>
+	<Group Type="Alert">
+		<item Code="0x0000"><![CDATA[
+">> 操作提示:\n" + 
+"\n\n" + sMsg + "\n\n\n" +
+"==================================\n" +
+">> [ Editor ]系统运行环境仅支持IE 5.0 及以上版本.\n"
+		]]></item>
+		<item Code="0x0001"><![CDATA[URL参数输入不规范!]]></item>
+		<item Code="0x0002"><![CDATA[不存在该加载模式!]]></item>
+		<item Code="0x0003"><![CDATA[不存在该编辑模式!]]></item>
+		<item Code="0x0004"><![CDATA[无法得到与表单关联的元素!]]></item>
+		<item Code="0x0005"><![CDATA[无法得到与Editor关联的表单!]]></item>
+		<item Code="0x0006"><![CDATA[表单关联元素的命名不规范!]]></item>
+		<item Code="0x0007"><![CDATA[语言集不存在!]]></item>
+		<item Code="0x1001"><![CDATA["直接粘贴Word文档的功能要求IE5.5以上版本,您的浏览器版本不支持.\n\n是否清除Word格式?"]]></item>
+		<item Code="0x1002"><![CDATA[您粘贴的文档包含Word格式,是否清除Word格式?]]></item>
+		<item Code="0x1003"><![CDATA[当前编辑模式无法使用此功能,是否切换到视图模式?]]></item>
+		<item Code="0x1004"><![CDATA[此功能需要IE 5.5 版本以上支持!]]></item>
+		<item Code="0x1005"><![CDATA[只有图片或文本才能做链接!]]></item>
+		<item Code="0x1006"><![CDATA[热点链接只能作用于图片!]]></item>
+		<item Code="0x1007"><![CDATA[您要打开新页面来预览内容吗?]]></item>
+	</Group>
+	<Group Type="Cmpnts">
+		<item Code="0x2000"><![CDATA[<head><style type=text/css>body,td,div,span{font-family:"宋体";font-size:12px;Color:#000000;}</style></head><body>]]></item>
+		<item Code="0x2001"><![CDATA[以下是引用片段]]></item>
+		<item Code="0x2002"><![CDATA[以下是代码片段]]></item>
+		<item Code="0x2003"><![CDATA[<object classid='clsid:0002E510-0000-0000-C000-000000000046' id='Spreadsheet1'  codebase='file:\\Bob\software\office2000\msowc.cab' width='100%' height='250'><param name='HTMLURL'  value><param name='HTMLData' value='&lt;html  xmlns:x=&quot;urn:schemas-microsoft-com:office:excel&quot;xmlns=&quot;http://www.w3.org/TR/REC-html 40&quot;&gt;&lt;head&gt;&lt;style  type=&quot;text/css&quot;&gt;&lt;!--tr{mso-height-source:auto;}td{black-space:nowrap;}.wc4590F88{bl ack-space:nowrap;font-family:arial;mso-number-format:General;font-size:auto;font-weight:auto;font-s tyle:auto;text-decoration:auto;mso-background-source:auto;mso-pattern:auto;mso-color-source:auto;te xt-align:general;vertical-align:bottom;border-top:none;border-left:none;border-right:none;border-bo ttom:none;mso-protection:locked;}--&gt;&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;!--[if gte mso  9]&gt;&lt;xml&gt;&lt;x:ExcelWorkbook&gt;&lt;x:ExcelWorksheets&gt;&lt;x:ExcelWorksheet&gt;&lt;x:OWCV ersion&gt;9.0.0.2710&lt;/x:OWCVersion&gt;&lt;x:Label Style='border-top:solid .5pt  silver;border-left:solid .5pt silver;border-right:solid .5pt silver;border-bottom:solid .5pt  silver'&gt;&lt;x:Caption&gt;Microsoft Office Spreadsheet&lt;/x:Caption&gt;  &lt;/x:Label&gt;&lt;x:Name&gt;Sheet1&lt;/x:Name&gt;&lt;x:WorksheetOptions&gt;&lt;x:Selected/&gt;&lt ;x:Height&gt;7620&lt;/x:Height&gt;&lt;x:Width&gt;15240&lt;/x:Width&gt;&lt;x:TopRowVisible&gt;0&lt;/ x:TopRowVisible&gt;&lt;x:LeftColumnVisible&gt;0&lt;/x:LeftColumnVisible&gt;  &lt;x:ProtectContents&gt;False&lt;/x:ProtectContents&gt;  &lt;x:DefaultRowHeight&gt;210&lt;/x:DefaultRowHeight&gt;  &lt;x:StandardWidth&gt;2389&lt;/x:StandardWidth&gt; &lt;/x:WorksheetOptions&gt;  &lt;/x:ExcelWorksheet&gt;&lt;/x:ExcelWorksheets&gt;  &lt;x:MaxHeight&gt;80%&lt;/x:MaxHeight&gt;&lt;x:MaxWidth&gt;80%&lt;/x:MaxWidth&gt;&lt;/x:ExcelWorkb ook&gt;&lt;/xml&gt;&lt;![endif]--&gt;&lt;table class=wc4590F88 x:str&gt;&lt;col  width=&quot;56&quot;&gt;&lt;tr  height=&quot;14&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;'>  <param name='DataType' value='HTMLDATA'> <param name='AutoFit' value='0'><param  name='DisplayColHeaders' value='-1'><param name='DisplayGridlines' value='-1'><param  name='DisplayHorizontalScrollBar' value='-1'><param name='DisplayRowHeaders' value='-1'><param  name='DisplayTitleBar' value='-1'><param name='DisplayToolbar' value='-1'><param  name='DisplayVerticalScrollBar' value='-1'> <param name='EnableAutoCalculate' value='-1'> <param  name='EnableEvents' value='-1'><param name='MoveAfterReturn' value='-1'><param  name='MoveAfterReturnDirection' value='0'><param name='RightToLeft' value='0'><param  name='ViewableRange' value='1:65536'></object>]]></item>
+	</Group>
+</Language>

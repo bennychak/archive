@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3660187036</channel_id>
+<channel_name><![CDATA[山东卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24056634]]></cur_program_id>
+<cur_program_name><![CDATA[电视剧:宫]]></cur_program_name>
+<cur_program_time><![CDATA[14:40]]></cur_program_time>
+<next_program_name><![CDATA[齐鲁先锋]]></next_program_name>
+<next_program_time><![CDATA[18:18]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[省级卫视中首个上星的电视台，实现中国及周边国家的覆盖，以“情深似大海，义重如泰山”为频道定位语，立足全省，面向全国。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/shandong.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shandong.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shandong.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100097</chat_id>
+   <chat_title><![CDATA[山东卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[山东电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[投资有理]]></pn>
+		<tm><![CDATA[00:25]]></tm>
+		<id><![CDATA[24056616]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:阴谋与婚礼]]></pn>
+		<tm><![CDATA[01:35]]></tm>
+		<id><![CDATA[24056618]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[养生]]></pn>
+		<tm><![CDATA[05:35]]></tm>
+		<id><![CDATA[24056620]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[乡村季风]]></pn>
+		<tm><![CDATA[06:05]]></tm>
+		<id><![CDATA[24056622]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[创富英雄]]></pn>
+		<tm><![CDATA[06:20]]></tm>
+		<id><![CDATA[24056624]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[早新闻]]></pn>
+		<tm><![CDATA[06:57]]></tm>
+		<id><![CDATA[24056626]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:中国地]]></pn>
+		<tm><![CDATA[08:15]]></tm>
+		<id><![CDATA[24056628]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[闯关上梁山]]></pn>
+		<tm><![CDATA[11:10]]></tm>
+		<id><![CDATA[24056630]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:新水浒传]]></pn>
+		<tm><![CDATA[12:45]]></tm>
+		<id><![CDATA[24056632]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[电视剧:宫]]></pn>
+		<tm><![CDATA[14:40]]></tm>
+		<id><![CDATA[24056634]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[齐鲁先锋]]></pn>
+		<tm><![CDATA[18:18]]></tm>
+		<id><![CDATA[24056636]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:新水浒传]]></pn>
+		<tm><![CDATA[19:29]]></tm>
+		<id><![CDATA[24056638]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[闯关上梁山]]></pn>
+		<tm><![CDATA[21:16]]></tm>
+		<id><![CDATA[24056640]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[说事拉理]]></pn>
+		<tm><![CDATA[22:12]]></tm>
+		<id><![CDATA[24056642]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[22:50]]></tm>
+		<id><![CDATA[24056644]]></id>
+	</p>
+
+</root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3956944389</channel_id>
+<channel_name><![CDATA[TGA竞技频道]]></channel_name>
+<channel_typeid><![CDATA[15]]></channel_typeid>
+<channel_typename><![CDATA[游戏频道]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[0]]></cur_program_id>
+<cur_program_name><![CDATA[该频道暂无预告]]></cur_program_name>
+<cur_program_time><![CDATA[]]></cur_program_time>
+<next_program_name><![CDATA[[直播] WCG2011DNF外卡赛]]></next_program_name>
+<next_program_time><![CDATA[19:00]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[腾讯游戏竞技频道以播出腾讯游戏旗下各个竞技产品的赛事实况为主，同时还有TGA新闻资讯，明星嘉宾访谈等特制栏目，提供24小时全天候竞技服务，真正实现“对决，永不落幕！”]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/i1291179490_1.jpg]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/tengxun.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/tengxun.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100011</chat_id>
+   <chat_title><![CDATA[TGA竞技频道]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[TGA]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[[直播] WCG2011DNF外卡赛]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24058887]]></id>
+	</p>
+
+</root>

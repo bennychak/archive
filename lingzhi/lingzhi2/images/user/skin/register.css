@@ -1,0 +1,15 @@
+img  {border: 0px;}
+* {
+    padding:0;
+    margin:0;
+    }
+body {background:#15486E url(login_bg.gif) left top;}
+#login {width:788px;height:155px;margin:0px auto;padding:0px auto;background:url(login_line.gif) 350px 1px no-repeat;font-size:12px;color:white;text-align:left;}
+#login p {line-height:22px;font-size:14px; height:28px;}
+.input {width:148px;height:22px;line-height:22px;padding:0px 0px 0px 8px;font-size:14px;font-weight:bold;background:#E1DFDF url(login_btn.gif) repeat-x left top;border:1px solid #002047;}
+.button {margin:6px 0px 0px 50px; line-height:22px;}
+a {color:white;}
+.copy {display:none;text-align:center;color:#15486E;}
+.copy a {color:#15486E;}
+
+#select {font-size:12px;font-weight:normal;line-height:18px;}

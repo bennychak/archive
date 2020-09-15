@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>974433428</channel_id>
+<channel_name><![CDATA[广西卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24056843]]></cur_program_id>
+<cur_program_name><![CDATA[证券节目]]></cur_program_name>
+<cur_program_time><![CDATA[17:28]]></cur_program_time>
+<next_program_name><![CDATA[动漫城堡-超兽武装之仁者无敌(25)]]></next_program_name>
+<next_program_time><![CDATA[17:58]]></next_program_time>
+<def_program><![CDATA[	]]></def_program>
+<channel_desc><![CDATA[凸显独有的民族特色，打造全国性品牌，已发展成为最具竞争力的中国省级电视台之一。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/guangxi.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/guangxi.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/guangxi.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100025</chat_id>
+   <chat_title><![CDATA[广西卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[广西电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[魅力剧场:34集连续剧:侦察记(17)]]></pn>
+		<tm><![CDATA[00:11]]></tm>
+		<id><![CDATA[24056821]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午夜剧场:40集连续剧:神探狄仁杰II(36)]]></pn>
+		<tm><![CDATA[01:12]]></tm>
+		<id><![CDATA[24056822]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午夜剧场:40集连续剧:神探狄仁杰II(37)]]></pn>
+		<tm><![CDATA[02:17]]></tm>
+		<id><![CDATA[24056823]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典影院:万水千山]]></pn>
+		<tm><![CDATA[03:15]]></tm>
+		<id><![CDATA[24056824]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[黎明剧场:28集连续剧:天不藏奸(9)]]></pn>
+		<tm><![CDATA[04:48]]></tm>
+		<id><![CDATA[24056825]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[黎明剧场:28集连续剧:天不藏奸(10)]]></pn>
+		<tm><![CDATA[05:47]]></tm>
+		<id><![CDATA[24056826]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[万卷楼(35)]]></pn>
+		<tm><![CDATA[06:00]]></tm>
+		<id><![CDATA[24056827]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[壮语新闻]]></pn>
+		<tm><![CDATA[06:44]]></tm>
+		<id><![CDATA[24056828]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广西新闻]]></pn>
+		<tm><![CDATA[06:50]]></tm>
+		<id><![CDATA[24056829]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广西旅游天气预报]]></pn>
+		<tm><![CDATA[07:31]]></tm>
+		<id><![CDATA[24056830]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广西海洋天气预报]]></pn>
+		<tm><![CDATA[07:32]]></tm>
+		<id><![CDATA[24056831]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[早间证券(直播)]]></pn>
+		<tm><![CDATA[07:34]]></tm>
+		<id><![CDATA[24056832]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[34集连续剧:暗算(18)]]></pn>
+		<tm><![CDATA[08:24]]></tm>
+		<id><![CDATA[24056833]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[34集连续剧:暗算(19)]]></pn>
+		<tm><![CDATA[09:21]]></tm>
+		<id><![CDATA[24056834]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[34集连续剧:暗算(20)]]></pn>
+		<tm><![CDATA[10:19]]></tm>
+		<id><![CDATA[24056835]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[34集连续剧:暗算(21)]]></pn>
+		<tm><![CDATA[11:17]]></tm>
+		<id><![CDATA[24056836]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间新闻]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24056837]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[50集连续剧:神话(20)]]></pn>
+		<tm><![CDATA[12:57]]></tm>
+		<id><![CDATA[24056838]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[50集连续剧:神话(21)]]></pn>
+		<tm><![CDATA[14:00]]></tm>
+		<id><![CDATA[24056839]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[50集连续剧:神话(22)]]></pn>
+		<tm><![CDATA[14:55]]></tm>
+		<id><![CDATA[24056840]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[50集连续剧:神话(23)]]></pn>
+		<tm><![CDATA[15:51]]></tm>
+		<id><![CDATA[24056841]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[50集连续剧:神话(24)]]></pn>
+		<tm><![CDATA[16:47]]></tm>
+		<id><![CDATA[24056842]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[证券节目]]></pn>
+		<tm><![CDATA[17:28]]></tm>
+		<id><![CDATA[24056843]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[动漫城堡-超兽武装之仁者无敌(25)]]></pn>
+		<tm><![CDATA[17:58]]></tm>
+		<id><![CDATA[24056844]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[让爱住我家]]></pn>
+		<tm><![CDATA[18:21]]></tm>
+		<id><![CDATA[24056845]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻夜总汇]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24056846]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[全国天气预报]]></pn>
+		<tm><![CDATA[18:55]]></tm>
+		<id><![CDATA[24056847]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24056848]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广西新闻]]></pn>
+		<tm><![CDATA[19:35]]></tm>
+		<id><![CDATA[24056849]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广西天气预报]]></pn>
+		<tm><![CDATA[19:57]]></tm>
+		<id><![CDATA[24056850]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[欢乐剧场:36集连续剧:我的父亲是“板凳”(21)]]></pn>
+		<tm><![CDATA[20:00]]></tm>
+		<id><![CDATA[24056851]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[欢乐剧场:36集连续剧:我的父亲是“板凳”(22)]]></pn>
+		<tm><![CDATA[21:00]]></tm>
+		<id><![CDATA[24056852]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[警戒线(74)]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24056853]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[时尚中国]]></pn>
+		<tm><![CDATA[22:53]]></tm>
+		<id><![CDATA[24056854]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[壹周立波秀]]></pn>
+		<tm><![CDATA[23:18]]></tm>
+		<id><![CDATA[24056855]]></id>
+	</p>
+
+</root>

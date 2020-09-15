@@ -1,0 +1,97 @@
+{template 'user/head.html'}
+<script type="text/javascript" src="{$base_url}/common/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="{$base_url}/common/js/ajaxfileupload.js"></script>
+<script type="text/javascript" src="{$base_url}/common/js/ThumbAjaxFileUpload.js"></script>
+<link rel="stylesheet" href="{$base_url}/common/js/jquery/ui/ui.datepicker.css" type="text/css" media="screen" title="core css file" charset="utf-8" />
+<script language="javascript" src="{$base_url}/common/js/jquery/ui/ui.datepicker.js"></script>
+<script language="javascript" src="{$base_url}/common/js/common.js"></script>
+
+<div id="position">
+<a href="javascript:history.back(-1)" title="返回上一页"><img alt="返回上一页" src="{$base_url}/images/user/undo.gif" style="float:right;" /></a>当前位置：编辑会员信息
+</div>
+<div class="padding5">
+<img src="{$base_url}/images/user/wj.gif" style="margin-right:10px;" />欢迎来到编辑会员信息页面。
+</div>
+
+<div class="blank10"></div>
+
+<form method="post" name="form1" action="<?php echo modify("/act/edit/userid/".$data['userid']);?>"  onsubmit="return checkform();">
+
+<table border="0" cellspacing="1" cellpadding="4" class="list" name="table" id="table"> 
+<thead>
+<tr>
+<th align="center" class="left">
+<a href="{url('user/index')}" style="font-weight:normal;">用户信息</a></th>
+<th align="left"><a href="<?php echo url('user/edit/table/user'); ?>" style="color:black;">编辑信息</a></th>
+</tr> </thead>
+        <tbody>
+            
+                                            
+            <tr>
+                <td class="left">用户名</td>
+                <td>{$data['username']}</td>
+            </tr>
+                <td class="left">昵称</td>
+                <td>{form::getform('nickname',$form,$field,$data)}</td>
+            </tr>
+            </tr>
+                <td class="left">安全问题</td>
+                <td>{form::getform('question',$form,$field,$data)}</td>
+            </tr> 
+            </tr>
+                <td class="left">您的答案</td>
+                <td>{form::getform('answer',$form,$field,$data)}</td>
+            </tr>              
+            <tr>
+                <td class="left">QQ号码</td>
+                <td>{form::getform('qq',$form,$field,$data)}</td>
+            </tr>
+
+                            
+            <tr>
+                <td class="left">E-Mail</td>
+                <td>{form::getform('e_mail',$form,$field,$data)}</td>
+            </tr>
+
+                            
+            <tr>
+                <td class="left">电话</td>
+                <td>{form::getform('tel',$form,$field,$data)}</td>
+            </tr>
+
+			<tr>
+                <td class="left">地址</td>
+                <td>{form::getform('address',$form,$field,$data)}</td>
+            </tr>
+
+			<tr>
+                <td class="left">介绍</td>
+                <td>{form::getform('intro',$form,$field,$data)}</td>
+            </tr>
+            <tr><th colspan="5">自定义</th></tr>
+            {loop $field $f}
+            <?php
+            $name=$f['name'];
+            if(!eregi('^my_',$name)) {
+            unset($field[$name]);
+            continue;
+            }
+            if(!isset($data[$name])) $data[$name]='';
+            ?>
+            <tr>
+                <td class="left"><?php echo setting::$var['user'][$name]['cname']; ?></td>
+                <td>
+                    <?php echo form::getform($name,$form,$field,$data); ?>
+                </td>
+            </tr>
+            {/loop}
+            
+        </tbody>
+		</table>
+
+<div class="blank20"></div>
+<input type="submit" name="submit" value="提交" class="button"/>
+
+</form>
+
+{template 'user/foot.html'}

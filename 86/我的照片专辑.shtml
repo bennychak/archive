@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>我的照片专辑 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+		<!--#include file="inc/相册导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <div class="content_bar">
+                    	<div class="contentbar">
+                            <h2>我的照片专辑“成都我爱你”</h2>
+                        </div>
+                    	<div class="right_box">
+                            <div class="right_absolute"><a class="icon16 diapositive" href="#"><span></span>幻灯片</a></div>
+                    	</div>
+                    </div>
+                    <div class="content_bar">
+                    	<div class="contentinfo">共12张 8月20日更新 地图  评论24条</div>
+                        <div class="right_box">
+                        	<div class="listborder">
+                            	<span class="last"><a href="#">返回我的照片</a></span>
+                                <span><a href="#">下一个专辑</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="content_bar">
+                        <div class="contentinfo listborder">
+                            <span class="last"><a href="#">添加照片</a></span>
+                            <span><a href="#">编辑该专辑</a></span>
+                        </div>
+                        <div class="right_box icon_more photo_showicon">
+                        	<a href="我的照片专辑.shtml" class="icon16 photo_detail_icon2" onclick="return false;"><span></span>详细</a>
+                            <a href="我的照片专辑_缩略.shtml" class="icon16 photo_mini_icon1"><span></span>缩略</a>
+                        </div>
+                    </div>
+                    <ul class="photo_list">
+                        <li>
+                            <div class="photo_s"><a href="单独照片页.shtml"><img src="images/temp_photo_s2.jpg" /></a>
+                                <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s3.jpg" /></a>
+                                <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s2.jpg" /></a>
+                                <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s2.jpg" /></a>
+                                <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s3.jpg" /></a>
+                                <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s2.jpg" /></a>
+                                <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s2.jpg" /></a>
+                                <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s3.jpg" /></a>
+                                <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s2.jpg" /></a>
+                                <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--#include file="inc/pagination.shtml"-->
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

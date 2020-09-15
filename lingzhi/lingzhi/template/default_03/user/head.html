@@ -1,0 +1,157 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title><?php echo get('sitename');?>-会员中心 - powered by cmseasy.cn</title>
+<link rel="icon" href="{$base_url}/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{$base_url}/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="{$base_url}/images/user/user.css" />
+<script type="text/javascript" src="{$base_url}/images/user/sdmenu.js"></script>
+<style language="text/css">
+/*第一种颜色*/
+#table tr.color1{
+	background-color:#FFFFFF;
+}
+/*第二种颜色*/
+#table tr.color2{
+	background-color:#F8F8F8;
+}
+</style>
+<script>
+<!--
+//禁止js报错
+function ResumeError()  
+{ 
+    return true; 
+} 
+window.onerror = ResumeError;
+
+function onloadEvent(func){
+	var one=window.onload
+	if(typeof window.onload!='function'){
+		window.onload=func
+	}
+	else{
+		window.onload=function(){
+			one();
+			func();
+		}
+	}
+}
+//点击展开
+// <![CDATA[
+var myMenu;
+window.onload = function() {
+myMenu = new SDMenu("menu");
+myMenu.init();
+};
+// ]]>
+//tr隔行变色
+function showtable(){
+	var tableid='table';		//表格的id
+	var overcolor='#EEEEEE';	//鼠标经过颜色
+	var color1='#FFFFFF';		//第一种颜色
+	var color2='#F8F8F8';		//第二种颜色
+	var tablename=document.getElementById(tableid)
+	var tr=tablename.getElementsByTagName("tr")
+	for(var i=1 ;i<tr.length;i++){
+		tr[i].onmouseover=function(){
+			this.style.backgroundColor=overcolor;
+		}
+		tr[i].onmouseout=function(){
+			if(this.rowIndex%2==0){
+				this.style.backgroundColor=color1;
+			}else{
+				this.style.backgroundColor=color2;
+			}
+		}
+		if(i%2==0){
+			tr[i].className="color1";
+		}else{
+			tr[i].className="color2";
+		}
+	}
+}
+onloadEvent(showtable);
+
+//点击关闭
+function turnoff(obj){
+document.getElementById(obj).style.display="none";
+}
+// --> 
+</script>
+</head>
+<body>
+<div id="top">
+<div class="help">
+<ul>
+<li style="padding:6px 15px 6px 0px;">
+<a href="{url('user/logout')}" class="logout">退出</a>欢迎,{$user[username]}
+</li>
+<li class="go_home"><a href="{$base_rul}/" target="_blank"><strong>访问网站首页</strong></a>
+<a href="http://www.cmseasy.org/forum-10-1.html" target="_blank">报错</a>
+<a href="http://www.cmseasy.org/forum-9-1.html" target="_blank">在线教程</a>
+<a href="http://www.cmseasy.org/" target="_blank">交流论坛</a></li>
+</ul>
+</div>
+<a href="{$base_url}/index.php?case=user&act=index"><img src="{$base_url}/images/user/logo.gif" id="logo" /></a>
+</div>
+<div id="bg">
+<div id="left">
+
+
+
+
+<div id="menu" class="sdmenu">
+
+<div class="collapsed">
+<span>信息管理</span>
+<a href="{url('user/edit/table/user')}">编辑资料</a>
+<a href="{url('user/changepassword')}">更改密码</a>
+</div>
+
+<div class="collapsed">
+<span>内容管理</span>
+<a href="{url('manage/add/manage/archive')}">发表内容</a>
+<a href="{url('/manage/list/manage/archive/needcheck/1')}">待审核内容</a>
+<a href="{url('/manage/list/manage/archive')}">已审核内容</a>
+</div>
+
+
+<div class="collapsed">
+<span>退出登录</span>
+<a href="{url('user/logout')}">退出管理</a>
+</div>
+
+</div>
+
+
+
+<div class="clear"></div>
+<div id="menu-bottom"></div>
+
+<div class="padding10">
+<a href="tencent://message/?uin=625569327&Site=您的建站服务专家&Menu=yes" title="在线客服"><img src="{$base_url}/images/user/servicezhgb2312.gif" /></a>
+</div>
+</div>
+
+<div id="middle">
+
+<div id="nav">
+  <div class="nav">
+<a href="{$base_url}/" target="_blank" class="weixuan"><span>网站首页</span></a>
+<a href="{url('user/index')}" class="yixuan"><span>会员首页</span></a>
+<a href="{url('manage/add/manage/archive')}" class="weixuan"><span>发表内容</span></a>
+<a href="{url('manage/list/manage/archive/needcheck/1')}" class="weixuan"><span>待审核内容</span></a>
+<a href="{url('manage/list/manage/archive')}" class="weixuan"><span>已审核内容</span></a>
+<a href="{url('user/logout')}" class="weixuan"><span>退出管理</span></a>
+
+  </div>
+  <div class="clear"></div>
+</div>
+
+<div id="c">
+<div class="c">
+
+<div style="width:100%;">
+<div id='message'>{message()}</div>
+<div class="blank20"></div>

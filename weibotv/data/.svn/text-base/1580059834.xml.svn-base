@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>1580059834</channel_id>
+<channel_name><![CDATA[湖北综合]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24056496]]></cur_program_id>
+<cur_program_name><![CDATA[新闻360]]></cur_program_name>
+<cur_program_time><![CDATA[17:45]]></cur_program_time>
+<next_program_name><![CDATA[调解现场]]></next_program_name>
+<next_program_time><![CDATA[18:53]]></next_program_time>
+<def_program><![CDATA[ 
+]]></def_program>
+<channel_desc><![CDATA[全新的版面，24小时不间断播出各类精彩影视，五大剧场，三大影院震撼视听！]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/hbzong.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/huibeizonghe.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/hubei.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100014</chat_id>
+   <chat_title><![CDATA[湖北综合频道]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[湖北卫视]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[影视歌曲]]></pn>
+		<tm><![CDATA[07:22]]></tm>
+		<id><![CDATA[24056490]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:新闻360]]></pn>
+		<tm><![CDATA[07:28]]></tm>
+		<id><![CDATA[24056491]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧场]]></pn>
+		<tm><![CDATA[08:11]]></tm>
+		<id><![CDATA[24056492]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[综合影院 上]]></pn>
+		<tm><![CDATA[11:36]]></tm>
+		<id><![CDATA[24056493]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[综合影院 下]]></pn>
+		<tm><![CDATA[12:46]]></tm>
+		<id><![CDATA[24056494]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧场]]></pn>
+		<tm><![CDATA[13:44]]></tm>
+		<id><![CDATA[24056495]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[新闻360]]></pn>
+		<tm><![CDATA[17:45]]></tm>
+		<id><![CDATA[24056496]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[调解现场]]></pn>
+		<tm><![CDATA[18:53]]></tm>
+		<id><![CDATA[24056497]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧场]]></pn>
+		<tm><![CDATA[20:19]]></tm>
+		<id><![CDATA[24056498]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典影院]]></pn>
+		<tm><![CDATA[23:29]]></tm>
+		<id><![CDATA[24056499]]></id>
+	</p>
+
+</root>

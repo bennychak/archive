@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>当前页标题 - 栏目名称 - 网站名称</title>
+<!--#include file="inc/common.shtml"-->
+<link href="css/_template.dev.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="ui_template">
+
+<!--#include file="inc/head.shtml"-->
+
+<div id="ui_wrap1" class="tb_wrap">
+
+    <div id="ui_contain">
+        <div id="ui_main">
+            <div id="ui_left">ui_left</div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+    </div>
+    <div id="ui_side">ui_side</div>
+
+</div>
+
+<!--#include file="inc/foot.shtml"-->
+
+</div>
+</body>
+</html>

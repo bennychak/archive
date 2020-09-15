@@ -1,0 +1,317 @@
+/*  ##################################
+    TS ADMIN STYLES
+    ################################## */
+    
+#ts-wrap {
+	width: 780px;
+	margin: 20px 0;
+	padding: 0 0 1px;
+	background: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 10px;	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#ts-options-header {
+	position: relative;
+	height: 69px;
+	background: transparent url(img/bg-options-header.png) repeat-x left top;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+}
+
+#ts-options-header img {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#ts-options-header h2 {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	padding: 0px;
+	line-height: 30px;
+	color: #363636;
+	font-size: 16px;
+	text-shadow: 1px 1px 0px #eee;
+}
+
+#ts-options-subheader {
+	margin: 0 0 20px;
+	background: #eee;
+	line-height: 30px;
+	color: #464646;
+	font-size: 11px;
+	text-shadow: 1px 1px 0px #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+#ts-message {
+	margin: 0 0 0 20px;
+	padding: 0 0 0 20px;
+	background: transparent url(img/bg-options-ok.png) no-repeat left center;
+}
+
+#ts-options-subheader ul {
+	float: right;
+	padding: 0 20px;
+}
+
+#ts-options-subheader li {
+	display: inline;
+	margin: 0 0 0 10px;
+}
+
+#ts-options-subheader a {
+	padding: 2px 0 2px 20px;
+	text-decoration: none;
+	color: #464646;
+	font-size: 11px;
+}
+
+#ts-options-subheader a:hover {
+	color: #000;
+}
+
+#ts-options-subheader a.ts-options-info {
+	background: transparent url(img/bg-options-info.png) no-repeat left center;
+}
+
+#ts-options-subheader a.ts-options-help {
+	background: transparent url(img/bg-options-help.png) no-repeat left center;
+}
+
+#ts-options-subheader a.ts-options-forums {
+	background: transparent url(img/bg-options-forums.png) no-repeat left center;
+}
+
+#ts-options-wrap,
+#ts-themes-wrap,
+#ts-news-wrap {
+	width: 740px;
+	margin: 0 auto;
+}
+
+.ts-section {
+	padding: 0 0 20px;
+}
+
+.ts-section-inner {
+	height: 101%;	
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.ts-section h3 {
+	margin: 0px;
+	padding: 20px;
+	background: #eee url(img/bg-options-h3.png) repeat-x left top;
+	color: #464646;
+	text-shadow: 1px 1px 0px #fff;
+	cursor: pointer;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-topleft: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-webkit-border-top-left-radius: 7px;
+}
+
+.ts-section h3.toggle-open {
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.ts-section h3 span {
+	display: block;
+	padding: 0 0 0 30px;
+}
+
+.ts-section h3.toggle-open span {
+	background: url(img/bg-section-closed.png) no-repeat left center;
+}
+
+.ts-section h3.toggle-close span {
+	background: url(img/bg-section-open.png) no-repeat left center;
+}
+
+#ts-themes-wrap .ts-section h3.toggle-open span {
+	background: url(img/bg-section-closed-themes.png) no-repeat left center;
+}
+
+#ts-themes-wrap .ts-section h3.toggle-close span {
+	background: url(img/bg-section-open-themes.png) no-repeat left center;
+}
+
+#ts-news-wrap .ts-section h3.toggle-open span {
+	background: url(img/bg-section-closed-news.png) no-repeat left center;
+}
+
+#ts-news-wrap .ts-section h3.toggle-close span {
+	background: url(img/bg-section-open-news.png) no-repeat left center;
+}
+
+.ts-submit, .ts-news-date {
+	float: right;
+	width: auto;
+	margin: 17px 20px 0 0;
+}
+
+.ts-info {
+	float: right;
+	width: auto;
+	margin: 20px 20px 0 0;
+}
+
+.ts-news-date {
+	float: right;
+	width: auto;
+	margin: 20px 20px 0 0;
+	color: #666;
+	font-size: 10px;
+}
+
+.ts-submit input {
+	margin: 0px;
+}
+
+.ts-totoggle {
+	padding: 0px;
+}
+
+.ts-totoggle p {
+	margin: 0 0 10px;
+	padding: 0px;
+}
+
+p.ts-bg-logo-img {
+	padding: 10px;
+	background: transparent url(img/bg-logo-img.png) repeat left top;
+	overflow: hidden;
+}
+
+.ts-option {
+	clear: both;
+	padding: 18px 18px 10px;
+	background: #fefefe;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.ts-option-alt {
+	padding: 19px 19px 9px;
+	background: #f9f9f9;
+	border: 1px solid #fff;
+}
+
+.ts-option-last {
+	border-bottom: none;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+}
+
+.ts-option h4 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.ts-option-left {
+	float: left;
+	width: 180px;
+}
+
+.ts-option-right {
+	float: right;
+	width: 500px;
+}
+
+#ts-themes-wrap .ts-option img {
+	float: left;
+	width: auto;
+	margin: 0 20px 10px 0; 
+}
+
+#ts-themes-wrap .ts-option p {
+	margin: 0 0 20px;
+	line-height: 24px;
+}
+
+.ts-text, .ts-select {
+	width: 492px;
+	color: #333;
+}
+
+.ts-upload {
+	width: 392px;
+}
+
+.ts-textarea {
+	height: 96px;
+	color: #333;
+}
+
+.ts-description {
+	color: #777;
+	font-size: 11px;
+}
+
+.ts-description code {
+	color: #464646;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+.ts-reset .button:hover {
+	color: red;
+}
+
+#adminmenu .wp-menu-image img {
+	opacity: 1!important;
+}
+
+#toplevel_page_ts-theme-admin a {
+	line-height: 30px;
+}
+
+
+/*  ##################################
+    CLEARING
+    ################################## */
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}

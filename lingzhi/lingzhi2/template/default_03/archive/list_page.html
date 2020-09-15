@@ -1,0 +1,39 @@
+{template 'header.html'}
+<div id="c">
+	<div id="sidebar">
+	{template 'left.html'}
+	</div>
+
+	<div id="right">
+		{template 'position.html'}
+		<div id="text" style="width:630px;">
+			<h1>{$category[$catid][catname]}</h1>
+			<div class="text">{$category[$catid][categorycontent]}</div>
+			<div class="blank10"></div>
+		</div>
+		<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+<script> 
+function resizeImg(obj)
+{ 
+var obj = document.getElementById(obj); 
+var objContent = obj.innerHTML;
+var imgs = obj.getElementsByTagName('img'); 
+if(imgs==null) return; 
+for(var i=0; i<imgs.length; i++) 
+{ 
+if(imgs[i].width>parseInt(obj.style.width)) 
+{ 
+imgs[i].width = parseInt(obj.style.width);
+} 
+} 
+} 
+window.onload = function() {resizeImg('text');
+} 
+</script>
+{template 'footer.html'}

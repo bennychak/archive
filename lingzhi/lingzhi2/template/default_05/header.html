@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>{if !empty($archive[mtitle])}{$archive[mtitle]}-{elseif !empty($archive[title])}{$archive[title]}-{/if}{if $type[meta_title]}{$type[meta_title]}-{elseif typename($type[typeid])}{typename($type[typeid])}-{/if}{if $category[$catid][meta_title]}{$category[$catid][meta_title]}-{elseif !empty($catid)}{catname($catid)}-{/if}{get('fullname')} - Powered by CmsEasy</title>
+<meta name="keywords" content="{if $archive[keyword]}{$archive[keyword]}{else}{if $type[keyword]}{$type[keyword]}{elseif $category[$catid][keyword]}{$category[$catid][keyword]}{else}{get('site_keyword')}{/if}{/if}" />
+<meta name="description" content="{if $archive[description]}{$archive[description]}{else}{if $type[description]}{$type[description]}{elseif $category[$catid][description]}{$category[$catid][description]}{else}{get('site_description')}{/if}{/if}" />
+<meta name="author" content="CmsEasy Team" />
+<link rel="icon" href="{get(site_url)}favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{get(site_url)}favicon.ico" type="image/x-icon" />
+<link href="{$skin_path}/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript">
+<!-- 
+function ResumeError()  
+{ 
+    return true; 
+} 
+window.onerror = ResumeError; 
+function check()
+{
+if(document.search.keyword.value.length==0){
+     alert("{lang(pleaceinputtext)}");
+     document.search.keyword.focus();
+     return false;
+    }
+
+	}
+// --> 
+</script>
+<style type="text/css">
+#bg {background:url({$skin_path}/bg.jpg) center top no-repeat;}
+</style>
+</head>
+<body>
+<div id="bg">
+<div id="main">
+<!-- logo -->
+<div id="logo"><a href="{$base_url}/"><img src="{$skin_path}/logo.gif" /></a></div>
+<div id="top">
+<a id="StranLink" title="繁简转换">&nbsp;繁体 -	&nbsp;</a>
+<a title="{lang(feedback)}" href="{url('guestbook')}" target="_blank">&nbsp;{lang(feedback)} -	</a>
+<a href="{$site_url}" onclick="window.external.addFavorite(this.href,this.title);return false;" title='{get(sitename)}' rel="sidebar">&nbsp;{lang(favorite)} -	</a>
+</div>
+<div class="clear"></div>
+<div id="banner">
+
+</div>
+
+
+<div id="nav">
+<span>
+<a title="{lang(backhome)}" href="{get(site_url)}"{if $catid==0} class="on"{/if}>{lang(homepage)}</a>
+{loop categories_nav() $t}
+<a title="{$t[catname]}" href="{$t[url]}"{if isset($topid) && $topid==$t[catid]} class="on"{/if}>{$t[catname]}</a>
+{/loop}
+</span>
+</div>

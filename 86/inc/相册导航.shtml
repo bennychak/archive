@@ -1,0 +1,11 @@
+<div class="nav">
+    <ul class="menu">
+        <li class="selected"><div class="menuside"></div><a class="icon16 menu_album_pic" href="相册.shtml"><span></span>相册</a></li>
+        <li><a href="我的照片.shtml">我的照片</a></li>
+        <li><a href="朋友的照片.shtml">朋友的照片</a></li>
+        <li><a class="icon16 menu_album_uploadpic" href="上传照片.shtml"><span class="menu_album_uploadpic"></span>上传照片</a></li>
+    </ul>
+    <div class="menu_right"></div>
+    
+    <!--#include file="topsearch.shtml"-->
+</div>

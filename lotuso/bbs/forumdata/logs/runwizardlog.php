@@ -1,0 +1,1 @@
+<?php exit;?>a:3:{s:5:"step1";a:3:{s:4:"size";s:1:"1";s:4:"safe";s:1:"0";s:4:"func";s:1:"1";}s:5:"step2";a:3:{s:6:"bbname";s:7:"ACG¡‘»À";s:8:"sitename";s:9:"ACGhunter";s:7:"siteurl";s:16:"http://www.lotuso.com";}s:5:"step3";a:2:{s:5:"cates";a:0:{}s:6:"forums";a:0:{}}}

@@ -1,0 +1,29 @@
+{template 'header.html'}
+<div class="box line_4">
+{template 'left.html'}
+<!--left_1 end-->
+
+<div class="right_2">
+<div class="t_2 mb10"><div><h3>{$category[$catid][catname]}</h3><span>Archive list</span></div></div>
+{template 'position.html'}
+
+		{loop type($typeid) $i $t}
+		<div class="category_title">
+			<span><a title="{$t[typename]}" href="{typeurl($t[typeid])}">更多</a></span><a title="{$t[typename]}" href="{typeurl($t[typeid])}"><h4>{$t[typename]}</h4></a>
+		</div>
+		<ul class="news_list">
+			{loop article($t[typeid],20,'aid',10,true,'') $i $arc}
+			<li class="list{=$i+1}"><span class="date">{$arc[adddate]}</span><a title="{$arc[title]}" href="{$arc[url]}">{$arc[title]}</a></li>
+			{/loop}
+		</ul>
+		{/loop}
+		
+<div class="blank30"></div>
+		<a title="返回顶部" href="#" class="clear floatright"><img alt="返回顶部" src="{$skin_url}/gotop.gif"></a>
+	<div class="clear"></div>
+
+</div>
+<div class="clear"></div>
+</div>
+<!--box end-->
+{template 'footer.html'}

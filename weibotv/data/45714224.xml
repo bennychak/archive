@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>45714224</channel_id>
+<channel_name><![CDATA[CCTV证券资讯]]></channel_name>
+<channel_typeid><![CDATA[23]]></channel_typeid>
+<channel_typename><![CDATA[财经资讯]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[0]]></cur_program_id>
+<cur_program_name><![CDATA[该频道暂无预告]]></cur_program_name>
+<cur_program_time><![CDATA[]]></cur_program_time>
+<next_program_name><![CDATA[该频道暂无预告]]></next_program_name>
+<next_program_time><![CDATA[]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[国内唯一一档专业的期货类电视节目，实时关注国内外期货市场动向，为投资者提供及时的资讯、专业的分析和实用的指导。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/i1274687291_1.jpg]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/zixun1.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/zhengquan.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100005</chat_id>
+   <chat_title><![CDATA[CCTV证券资讯]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[央视国际]]></client_tips>
+
+</root>

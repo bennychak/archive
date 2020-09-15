@@ -1,0 +1,55 @@
+/*
+Theme Name: AndyBlue
+Theme URI: http://www.italiasw.com/wordpress-themes/
+Description: AndyBlue is realized by <a href="http://www.italiasw.com" title="Italia SW Home Page">Matteo Turchetto</a> and Inspired by Andreas 08 of <a href="http://andreasviklund.com/">Andreas Viklund</a>. AndyBlue template is a 3 column, fluid, rounded corners with left and right sidebars. Very light with no images, AndyBlue is gravatar, widget and addthis ready.
+Version: 1.5
+Author: Matteo Turchetto
+Author URI: http://www.italiasw.com/
+Tags: white, blue, fluid, andyblue, three columns, widgets
+
+	Please, leave credits on footer untouched.Have fun !
+*/
+
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+a{font-family:tahoma,lucida,verdana,sans-serif;font-size:12px;font-weight:normal;color:#69c}a:link{font:bold;text-decoration:none;color:#47a} a:visited{text-decoration:none;color:#47a}a:hover{text-decoration:none;color:#333}a:active{color:#06C;background:#}a img{text-decoration:none;border:none;padding:0px;margin:0px}img.centered{display:block;margin-left:auto;margin-right:auto}img.alignright{padding:4px;margin:0 0 2px 7px;display:inline}img.alignleft{padding:4px;margin:0 7px 2px 0;display:inline}.alignright{float:right;font-weight:bold}.alignleft{float:left;font-weight:bold}html,body{font-family:lucida,verdana,sans-serif;font-size:12px;font-weight:normal;color:#000;background-color:#6b6b6b}body{color:#000;background-color:#fff;border:solid 1px #000;padding:0px;margin:10px 15px 15px 15px}h1{font-size:18px;font-weight:normal;text-align:left;padding:10px 10px 10px 20px;margin:0px;color:#fff;background:#467aa7}h1 a{font-size:1.5em;font-weight:normal;text-decoration:none;color:#fff;background-color:transparent}h1 a:hover{text-decoration:none;color:#fff;background-color:transparent}h1 a:link{color:#fff;text-decoration:none}h1 a:visited{color:#fff;text-decoration:none}h1 a:active{color:#fff;text-decoration:none}h2{font-size:13px;font-weight:normal;text-align:left;padding:5px 10px 15px 20px;margin:0 0px 0px 0px;color:#fff;background:#467aa7}h2 a{font-size:13px;font-weight:normal;text-decoration:none;color:#fff;background-color:transparent}h2 a:hover{text-decoration:none;color:#fff;background-color:transparent}form.qs{position:absolute;top:60px;right:30px;text-align:right;padding:0px;margin:0px}form.qs p{font-size:11px;font-weight:normal;padding:0px;margin:0px;color:#fff;background-color:transparent}form.qs input.button{font-size:11px;font-weight:normal;width:30px;color:#000;background-color:#f9f9ff;border:solid 1px #c0d3e2;padding:0px;margin:0px}form.qs input.textfield{font-size:11px;font-weight:normal;padding:0px;margin:0px}#navigation{height:2.2em;line-height:2.2em;background:#578bb8;color:#fff}#navigation li{float:left;list-style-type:none;border-right:1px solid #fff;white-space:nowrap}#navigation li a{display:block;padding:0 10px;font-size:0.8em;font-weight:normal;text-transform:uppercase;text-decoration:none;background-color:inherit;color:#fff}* html #navigation a{width:1%}#navigation .current_page_item,#navigation a:hover{background:#80b0da;color:#fff;text-decoration:none}     .info-post{display:block;text-align:left;padding:7px 0px 7px 0px;font-size:10px;color:#000}.info-meta{display:block;text-align:left;padding:2px 0px 7px 0px;font-size:12px}.info-meta a{font-weight:bold,font-size:10px}.post-navigation{height:2.2em;line-height:2.2em}.nav{padding:5px 0px 15px 0px}.entry{margin-bottom:3em}.entry a{margin-bottom:3em}.entrymeta2{        position:relative;        top:3px}.entrymeta a{        text-decoration:none;color:#69c}.entry img{padding:5px;border:1px solid #ccc;margin:5px}.commentmeta{font-size:0.9em;color:#69c;        text-align:right}.commentmeta a{        text-decoration:none;color:#69c}.postedby{background:url(./images/user.gif) no-repeat;padding:3px;padding-left:20px}.filedto{background:url(./images/category.gif) no-repeat;padding:3px;padding-left:20px}.commentslink{background:#fff url(./images/comment.png) no-repeat;padding:3px;padding-left:20px}.sec-a{background:#eff2ef; float:left;width:775px;padding:0 15px}div.path{font-size:11px;font-weight:normal;padding:0px;margin:25px 20px 10px 200px}div.path a{font-size:11px;font-weight:normal}  .content{}td.main{vertical-align:top;width:30%;position:absolute}div.main{font-size:12px;font-weight:normal;line-height:15px;color:#000;background-color:#fff;padding:5px;margin:5px 179px 10px 187px;border:solid 0px #ccc}div.main a{font-weight:normal;text-decoration:none;color:#06C}div.main a:hover{text-decoration:none;color:#333}div.main h3{font-size:16px;font-weight:normal}div.main h4{font-size:16px;font-weight:bold;padding:3px;background:#dfefff;margin:15px 0px 0px 0px;border:solid 2px #47a;border-right:solid 2px #}div.main h4 a{font-size:0.9em;font-weight:bold;text-decoration:none;border:solid 0px #bad1e8;background:;#bad1e8;color:#47a}div.main h4 span.top{font-size:14px;font-weight:normal}div.main h4 span.top a{font-size:16px;font-weight:normal;text-decoration:none}h5{font-size:14px;font-weight:bold;color:#47a;;margin:4px;border:none;margin:5px 0px 5px 0px}div.main p{padding:0px;margin:0px 0px 6px 10px}div.main table{font-family:lucida,verdana,sans-serif;font-size:12px;font-weight:normal;line-height:17px;margin-left:10px}div.main td{padding:0px 5px 0px 5px;margin:0px}div.main ul{list-style-type:square;padding:0px;margin:0px 0px 10px 40px}div.main ul.none{list-style-type:none}div.main li{padding:0px;margin:1px 0px 1px 0px}.box{ margin:0 0 20px 0; padding:10px; border:1px solid #c0c0c0; background-color:#fafbfc; color:#505050; line-height:1.5em}.box a{color:#505050;text-decoration:none}  div.navboxwrapleft{float:left;width:180px;padding:0px 15px 20px 0px;margin:0px 0px 0px 0px;border-right:solid 0px #ccc;line-height:1em}div.navboxleft{padding:0px;        margin:10px 0px 0px 1px;        font-weight:normal;        line-height:16px;        background:;#ebf0f6}div.navboxleft h5{    color:#000;font-size:1.1em;    font-weight:bold;margin:4px 0px 5px 3px;padding:3px 4px 3px 3px;width:%;    background-position:0px -50px;    text-transform:none;border-bottom:1px solid #69c}div.navboxleft ul{margin:2px 0px 10px 18px;padding:1px 0 0 2px}div.navboxleft li{    background:url('images/arrow.gif') no-repeat left top;margin:4px 0;padding:0 0 0 12px;list-style:none;margin-bottom:2px}div.navboxleft li:hover{ background-repeat:no-repeat; background-position:left; color:#99C9FF}div.navboxleft li.active{ background-repeat:no-repeat; background-position:left; color:#000}div.navboxleft li.extern:hover{ background-repeat:no-repeat; background-position:right} div.navboxwrapright{float:right;width:160px;padding:0px 15px 20px 0px;margin:0px 0px 0px 9px;border-left:solid 0px #ccc}div.navboxright{padding:0px;margin:10px 0px 10px 10px;font-size:11px;font-weight:normal;line-height:17px}div.navboxright h5{    color:#000;font-size:1.1em;    font-weight:bold;margin:4px 0px 5px 3px;padding:3px 4px 3px 3px;width:%;        background-position:0px -50px;        text-transform:none;border-bottom:1px solid #69c}div.navboxright h5 a{    color:#000;font-size:1.2em;margin:0 0 10px 0;padding:10px 0 2px 0;width:93%;border-bottom:1px solid #000}div.navboxright ul{list-style-type:none;padding:0px;margin:0px}div.navboxright li{background-repeat:no-repeat;padding:1px 5px 0px 20px;margin:0px}div.navboxright li:hover{background-repeat:no-repeat;background-position:right;color:#333}div.navboxright ul li{background-repeat:no-repeat;background-position:left;padding:1px 5px 0px 20px;margin:0px;background:url(images/freccia.gif) no-repeat left}div.navboxright div.impressum{color:#000;background-color:#f9f9ff;padding:0px;margin:20px 0px 0px 0px}div.navboxright div.impressum div.active{border:solid 1px #ffc9c9;padding:0px;margin:-1px} #submit{margin-top:5px;border-width:0;padding:0}#commentform input,textarea{color:#0C3E69}#commentform input{font-size:11px;color:#000}#commentform textarea{padding:2px 4px}#respond,#comments{margin-bottom:15px;font-family:"Trebuchet MS",sans-serif} #commentsection{margin:25px 0 0}#commentsection p{margin:0 0 6px} .comment{background-color:#f4f4f4;border-left:4px solid #ccc;color:#606060;margin:0 0 10px;padding:8px 5px 0 8px}.comment p{font-size:0.9em;line-height:1.3em;margin:0 0 6px;padding-bottom:5px}.gravatarside{float:right;width:48px;height:48px;margin:0 5px 5px 5px}h2.archives{margin-bottom:10px}h3.entrytitle,h3{font-size:160%;font-weight:normal;line-height:100%;margin:0;padding:0px}h3.entrytitle a,h3.entrytitle a:visited,h3 a{color:#fff;text-decoration:none}h3.entrytitle a:hover,h3 a:hover{        text-decoration:underline}.entry{margin-top:0px}.entrybody{margin-bottom:30px}.entrybody p{margin-bottom:15px}blockquote{background:#EEE url(images/blockquote.png) no-repeat bottom left;padding:10px;padding-bottom:40px}#content code{background-color:#3F464A;display:block;padding:10px;margin-bottom:10px}#commentblock code{display:block;padding:5px;margin-bottom:10px;color:#ccc}div.footer{clear:both;padding:5px 0;margin:0 0px;font-size:0.9em;color:#06C;background:#DFEFFF;border-top:1px solid #06C}div.footer p{padding:0;margin:0;text-align:center}div.footer a{color:#06C;background-color:inherit;font-weight:bold}div.footer a:hover{color:#333;background-color:inherit}

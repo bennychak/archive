@@ -1,0 +1,28 @@
+<div id="banner">
+<script 
+                        >today=new Date();
+jran=today.getTime();
+function rnd() {
+    ia=15675;
+    ic=268856
+    im=238200;
+    jran = (jran*ia+ic) % im;
+    return jran/(im*1.0);
+};
+function rand(number) {
+    return Math.ceil(rnd()*number);
+};
+document.write("<right>");
+for(i=1;i<=1;i++) {
+    myNum=(rand(4)); 
+    if(myNum == 1) document.write("<img class='floatleft' src='{$skin_url}/banner_01.jpg' />");
+if(myNum == 2) document.write("<img class='floatleft' src='{$skin_url}/banner_02.jpg' />");
+if(myNum == 3) document.write("<img class='floatleft' src='{$skin_url}/banner_03.jpg' />");
+if(myNum == 4) document.write("<img class='floatleft' src='{$skin_url}/banner_04.jpg' />");
+    else {
+document.write();
+}
+};
+document.write("");
+</script>
+</div>

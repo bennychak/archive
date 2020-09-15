@@ -1,0 +1,260 @@
+{template 'header.html'}
+<div id="mid">
+ {template 'left.html'}
+  <table width="628" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-left:22px;">
+    <tr>
+      <td>
+{template 'position.html'}
+</td>
+    </tr>
+    <tr>
+      <td height="16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+			
+            <table width="628" border="1" cellpadding="7" cellspacing="0" bordercolor="#EDEDED" style="margin-bottom:20px;">
+              <tr>
+                <td bgcolor="#EDEDED"><img src="{$skin_path}/arr3.gif" width="10" height="8" align="absmiddle" style="margin-right:6px;" /><font color="#CC0000"><strong>{$category[$catid][catname]}</strong></font> --- List</td>
+              </tr>
+              <tr>
+                <td>
+                
+               <div style="padding:10px 25px">
+			<div class="NewsTitle" >{$archive[title]}</div>
+			<div class="PostDate">{$archive[adddate]}</div>
+			<div class="NewsContent" >
+			<style>
+#tbody {width:500px;margin:20px auto;text-align:left;}
+#mainbody {width:488px;height:450px;line-height:450px;overflow:hidden;border:5px solid #eee;padding:1px}
+#mainphoto {cursor:pointer;display:block;}
+#goleft {float:left;clear:left;margin:10px 5px 0 3px;padding-top:20px;}
+#goright {float:right;clear:right;margin:10px 3px 0 5px;padding-top:20px;}
+#photos {width:460px;height:105px;line-height:108px;margin:10px 0;border-bottom:1px solid #ccc;background:#F5F5F5;overflow:hidden;}
+#mainphoto {width:488px;height:auto;}
+#showArea {width:800%;}
+#showArea a {display:block;float:left;width:120px;height:90px;overflow:hidden;border:1px solid #ccc;margin:5px 5px;background:white;cursor:pointer;}
+#showArea img {width:120px;height:auto;}
+</style>
+
+<!-- 幻灯片 -->
+<?php $pics = unserialize($archive[pics]); ?>
+{if $pics}
+<div id="tbody">
+    <div id="mainbody">
+      <img src="{get(site_url)}{$pics[0]}" id="mainphoto" rel="{get(site_url)}{$pics[0]}" onerror='this.src="{get(site_url)}{config::get('onerror_pic')}"' />
+    </div>
+    <img src="{$base_url}/images/goleft.gif" width="11" height="56" id="goleft" />
+    <img src="{$base_url}/images/goright.gif" width="11" height="56" id="goright" />
+    <div id="photos">
+      <div id="showArea">
+        <!--
+          SRC: 缩略图地址
+          REL: 大图地址
+          NAME: 网址
+        -->
+        {loop $pics $pic}
+        {if $pic}<a href="#"><img src="{get(site_url)}{$pic}" onerror='this.src="{get(site_url)}{config::get('onerror_pic')}"' rel="{get(site_url)}{$pic}" /></a>{/if}
+        {/loop}     
+      </div>
+    </div>
+</div>
+{/if}
+
+
+
+{$archive[content]}
+
+<div class="blank30"></div>
+
+{if $archive[tag]}
+<!-- tag -->
+<div class="blank10"></div>
+{lang(tag)}： {$archive[tag]}
+{/if}
+
+{if $archive[special]}
+<!-- 专题 -->
+<div class="blank10"></div>
+{lang(special)}： {$archive[special]}
+{/if}
+
+
+{if $archive[type]}
+<!-- 分类 -->
+<div class="blank10"></div>
+{lang(type)}： {$archive[type]}
+{/if}
+
+
+{if $archive[area]}
+<!-- 地区 -->
+<div class="blank10"></div>
+{lang(area)}： {$archive[area]}
+{/if}
+
+<div class="blank30"></div>
+{if $pages>1}
+<!-- 内页分页 -->
+<div class="blank10"></div>
+<div class="pages">
+{archive_pagination($archive)}
+</div>
+<div class="blank30"></div>
+{/if}
+
+<!--自动调用自定义字段-->
+<?php
+$set_field=type::getpositionlink($data['typeid']);
+$set_fields=array();
+if(is_array($set_field))
+foreach($set_field as $key => $value) {
+    $set_fields[]=$value[id];
+}
+?>
+{cb_data($archive)}
+{loop $archive $key $value}
+<?php if(setting::$var['archive'][$name]['typeid'] && !in_array(setting::$var['archive'][$name]['typeid'],$set_fields)){
+  unset($field[$name]);
+  continue;
+}?>
+<?php if(!preg_match('/^my/',$key) || !$value) continue; ?>
+<p> {=setting::$var['archive'][$key]['cname']}: {$value}</p>
+{/loop}
+<div class="blank20"></div>
+
+<?php if(archive_attachment($archive['aid'],'id')) { ?>
+<!-- 附件 -->
+<p>
+{lang(attachment)}：{attachment_js($archive['aid'])}
+</p>
+<?php } ?>
+<div class="blank30"></div>
+
+<?php if(hasflash()) { ?>
+        <div style="color:red;font-size:16px;"><?php echo showflash(); ?></div><?php } ?>
+
+<!-- 投票 -->
+        {vote_js($archive[aid])}
+
+
+<script language="JavaScript">
+function shutwin(){
+window.close();
+return;}
+</script>
+
+
+<div class="blank30"></div>
+<div id="tool">
+<ul>
+<li style="width:60px; padding-left:5px;">{lang(strgrades)}：</li>
+<li style="width:100px; padding-left:5px;">{$archive[strgrade]}</li>
+{if get('lang_type')=='cn'}
+<li><a href="javascript:void((function(s,d,e,r,l,p,t,z,c) {var%20f='http://v.t.sina.com.cn/share/share.php?appkey=4174743220',u=z||d.location,p=['&url=',e(u),'& title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'& content=',c||'gb2312','&pic=',e(p||'')].join('');function%20a() {if(!window.open([f,p].join(''),'mb', ['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width- 440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');}; if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();}) (screen,document,encodeURIComponent,'','','','{$archive[title]}','',''));" class="sinaicon">分享到微博</a></li>
+{/if}
+{if $archive[attr2]}
+<li><a title="{lang(makeorders)}" target="_blank" href="{url('archive/orders/aid/'.$archive[aid],true)}" class="orders">{lang(makeorders)}</a></li>
+{/if}
+</ul>
+</div>
+<div class="blank30"></div>
+<div id="page">
+{if $archive['p']['aid']}
+<strong>{lang(archivep)}：</strong><a href="{$archive['p']['url']}">{$archive['p']['title']}</a>
+{else}
+<strong>{lang(archivep)}：</strong>{lang(nopage)}	
+{/if}
+<div class="clear"></div>
+{if $archive['n']['aid']}
+ <strong>{lang(archiven)}：</strong><a href="{$archive['n']['url']}">{$archive['n']['title']}</a>
+{else}
+<strong>{lang(archiven)}：</strong>{lang(nopage)}	
+{/if}
+</div>
+				</div>
+
+	</div>
+                </td>
+              </tr>
+            </table>
+            
+      </td>
+    </tr>
+  </table>
+  <div style="clear:both; height:1px; font-size:1px;">&nbsp;</div>
+</div>
+<script language="javascript" type="text/javascript">
+var browse = window.navigator.appName.toLowerCase();
+var MyMar;
+var speed = 1; //速度，越大越慢
+var spec = 1; //每次滚动的间距, 越大滚动越快
+var minOpa = 90; //滤镜最小值
+var maxOpa = 100; //滤镜最大值
+var spa = 2; //缩略图区域补充数值
+var w = 0;
+spec = (browse.indexOf("microsoft") > -1) ? spec : ((browse.indexOf("opera") > -1) ? spec*10 : spec*20);
+function $(e) {
+return document.getElementById(e);
+}
+function goleft() {
+$('photos').scrollLeft -= spec;
+}
+function goright() {
+$('photos').scrollLeft += spec;
+}
+function setOpacity(e, n) {
+    if (browse.indexOf("microsoft") > -1) e.style.filter = 'alpha(opacity=' + n + ')';
+    else e.style.opacity = n/100;
+}
+$('goleft').style.cursor = 'pointer';
+$('goright').style.cursor = 'pointer';
+$('mainphoto').onmouseover = function() {
+setOpacity(this, maxOpa);
+}
+$('mainphoto').onmouseout = function() {
+setOpacity(this, minOpa);
+}
+//$('mainphoto').onclick = function() {location = this.getAttribute('name');}
+$('goleft').onmouseover = function() {
+this.src = '{get(site_url)}images/goleft2.gif'; MyMar=setInterval(goleft, speed);
+}
+$('goleft').onmouseout = function() {
+this.src = '{get(site_url)}images/goleft.gif'; clearInterval(MyMar);
+}
+$('goright').onmouseover = function() {
+this.src = '{get(site_url)}images/goright2.gif'; MyMar=setInterval(goright,speed);
+}
+$('goright').onmouseout = function() {
+this.src = '{get(site_url)}images/goright.gif'; clearInterval(MyMar);
+}
+window.onload = function() {
+    setOpacity($('mainphoto'), minOpa);
+    var rHtml = '';
+    var p = $('showArea').getElementsByTagName('img');
+    for (var i=0; i<=p.length; i++) {
+        w += parseInt(p[i].getAttribute('width')) + spa;
+        setOpacity(p[i], minOpa);
+        //p[i].onclick = function() {location = this.getAttribute('name');}
+        p[i].onmouseover = function() {
+            setOpacity(this, maxOpa);
+            $('mainphoto').src = this.getAttribute('rel');
+            $('mainphoto').setAttribute('name', this.getAttribute('name'));
+            setOpacity($('mainphoto'), maxOpa);
+        }
+        p[i].onmouseout = function() {
+            setOpacity(this, minOpa);
+            setOpacity($('mainphoto'), minOpa);
+        }
+        rHtml += '<img src="' + p[i].getAttribute('rel') + '" width="0" height="0" alt="" />';
+    }
+    $('showArea').style.width = parseInt(w) + 'px';
+    var rLoad = document.createElement("div");
+    $('photos').appendChild(rLoad);
+    rLoad.style.width = "1px";
+    rLoad.style.height = "1px";
+    rLoad.style.overflow = "hidden";
+    rLoad.innerHTML = rHtml;
+}
+</script>
+{template 'footer.html'}

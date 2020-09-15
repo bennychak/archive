@@ -1,0 +1,42 @@
+{template 'header.html'}
+<div id="c">
+<div id="position">
+<span><a title="{get('sitename')}" href="{$base_url}">{get('sitename')}</a><a title="{lang(siteannoun)}" href="#">{lang(siteannoun)}</a></span><strong>{lang(nowposition)}</strong>
+</div>
+{template 'left.html'}
+
+<div id="right">
+<h1 id="title">{$announ[title]}</h1>
+<div id="text">
+<div class="contentinfo">{lang(adddate)}：&nbsp;&nbsp;{$announ[adddate]}</div>
+{$announ[content]}
+
+<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+
+</div>
+</div>
+<div class="clear"></div>
+</div>
+
+
+<script> 
+function resizeImg(obj)
+{ 
+var obj = document.getElementById(obj); 
+var objContent = obj.innerHTML;
+var imgs = obj.getElementsByTagName('img'); 
+if(imgs==null) return; 
+for(var i=0; i<imgs.length; i++) 
+{ 
+if(imgs[i].width>parseInt(obj.style.width)) 
+{ 
+imgs[i].width = parseInt(obj.style.width);
+} 
+} 
+} 
+window.onload = function() {resizeImg('text');
+} 
+</script>
+{template 'footer.html'}

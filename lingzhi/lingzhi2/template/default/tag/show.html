@@ -1,0 +1,31 @@
+{template 'header.html'}<!-- 调用页头模板 -->
+<div id="c">
+<div id="position">
+<span><a title="{get('sitename')}" href="{$base_url}">{get('sitename')}</a><a title="{$tag}" href="#">{$tag}</a></span><strong>{lang(nowposition)}</strong>
+</div>
+{template 'left.html'}<!-- 调用通用左栏 -->
+
+<div id="right">
+<div id="text">
+
+<!-- 内容_内容简介列表 -->
+<ul class="news_list">
+			{loop $archives $i $arc}
+            <li><span class="date">{$arc[adddate]}</span><a title="{$arc[title]}" target="_blank" href="{$arc[url]}">{$arc[title]}</a></li>
+			{/loop}
+        </ul>
+        <div class="blank10"></div>
+		{if isset($pages)}
+		{tag::pagination($tag)}
+		{/if}
+
+<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<!-- 调用页底模板 -->
+{template 'footer.html'}

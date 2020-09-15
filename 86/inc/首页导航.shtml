@@ -1,0 +1,13 @@
+<div class="nav">
+    <ul class="menu">
+        <li class="selected"><div class="menuside"></div><a class="icon16 menu_index_pic" href="我的首页.shtml"><span></span>我的首页</a></li>
+        <li><a href="分类导航.shtml">分类导航</a></li>
+        <li><a href="#">我的推博</a></li>
+        <li><a href="#">提到我的</a></li>
+        <li><a href="我的评论.shtml">我的评论</a></li>
+        <li><a href="我的收藏.shtml">我的收藏</a></li>
+    </ul>
+    <div class="menu_right"></div>
+    
+    <!--#include file="topsearch.shtml"-->
+</div>

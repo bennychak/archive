@@ -1,0 +1,40 @@
+		<div style="width:185px;margin-left:11px;">
+		<div class="DialogTitle1">
+				<div class="DialogTitle2">Nav</div>
+			</div>
+			<div class="DialogContent1">
+				<div class="DialogContent2">
+					<div style="padding:4px 0px 25px 0px;">
+						<ul class="LeftNavList">
+							
+{loop $types $t}
+<li><img src="{$skin_path}/dot_1.gif" align="absmiddle" />&nbsp;<a href="{$t[url]}" title="{$t[name]}">{$t[name]}</a></li>
+{/loop}
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="DialogBottom1">
+				<div class="DialogBottom2"></div>
+			</div>
+			<div class="DialogTitle1">
+				<div class="DialogTitle2">News</div>
+			</div>
+			<div class="DialogContent1">
+				<div class="DialogContent2">
+					<div style="padding:4px 0px 25px 0px;">
+						<ul class="LeftNavList">
+							{loop article(1,20,'aid',10) $arc}
+<li><img src="{$skin_path}/dot_1.gif" align="absmiddle" />&nbsp;<a href="{$arc[url]}" target="_blank">{$arc[title]}</a></li>
+{/loop}
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="DialogBottom1">
+				<div class="DialogBottom2"></div>
+			</div>
+		</div>
+		<div style="font-size:11px;padding:20px 30px;line-height:20px;">
+			{template 'index/other.html'}
+		</div>

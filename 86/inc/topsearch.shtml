@@ -1,0 +1,12 @@
+<div class="right_box">
+    <div class="right_absolute">
+    <form action="" method="post">
+        <div class="seinput_m">
+            <div class="seinput_in">
+                <input class="toggletxt" value="找人,搜推博..." type="text" />
+            </div>
+            <input type="submit" class="seinputbtn" value="搜索" />
+        </div>
+    </form>
+    </div>
+</div>

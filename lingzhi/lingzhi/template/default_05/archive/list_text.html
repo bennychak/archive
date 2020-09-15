@@ -1,0 +1,26 @@
+{template 'header.html'}
+<div id="left">
+{template 'left.html'}
+</div>
+
+<div id="right">
+{template 'position.html'}
+<!-- 正文 -->
+<div class="contenttext">
+<div class="blank30"></div>
+<!-- 内容_内容简介列表 -->
+{loop $archives $i $arc}<dl class="news_list">
+<dt><h5>{=$i+1}&nbsp;）</h5>&nbsp;&nbsp;<a href="{$arc[url]}">{$arc[title]}</a><span class="date">{$arc[adddate]}</span></dt>
+<dd>{cut(strip_tags($arc['content']),120)}<a href="{$arc[url]}" target="_blank" class="more">&nbsp;…[&nbsp;{lang(more)}&nbsp;]</a></p></dd>
+</dl>{/loop}
+
+<div class="blank30"></div>
+<!-- 内容列表分页 -->
+{if isset($pages)}
+{category_pagination($catid)}
+{/if}
+</div>
+</div>
+<div class="clear"></div>
+</div>
+{template 'footer.html'}

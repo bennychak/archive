@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>4135443306</channel_id>
+<channel_name><![CDATA[SCⅡ频道]]></channel_name>
+<channel_typeid><![CDATA[15]]></channel_typeid>
+<channel_typename><![CDATA[游戏频道]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24060237]]></cur_program_id>
+<cur_program_name><![CDATA[[直播]GSL3星际II超级联赛 CodeS]]></cur_program_name>
+<cur_program_time><![CDATA[17:00]]></cur_program_time>
+<next_program_name><![CDATA[[直播]GSL3星际II超级联赛 CodeS]]></next_program_name>
+<next_program_time><![CDATA[17:00]]></next_program_time>
+<def_program><![CDATA[ 精彩节目推荐:
+《东方新闻》
+《精品剧场》]]></def_program>
+<channel_desc><![CDATA[GSL（Global Starcraft2 League）是由韩国GomTV主办的星际争霸2大型赛事。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/nsc.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/nsc.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/nsc.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100008</chat_id>
+   <chat_title><![CDATA[星际2]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[Neotv]]></client_tips>
+
+	<p cur="1" >
+		<pn><![CDATA[[直播]GSL3星际II超级联赛 CodeS]]></pn>
+		<tm><![CDATA[17:00]]></tm>
+		<id><![CDATA[24060237]]></id>
+	</p>
+
+</root>

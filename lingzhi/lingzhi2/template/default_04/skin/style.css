@@ -1,0 +1,970 @@
+/*
+ * 易通CMS Style
+ * ============================================================================
+ * 版权所有 2008-2009 易通CMS，并保留所有权利。
+ * -------------------------------------------------------
+ * 这不是一个自由软件！
+ * 也不是一个开源软件！
+ * 本软件已经申请软件版权保护！
+ * 您不能在任何目的的前提下对程序代码进行破解、修改和使用；
+ * 不允许对程序代码以任何形式任何目的的再发布。
+ * ============================================================================
+ * @author:   九州易通科技有限公司
+ * @version:  v1.0
+ * ---------------------------------------------
+ * $Id: Style Sat Dec 06 09:50:51 CST 2008
+  
+  ---------------------------------------------------------------
+  1. base (全局基本属性)
+  ---------------------------------------------------------------
+  2.link (链接)
+  ---------------------------------------------------------------
+  3.font (字体)
+  ---------------------------------------------------------------
+  4. layout (框架)
+  ---------------------------------------------------------------
+  5. header (头部)
+  ---------------------------------------------------------------
+  6.content (页中)
+  ---------------------------------------------------------------
+  7.footer (页底)
+  ---------------------------------------------------------------
+  8. search (当前位置/文章搜索)
+  ---------------------------------------------------------------
+  9.assist (辅助)
+  ---------------------------------------------------------------
+  10.tab (切换)
+  ---------------------------------------------------------------
+  11.ad (广告)
+  ---------------------------------------------------------------
+  
+*/
+
+
+/* 
+  --------------------------------------
+  *****  1. base(全局基本属性)   *****
+  --------------------------------------
+*/
+
+html {
+  scrollbar-face-color : #F5F5F5;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font:12px Arial,微软雅黑,Helvetica,sans-serif;
+  line-height:200%;
+  color:#333;
+  text-align:left;
+  background:#FFF url(bg.gif) left top repeat-x;
+  white-space:normal; 
+  word-break:break-all;
+}
+
+div,form,img,ul,ol,li,dl,dt,dd,p {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+table,td,tr,th,input {
+  font-size:12px;
+}
+
+ul,ol,li {
+  list-style:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin:0;
+  padding:0;
+  font-size:100%;
+}
+
+img {
+  border:0;
+}
+
+.clear {
+  clear:both;
+}
+
+.floatleft {
+  float:left;
+}
+
+.floatright {
+  float:right;
+}
+
+.copyright,.copyright a {
+  text-align:center;
+  font-size:10px;
+  color:#ccc;
+}
+
+/* table */
+
+table { margin:10px auto 7px; font-size:12px; overflow:hidden; border:1px solid #DDD; border-collapse:collapse; }
+
+
+/* 
+  --------------------------------------
+  *****  2. link(链接)   *****
+  --------------------------------------
+*/
+
+a {
+  text-decoration: none;
+  color:#333;
+}
+
+a:hover {
+  color:#333;
+  text-decoration: underline; 
+}
+
+/* 
+  --------------------------------------
+  *****  3. font (字体)   *****
+  --------------------------------------
+*/
+
+.green {
+  color:#5FA540;
+}
+
+.orange {
+  color:#FF9933;
+}
+
+.gray {
+  color:#ccc;
+}
+
+/* 
+  --------------------------------------
+  *****  4. layout (框架)   *****
+  --------------------------------------
+*/
+
+#main {
+  margin:0px auto;
+  padding:0px auto;
+  width:910px;
+}
+
+
+/* 
+  --------------------------------------
+  *****  5. header (页头)   *****
+  --------------------------------------
+*/
+
+#header {
+  height:68px;
+
+}
+
+#logo {
+  float:left;
+  width:324px;
+  height:23px;
+  margin:10px 5px 0px;
+}
+
+#top {
+  float:right;
+  width:193px;
+  height:28px;
+  line-height:28px;
+  margin-right:3px;
+  padding:0px 15px;
+  text-align:center;
+  font-size:12px;
+  background:url(top_bg.gif) left top repeat-x;
+}
+
+#top a {
+  padding:0px 5px;
+
+}
+
+#nav {
+  clear:both;
+  height:37px;
+  line-height:37px;
+  margin-bottom:6px;
+  padding-left:10px;
+  background:url(nav_bg.gif) left 2px repeat-x;
+}
+
+#nav a {
+  font-size:14px;
+  font-weight:bold;
+  padding:11px 15px 10px 15px;
+  text-decoration: none;
+  background:url(nav_line.gif) 5px 16px no-repeat;
+}
+
+#nav a.on,#nav a:hover {
+  background:url(nav_hover.gif) left bottom repeat-x;
+}
+
+#login {
+  padding:15px 13px 0px;
+  text-align:left;
+  background:#F5F5F5;
+}
+
+.login_input {
+  width:108px;
+  margin:2px 0px;
+  border:1px solid #CCC;
+  color:#888;
+}
+
+#checkcode {
+  clear:both;
+  float:left;
+  width:54px;
+  height:19px;
+  margin-top:2px;
+}
+.loginbtn {
+  width:54px;
+  height:43px;
+  border:none;
+  background:url(login.gif) left top no-repeat;
+}
+
+/* 
+  --------------------------------------
+  *****  6. content (页中)   *****
+  --------------------------------------
+*/
+
+#banner {
+  clear:both;
+}
+
+.sidebar {
+  clear:both;
+  float:left;
+  width:200px;
+  margin:10px 0px 0px 0px;
+  background:url(box_bg.png) left 35px repeat-x;
+  overflow:hidden;
+}
+
+.sidebar .news li {
+  width:185px;
+  height:22px;
+  line-height:22px;
+  overflow:hidden;
+}
+
+.middle {
+  float:left;
+  width:490px;
+  margin:10px 10px 0px;
+  overflow:hidden;
+}
+
+#announce {
+  height:19px;
+  line-height:19px;
+  padding-left:95px;
+  background:url(announce.gif) left top no-repeat;
+  color:#999;
+}
+
+.about {
+  padding:10px;
+}
+
+.i_p_box {
+  width:490px;
+  height:102px;
+  padding:5px 9px;
+  background:url(product_box_bg.png) left top no-repeat;
+}
+
+.i_news {
+  float:left;
+  width:200px;
+  margin:10px 0px 0px;
+}
+
+.i_news ul li {
+
+}
+
+
+#menu a {
+  clear:both;
+  display:block;
+  line-height:22px;
+  margin:5px 10px;
+  padding-left:25px;
+  background:#F5F5F5 url(top_bg.gif) 15px bottom no-repeat;
+  border:1px solid #ccc;
+}
+
+#menu a:hover,#menu a.on {
+  line-height:22px;
+  background: url(icon02.gif) 5px 5px no-repeat;
+  text-decoration: none;
+}
+
+#menu a.on2 {padding-left:40px;background: url(icon02.gif) 25px 5px no-repeat;}
+
+#right {
+  float:right;
+  width:660px;
+  margin-top:10px;
+  padding:30px 20px 20px;
+  background:url(right_bg.gif) left top repeat-x;
+  overflow:hidden;
+}
+
+#position {
+  line-height:26px;
+  padding-bottom:5px;
+  color:#999;
+  text-align:right;
+  background:url(point.gif) left 26px repeat-x;
+}
+
+#position a {
+  height:12px;
+  line-height:12px;
+  padding:7px 10px;
+  background:url(icon02.gif) left 9px no-repeat;
+  color:#999;
+}
+
+#position h5 {
+  text-align:left;
+  color:#333;
+  font-size:14px;
+}
+
+#position h5 span {
+  color:#999;
+}
+
+#introduce {
+  clear:both;
+  margin:30px 0px;
+}
+
+#introduce h1,#introduce h4 {
+  line-height:30px;
+  padding-left:35px;
+  color:#FF9933;
+  font-size:18px;
+  font-weight:bold;
+  background:url(h4_bg.gif) left top no-repeat;
+}
+
+.news_list {
+  padding:10px;
+}
+
+.news_list li {
+  clear:both;
+  line-height:28px;
+  padding-left:15px;
+  border-bottom:1px dotted #999;
+  background:url(icon06.gif) left 12px no-repeat;
+}
+
+.news_list li a {
+  color:#666;
+}
+
+.category_title {
+  clear:both;
+  line-height:50px;
+  color:#333;
+  padding-left:30px;
+  background:url(icon04.gif) 5px 20px no-repeat;
+}
+
+.category_title span {
+  float:right;
+}
+
+.category_title h4 {
+  font-size:14px;
+}
+
+.news_text h5,.news_text_pic h5 {
+  float:right;
+  width:495px;
+  font-weight:bold;
+  font-size:12px;
+  text-align:left;
+  color:#333;
+  padding-left:20px;
+  background:url(icon05.gif) left 6px no-repeat;
+}
+
+.news_text h5 {
+  width:640px;
+}
+
+.news_text h5,.news_text_pic h5 a {
+  color:#333;
+}
+
+.news_list .date,.news_text h5 .date,.news_text_pic h5 .date {
+  float:right;
+  padding-right:15px;
+  color:#999;
+  font-weight:normal;
+}
+
+.news_list p {
+  margin:5px;
+  padding:5px 5px 5px 20px;
+  background:#FFF;
+  text-indent:2em;
+}
+
+.news_text,.news_text_pic {
+  clear:both;
+  height:auto;
+  padding:10px 0px;
+  border-bottom:1px dotted #ccc;
+}
+
+
+.news_text p,.news_text_pic p {
+  float:right;
+  width:520px;
+  text-align:left;
+  color:#999;
+  padding:5px;
+  text-indent:2em;
+}
+
+.news_text p {
+  width:650px;
+}
+
+a.news_text_img {
+  display:block;
+  float:left;
+  width:120px;
+  height:100px;
+  overflow:hidden;
+  border:1px solid #ccc;
+}
+
+.news_text_img img {
+  
+  width:120px;
+  height:auto;
+  margin-right:15px;
+}
+
+.news_list .date,.news_text h5 .date,.news_text_pic h5 .date,.strgrade {
+  float:right;
+  padding-right:15px;
+  color:#999;
+  font-weight:normal;
+}
+
+.strgrade {
+  display:block;
+  width:160px;
+  text-align:left;
+}
+
+.list1 a,.list2 a,.list3 a {
+  padding-right:30px;
+  background:url(new.gif) right 2px no-repeat;
+}
+
+/************* 产品 */
+.product_box {
+  float:left;
+  width:142px;
+  margin:5px;
+  padding:5px;
+  background:#F5F5F5;
+  border:1px solid #DDD;
+  overflow:hidden;
+}
+.product_box img {
+  width:142px;
+  border:1px solid #DDD;
+}
+
+.product_box a {
+  display:block;
+  width:142px;
+  height:110px;
+  overflow:hidden;
+}
+
+.product_box h5 {
+  margin-top:5px;
+  background:#FFF;
+  border:1px solid #DDD;
+  text-align:center;
+  font-weight:normal;
+}
+
+.product_box h5 a {
+  height:44px;
+  line-height:22px;
+}
+
+.p_info {
+  height:20px;
+  line-height:20px;
+  padding-left:30px;
+  background:url(bullet1.gif) left top no-repeat;
+  color:#0D61BA;
+  font-size:14px;
+  font-weight:bold;
+}
+
+/************* 分页 */
+
+.pages {
+  clear:both;
+  margin:0px 10px;
+}
+
+.pages strong {
+  color:#555;
+  display:block;
+  float:left;
+  height:18px;
+  line-height:18px;
+  float:left;
+  padding:0px 8px;
+  background:#F5F5F5;
+  border:1px solid #ccc;
+  margin: 0px 3px 0px 0px;
+}
+.pages a {
+  display:block;
+  float:left;
+  height:18px;
+  line-height:18px;
+  float:left;
+  padding:0px 8px;
+  border:1px solid #CCC;
+  text-decoration:none;
+  margin: 0px 3px 0px 0px;
+  color:#555;
+}
+
+.pages span {
+  float:right;
+}
+
+
+/****************内容*/
+#title h1 {
+  width:660px;
+  line-height:40px;
+  padding-top:20px;
+  font-size:22px;
+  text-align:center;
+  background:url(point.gif) left bottom repeat-x;
+  color:#333;
+  font-weight:bold;
+}
+
+.contentinfo {
+  line-height:34px;
+  text-align:center;
+}
+
+.text {
+  padding:30px 20px;
+  text-align:14px;
+  line-height:200%;
+  color:#333;
+
+}
+
+/****************评论*/
+#comment {
+  margin-top:20px;
+}
+
+#comment .input {
+  width:108px;
+  height:27px;
+  border:none;
+  background:url(search_btn.gif) left top no-repeat;
+  font-weight:bold;
+  color:#333;
+  font-size:12px;
+}
+
+.comm {
+  height:28px;
+  line-height:28px;
+  padding-left:35px;
+  border-top:1px solid #ccc;
+  background:url(comment.gif) 10px 7px no-repeat;
+}
+
+#textarea {
+  width:100%;
+  height:50px;
+  background:#FFF url(cmslogo.gif) right bottom no-repeat;
+  border:1px solid #ccc;
+}
+
+#link {
+  clear:both;
+  margin-left:1px;
+}
+
+.link_top {
+  height:33px;
+  line-height:33px;
+  text-align:center;
+  background:url(link_top.gif) no-repeat;
+}
+
+.link_bg {
+  height:auto;
+  padding:10px;
+  background:url(link_bg.gif) repeat-y;
+  color:#888;
+}
+
+.link_bottom {
+  height:7px;
+  background:url(link_bottom.gif) no-repeat;
+}
+
+#related li {
+  line-height:22px;
+  padding-left:20px;
+  background:url(up.gif) left top no-repeat;
+  border-bottom:1px dotted #ccc;
+}
+
+#related ul li.l1,#related ul li.l2,#related ul li.l3, {
+  background:url(up.gif) left top no-repeat;
+}
+
+/* 
+  --------------------------------------
+  *****  7. footer (页底)   *****
+  --------------------------------------
+*/
+#footer {
+  clear:both;
+  height:22px;
+  line-height:22px;
+  padding:0px 15px;
+  color:#999;
+  background:#F5F5F5;
+  border:1px solid #ccc;
+}
+
+#footer p {
+  text-align:center;
+}
+
+#footer a {
+  /*text-decoration: underline; */
+  color:#999;
+}
+
+
+
+/* 
+  --------------------------------------
+  *****  8. search (搜索)   *****
+  --------------------------------------
+*/
+#search {
+  float:right;
+  width:200px;
+  height:37px;
+  line-height:37px;
+  margin-left:15px;
+  padding:0px 15px;
+  background:url(search_bg.png) left top no-repeat;
+}
+
+#inputsearch { 
+  float:left;
+  border:none;
+  margin:8px 0px 0px;
+  width:130px;
+  height:14px;
+  line-height:14px;
+  font-size:12px;
+  color:#999;
+  background:url(searc.gif); 
+}
+
+#search .t_input {
+  display:block;
+  width:58px;
+  height:18px;
+  border:none;
+  margin:8px 0px 0px;
+  background:url(search_input.gif);
+  cursor: hand;
+}
+
+/* 
+  --------------------------------------
+  *****  9. assist (辅助)   *****
+  --------------------------------------
+*/
+.p5 {
+  padding:5px;
+}
+
+.p10 {
+  padding:10px;
+}
+
+.blank5 {
+  clear:both;
+  height:5px;
+  overflow:hidden;
+}
+
+.blank10,.blank30 {
+  clear:both;
+  height:10px;
+  overflow:hidden;
+}
+
+.blank20 {
+  height:20px;
+}
+
+.blank30 {
+  height:30px;
+}
+
+.padding10 {
+  padding:10px;
+}
+
+.padding20 {
+  padding:20px;
+}
+
+.margin5 {
+  margin:5px;
+}
+
+.padding5 {
+  padding:5px;
+}
+
+.blank5 {
+  clear:both;
+  height:5px;
+  overflow:hidden;
+}
+
+.hr {
+  clear:both;
+  height:1px;
+  background:url(point.gif) left bottom repeat-x;
+}
+
+.button {
+	background:url(buttom_bg.gif) right top no-repeat;
+	height:20px;
+	cursor:pointer;
+	text-align:center;
+	padding:2px 10px;
+	border:1px solid #879DAB;
+	color:#395366;
+	overflow:hidden;
+}
+
+.vote {
+  margin-bottom:10px;
+}
+
+.vote h5 {
+  line-height:16px;
+  text-align:center;
+  font-size:12px;
+}
+
+.vote li {
+
+}
+
+.title {
+  height:30px;
+  line-height:30px;
+  padding:0px 10px 0px 20px;
+  color:#FF6600;
+  background:url(icon04.gif) 2px 10px no-repeat;
+  _background:url(icon04.gif) 2px 3px no-repeat;
+}
+
+.title_red {
+  height:30px;
+  line-height:30px;
+  padding:0px 10px;
+  color:white;
+  background:url(title_red.png) left top repeat-x;
+}
+
+.title_red a {color:white;}
+
+.title span,.title_red span,.title_black span {
+  padding-left:10px;
+  color:#CCC;
+}
+
+.title span {
+  padding-left:0px;
+  padding-right:10px;
+}
+
+.title_black {
+  height:35px;
+  line-height:30px;
+  padding:0px 10px;
+  color:white;
+  background:url(title_black.gif) left top no-repeat;
+}
+
+.title_gray {
+  height:24px;
+  line-height:24px;
+  font-size:12px;
+  background:#F5F5F5 url(title_gray.gif) left top repeat-x;
+}
+
+.title_gray h5 {
+  padding-left:20px;
+  font-size:12px;
+  background:url(icon05.gif) 5px 8px no-repeat;
+}
+
+h5 span {
+  font-weight:normal;
+  color:#999;
+}
+
+/* 
+  --------------------------------------
+  *****  10.tab (切换)   *****
+  --------------------------------------
+*/
+
+.dis {display:block;}
+.undis {display:none;}
+
+
+/* 
+  --------------------------------------
+  *****  11.ad (广告)   *****
+  --------------------------------------
+*/
+
+
+.vote-list li {
+  height:20px;
+  line-height:20px;
+  font-size:12px;
+  text-align:left;
+}
+
+.vote-list #button {
+  float:right;
+}
+
+#ballot {
+  height:10px;
+  _height:16px;
+  margin:0px 5px 0px 0px;
+}
+
+/*----------------------------
+					代码高亮
+----------------------------*/
+.dp-HighLighter {border:1px solid #ccc;background:#F7F7F7 url(codebg.gif) left top repeat-y;}
+.dp-HighLighter ol {padding-left:40px;}
+.dp-HighLighter ol li {
+  padding-left:10px;
+  list-style-type:decimal;
+}
+.tools {padding-left:10px;background:#F7F7F7;border-bottom:1px solid #ccc;}
+
+#tool {
+	font-size:12px;
+	line-height:20px;
+	border-top:1px solid #DDD;
+	border-bottom:1px solid #DDD;
+	height:20px;
+	margin:10px 0;
+	padding:10px 0 10px 10px;
+	overflow: hidden;
+}
+#tool ul {
+	float:left;
+}
+#tool ul li {
+	float:left;
+	width:90px;
+	line-height:20px;
+}
+#tool .commentary, #tool .print, #tool .copy, #tool .email, #tool .close, #tool .rss_2, #tool .t_1, #tool .t_2, #tool .t_3 {
+	background-image: url(tool.gif);
+	background-repeat: no-repeat;
+	background-position: left -20px;
+	height:20px;
+	line-height:20px;
+	padding:0 0 0 25px;
+	display:block;
+	margin:0 10px 0 0;
+	color:#333;
+}
+#tool .print {
+	background-position: left -40px;
+}
+#tool .copy {
+	background-position: left -80px;
+}
+#tool .email {
+	background-position: left -100px;
+}
+#tool .close {
+	background-position: left -60px;
+}
+#tool .rss_2 {
+	background-position: left -120px;
+}
+#tool .t_1 {
+	background-position: left -140px;
+}
+#tool .t_2 {
+	background-position: left -160px;
+}
+#tool .t_3 {
+	background-position: left -180px;
+}
+
+#tool .t_4 {padding-left:20px;background:url(comment.gif) left 3px no-repeat;}
+#tool .orders {padding-left:20px;background:url(orders.gif) left 2px no-repeat;}
+#tool .sinaicon {padding-left:20px;background:url(sinaicon.png) left 1px no-repeat;}

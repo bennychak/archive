@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>独立登录页 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+<link href="css/reg.dev.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="ui_single_login">
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                	<div id="logo_login">
+                    	<a class="logoimg" href="我的首页.shtml"><span>logo</span></a>
+                        <div class="right">
+                        	<div class="notice1">
+                            	<div class="in"><strong>您需要登录后才能继续浏览或操作！</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                	<div class="login_box">
+                    	<div class="list_t"></div>
+                    	<div class="list_m">
+                            <form action="" method="post">
+                                <table class="loginbox" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td><input class="user toggletxt" type="text" value="邮箱" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input class="user togglepass tginput_img1" type="password" value="" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><input type="checkbox" /> 下次自动登录</label> <span><a href="#">找回密码</a> <a href="注册.shtml"><strong>立即注册</strong></a></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="loginsubmit"><input type="button" value="登录推博" onclick="javascript:window.location.href='我的首页.shtml'" /><!--submit--></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    	<div class="list_b"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain
+            </div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+    </div>
+</div>
+
+</div>
+</body>
+</html>

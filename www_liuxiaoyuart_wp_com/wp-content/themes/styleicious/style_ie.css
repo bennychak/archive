@@ -1,0 +1,18 @@
+/*  
+Theme Name: Styleicious
+Theme URI: http://www.thaslayer.com/
+Description: Great looking web 2.0 wordpress template with ajax addons.
+Author: ThaSlayer
+Author URI: http://www.thaslayer.com/
+*/
+
+.comment_form_textarea {margin-right:-500px;}
+.comment_form_input {margin-right:-550px;}
+.post_number{margin-top:20px;}
+.comment_meta{padding-top:15px;}
+.footer_list li a,.footer_list li a:active,.footer_list li a:visited{white-space:normal;overflow:hidden;height:20px;}
+.footer_right{margin-left:665px;}
+.post_meta{overflow:visible;height:20px;}
+.comment_form_h2{position:absolute;top:10px;left:-25px;}
+.comment_form_submit_h{padding-left:45px;}
+.comment_form_c{padding-bottom:370px;}

@@ -1,0 +1,13 @@
+<div class="nav">
+    <ul class="menu">
+        <li class="selected"><div class="menuside"></div><a class="icon16 menu_album_pic" href="我的好友.shtml"><span></span>我的好友</a></li>
+        <li><a href="我的粉丝.shtml">我的粉丝</a></li>
+        <li><a href="最近访问.shtml">最近访问</a></li>
+        <li><a href="查找好友.shtml">查找好友</a></li>
+        <li><a href="邀请好友.shtml">邀请好友</a></li>
+        <li><a class="icon16 menu_album_uploadpic" href="黑名单.shtml"><span class="menu_album_uploadpic"></span>黑名单</a></li>
+    </ul>
+    <div class="menu_right"></div>
+    
+    <!--#include file="topsearch.shtml"-->
+</div>

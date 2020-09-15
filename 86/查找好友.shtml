@@ -1,0 +1,865 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>查找好友 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/好友导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <div class="content_bar">
+                        <div class="sacard contentinfo listborder">
+                        	<span class="last"><a class="selected" name="workmate" href="#">查找同事</a></span>
+                            <span><a name="classmate" href="#">查找同学</a></span>
+                            <span><a name="forname" href="#">按姓名查找</a></span>
+                            <span><a name="focussearch" href="#">精确查找</a></span>
+                            <span><a name="whomsn" href="#">MSN联系人中谁在推博</a></span>
+                            <span><a name="whomail" href="#">E-mail通讯录里谁在推博</a></span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="content_bar">
+                    	<div class="contentinfo">找到5位相关用户 <a href="#">重新查找</a></div>
+                    </div>
+                    <div id="avatarlist2">
+                        <ul class="avatarlist">
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <p class="icon16 offline"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                    <p class="shortintro">北京推博信息技术有限公司</p>
+                                    <p class="icon_more">
+                                        <a class="icon16 nofriendrelative" href="#"><span></span><span class="note">加为好友</span></a>
+                                        <a class="icon16 addfollow" href="#"><span></span><span class="note">关注</span></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <p class="icon16 offline"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                    <p class="shortintro">北京推博信息技术有限公司</p>
+                                    <p class="icon_more">
+                                        <a class="icon16 nofriendrelative" href="#"><span></span><span class="note">加为好友</span></a>
+                                        <a class="icon16 addfollow" href="#"><span></span><span class="note">关注</span></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <p class="icon16 offline"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                    <p class="shortintro">北京推博信息技术有限公司</p>
+                                    <p class="icon_more">
+                                        <a class="icon16 nofriendrelative" href="#"><span></span><span class="note">加为好友</span></a>
+                                        <a class="icon16 addfollow" href="#"><span></span><span class="note">关注</span></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <p class="icon16 offline"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                    <p class="shortintro">北京推博信息技术有限公司</p>
+                                    <p class="icon_more">
+                                        <a class="icon16 nofriendrelative" href="#"><span></span><span class="note">加为好友</span></a>
+                                        <a class="icon16 addfollow" href="#"><span></span><span class="note">关注</span></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <p class="icon16 offline"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                    <p class="shortintro">北京推博信息技术有限公司</p>
+                                    <p class="icon_more">
+                                        <a class="icon16 nofriendrelative" href="#"><span></span><span class="note">加为好友</span></a>
+                                        <a class="icon16 hasfollowed" href="#"><span></span><span class="note">已关注</span></a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div id="workmate">
+                            <form action="" method="post">
+                                <table class="f_table1 friendsearch" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <th>姓名</th>
+                                        <td><input class="input2" type="text" /></td>
+                                    </tr>
+                                    <tr>
+                                        <th>公司</th>
+                                        <td><input class="input2" type="text" /></td>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <th>
+                                            <div class="tbminbtnbox">
+                                                <div class="btn commentsub"><input type="submit" value="查找"></div>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                        <div id="classmate" class="none">
+                            <form action="" method="post">
+                                <table class="f_table1 friendsearch" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <th>姓名</th>
+                                        <td><input class="input2" type="text" /></td>
+                                    </tr>
+                                    <tr>
+                                        <th>学校</th>
+                                        <td><select><option>大学</option></select> <input class="input2" type="text" /> <select><option>入学年份</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <th>
+                                            <div class="tbminbtnbox">
+                                                <div class="btn commentsub"><input type="submit" value="查找"></div>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                        <div id="forname" class="none">
+                            <form action="" method="post">
+                                <table class="f_table1 friendsearch" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <th>姓名</th>
+                                        <td><input class="input2" type="text" /></td>
+                                    </tr>
+                                    <tr>
+                                        <th>居住城市</th>
+                                        <td><input class="input2" type="text" /></td>
+                                    </tr>
+                                    <tr>
+                                        <th>性别</th>
+                                        <td><select><option>全部</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <th>出生年份</th>
+                                        <td><select><option>全部</option><option>1985-1989</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <th>
+                                            <div class="tbminbtnbox">
+                                                <div class="btn commentsub"><input type="submit" value="查找"></div>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                        <div id="focussearch" class="none">
+                            <form action="" method="post">
+                                <table class="f_table1 friendsearch" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <th>对方账号</th>
+                                        <td><input class="input2" type="text" /></td>
+                                        <th>
+                                            <div class="tbminbtnbox">
+                                                <div class="btn commentsub"><input type="submit" value="查找"></div>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>对方推博网ID</th>
+                                        <td><input class="input2" type="text" /></td>
+                                        <th>
+                                            <div class="tbminbtnbox">
+                                                <div class="btn commentsub"><input type="submit" value="查找"></div>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                        <div id="whomsn" class="none">
+                            <form action="" method="post">
+                                <table class="f_table1 friendsearch" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <th>MSN账号</th>
+                                        <td><input class="input2" type="text" /></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>MSN密码</th>
+                                        <td><input class="input2" type="text" /></td>
+                                        <td>
+                                        	<div class="ar1"><div>我们不会记录你的密码，你也可以先修改密码再导入联系人，成功后再改回原始密码。</div></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <th>
+                                            <div class="tbminbtnbox">
+                                                <div class="btn commentsub"><input type="submit" value="查找"></div>
+                                            </div>
+                                        </th>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                        <div id="whomail" class="none">
+                            <form action="" method="post">
+                                <table class="f_table1 friendsearch" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <th>邮箱地址</th>
+                                        <td><input class="input2" type="text" /></td>
+                                        <td>@ <select><option>hotmail.com</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <th>邮箱密码</th>
+                                        <td><input class="input2" type="text" /></td>
+                                        <td>
+                                            <div class="ar1"><div>我们不会记录你的密码，你也可以先修改密码再导入联系人，成功后再改回原始密码。</div></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <th>
+                                            <div class="tbminbtnbox">
+                                                <div class="btn commentsub"><input type="submit" value="查找"></div>
+                                            </div>
+                                        </th>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                    <h2>你有15位可能认识的人</h2>
+                    <div id="avatarlist3" class="fn_avatar_hover">
+                        <ul class="avatarlist">
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                                <div class="layer4 fix_layer">
+                                    <div class="statearrow3"></div><p>移除好友</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="删除"></div><div class="btn btn2"><input type="reset" value="黑名单"></div></div>
+                                    <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 offline"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="showmore"><a href="#"><strong>显示更多</strong>&gt;&gt;</a></div>
+                    <h2>你有15位<a href="#">中青旅</a>的同事</h2>
+                    <div id="avatarlist3" class="fn_avatar_hover">
+                        <ul class="avatarlist">
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                                <div class="layer4 fix_layer">
+                                    <div class="statearrow3"></div><p>移除好友</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="删除"></div><div class="btn btn2"><input type="reset" value="黑名单"></div></div>
+                                    <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 offline"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="showmore"><a href="#"><strong>显示更多</strong>&gt;&gt;</a></div>
+                    <h2>你有15<a href="#">位清华大学经济管理学院</a>的同学</h2>
+                    <div id="avatarlist3" class="fn_avatar_hover">
+                        <ul class="avatarlist">
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                                <div class="layer4 fix_layer">
+                                    <div class="statearrow3"></div><p>移除好友</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="删除"></div><div class="btn btn2"><input type="reset" value="黑名单"></div></div>
+                                    <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 offline"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除好友"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="showmore"><a href="#"><strong>显示更多</strong>&gt;&gt;</a></div>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

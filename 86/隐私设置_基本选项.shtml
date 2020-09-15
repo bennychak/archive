@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>隐私设置_基本选项 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+<div id="ui_setpravite">
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/设置导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <div class="content_bar">
+                        <div class="contentinfo listborder">
+                        	<span class="last">基本选项</span>
+                            <span><a href="隐私设置_我的动态.shtml">我的动态</a></span>
+                            <span><a href="隐私设置_好友阻止.shtml">好友阻止</a></span>
+                            <span><a href="黑名单.shtml">黑名单</a></span>
+                        </div>
+                    </div>
+                    <hr />
+                    <form method="post" action="">
+                        <h4>"我的首页"访问权限</h4>
+                        <dl>
+                            <dd><input name="index_rights" type="radio" /> 任何人</dd>
+                            <dd><input name="index_rights" type="radio" /> 仅好友</dd>
+                            <dd><input name="index_rights" type="radio" /> 隐藏</dd>
+                            <dd><input name="index_rights" type="radio" /> <a href="#">对部分好友隐藏</a></dd>
+                        </dl>
+                        <h4>谁能给我留言和评论</h4>
+                        <dl>
+                            <dd><input name="comment_rights" type="radio" /> 任何人</dd>
+                            <dd><input name="comment_rights" type="radio" /> 仅好友</dd>
+                            <dd><input name="comment_rights" type="radio" /> 关闭留言和评论功能</dd>
+                        </dl>
+                        <div class="tbminbtnbox"><div class="btn btn4"><input type="submit" value="保存设置"></div></div>
+                    </form>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</div>
+</body>
+</html>

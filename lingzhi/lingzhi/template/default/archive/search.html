@@ -1,0 +1,32 @@
+{template 'header.html'}<!-- 调用页头模板 -->
+<div id="c" style="background:none;">
+<div id="position">
+<span><a title="{get('sitename')}" href="{$base_url}">{get('sitename')}</a><a title="{lang(searchresult)}" href="#">{lang(searchresult)}</a></span><strong>{lang(nowposition)}</strong>
+</div>
+
+<div id="text" style="width:960px;">
+<div id="title"><span style="color:red;font-weight:bold;"> “{$keyword}” </span>{lang(searchresults)}：</div>
+<!-- 内容_内容简介列表 -->
+<ul class="news_list">
+		{loop $articles $article}
+		{cb_data($article)}
+		<li><span class="date">{$article['adddate']}</span>[<a href="{$article[caturl]}">{$article[catname]}</a>] <a href="{$article[url]}"><?php if($keyword) echo str_replace($keyword,"<span style=color:red;font-weight:bold;>$keyword</span>",$article['title']); else { ?>{$article[title]}<?php } ?></a>
+		{/loop}
+	</ul>
+	<div class="blank10"></div>
+	<!-- 内容列表分页 -->
+	<div class="pages">
+		<?php echo pagination::html($record_count,5); ?>
+	</div>
+<div class="blank10"></div>
+
+<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<!-- 调用页底模板 -->
+{template 'footer.html'}

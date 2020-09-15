@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<link href="{$conf.url}/templates/{$conf.template}/css/celive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{$conf.url}/js/jquery.js"></script>
+<title>{$conf.company} 企业在线客服平台 - Powered by CElive</title>
+{$xajax_live}
+{literal} 
+<script type="text/javascript">
+var CEl = function()
+{
+xajax_GetEndChat('{/literal}{$chatid}{literal}');
+xajax_AdminChatHistory('{/literal}{$chatid}{literal}');
+setTimeout(CEl, {/literal}{$conf.tracker_refresh}{literal});
+}
+CEl();
+function scolldown() 
+{ 
+var e=document.getElementById("ChatHistory");
+e.scrollTop=e.scrollHeight; 
+}
+</script>
+{/literal}
+</head>
+<body>
+<div id="main">
+<div style="padding:0px 10px; height:280px">
+<div class="c">
+<div class="c_l pa10">
+<div id="right">
+<ul>
+<li>欢迎对CELive客服系统提出宝贵建议，请点击<a href="http://www.cmseasy.cn/index.php?case=guestbook&act=index" target="_blank" style="color:red;font-weight:bold;">留言</a>。 </li>
+<li><strong>联系电话：</strong>0434-5226595</li>
+<li><strong>传真号码：</strong>0434-5226595</li>
+<li class="blank10"></li>
+<li style="color:red;"><strong>服务QQ</strong></li>
+<li><strong>购买咨询：</strong>871148347</li>
+<li><strong>技术咨询：</strong>1121774038</li>
+<li><strong>产品建议：</strong>576979762</li>
+<li><strong>广告合作：</strong>592582493</li>
+<li><strong>商务合作：</strong>625569327</li>
+</ul>
+
+<div style="clear:both;"></div>
+</div>
+<div class="f_l">
+<div id="middle">
+<div style="padding:10px;margin-right:212px;">
+<div id="ChatHistory"></div>
+</div>
+</div>
+</div>
+<div style="clear:both;"></div>
+</div>
+<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+</body>
+</html>

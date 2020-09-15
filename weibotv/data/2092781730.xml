@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2092781730</channel_id>
+<channel_name><![CDATA[深圳财经]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24057523]]></cur_program_id>
+<cur_program_name><![CDATA[ 《中医养生大讲堂》]]></cur_program_name>
+<cur_program_time><![CDATA[18:00]]></cur_program_time>
+<next_program_name><![CDATA[ 首播《大卖场》]]></next_program_name>
+<next_program_time><![CDATA[18:35]]></next_program_time>
+<def_program><![CDATA[	]]></def_program>
+<channel_desc><![CDATA[以平民化的视角、热情服务的理念和权威的可信度,及时传递百姓关注的资讯和相关深度报道...]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/shcj.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shenzhencaijing.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shenzhen.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100038</chat_id>
+   <chat_title><![CDATA[深圳财经生活频道]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[深圳电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[ 《中医养生大讲堂》]]></pn>
+		<tm><![CDATA[00:15]]></tm>
+		<id><![CDATA[24057500]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 《财金直通车》]]></pn>
+		<tm><![CDATA[00:50]]></tm>
+		<id><![CDATA[24057501]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 重播《商旅时间》]]></pn>
+		<tm><![CDATA[01:10]]></tm>
+		<id><![CDATA[24057502]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 重播《非常财经观察》]]></pn>
+		<tm><![CDATA[01:26]]></tm>
+		<id><![CDATA[24057503]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 重播《中国股市报道》]]></pn>
+		<tm><![CDATA[01:57]]></tm>
+		<id><![CDATA[24057504]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 《高端讲坛》]]></pn>
+		<tm><![CDATA[02:33]]></tm>
+		<id><![CDATA[24057505]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 测试卡]]></pn>
+		<tm><![CDATA[03:04]]></tm>
+		<id><![CDATA[24057506]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 晨曲、开台、礼貌用语]]></pn>
+		<tm><![CDATA[06:59]]></tm>
+		<id><![CDATA[24057507]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 重播《经济生活报道》]]></pn>
+		<tm><![CDATA[07:01]]></tm>
+		<id><![CDATA[24057508]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 《影像中国》]]></pn>
+		<tm><![CDATA[07:47]]></tm>
+		<id><![CDATA[24057509]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 重播《中国股市报道》]]></pn>
+		<tm><![CDATA[08:18]]></tm>
+		<id><![CDATA[24057510]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 广告专题]]></pn>
+		<tm><![CDATA[08:54]]></tm>
+		<id><![CDATA[24057511]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 《中国股市》上午时段]]></pn>
+		<tm><![CDATA[09:00]]></tm>
+		<id><![CDATA[24057512]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 重播《非常财经观察》]]></pn>
+		<tm><![CDATA[12:03]]></tm>
+		<id><![CDATA[24057513]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 重播《财金直通车》]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24057514]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 首播《商旅时间》]]></pn>
+		<tm><![CDATA[12:47]]></tm>
+		<id><![CDATA[24057515]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 《中国股市》下午时段]]></pn>
+		<tm><![CDATA[13:00]]></tm>
+		<id><![CDATA[24057516]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 重播《大卖场》]]></pn>
+		<tm><![CDATA[15:12]]></tm>
+		<id><![CDATA[24057517]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 《财经或生活类专题》]]></pn>
+		<tm><![CDATA[15:25]]></tm>
+		<id><![CDATA[24057518]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 《财经或生活类专题》]]></pn>
+		<tm><![CDATA[15:58]]></tm>
+		<id><![CDATA[24057519]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 首播《高端讲坛》]]></pn>
+		<tm><![CDATA[16:26]]></tm>
+		<id><![CDATA[24057520]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 重播《财富博客》]]></pn>
+		<tm><![CDATA[16:59]]></tm>
+		<id><![CDATA[24057521]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 《财经或生活类专题》]]></pn>
+		<tm><![CDATA[17:32]]></tm>
+		<id><![CDATA[24057522]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[ 《中医养生大讲堂》]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24057523]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 首播《大卖场》]]></pn>
+		<tm><![CDATA[18:35]]></tm>
+		<id><![CDATA[24057524]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 首播《中国股市报道》]]></pn>
+		<tm><![CDATA[18:50]]></tm>
+		<id><![CDATA[24057525]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ +广告]]></pn>
+		<tm><![CDATA[19:25]]></tm>
+		<id><![CDATA[24057526]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 直播《非常财经观察》]]></pn>
+		<tm><![CDATA[19:30]]></tm>
+		<id><![CDATA[24057527]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 首播《财富博客》]]></pn>
+		<tm><![CDATA[20:00]]></tm>
+		<id><![CDATA[24057528]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 直播《经济生活报道》]]></pn>
+		<tm><![CDATA[20:35]]></tm>
+		<id><![CDATA[24057529]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 电视剧]]></pn>
+		<tm><![CDATA[21:25]]></tm>
+		<id><![CDATA[24057530]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 《专题节目》]]></pn>
+		<tm><![CDATA[23:10]]></tm>
+		<id><![CDATA[24057531]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 《生活乐园》]]></pn>
+		<tm><![CDATA[23:40]]></tm>
+		<id><![CDATA[24057532]]></id>
+	</p>
+
+</root>

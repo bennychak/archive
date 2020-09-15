@@ -1,0 +1,28 @@
+
+<?php if(isset($user) && is_array($user)) { ?>
+
+Welcome， {$user.username}!<br>
+<a href="{url('user/logout')}">Logout</a>
+ | <a href="{url('user')}" target="_blank">Member</a>
+{if $user['groupid']=='888'}
+ | <a href="{$admin_url}" target="_blank">Admin</a>
+{/if}
+<?php }else{ ?>
+
+<form id="login_form"   name="loginform" method="post"  action="{url('user/login')}" onsubmit="return checkform();">
+UserName：<input type='text' id="username"  name="username" size="16"/><br>
+Password：<input type='password' id="password"  name="password" size="17"/><br>
+Code：<input type='text' id="verify"  name="verify" size="4"/>
+{verify()}<br>
+Validity: <select name="expire">
+<option value="<?php echo 0; ?>">To the browser is closed</option>
+<option value="<?php echo 3600; ?>">One Hour</option>
+<option value="<?php echo 3600*24; ?>">One Day</option>
+<option value="<?php echo 3600*24*7; ?>">One Week</option>
+<option value="<?php echo 3600*24*30; ?>">One Month</option>
+<option value="<?php echo 3600*24*365; ?>">One Year</option>
+</select><br>
+<input type='submit' name="submit" value=" Login " style="margin-left:30px"/>
+<input type='button' name="register" value=" Register " onclick="javascript:location.href='{url('user/register')}'"  style="margin-left:10px">
+</form>
+<?php } ?>

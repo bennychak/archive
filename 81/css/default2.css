@@ -1,0 +1,26 @@
+.skin_cm{ text-decoration:none}
+.diary_datetitle {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; color:#999999 font-size: 8pt; font-weight: bold; text-align: center; border-color: #cccccc; border-style: solid; border-width: 1px}
+.line {  border-color: black black #CCCCCC; border-style: dotted; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.topbg {background-color: #003562}
+td {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 8pt; line-height:1.5}
+body{ color:#000000;}
+.tt_title {  font-family: "georgia", "Arial", "Helvetica", "sans-serif"; font-size: 30px; color: #ffffff; font-weight: bold}
+.dis_tag { }
+a { color: #003562; text-decoration: none}
+a:hover {  color: #9D0A0F; text-decoration: none}
+.diary_bg2 { color:#3e3e3e;}
+.diary_bg1 { color:#3e3e3e;}
+.diary_arr { cursor: hand}
+.diary_poster {  color: orange}
+.diary_title {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 10pt; font-weight: bolder}
+.ubb_quote {  background-color: #fbfbfb; border-color: #999999; border-style: solid; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 1px}
+.ubb_code {  background-color: #f2f2f2; border-color: #999999; border-style: dotted; border-width: 1px}
+.left { background-color: #efefef}
+.newfm {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 9pt}
+.ubb_move {  }
+.ubb_fly {  }
+.but2 { font-size: 9pt; border: 1px #CCCCCC none; color: #006633 }
+.2 {  font-family: "georgia", "Arial", "Helvetica", "sans-serif"; font-size: 10pt; font-weight: bold}
+.hl {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 9pt; color: #000000; background-color: #FFCCCC}
+.lt {  text-decoration: underline overline line-through; color: #000000;}
+.marktxt_align1 { text-align: left} /* CSS Document */

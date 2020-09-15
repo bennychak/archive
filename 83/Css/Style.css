@@ -1,0 +1,92 @@
+/*通用_基本信息*/
+body { background:#F4F4F4; margin:0; font-size:12px; color:#333; font-family:Tahoma,Verdana,"宋体"; }
+ul,li{ list-style:none;}
+td {}
+a { color:#333; text-decoration:none; }
+a:hover { color:#f00; }
+img,form,ul,p{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	}
+input,textarea { }
+h1 { margin:0; margin-bottom:10px; padding:10px 0; text-align:center; border-bottom:#CCC 1px dotted;}
+h2 { margin:0; margin-bottom:10px; padding:5px;}
+h3 { margin-top:-16px; font-size: 12px; font-weight:normal; color:#666; }
+h3 a{ color:#666; }
+
+/*通用_各色文本链接样式*/
+.White {color:#fff; line-height:20px;}
+.White a{color:#fff;line-height:20px;}
+.White a:hover{color:#f00;}
+.Black-bbb {color:#bbb;font-size:11px;}
+.Black-222 {color:#222;font-size:11px;}
+.Blac-666 {color:#666;}
+.Red-F60 {color:#F60; font-weight:bold;}
+
+/*通用_用户录登文本框和搜索框Login Login_index Login_page Search_index Search_page*/
+
+/*通用_页面容器*/
+#Container {/*background:#fff;*/ margin:0 auto;/* width:960px;*/}
+
+/*通用_页面头部Header Header_index Header_page*/
+#Header { clear:both; overflow:hidden;}
+#Header_navigation{ float:left; padding: 10px 0 0 0; }
+#Header_navigation ul { margin:0; padding:0;}
+#Header_navigation li { display:inline; list-style-type:none; }
+#Header_navigation li a { font-weight:bold; }
+#Header_search { float:right; clear: top left;}
+
+/*通用_主体容器Bodyer Bodyer_index Bodyer_page Bodyer_left/center/right_index Bodyer_left/center/right_page */
+#Bodyer_index { clear:both; overflow:hidden;/* border-bottom:#CCC 1px dotted;*/ }
+#Bodyer_page { clear:both; overflow:hidden; border-bottom:#CCC 1px dotted; }
+#Bodyer_banner_page { margin:auto; }
+
+/*通用_页面底部Footer Footer_index Footer_page*/
+#Footer {/* background-color:#FFF;*/ overflow:hidden; padding:10px; text-align:center;}
+#Footer_left { float: left;}
+#Footer_right { float: right;margin-top:2px;}
+
+/*首页_主体左边*/
+#Bodyer_left_index {float: left; width:230px;}
+
+/*首页_主体右边*/
+#Bodyer_right_index { margin-left:230px; border-left:#CCC 1px dotted;}	
+.Bodyer_right_index_list { padding-left:42px; padding-top:12px; text-align:left; }
+.Bodyer_right_index_news { overflow:hidden;}
+.Bodyer_right_index_news .picNews{float:left; margin-right:20px; width:135px; height:138px; }
+
+/*内页_主体左边*/
+#Bodyer_left_page { float:left; width:200px; padding-bottom:30px;}
+.Bodyer_left_page_title { width:200px; height:63px; border-bottom: 1px solid #d0e3ee;}
+.Bodyer_left_page_menu { width:200px;  line-height:26px; text-align:left; background: url(../Images/bg_10.gif); }
+.Bodyer_left_page_menu a{ padding-left:14px; background: url(../Images/Arrow_04.gif) 0px  no-repeat; }
+
+/*内页_主体右边*/
+#Bodyer_right_page { margin-left:200px; border-left:#CCC 1px dotted;}
+.Bodyer_right_page_location { border-bottom:#CCC 1px dotted; border-top:#CCC 1px dotted; text-align:left; padding:9px 0 9px 12px; color:#666;}
+.Bodyer_right_page_location a{ color:#666; }
+.Bodyer_right_page_content { padding:20px 29px 15px 29px; text-align:left; line-height:180%; overflow:hidden;}
+.Bodyer_right_page_content_infolist { float: left; width:542px; font-size:14px; }
+.Bodyer_right_page_content_infolist a:hover{ text-decoration:underline; }
+.Bodyer_right_page_content_infolist a:visited{	color:#600; }
+.Bodyer_right_page_content_pro1 { float: left; width:176px; height:240px; }
+.Bodyer_right_page_content_pro2 { margin-left:206px;}
+.Bodyer_right_page_content_pro2 img{ margin:6px 4px 0 0; vertical-align : middle; }
+.Bodyer_right_page_content_pro3 { padding-top:30px;}
+
+.Bodyer_right_page_content_mes1 { clear: top left; border-bottom:#CCC 1px dotted;}
+.Bodyer_right_page_content_mes1 img{ margin:0 6px 0 0 ;}	
+.Bodyer_right_page_content_mes2 { float: left; clear: top left; padding:8px 0 18px 0; width:100%; line-height:180%; word-break:break-all;}
+.Bodyer_right_page_content_bill1 { float: left; clear:top left; background:url(../Images/bg_09.gif) bottom repeat-x;}
+.Bodyer_right_page_content_bill2 { float: left; clear:top left; font-size:14px; padding-left:24px; line-height:220%;background: url(../images/Arrow_bill.gif) 0px 8px no-repeat;}
+.Bodyer_right_page_content_bill3 { float: right; clear:top left; width:58px; margin-top:11px; background:#EFEFEF; line-height:150%; font-size:12px; text-align:center; border: 1px solid #ddd; }
+.Bodyer_right_page_content_bill4 {float:left;clear: top left; width:578px; background:#efefef; line-height:160%; border-right:1px solid #ddd; border-bottom:1px solid #ddd; border-left:1px solid #ddd; padding:6px; }
+.Bodyer_right_page_end { padding:15px 29px 15px 29px;  text-align:right; }
+
+#mainMenu{
+	float:left;
+	padding-top:3px;
+	list-style-type:none;
+	}
+#mainMenu ul li{ float:left; margin:0 10px;}

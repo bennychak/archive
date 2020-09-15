@@ -1,0 +1,85 @@
+{template 'header.html'}
+<div id="c">
+	<div id="sidebar">
+	{template 'left.html'}
+	</div>
+
+	<div id="right">
+		{template 'position.html'}
+		<div id="text" style="width:630px;">
+			<div class="text">
+<style>
+table {background:url({$skin_path}/l_bg.jpg) right bottom no-repeat;}
+table tr td {height:38px;line-height:38px;font-size:14px;}
+.input {width:170px;height:28px;line-height:28px;padding-left:10px;border:1px solid white;border-bottom:1px solid #CCC;}
+#tdLeft {width:180px;}
+</style>
+<form action="{uri()}" method="post">
+<table width="100%" border="0" cellspacing="3" cellpadding="3"> 
+      <tr> 
+        <td width="20%" align="right">{lang(productname)}：</td> 
+        <td width="80%">{$archive[title]}</td> 
+      </tr> 
+      <tr> 
+        <td width="20%" align="right">{lang(productprice)}：</td> 
+        <td width="80%">{$archive[attr2]}</td> 
+      </tr> 
+      <tr> 
+        <td align="right">{lang(pintro)}：</td> 
+        <td rowspan="2" valign="top">{$archive[content]}</td> 
+      </tr> 
+      <tr> 
+        <td>&nbsp;</td> 
+      </tr> 
+
+      <tr> 
+        <td width="20%" align="right">{lang(pordernums)}：</td> 
+        <td width="80%"><input type="text" size="10" maxlength="10" name="pnums" /> 
+          </td> 
+      </tr> 
+      <tr> 
+        <td align="right">{lang(ordercontactname)}：</td> 
+        <td><input type="text" size="20" name="pname" /> 
+          <font color="green">{lang(pcontactnametips)}</font></td> 
+      </tr> 
+      <tr> 
+        <td align="right">{lang(ordertel)}：</td> 
+        <td><input type="text" size="10" name="telphone" /> 
+          <font color="green">{lang(pcontactteltips)}</font></td> 
+      </tr> 
+      <tr> 
+        <td align="right">{lang(orderaddress)}：</td> 
+        <td><input type="text" size="50" name="address"/></td> 
+      </tr> 
+      <tr> 
+        <td align="right">{lang(postcode)}：</td> 
+        <td><input type="text" size="10" name="postcode"/></td> 
+      </tr> 
+      <tr> 
+        <td align="right">{lang(ordercontent)}：</td> 
+        <td rowspan="2" valign="top"><textarea name="content" cols="51" rows="7"></textarea> 
+         </td> 
+      </tr> 
+      <tr> 
+        <td>&nbsp;</td> 
+      </tr> 
+      <tr> 
+        <td align="right">&nbsp;</td> 
+        <td><input type="submit" name="submit" value=" {lang(submit)} " /> 
+        <input type="reset" value=" {lang(reset)} " /> 
+          </td> 
+      </tr> 
+    </table> 
+</form>
+</div>
+			<div class="blank10"></div>
+		</div>
+		<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+
+{template 'footer.html'}

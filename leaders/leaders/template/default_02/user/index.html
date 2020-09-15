@@ -1,0 +1,84 @@
+{template 'user/head.html'}
+<div id="position">
+<a href="javascript :history.back(-1)" title="返回上一页"><img alt="返回上一页" src="{$base_url}/images/user/undo.gif" style="float:right;" /></a>当前位置：会员信息
+</div>
+<div class="padding5">
+<img src="{$base_url}/images/user/wj.gif" style="margin-right:10px;" />欢迎来到会员信息页面。
+</div>
+
+<div class="blank10"></div>
+
+<table border="0" cellspacing="1" cellpadding="4" class="list" name="table" id="table"> <thead>
+<tr>
+<th align="center" class="left">
+<a href="{url('user/index')}" style="color:black;">用户信息</a></th>
+<th align="left"><a href="<?php echo url('user/edit/table/user'); ?>" style="font-weight:normal;">编辑信息</a></th>
+</tr> </thead>
+
+<tbody>
+		<tr>
+<td align="center" class="left">ID </td>
+<td>{$user[userid]}</td>
+</tr>
+
+<tr>
+<td align="center" class="left">用户名 </td>
+<td align="left">{$user[username]}</td>
+</tr>
+
+<tr>
+<td align="center" class="left">安全问题 </td>
+<td align="left">{$user[question]}</td>
+</tr>
+
+<tr>
+<td align="center" class="left">您的答案</td>
+<td align="left">{$user[answer]}</td>
+</tr>
+
+<tr>
+<td align="center" class="left">联系电话</td>
+<td align="left">{$user[tel]}</td>
+</tr>
+
+<tr>
+<td align="center" class="left">联系邮箱</td>
+<td align="left">{$user[e_mail]}</td>
+</tr>
+
+<tr>
+<td align="center" class="left">联系地址</td>
+<td align="left">{$user[address]}</td>
+</tr>
+
+<tr>
+<td align="center" class="left">联系QQ</td>
+<td align="left">{$user[qq]}</td>
+</tr>
+
+<tr>
+<td align="center" class="left">详细信息 </td>
+<td align="left">{$user[intro]}</td>
+</tr>
+ {loop $field $f}
+            <?php
+            $name=$f['name'];
+            if(!eregi('^my_',$name)) {
+            unset($field[$name]);
+            continue;
+            }
+            if(!isset($data[$name])) $data[$name]='';
+            ?>
+            <tr>
+                <td align="center" class="left"><?php echo setting::$var['user'][$name]['cname']; ?></td>
+                <td align="left">
+                    <?php echo form::getform($name,$form,$field,$data); ?>
+                </td>
+            </tr>
+            {/loop}
+            
+      </tbody>
+    </table>
+</div>
+
+{template 'user/foot.html'}

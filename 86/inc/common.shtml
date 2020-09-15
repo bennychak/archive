@@ -1,0 +1,86 @@
+<!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />-->
+<link href="css/style.dev.css" rel="stylesheet" type="text/css" />
+<link href="css/common.dev.css" rel="stylesheet" type="text/css" />
+<link href="css/print.dev.css" rel="stylesheet" type="text/css" media="print">
+<link href="css/nyroModal.css" rel="stylesheet" type="text/css" />
+<script src="script/base.js" type="text/javascript"></script>
+<script src="script/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="script/jquery.nyroModal-1.6.2.js" type="text/javascript"></script>
+<script src="script/jquery.hotkeys.min.js" type="text/javascript"></script>
+<script src="script/main.js" type="text/javascript"></script>
+<!--[if lte IE 6]>
+<script src="script/DD_belatedPNG_0.0.7a-min.js"></script>
+<script type="text/javascript">
+  DD_belatedPNG.fix('span,img,.seinputbtn,.statearrow,.statearrow2,.statearrow3,.statearrow4,.statearrow5,.statearrow6,.faceselect,.albumtopic,.user_medal a,.nav .menu, .nav .menu_right, .nav .menu li a, .nav .menu li.selected span, .nav .menu li.selected a,.user_property li,.user_contact li,.headbox,.iconsp,.t_sh,.t_fa,.#t_box .left,.t_t,b,.category_nav_in li,.icon_system li b i');
+  /* 透明PNG图片IE6解决方案 */
+</script>
+
+<script type="text/javascript">
+    function alignHeight(eleA,eleB){
+      if(!document.getElementById(eleA)){return false;}
+      if(!document.getElementById(eleB)){return false;}
+      var heightA = document.getElementById(eleA).clientHeight;
+      var heightB = document.getElementById(eleB).clientHeight;
+      if(heightA > heightB){
+        document.getElementById(eleB).style.height = heightA + "px";
+        document.getElementById(eleA).style.height = heightA + "px";
+      }else{
+        document.getElementById(eleA).style.height = heightB + "px";
+        document.getElementById(eleB).style.height = heightB + "px";
+      }
+    }
+    window.onload =
+    function z_align(){
+      alignHeight("ui_left","ui_inmain"); //只需将需要对齐的两个模块的id写在此处即可。
+    //alignHeight("AAA","BBB") 可依此连续多组。
+    }
+</script>
+
+<![endif]-->
+
+<!--
+<script type="text/javascript">
+	function domo(){
+		$(document).bind('keydown', 'tab',function (evt){$('html').css("background-color","#F0F0F0"); return false; });
+		$(document).bind('keydown', 'tab',function (evt){$('#ui_wrap1').css("margin","0"); return false; });
+		$(document).bind('keydown', 'tab',function (evt){$('#ui_side .user_box .box_con').css("height","1545px"); return false; });
+
+/*
+		$(document).bind('keydown', 'tab',function (evt){$('#ui_side .user_box .box_con').css("background-color","#2D699D"); return false; });
+		$(document).bind('keydown', 'tab',function (evt){$('#ui_side').css("width","199px"); return false; });
+		$(document).bind('keydown', 'tab',function (evt){$('#ui_side').css("border-right","#2D699D 1px solid"); return false; });
+*/
+		$(document).bind('keydown', 'tab',function (evt){$('#logo').css("display","none"); return false; });
+		$(document).bind('keydown', 'tab',function (evt){$('#ui_contain').css("margin-top","50px"); return false; });
+		$(document).bind('keydown', 'tab',function (evt){$('.nav').css("margin-left","210px"); return false; });
+		$(document).bind('keydown', 'tab',function (evt){$('#ui_main').css("margin-left","210px"); return false; });
+	}
+	$(document).ready(domo);
+</script>
+-->
+<!--
+<style type="text/css">
+    .tb_wrap7 #ui_side{display:none;}
+    
+    .nav,
+    .tb_wrap7 #ui_main,
+    .copyright{margin-left:0;}
+    
+    #ui_wrap1,
+    .wrap1{margin:0; width:760px;}
+</style>
+-->
+
+<script type="text/javascript">
+$(function(){
+	if(top.location != self.location)      //当'我'不是最上级
+	{
+		$(".tb_wrap7 #ui_side").hide();
+		$(".nav,.tb_wrap7 #ui_main,.copyright").css("margin-left","0");
+		$("#ui_wrap1,.wrap1").css({margin:"0",width:"760px"});
+	}
+	else                 //当'我'是最上级
+	{
+	}
+	})
+</script>

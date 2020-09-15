@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3734750453</channel_id>
+<channel_name><![CDATA[湖南卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24056340]]></cur_program_id>
+<cur_program_name><![CDATA[娱乐无极限]]></cur_program_name>
+<cur_program_time><![CDATA[17:50]]></cur_program_time>
+<next_program_name><![CDATA[湖南新闻联播]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[秉持“快乐中国”的核心理念，注重品牌效应，全力打造“最具活力的中国电视娱乐品牌”！]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/hunatv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/hunan.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/hunan.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100004</chat_id>
+   <chat_title><![CDATA[湖南卫视]]></chat_title>
+   <chat_listname><![CDATA[支持]]></chat_listname>
+   <chat_listitem><![CDATA[快乐大本营|天天向上|8090|我们约会吧|勇往直前|越淘越开心|天下女人|一呼百应]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[湖南电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[非常靠谱]]></pn>
+		<tm><![CDATA[00:05]]></tm>
+		<id><![CDATA[24056325]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[我是大美人(重播)]]></pn>
+		<tm><![CDATA[00:50]]></tm>
+		<id><![CDATA[24057642]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[挑战麦克风(重播)]]></pn>
+		<tm><![CDATA[01:40]]></tm>
+		<id><![CDATA[24057645]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[湖南新闻联播(重播)]]></pn>
+		<tm><![CDATA[06:30]]></tm>
+		<id><![CDATA[24057648]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[挑战麦克风]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24056328]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧场]]></pn>
+		<tm><![CDATA[08:00]]></tm>
+		<id><![CDATA[24056331]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[09:00]]></tm>
+		<id><![CDATA[24057651]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[11:00]]></tm>
+		<id><![CDATA[24057654]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[播报多看点]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24057657]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[想唱就唱]]></pn>
+		<tm><![CDATA[13:00]]></tm>
+		<id><![CDATA[24056334]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:就想爱着你]]></pn>
+		<tm><![CDATA[13:30]]></tm>
+		<id><![CDATA[24058898]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧场]]></pn>
+		<tm><![CDATA[13:40]]></tm>
+		<id><![CDATA[24056337]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[14:00]]></tm>
+		<id><![CDATA[24057660]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[娱乐无极限]]></pn>
+		<tm><![CDATA[17:50]]></tm>
+		<id><![CDATA[24056340]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[湖南新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24057663]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24057666]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[智勇大冲关]]></pn>
+		<tm><![CDATA[19:30]]></tm>
+		<id><![CDATA[24056343]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[我们约会吧]]></pn>
+		<tm><![CDATA[20:25]]></tm>
+		<id><![CDATA[24056346]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧场:还珠格格]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24056349]]></id>
+	</p>
+
+</root>

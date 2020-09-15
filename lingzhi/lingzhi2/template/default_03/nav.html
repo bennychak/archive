@@ -1,0 +1,11 @@
+<div class="box">
+<div class="box_bg">
+		<div class="padding10">
+		<a href="{$basr_url}/" title="返回首页">粉立方首页</a>
+		{loop type('0','-hide') $t}
+		<a title="{$t[typename]}" href="{$t[url]}"{if isset($topid) && $topid==$t[typeid]} class="on"{/if}><span>{$t[typename]}</span></a>
+		{/loop}
+		</div>
+		</div>
+		<div class="box_bt"></div>
+	</div>

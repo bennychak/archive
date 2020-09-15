@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2414742998</channel_id>
+<channel_name><![CDATA[北京卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24059064]]></cur_program_id>
+<cur_program_name><![CDATA[养生堂]]></cur_program_name>
+<cur_program_time><![CDATA[17:38]]></cur_program_time>
+<next_program_name><![CDATA[北京新闻]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[	 
+	]]></def_program>
+<channel_desc><![CDATA[以新闻节目为主体，秉承大家风范，追求文化品位，坚持遍观全球的国际视角，打造最具全国影响力的节目平台。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/i1296115569_1.jpg]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/beijing.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/beijing.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100010</chat_id>
+   <chat_title><![CDATA[北京卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[北京电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[BTV秀场]]></pn>
+		<tm><![CDATA[00:13]]></tm>
+		<id><![CDATA[24059042]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《好梦剧场》30集剧:警中英雄（7）]]></pn>
+		<tm><![CDATA[01:15]]></tm>
+		<id><![CDATA[24059043]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《好梦剧场》30集剧:警中英雄（8）]]></pn>
+		<tm><![CDATA[02:01]]></tm>
+		<id><![CDATA[24059044]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《好梦剧场》30集剧:警中英雄（9）]]></pn>
+		<tm><![CDATA[02:48]]></tm>
+		<id><![CDATA[24059045]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《好梦剧场》30集剧:警中英雄（10）]]></pn>
+		<tm><![CDATA[03:35]]></tm>
+		<id><![CDATA[24059046]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《好梦剧场》30集剧:警中英雄（11）]]></pn>
+		<tm><![CDATA[04:22]]></tm>
+		<id><![CDATA[24059047]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[军情解码]]></pn>
+		<tm><![CDATA[05:09]]></tm>
+		<id><![CDATA[24059048]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[法治进行时]]></pn>
+		<tm><![CDATA[06:03]]></tm>
+		<id><![CDATA[24059049]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[养生堂精编版]]></pn>
+		<tm><![CDATA[06:23]]></tm>
+		<id><![CDATA[24059050]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[早间气象服务]]></pn>
+		<tm><![CDATA[06:53]]></tm>
+		<id><![CDATA[24059051]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[北京您早]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24059052]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[身边]]></pn>
+		<tm><![CDATA[08:36]]></tm>
+		<id><![CDATA[24059053]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《红星剧场》34集剧:永不磨灭的番号（27）]]></pn>
+		<tm><![CDATA[09:40]]></tm>
+		<id><![CDATA[24059054]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《红星剧场》34集剧:永不磨灭的番号（28）]]></pn>
+		<tm><![CDATA[10:34]]></tm>
+		<id><![CDATA[24059055]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[BTV秀场午间版]]></pn>
+		<tm><![CDATA[11:35]]></tm>
+		<id><![CDATA[24059056]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[特别关注]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24059057]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间气象服务]]></pn>
+		<tm><![CDATA[12:58]]></tm>
+		<id><![CDATA[24059058]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[身边精编版]]></pn>
+		<tm><![CDATA[13:03]]></tm>
+		<id><![CDATA[24059059]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《午茶剧场》40集剧:雪豹（23）]]></pn>
+		<tm><![CDATA[13:50]]></tm>
+		<id><![CDATA[24059060]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《午茶剧场》40集剧:雪豹（24）]]></pn>
+		<tm><![CDATA[14:49]]></tm>
+		<id><![CDATA[24059061]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《午茶剧场》34集剧:永不磨灭的番号（25）]]></pn>
+		<tm><![CDATA[15:43]]></tm>
+		<id><![CDATA[24059062]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《午茶剧场》34集剧:永不磨灭的番号（26）]]></pn>
+		<tm><![CDATA[16:39]]></tm>
+		<id><![CDATA[24059063]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[养生堂]]></pn>
+		<tm><![CDATA[17:38]]></tm>
+		<id><![CDATA[24059064]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[北京新闻]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24059065]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天气预报]]></pn>
+		<tm><![CDATA[18:56]]></tm>
+		<id><![CDATA[24059066]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[转播CCTV新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24059067]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[看气象]]></pn>
+		<tm><![CDATA[19:30]]></tm>
+		<id><![CDATA[24059068]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《红星剧场》34集剧:永不磨灭的番号（29）]]></pn>
+		<tm><![CDATA[19:42]]></tm>
+		<id><![CDATA[24059069]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[《红星剧场》34集剧:永不磨灭的番号（30）]]></pn>
+		<tm><![CDATA[20:33]]></tm>
+		<id><![CDATA[24059070]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[BTV秀场]]></pn>
+		<tm><![CDATA[21:30]]></tm>
+		<id><![CDATA[24059071]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[档案]]></pn>
+		<tm><![CDATA[22:25]]></tm>
+		<id><![CDATA[24059072]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[晚间气象服务]]></pn>
+		<tm><![CDATA[23:12]]></tm>
+		<id><![CDATA[24059073]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[军情解码]]></pn>
+		<tm><![CDATA[23:16]]></tm>
+		<id><![CDATA[24059074]]></id>
+	</p>
+
+</root>

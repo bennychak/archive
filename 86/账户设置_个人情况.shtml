@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>账户设置_个人情况 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+<div id="ui_setaccount">
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/设置导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <div class="content_bar">
+                        <div class="contentinfo listborder">
+                            <span class="last"><a href="账户设置_基本资料.shtml">基本资料</a></span>
+                        	<span>个人情况</span>
+                            <span><a href="账户设置_联系方式.shtml">联系方式</a></span>
+                            <span><a href="账户设置_教育情况.shtml">教育情况</a></span>
+                            <span><a href="账户设置_工作情况.shtml">工作情况</a></span>
+                            <span><a href="账户设置_头像照片.shtml">头像照片</a></span>
+                            <span><a href="账户设置_修改密码.shtml">修改密码</a></span>
+                            <span><a href="账户设置_账户安全.shtml">账户安全</a></span>
+                            <span><a href="账户设置_删除账户.shtml">删除账户</a></span>
+                        </div>
+                    </div>
+                    <hr />
+                    <form action="" method="post">
+                        <table class="setaccount fn_hoverbg" width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="80"></td>
+                                <td></td>
+                                <td width="100">谁可以看见</td>
+                                <td width="80">在首页显示</td>
+                            </tr>
+                            <tr>
+                                <td>我想结交：</td>
+                                <td><input class="input3" type="text" /></td>
+                                <td><select><option>任何人</option></select></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                            <tr class="area">
+                                <td>兴趣爱好：</td>
+                                <td><textarea></textarea></td>
+                                <td><select><option>仅好友</option></select></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                            <tr class="area">
+                                <td>喜欢的书：</td>
+                                <td><textarea></textarea></td>
+                                <td><select><option>仅好友</option></select></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                            <tr class="area">
+                                <td>喜欢的电影：</td>
+                                <td><textarea></textarea></td>
+                                <td><select><option>仅好友</option></select></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                            <tr class="area">
+                                <td>喜欢的电视：</td>
+                                <td><textarea></textarea></td>
+                                <td><select><option>仅好友</option></select></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                            <tr class="area">
+                                <td>偶像：</td>
+                                <td><textarea></textarea></td>
+                                <td><select><option>仅好友</option></select></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                            <tr>
+                                <td>座右铭：</td>
+                                <td><input class="input3" type="text" /></td>
+                                <td><select><option>仅好友</option></select></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                            <tr>
+                                <td>最近心愿：</td>
+                                <td><input class="input3" type="text" /></td>
+                                <td><select><option>仅好友</option></select></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                            <tr class="area">
+                                <td>我的简介：</td>
+                                <td><textarea></textarea></td>
+                                <td><select><option>仅好友</option></select></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                        </table>
+                        <div class="tbminbtnbox"><div class="btn btn4"><input type="submit" value="保存设置"></div></div>
+                    </form>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</div>
+</body>
+</html>

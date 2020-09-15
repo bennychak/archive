@@ -1,0 +1,11 @@
+<div class="nav">
+    <ul class="menu">
+        <li class="selected"><div class="menuside"></div><a class="icon16 menu_personal_pic" href="个人主页.shtml"><span></span>陈龙的个人主页</a></li>
+        <li><a href="#">他的推博</a></li>
+        <li><a href="#">他的资料</a></li>
+        <li><a href="相册.shtml">他的相册</a></li>
+    </ul>
+    <div class="menu_right"></div>
+    
+    <!--#include file="topsearch.shtml"-->
+</div>

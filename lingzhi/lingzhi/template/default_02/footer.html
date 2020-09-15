@@ -1,0 +1,19 @@
+<div class="bottom clear">
+<div class="logo_b"><a title="{get('sitename')}" href="{$site_url}"><h3>{get('sitename')}</h3></a></div>
+<div class="bottom_menu">
+<!-- {loop archive(1,0,0,'0,0,0',6,'aid',5,false,0) $i $archive}  -->
+<a href="{$archive[url]}" title="{$archive[title]}">{$archive[title]}</a>	|	
+<!-- {/loop} -->{login_js()}	|	
+<a href="{get(site_url)}index.php?case=manage&act=guestadd&manage=archive&guest=1">发布信息</a>	|	
+<a href="#">TOP</a>
+</div>
+<p>
+{get('site_right')}  <a href="http://www.miibeian.gov.cn/" target="_blank">{get('site_icp')}</a>
+<br />
+Copyright © 2010 <a href="{get(site_url)}">{get(sitename)}</a>. All Rights Reserved.</p>
+</div>
+<!-- 非商业用户请勿删除 -->
+<div class="copyright"><a href="http://www.cmseasy.cn" title="Powered by CmsEasy.cn" target="_blank">Powered by CmsEasy</a>&nbsp;&nbsp;{getcnzzcount()}</div>
+{template 'system/servers.html'}
+</body>
+</html>

@@ -1,0 +1,150 @@
+{template 'header.html'}
+<div id="mid">
+ {template 'left.html'}
+  <table width="628" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-left:22px;">
+    <tr>
+      <td>
+{template 'position.html'}
+</td>
+    </tr>
+    <tr>
+      <td height="16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+			
+            <table width="628" border="1" cellpadding="7" cellspacing="0" bordercolor="#EDEDED" style="margin-bottom:20px;">
+              <tr>
+                <td bgcolor="#EDEDED"><img src="{$skin_path}/arr3.gif" width="10" height="8" align="absmiddle" style="margin-right:6px;" /><font color="#CC0000"><strong>{$category[$catid][catname]}</strong></font> --- List</td>
+              </tr>
+              <tr>
+                <td>
+                
+               <div style="padding:10px 25px">
+
+<div style="text-align:center;color:red;"><?php if(hasflash()) { ?>
+<?php echo showflash(); ?>
+<?php } ?>
+</div>
+<style>
+table tr td {line-height:32px;}
+table input {height:16px;font-size:14px;line-height:16px;}
+</style>
+<form method="post" action="" name="form1">
+		  <table width="550" border="0" align="center" cellpadding="7" cellspacing="0" style="font-size:14px;">
+             <tr>
+                <td width="100">&nbsp;&nbsp;&nbsp;{lang(contactname)}：</td>
+                <td>{form::input('nickname',get('username'))}
+                <span style="color:#FF0000"> *</span></td>
+                <td width="100"></td>
+              </tr>
+			  <tr>
+                <td width="100">&nbsp;&nbsp;&nbsp;{lang(guesttel)}：</td>
+                <td>{form::input('guesttel',get('guesttel'))}
+                <span style="color:#FF0000"> *</span></td>
+                <td width="100"></td>
+              </tr>
+			  <tr>
+                <td width="100">&nbsp;&nbsp;&nbsp;{lang(guestemail)}：</td>
+                <td>{form::input('guestemail',get('guestemail'))}
+                <span style="color:#FF0000"> *</span></td>
+                <td width="100"></td>
+              </tr>
+			  <tr>
+                <td width="100">&nbsp;&nbsp;&nbsp;{lang(guestqq)}：</td>
+                <td>{form::input('guestqq',get('guestqq'))}
+                <span style="color:#FF0000"> *</span></td>
+                <td width="100"></td>
+              </tr>
+
+              <?php
+              $title=$content=null;
+              if(empty($submit_success)) {
+                  $title=front::post('title');
+                  $content=front::post('content');
+              }
+              ?>
+                        <tr>
+                <td>&nbsp;&nbsp;&nbsp;{lang(title)}：</td>
+                <td colspan="2"><input name="title" id="title" size="50" type="text" value="{$title}">&nbsp;<font color="red">*</font> </td>
+              </tr>
+
+                        <tr>
+                <td>&nbsp;&nbsp;&nbsp;{lang(content)}：</td>
+                <td colspan="2">
+                <input type="hidden" id="content" name="content" value="" style="display:none" /><input type="hidden" id="content___Config" value="SkinPath={get(site_url)}fckeditor/editor/skins/silver/&amp;UserFilesPath={get(site_url)}upload/" style="display:none" /><iframe id="content___Frame" src="{get(site_url)}fckeditor/editor/fckeditor.html?InstanceName=content&amp;Toolbar=Basic" width="98%" height="300" frameborder="0" scrolling="no"></iframe>
+		<font color="red">*</font> </td>
+              </tr>
+
+
+
+  <tr>
+                <td colspan="3" align="center" height="10">&nbsp;
+                  </td>
+              </tr>
+            <?php if(config::get('verifycode')){
+            ?>
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;{lang(verifycode)}：</td>
+                <td colspan="2"><span style="float:left;">{verify()}</span><span style="float:left;padding-left:10px;"><input type='text' id="verify"  name="verify" size="10" style="height:16px;" /></span><span style="color:#FF0000;float:left;">*</span>&nbsp;&nbsp;&nbsp;</td>
+              </tr>
+			  <tr>
+                <td colspan="3" align="center" height="10">&nbsp;
+                  </td>
+              </tr>
+              <?php
+              }
+              ?>
+              <tr>
+                <td colspan="3" align="center"><input type="submit" name="submit" value="提交" style="float:right;padding:2px; background:none; border:0px none; background-color:#DDDDDD; color:#000000; width:70px;height:20px;line-height:20px;font-size:12px;" />
+                  </td>
+              </tr>
+            </table>
+</form>
+		<div class="blank30"></div>
+		{if $user}
+
+    <h5></h5>
+
+		<div style="border:1px solid #DBE2E6;margin:6px 0px 15px;background:#F7F7F7; text-align:center;color:#0F409C; font-weight:bold; font-size:14px;">{lang(guestlist)}</div>
+    
+    <table width="550" border="1" align="center" cellpadding="7" cellspacing="0" bordercolor="#EDEDED">
+
+		{loop $data $d}
+		<tr>
+            <td scope="col" colspan="2"><strong>{$d[username]}</strong><span style="padding-left:20px;">{sdate($d[adddate],'Y-m-d H:i')}</span>
+            </td>
+        </tr>
+        <tr>
+		  <td style="width:80px;font-weight:bold;" align="center">{lang(guestcontent)}</td>
+          <?php $tags = '<p>,<li>,<b>,<strong>,<ol>,<em>'?>
+            <td scope="col">{strip_tags($d[content],$tags)}</td>
+			</tr>
+         {if $d['reply']}<tr>
+		 <td align="center">{lang(adminreply)}</td>
+            <td scope="col">
+                {$d['reply']}
+            </td>
+        </tr>{/if}
+		{/loop}
+    </table>
+              </td>
+            </tr>
+          </table>
+		  <div class="clear"></div>
+<div class="blank30"></div>
+    <div class="pages"><?php echo pagination::html($record_count); ?></div>
+{/if}
+
+
+</div>
+                </td>
+              </tr>
+            </table>
+            
+      </td>
+    </tr>
+  </table>
+  <div style="clear:both; height:1px; font-size:1px;">&nbsp;</div>
+</div>
+{template 'footer.html'}

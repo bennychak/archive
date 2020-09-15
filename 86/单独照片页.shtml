@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>单独照片页 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+		<!--#include file="inc/相册导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div id="photoshowdetail" class="inner">
+                    <div class="content_bar">
+                    	<div class="contentbar">
+                            <h2>单独照片页</h2>
+                        </div>
+                    	<div class="right_box">
+                            <div class="right_absolute"><a class="icon16 diapositive" href="#"><span></span>幻灯片</a></div>
+                    	</div>
+                    </div>
+                    <div class="content_bar">
+                    	<div class="contentinfo listborder">
+                        	<span class="last">第 25/26 张</span>
+                            <span><a href="#">返回专辑</a></span>
+                        </div>
+                        <div class="right_box">&nbsp;</div>
+                    </div>
+                    <hr />
+                    <div class="content_bar">
+                    	<div class="contentinfo">
+                        	<span>浏览113次</span>
+                        	<span>评论65次</span>
+                        	<span>推68次</span>
+                        </div>
+                        <ul class="right_absolute operation1">
+                        	<li><a href="#" class="icon16 photoview_down"><span class="note">查看</span><span></span></a></li>
+                        	<li><a href="#" class="icon16 photoview_down"><span class="note">发现</span><span></span></a></li>
+                        	<li>
+                                <a href="#" class="icon16 photoview_down layTogglea">
+                                    <span class="note">分享</span><span></span>
+                                </a>
+                                <div id="toggle_share" class="layer1 toggle">
+                                	<div class="grouplist">
+                                        <div class="statearrow2"></div>
+                                        <div class="list_t"></div>
+                                        <div class="list_m">
+                                        	<form method="post" action="">
+                                                <dl>
+                                                	<dd class="lastborder">
+                                                    	<a class="icon16 bluearrow" href="#"><span></span><span class="note">发布到微博</span></a>
+                                                        <ul class="none f">
+                                                            <li><em>还可以输入140个汉字</em></li>
+                                                            <li><input class="tbmin" type="text" /></li>
+                                                            <li>
+                                                                <div class="tbminbtnbox">
+                                                                    <div class="btn commentsub"><input type="submit" value="发布"></div>
+                                                                    <div class="btn btn2"><input type="reset" value="取消"></div>
+                                                                </div>
+                                                                <div class="faceselect">
+                                                                    <a href="#"></a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </dd>
+                                                	<dd>
+                                                    	<a class="icon16 bluearrow" href="#"><span></span><span class="note">获取链接</span></a>
+                                                    	<div class="none">&nbsp;</div>
+                                                    </dd>
+                                                	<dd>
+                                                    	<a class="icon16 bluearrow" href="#"><span></span><span class="note">E-mail给好友</span></a>
+                                                    	<div class="none">&nbsp;</div>
+                                                    </dd>
+                                                	<dd>
+                                                    	<a class="icon16 bluearrow" href="#"><span></span><span class="note">发布到Blog</span></a>
+                                                    	<div class="none">&nbsp;</div>
+                                                    </dd>
+                                                </dl>
+                                            </form>
+                                        </div>
+                                        <div class="list_b"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        	<li><a href="#" class="icon16 photoview_addfavorite"><span></span><span class="note">加入最爱</span></a></li>
+                        </ul>
+                    </div>
+                    <div id="photo_l">
+                    	<img src="images/temp_photo_l.jpg" />
+                    </div>
+                    <div class="photo_remark">
+                    	<div class="photorights">
+                        	版权所有 商用请<a href="#">联系作者</a>
+                        </div>
+                    	<div class="phototxt">
+                        	<p><strong>那天开往机场的高速，天还没有黑透。有一些在成都并不常见的晚霞，和高架桥的路灯。让我觉得，车子正在驶向温暖。<a href="#" class="icon16 pencil"><span>编辑</span></a></strong></p>
+                        </div>
+                    </div>
+                    <div class="content_bar">
+                    	<div class="contentinfo">时间：2009-06-15 16:35  地点：<a href="#">成都机场高速</a>  设备：Panasonic Lux-3</div>
+                    	<div class="right_box"><div class="right_absolute"><a href="#" class="icon16 report"><span></span>不良内容举报</a></div></div>
+                    </div>
+                    <ul class="imgroll">
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li class="selected"><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li><a href="#"><img src="images/temp_photo_xs.jpg" alt="图1"></a></li>
+                        <li class="nopic"></li>
+                    </ul>
+                    <div class="labelcomment">
+                    	<p>共有12人发表了标签评论</p>
+                        <ul>
+                        	<li class="color1"><a href="#"><span class="w"><span class="w1">很美！</span></span><b></b></a></li>
+                        	<li class="color2"><a href="#"><span class="w"><span class="w1">路过打酱油</span></span><b></b></a></li>
+                        	<li class="color3 lw"><a href="#"><span class="w"><span class="w1">看着有点模糊呢</span></span><b></b></a></li>
+                        	<li class="color4 lw"><a href="#"><span class="w"><span class="w1">夜色很美丽，夜色正阑珊</span></span><b></b></a></li>
+                        	<li class="color2 lw"><a href="#"><span class="w"><span class="w1">宜家家居是亮点</span></span><b></b></a></li>
+                        	<li class="color3"><a href="#"><span class="w"><span class="w1">噪点很大</span></span><b></b></a></li>
+                        	<li class="color1"><a href="#"><span class="w"><span class="w1">很美！</span></span><b></b></a></li>
+                        	<li class="color2"><a href="#"><span class="w"><span class="w1">路过打酱油</span></span><b></b></a></li>
+                        	<li class="color3 lw"><a href="#"><span class="w"><span class="w1">看着有点模糊呢</span></span><b></b></a></li>
+                        	<li class="color4 lw"><a href="#"><span class="w"><span class="w1">夜色很美丽，夜色正阑珊</span></span><b></b></a></li>
+                        	<li class="color2 lw"><a href="#"><span class="w"><span class="w1">宜家家居是亮点</span></span><b></b></a></li>
+                        	<li class="color3"><a href="#"><span class="w"><span class="w1">噪点很大</span></span><b></b></a></li>
+                        </ul>
+                    </div>
+                    <div class="content_bar">
+                    	<div class="contentinfo labelfriend">
+                        	<div>其中好友的标签为：</div>
+                            <p><a href="个人主页.shtml">怪叔叔</a>：宜家家居是亮点</p>
+                            <p><a href="个人主页.shtml">庞温慧子</a>：很美！</p>
+                            <p><a href="个人主页.shtml">于洋</a>：夜色很美丽，夜色正阑珊</p>
+                        </div>
+                        <div class="right_box">
+                            <div class="right_absolute">
+                                <form method="post" action="">
+                                    <span>输入其他标签词：</span><input class="input1" type="text" />
+                                    <div class="btn commentsub"><input type="submit" value="发表"></div>
+                                </form>
+                            </div>
+                    	</div>
+                    </div>
+                    <div id="avatarlist1" class="box1 fn_avatar_hover">
+                    	<ul class="avatarlist">
+                        	<li class="commentform">
+                                <div class="avatar1">
+                                    <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                	<form method="post" action="">
+                                        <textarea></textarea>
+                                        <div class="commentsubmit">
+                                            <label for="forWhisper"><input id="forWhisper" type="checkbox" /> 悄悄话</label>
+                                            <div class="btn commentsub"><input type="submit" value="评论"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                        	<li class="listitem">
+                                <div class="avatar1">
+                                    <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                	<p><a href="个人主页.shtml">怪叔叔</a>：这是成都二环路吧？</p>
+                                    <p class="duration">2009-09-12 20:16</p>
+                                    <p class="reply"><a href="#">删除</a> <a href="#">回复</a></p>
+                                </div>
+                            </li>
+                        	<li class="listitem">
+                                <div class="avatar1">
+                                    <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                	<p><a href="个人主页.shtml">张娜娜nana</a>：你用的什么相加？颜色好好看</p>
+                                    <p class="duration">2009-09-12 20:16</p>
+                                    <p class="reply"><a href="#">回复</a></p>
+                                </div>
+                            </li>
+                        	<li class="listitem">
+                                <div class="avatar1">
+                                    <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                	<p><a href="个人主页.shtml">于洋</a>：小妞你好哇</p>
+                                    <p class="duration">2009-09-12 20:16</p>
+                                    <p class="reply"><a href="#">回复</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

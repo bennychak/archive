@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>相册 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+		<!--#include file="inc/相册导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                	<div class="content_bar">
+                    	<div class="contentinfo">&nbsp;</div>
+                    	<div class="right_box">
+                            <div class="right_absolute"><a class="icon16 diapositive" href="#"><span></span>幻灯片</a></div>
+                    	</div>
+                    </div>
+                    <ul class="album_list">
+                        <li>
+                            <div class="photo_s"></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="我的照片专辑.shtml"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p><a href="个人主页.shtml">怪叔叔</a>发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p><a href="个人主页.shtml">怪叔叔</a>发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p><a href="个人主页.shtml">怪叔叔</a>发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p><a href="个人主页.shtml">怪叔叔</a>发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p><a href="个人主页.shtml">怪叔叔</a>发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p><a href="个人主页.shtml">怪叔叔</a>发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p><a href="个人主页.shtml">怪叔叔</a>发表于8月7日</p></div>
+                        </li>
+                        <li>
+                            <div class="photo_s"><a href="#"><img src="images/temp_photo_s.jpg" /></a></div>
+                            <div class="photo_describ"><p><a href="#">成都我爱你(12张)</a></p><p>我发表于8月7日</p></div>
+                        </li>
+                    </ul>
+                    <!--#include file="inc/pagination.shtml"-->
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

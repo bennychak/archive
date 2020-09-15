@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_art" value="name:id;datatype:Long,name:article_title;datatype:VarChar,name:article_writer;datatype:VarChar,name:article_time;datatype:DateTime,name:article_content;datatype:VarChar,name:article_num;datatype:VarChar,name:article_belong;datatype:VarChar" />
+	<infoitem key="UD_title" value="name:article_title;datatype:VarChar,name:id;datatype:Long" />
+	<infoitem key="UD_comment" value="name:comment_articleid;datatype:VarChar,name:comment_date;datatype:DateTime,name:comment_name;datatype:VarChar,name:id;datatype:Long" />
+	<infoitem key="UD_guest" value="name:id;datatype:Long,name:main;datatype:VarChar,name:name;datatype:VarChar,name:time;datatype:DateTime" />
+	<infoitem key="UD_link" value="name:id;datatype:Long,name:name;datatype:VarChar,name:link;datatype:VarChar" />
+	<infoitem key="UD_web" value="name:id;datatype:Long,name:web_name;datatype:VarChar,name:web_link;datatype:VarChar" />
+	<infoitem key="UD_base" value="name:id;datatype:Long,name:logo;datatype:VarChar,name:blogtitle;datatype:VarChar,name:fishlogo;datatype:VarChar,name:titlemessage;datatype:VarChar,name:fishlogonote;datatype:VarChar,name:seasoncolor;datatype:VarChar,name:address;datatype:VarChar,name:artdisplay;datatype:VarChar" />
+	<infoitem key="UD_belong" value="name:id;datatype:Long,name:belong;datatype:VarChar" />
+	<infoitem key="UD_guaiguai" value="name:guaiguai_article_time;datatype:DateTime,name:guaiguai_article_title;datatype:VarChar" />
+</info>

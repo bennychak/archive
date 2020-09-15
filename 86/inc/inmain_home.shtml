@@ -1,0 +1,65 @@
+<div id="ui_inmain">
+    <div id="maybe_friends" class="inmain_box">
+        <h2>你可能认识<span>(6)</span></h2>
+        <ul class="maybe_friends_list">
+            <li>
+                <div class="list_t"></div>
+                <div class="list_m">
+                <div class="topic">
+                    <div class="avatar_s" style="background-image:url(images/temp_face48.png);">
+                        <a href="个人主页.shtml">
+                            <div class="headbox"></div>
+                        </a>
+                    </div>
+                </div>
+                <p class="user_name"><a href="个人主页.shtml">莫旭幽</a> 间接朋友</p>
+                <p><a href="#" class="icon16 add_friends"><span>+</span>加为好友</a></p>
+                <a href="#" class="icon16 close16"><span>x</span><em>关闭</em></a>
+                </div>
+                <div class="list_b"></div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="recent_visitors" class="inmain_box">
+        <h2>最近来访<span>(44)</span></h2>
+        <ul>
+            <li>
+                <div class="avatar_s" style="background-image:url(images/temp_face48.png);">
+                    <a href="个人主页.shtml">
+                        <div class="headbox"></div>
+                    </a>
+                </div>
+                <p class="user_name"><a href="个人主页.shtml">莫旭幽</a></p>
+                <p class="user_date">8月14日</p>
+            </li>
+            <li>
+                <div class="avatar_s" style="background-image:url(images/temp_face48.png);">
+                    <a href="个人主页.shtml">
+                        <div class="headbox"></div>
+                    </a>
+                </div>
+                <p class="user_name"><a href="个人主页.shtml">莫旭幽</a></p>
+                <p class="user_date">8月14日</p>
+            </li>
+            <li>
+                <div class="avatar_s" style="background-image:url(images/temp_face48.png);">
+                    <a href="个人主页.shtml">
+                        <div class="headbox"></div>
+                    </a>
+                </div>
+                <p class="user_name"><a href="个人主页.shtml">莫旭幽</a></p>
+                <p class="user_date">8月14日</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="inmain_box">
+        <h2>全部好友<span>(2/68)</span></h2>
+        <!--#include file="toggle_friendlist.shtml"-->
+    </div>
+
+    <!--[if IE 7]>
+    <div style="clear:both;"></div>
+    <![endif]-->
+</div>

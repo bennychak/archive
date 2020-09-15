@@ -1,0 +1,767 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: deZine v0.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-09-09 12:11+0200\n"
+"Last-Translator: admin <simon@themeshift.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:7
+#@ destyle
+msgid "Error 404, no posts found!"
+msgstr "Error 404, no hay entradas con lo que busca."
+
+#: archive.php:14
+#: archive.php:17
+#: archive.php:20
+#: archive.php:23
+#@ destyle
+msgid "Archive"
+msgstr "Archivo"
+
+#: archive.php:70
+#: author.php:52
+#: image.php:44
+#: index.php:48
+#: page-full.php:34
+#: page.php:32
+#: search.php:39
+#: single.php:52
+#@ destyle
+#@ default
+msgid "Sorry, no posts matched your criteria."
+msgstr "Disculpe, no hay entradas con lo que busca."
+
+#: archives.php:7
+#@ destyle
+msgid "Latest Posts"
+msgstr "Entradas recientes"
+
+#: archives.php:25
+#@ destyle
+msgid "Archive by Month"
+msgstr "Archivo mensual"
+
+#: archives.php:35
+#: lib/admin/theme-options.php:266
+#@ destyle
+#@ default
+msgid "Categories"
+msgstr "Categorias"
+
+#: comments.php:9
+#@ destyle
+msgid "Enter your password to view comments."
+msgstr "Escriba su contraseña para ver los comentarios."
+
+#: comments.php:29
+#@ destyle
+msgid "Comments"
+msgstr "Comentarios"
+
+#: comments.php:43
+#@ destyle
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: comments.php:76
+#@ destyle
+msgid "Cancel reply"
+msgstr "Cancelar"
+
+#: comments.php:66
+#@ destyle
+msgid "Leave a Reply"
+msgstr "Escribir un comentario"
+
+#: comments.php:66
+#, php-format
+#@ destyle
+msgid "Leave a Reply to %s"
+msgstr "Escribir un comentario a %s"
+
+#: comments.php:70
+#@ destyle
+msgid "Users must be registered and logged in to comment."
+msgstr "Los usuarios deben iniciar sesión para comentar."
+
+#: comments.php:71
+#, php-format
+#@ destyle
+msgid "<a href=\"%s\">Log in to Reply</a>"
+msgstr "<a href=\"%s\">Iniciar sesión</a>"
+
+#: comments.php:107
+#@ destyle
+msgid "Your message"
+msgstr "Tu mensaje"
+
+#: comments.php:84
+#, php-format
+#@ destyle
+msgid "Logged in as %s"
+msgstr "Identificado como %s"
+
+#: comments.php:90
+#@ destyle
+msgid "Your name"
+msgstr "Tu nombre"
+
+#: comments.php:95
+#@ destyle
+msgid "Your email"
+msgstr "Tu email"
+
+#: comments.php:100
+#@ destyle
+msgid "Your website"
+msgstr "Tu sitio web"
+
+#: comments.php:110
+#@ destyle
+msgid "Submit comment"
+msgstr "Enviar comentario"
+
+#: sidebar.php:16
+#@ destyle
+msgid "Recent Articles"
+msgstr "Entradas recientes"
+
+#: archive.php:49
+#: author.php:33
+#: image.php:11
+#: index.php:27
+#: lib/admin/widgets.php:103
+#: search.php:22
+#: single.php:21
+#@ destyle
+#@ default
+msgid "in"
+msgstr "en"
+
+#: lib/admin/widgets.php:347
+#@ destyle
+msgid "Recent Comments"
+msgstr "Comentarios recientes"
+
+#: functions.php:189
+#@ destyle
+msgid "Read more"
+msgstr "Leer más"
+
+#: functions.php:236
+#@ destyle
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario será revisado antes de publicarse."
+
+#: functions.php:280
+#: header.php:66
+#: lib/admin/theme-options.php:248
+#@ destyle
+msgid "Home"
+msgstr "Inicio"
+
+#: single.php:27
+#@ destyle
+msgid "Edit Post"
+msgstr "Editar entrada"
+
+#: lib/admin/theme-options.php:167
+#@ destyle
+msgid "Layout"
+msgstr "Layout"
+
+#: lib/admin/theme-options.php:175
+#@ destyle
+msgid "Color Scheme"
+msgstr "Colores"
+
+#: lib/admin/theme-options.php:240
+#@ destyle
+msgid "Menu"
+msgstr "Menú"
+
+#: lib/admin/widgets.php:265
+#@ destyle
+msgid "<strong style=\"color:#3993ff\">flick<span style=\"color:#ff1c92\">r</span></strong> Fotos"
+msgstr "Fotos <strong style=\"color:#3993ff\">flick<span style=\"color:#ff1c92\">r</span></strong>"
+
+#: lib/admin/theme-options.php:314
+#@ destyle
+msgid "Sidebar Ads"
+msgstr "Barra lateral anuncios"
+
+#: lib/admin/theme-options.php:328
+#@ destyle
+msgid "Hide Ads?"
+msgstr "Ocultar?"
+
+#: lib/admin/theme-options.php:330
+#@ destyle
+msgid "Check the box to hide the follwing ads from the sidebar."
+msgstr "Marca la casilla si quieres ocultar los siguientes anuncios."
+
+#: lib/admin/theme-options.php:348
+#: lib/admin/theme-options.php:374
+#: lib/admin/theme-options.php:400
+#: lib/admin/theme-options.php:426
+#: lib/admin/theme-options.php:452
+#: lib/admin/theme-options.php:478
+#@ destyle
+msgid "Please enter image url of a square button (125x125px)."
+msgstr "Por favor, introduce el URL de la imágen del anuncio (125x125px)."
+
+#: lib/admin/theme-options.php:352
+#: lib/admin/theme-options.php:378
+#: lib/admin/theme-options.php:404
+#: lib/admin/theme-options.php:430
+#: lib/admin/theme-options.php:456
+#: lib/admin/theme-options.php:482
+#@ destyle
+msgid "Please enter link url of this ad."
+msgstr "Por favor, introduce el enlace del anuncio."
+
+#: lib/admin/theme-options.php:356
+#: lib/admin/theme-options.php:382
+#: lib/admin/theme-options.php:408
+#: lib/admin/theme-options.php:434
+#: lib/admin/theme-options.php:460
+#: lib/admin/theme-options.php:486
+#@ destyle
+msgid "Check the box to remove nofollow of this ad."
+msgstr "Marca la casilla si quieres quitar el nofollow de este anuncio."
+
+#: lib/admin/widgets.php:88
+#@ destyle
+msgid "Recent Posts"
+msgstr "Entradas recientes"
+
+#: lib/admin/widgets.php:134
+#: lib/admin/widgets.php:214
+#: lib/admin/widgets.php:307
+#: lib/admin/widgets.php:386
+#: lib/admin/widgets.php:498
+#@ default
+msgid "Title"
+msgstr "Título"
+
+#: lib/admin/widgets.php:137
+#@ default
+msgid "Number of posts to show:"
+msgstr ""
+
+#: lib/admin/widgets.php:139
+#: lib/admin/widgets.php:228
+#: lib/admin/widgets.php:321
+#: lib/admin/widgets.php:394
+#@ default
+msgid "(at most 15)"
+msgstr ""
+
+#: lib/admin/widgets.php:162
+#@ destyle
+msgid "Latest Tweets"
+msgstr "Tweets recientes"
+
+#: lib/admin/widgets.php:165
+#@ destyle
+msgid "More updates on Twitter"
+msgstr "Más en Twitter"
+
+#: lib/admin/widgets.php:220
+#: lib/admin/widgets.php:313
+#@ default
+msgid "User"
+msgstr ""
+
+#: lib/admin/widgets.php:226
+#@ destyle
+msgid "Number of tweets to show"
+msgstr "Número de tweets"
+
+#: lib/admin/widgets.php:233
+#@ destyle
+msgid "Show link to Twitter"
+msgstr "Enlace a Twitter"
+
+#: lib/admin/widgets.php:237
+#: lib/admin/widgets.php:520
+#@ destyle
+msgid "Link label"
+msgstr "Texto enlace"
+
+#: lib/admin/widgets.php:319
+#@ destyle
+msgid "Number of fotos to show"
+msgstr "Número de fotos"
+
+#: lib/admin/widgets.php:392
+#@ destyle
+msgid "Number of comments"
+msgstr "Número de comentarios"
+
+#: lib/admin/widgets.php:398
+#@ destyle
+msgid "Length of comment excerpt"
+msgstr "Caracteres de longitud"
+
+#: lib/admin/widgets.php:426
+#@ destyle
+msgid "on"
+msgstr "en"
+
+#: lib/admin/widgets.php:452
+#@ destyle
+msgid "About this Site"
+msgstr "Acerca de nosotros"
+
+#: lib/admin/widgets.php:454
+#@ destyle
+msgid "Your text about you."
+msgstr "Texto acerca de tu sitio web."
+
+#: lib/admin/widgets.php:456
+#@ destyle
+msgid "More about us"
+msgstr "Más acerca de nosotros"
+
+#: lib/admin/widgets.php:505
+#@ destyle
+msgid "Show admin's avatar"
+msgstr "Mostrar avatar del admin"
+
+#: lib/admin/widgets.php:509
+#@ destyle
+msgid "Text"
+msgstr "Texto"
+
+#: lib/admin/widgets.php:515
+#@ destyle
+msgid "Page ID of about link"
+msgstr "ID página para enlace"
+
+#: comments.php:29
+#@ destyle
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: author.php:17
+#: author.php:21
+#@ destyle
+msgid "Comments off"
+msgstr "comentarios cerrados"
+
+#: lib/inc/paging.php:7
+#@ destyle
+msgid "&laquo; Previous entries"
+msgstr "&laquo; Entradas antiguas"
+
+#: lib/inc/paging.php:10
+#@ destyle
+msgid "Next entries &raquo;"
+msgstr "Entradas recientes &raquo;"
+
+#: header.php:27
+#@ destyle
+msgid "Follow me"
+msgstr "Follow me"
+
+#: lib/scripts/validate-comments.php:1
+#@ destyle
+msgid "Please complete required fields!"
+msgstr "¡Por favor, completar los campos requeridos!"
+
+#: lib/scripts/validate-search.php:1
+#@ destyle
+msgid "What exactly are you searching for?"
+msgstr "¿Qué exactamente estás buscando?"
+
+#: page-archives.php:18
+#: page-authors.php:17
+#: page-bookmarks.php:18
+#: page-full.php:25
+#: page.php:23
+#@ destyle
+msgid "Edit Page"
+msgstr "Editar página"
+
+#: searchform.php:3
+#@ destyle
+msgid "Enter keyword"
+msgstr "Palabra clave"
+
+#: searchform.php:4
+#@ destyle
+msgid "Ok"
+msgstr "Ok"
+
+#: lib/admin/theme-options.php:107
+#@ destyle
+msgid "Twitter"
+msgstr "Twitter"
+
+#: functions.php:56
+#@ destyle
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: functions.php:55
+#@ destyle
+msgid "Top Menu"
+msgstr "Menú top"
+
+#: functions.php:325
+#@ default
+msgid "No categories"
+msgstr ""
+
+#: lib/admin/theme-admin.php:77
+#@ destyle
+msgid "Profile Info"
+msgstr "Info pérfil"
+
+#: lib/admin/theme-admin.php:86
+#@ destyle
+msgid "Please enter your Twitter username."
+msgstr "Por favor, introduzca su usuario Twitter."
+
+#: lib/admin/theme-options.php:39
+#@ destyle
+msgid "Theme Page"
+msgstr "Información"
+
+#: lib/admin/theme-options.php:40
+#@ destyle
+msgid "Help Center"
+msgstr "Centro de ayuda"
+
+#: lib/admin/theme-options.php:41
+#: lib/admin/theme-pages.php:29
+#: lib/admin/theme-pages.php:107
+#@ destyle
+msgid "Support Forum"
+msgstr "Foro de ayuda"
+
+#: lib/admin/theme-options.php:44
+#@ destyle
+msgid "Settings updated"
+msgstr "Opciones guardadas"
+
+#: lib/admin/theme-options.php:58
+#: lib/admin/theme-options.php:165
+#: lib/admin/theme-options.php:238
+#: lib/admin/theme-options.php:312
+#@ destyle
+msgid "Save Changes"
+msgstr "Guardar"
+
+#: lib/admin/theme-options.php:60
+#@ destyle
+msgid "General"
+msgstr "General"
+
+#: lib/admin/theme-options.php:68
+#@ destyle
+msgid "Logo"
+msgstr "Logo"
+
+#: lib/admin/theme-options.php:77
+#@ destyle
+msgid "Upload Image"
+msgstr "Subir imagen"
+
+#: lib/admin/theme-options.php:79
+#@ destyle
+msgid "Please enter an URL or upload your custom logo."
+msgstr "Por favor, introduzca una URL o suba un logo."
+
+#: lib/admin/theme-options.php:89
+#@ destyle
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: lib/admin/theme-options.php:97
+#@ destyle
+msgid "Please enter your custom RSS URL (e.g. Feedburner)."
+msgstr "Por favor, escriba su propia URL RSS (como Feedburner)."
+
+#: lib/admin/theme-options.php:125
+#@ destyle
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: lib/admin/theme-options.php:133
+#@ destyle
+msgid "Easily add some custom css to the head of your theme."
+msgstr "Aquí puede añadir su propio CSS rápidamente."
+
+#: lib/admin/theme-options.php:143
+#@ destyle
+msgid "Tracking Code"
+msgstr "Código tracking"
+
+#: lib/admin/theme-options.php:151
+#@ destyle
+msgid "Insert your tracking code here (e.g. Google Analytics). This code will be added to the footer of the theme."
+msgstr "Por favor, escriba su código tracking (como Google Analytics). Este código será incluido en el footer del tema."
+
+#: lib/admin/theme-options.php:192
+#@ destyle
+msgid "Please select your preferred color scheme."
+msgstr "Por favor, elija su color preferido."
+
+#: lib/admin/theme-options.php:206
+#@ destyle
+msgid "Background"
+msgstr "Fondo"
+
+#: lib/admin/theme-options.php:224
+#@ destyle
+msgid "Please select your preferred background pattern for header and footer."
+msgstr "Por favor, elija su fondo preferido para el header y el footer."
+
+#: lib/admin/theme-options.php:254
+#@ destyle
+msgid "Exclude home link from menu?"
+msgstr "¿Excluir enlace a inicio?"
+
+#: lib/admin/theme-options.php:256
+#@ destyle
+msgid "Exclude the home link from the menu. The logo will also be linked to the home page."
+msgstr "Marque la casilla para excluir el enlace a la página de inicio. El logo también será enlazado."
+
+#: lib/admin/theme-options.php:274
+#@ destyle
+msgid "Please enter the category IDs you want to exlcude from the menu (e.g. 2,5,9)."
+msgstr "Por favor, escriba los IDs de las categorías que quiere excluir del menú (como 2,5,9)."
+
+#: lib/admin/theme-options.php:284
+#@ default
+msgid "Pages"
+msgstr ""
+
+#: lib/admin/theme-options.php:292
+#@ destyle
+msgid "Please enter the page IDs you want to exlcude from the menu (e.g. 3,65,71)."
+msgstr "Por favor, escriba los IDs de las páginas que quiere excluir del menú (como 3,65,71)."
+
+#: lib/admin/theme-options.php:300
+#@ destyle
+msgid "Please note that the menu options will only work if you do NOT use the new WordPress 3.0 custom menu."
+msgstr "Recuerde que los opciones de menú solo funcionan si NO hay ningun menú activado en WordPress 3.0."
+
+#: lib/admin/theme-options.php:322
+#@ destyle
+msgid "Display"
+msgstr "Mostrar"
+
+#: lib/admin/theme-pages.php:21
+#@ destyle
+msgid "More ThemeShift Themes"
+msgstr "Más temas de ThemeShift"
+
+#: lib/admin/theme-pages.php:28
+#@ destyle
+msgid "Themes Index"
+msgstr "Todos los temas"
+
+#: lib/admin/theme-pages.php:50
+#@ destyle
+msgid "Theme Demo"
+msgstr "Demo"
+
+#: lib/admin/theme-pages.php:61
+#@ destyle
+msgid "Theme Info"
+msgstr "Más información"
+
+#: lib/admin/theme-pages.php:99
+#@ destyle
+msgid "Latest ThemeShift News"
+msgstr "Últimas noticias de ThemeShift"
+
+#: lib/admin/theme-pages.php:106
+#@ destyle
+msgid "Blog"
+msgstr "Blog"
+
+#: lib/admin/theme-pages.php:136
+#@ destyle
+msgid "Continue Reading"
+msgstr "Continuar leyendo"
+
+#: lib/inc/gallery.php:3
+#@ destyle
+msgid "Gallery"
+msgstr "Galería"
+
+#: archive.php:55
+#: index.php:33
+#@ destyle
+msgid "off"
+msgstr "cerrados"
+
+#: archive.php:69
+#: author.php:51
+#: index.php:47
+#: page-full.php:33
+#: page.php:31
+#: search.php:38
+#: single.php:51
+#@ destyle
+msgid "Not found!"
+msgstr "¡No se encontró!"
+
+#: author.php:17
+#: author.php:21
+#@ destyle
+msgid "0 comments"
+msgstr "0 comentarios"
+
+#: author.php:17
+#: author.php:21
+#@ destyle
+msgid "1 comment"
+msgstr "1 comentario"
+
+#: author.php:17
+#: author.php:21
+#@ destyle
+msgid "% comments"
+msgstr "% comentarios"
+
+#: comments.php:29
+#@ destyle
+msgid "No Comments"
+msgstr "No comentarios"
+
+#: comments.php:29
+#@ destyle
+msgid "Leave yours"
+msgstr "Dejar comentario"
+
+#: comments.php:84
+#@ destyle
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: comments.php:89
+#@ destyle
+msgid "Name"
+msgstr "Nombre"
+
+#: comments.php:89
+#: comments.php:94
+#@ destyle
+msgid "(required)"
+msgstr "(requirido)"
+
+#: comments.php:94
+#@ destyle
+msgid "Mail (will not be published)"
+msgstr "Email (no será publicado)"
+
+#: comments.php:99
+#@ destyle
+msgid "Website"
+msgstr "Sitio web"
+
+#: comments.php:106
+#@ destyle
+msgid "Message"
+msgstr "Mensaje"
+
+#: footer.php:10
+#@ destyle
+msgid "All rights reserved"
+msgstr "Todos los derechos reservados"
+
+#: functions.php:233
+#, php-format
+#@ default
+msgid "<span class=\"fn\">%s</span>"
+msgstr ""
+
+#: functions.php:233
+#@ default
+msgid "(Edit)"
+msgstr ""
+
+#: header.php:29
+#@ destyle
+msgid "Subscribe RSS"
+msgstr "Suscribirse al RSS"
+
+#: lib/admin/theme-options.php:115
+#@ destyle
+msgid "Please enter your Twitter user (e.g. <code>themeshift</code>)."
+msgstr "Por favor, escribe tu usuario Twitter (por ejemplo <code>themeshift</code>)."
+
+#: lib/admin/theme-options.php:194
+#@ destyle
+msgid "Display color switcher?"
+msgstr "¿Mostrar color switcher?"
+
+#: lib/admin/theme-options.php:196
+#@ destyle
+msgid "Tick the box to display a jQuery color switcher."
+msgstr "Marca la casilla para mostrarr un jQuery color switcher."
+
+#: lib/admin/widgets.php:12
+#@ destyle
+msgid "This is the general sidebar that on subpages can be replaced by the sidebars below."
+msgstr "Esta es la barra lateral general que en subpáginas puede ser sustituida por las barras siguientes."
+
+#: lib/admin/widgets.php:21
+#@ destyle
+msgid "This is the sidebar that will only be displayed on the home page."
+msgstr "Esta es la barra lateral que solo será mostrada en la página de inicio."
+
+#: lib/admin/widgets.php:30
+#@ destyle
+msgid "This is the sidebar that will only be displayed on category pages."
+msgstr "Esta es la barra lateral que solo será mostrada en categorías."
+
+#: lib/admin/widgets.php:39
+#@ destyle
+msgid "This is the sidebar that will only be displayed on single post pages."
+msgstr "Esta es la barra lateral que solo será mostrada en articulos individuales."
+
+#: lib/admin/widgets.php:48
+#@ destyle
+msgid "This is the sidebar that will only be displayed on static pages."
+msgstr "Esta es la barra lateral que solo será mostrada en páginas estáticas."
+
+#: lib/admin/widgets.php:557
+#@ destyle
+msgid "There are no options for this widget. Please go to <code>WP-Admin > deStyle > Sidebar Ads</code> for more options."
+msgstr "No hay opciones para este widget. Por favor, ir a <code>WP-Admin > deStyle > Barra lateral anuncios</code> para administrar los anuncios."
+
+#: search.php:14
+#@ destyle
+msgid "entries found for"
+msgstr "entradas encontradas para"
+
+#: sidebar.php:28
+#@ destyle
+msgid "Search this Site"
+msgstr "Búsqueda"
+
+#: single.php:25
+#@ destyle
+msgid "Tags"
+msgstr "Etiquetas"
+

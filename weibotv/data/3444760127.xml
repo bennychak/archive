@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3444760127</channel_id>
+<channel_name><![CDATA[甘肃卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24056741]]></cur_program_id>
+<cur_program_name><![CDATA[剧场:白发侠女(20.21.22.23)]]></cur_program_name>
+<cur_program_time><![CDATA[14:06]]></cur_program_time>
+<next_program_name><![CDATA[新闻透视]]></next_program_name>
+<next_program_time><![CDATA[18:10]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[所有节目融思想性、艺术性、趣味性于一体，贴近社会、贴近群众、贴近生活，内容丰富多彩，形式活泼多样。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/gansu.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/gansu.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/guansu.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100023</chat_id>
+   <chat_title><![CDATA[甘肃卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[甘肃电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[剧场:英雄(7)]]></pn>
+		<tm><![CDATA[00:36]]></tm>
+		<id><![CDATA[24056731]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧场:虾球传(28.29.30.31.32)]]></pn>
+		<tm><![CDATA[01:19]]></tm>
+		<id><![CDATA[24056732]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[中国西北角]]></pn>
+		<tm><![CDATA[06:17]]></tm>
+		<id><![CDATA[24056733]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 新华·天下行]]></pn>
+		<tm><![CDATA[06:30]]></tm>
+		<id><![CDATA[24056734]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧场:萍踪侠影(37.38.39.40.41)]]></pn>
+		<tm><![CDATA[08:19]]></tm>
+		<id><![CDATA[24056735]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[开心就好]]></pn>
+		<tm><![CDATA[12:18]]></tm>
+		<id><![CDATA[24056736]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间20分]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24056737]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间天气预报]]></pn>
+		<tm><![CDATA[12:50]]></tm>
+		<id><![CDATA[24056738]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[法制视线]]></pn>
+		<tm><![CDATA[12:55]]></tm>
+		<id><![CDATA[24056739]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[中国西北角]]></pn>
+		<tm><![CDATA[13:20]]></tm>
+		<id><![CDATA[24056740]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[剧场:白发侠女(20.21.22.23)]]></pn>
+		<tm><![CDATA[14:06]]></tm>
+		<id><![CDATA[24056741]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻透视]]></pn>
+		<tm><![CDATA[18:10]]></tm>
+		<id><![CDATA[24056742]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[甘肃新闻]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24056743]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[甘肃天气预报]]></pn>
+		<tm><![CDATA[18:53]]></tm>
+		<id><![CDATA[24056744]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[转中央台新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24056745]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧场:保卫延安(25.26)]]></pn>
+		<tm><![CDATA[19:39]]></tm>
+		<id><![CDATA[24056746]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[我爱每一天]]></pn>
+		<tm><![CDATA[21:30]]></tm>
+		<id><![CDATA[24056747]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今晚男得]]></pn>
+		<tm><![CDATA[22:13]]></tm>
+		<id><![CDATA[24056748]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[甘肃新闻]]></pn>
+		<tm><![CDATA[22:50]]></tm>
+		<id><![CDATA[24056749]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新财富夜话]]></pn>
+		<tm><![CDATA[23:11]]></tm>
+		<id><![CDATA[24056750]]></id>
+	</p>
+
+</root>

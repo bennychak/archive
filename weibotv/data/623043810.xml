@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>623043810</channel_id>
+<channel_name><![CDATA[安徽卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24057483]]></cur_program_id>
+<cur_program_name><![CDATA[电视剧]]></cur_program_name>
+<cur_program_time><![CDATA[17:35]]></cur_program_time>
+<next_program_name><![CDATA[安徽新闻联播]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[	 
+	]]></def_program>
+<channel_desc><![CDATA[以电视剧为特色，每天八大剧场好戏连台；《剧风行动》、《周日我最大》等王牌综艺，精彩纷呈！]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/i1278657517_1.jpg]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/anhui.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/anhui.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100015</chat_id>
+   <chat_title><![CDATA[安徽卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[安徽电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[ 电视剧:水浒传]]></pn>
+		<tm><![CDATA[00:15]]></tm>
+		<id><![CDATA[24057474]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 电视剧:水浒传]]></pn>
+		<tm><![CDATA[01:00]]></tm>
+		<id><![CDATA[24057475]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 男生女生向前冲]]></pn>
+		<tm><![CDATA[01:50]]></tm>
+		<id><![CDATA[24057476]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 电视剧:韦小宝传奇]]></pn>
+		<tm><![CDATA[07:40]]></tm>
+		<id><![CDATA[24057477]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[男生女生向前冲]]></pn>
+		<tm><![CDATA[11:45]]></tm>
+		<id><![CDATA[24057478]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[13:40]]></tm>
+		<id><![CDATA[24057479]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[14:40]]></tm>
+		<id><![CDATA[24057480]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[15:40]]></tm>
+		<id><![CDATA[24057481]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[16:40]]></tm>
+		<id><![CDATA[24057482]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[17:35]]></tm>
+		<id><![CDATA[24057483]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[安徽新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24057484]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天气预报]]></pn>
+		<tm><![CDATA[18:55]]></tm>
+		<id><![CDATA[24057485]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:水浒传]]></pn>
+		<tm><![CDATA[19:31]]></tm>
+		<id><![CDATA[24057486]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:水浒传]]></pn>
+		<tm><![CDATA[20:27]]></tm>
+		<id><![CDATA[24057487]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[爱传万家]]></pn>
+		<tm><![CDATA[21:26]]></tm>
+		<id><![CDATA[24057488]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:铁石心肠]]></pn>
+		<tm><![CDATA[22:18]]></tm>
+		<id><![CDATA[24057489]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:铁石心肠]]></pn>
+		<tm><![CDATA[23:10]]></tm>
+		<id><![CDATA[24057490]]></id>
+	</p>
+
+</root>

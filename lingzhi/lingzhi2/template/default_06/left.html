@@ -1,0 +1,77 @@
+ <table width="200" border="0" align="left" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><div class="title">{lang(siteannoun)}</div></td>
+    </tr>
+    <tr>
+      <td><img src="{$skin_path}/t.gif" width="1" height="6" /></td>
+    </tr>
+
+	<!-- {loop announ(5) $an} -->
+	<tr>
+      <td class="prolist"><a href="{$an[url]}" title="{$an[title]}">{$an[title]}</a></td>
+    </tr>
+			<!-- {/loop} -->
+
+			
+			<tr>
+      <td><div class="title">{lang(quicknav)}</div></td>
+    </tr>
+    <tr>
+      <td><img src="{$skin_path}/t.gif" width="1" height="6" /></td>
+    </tr>
+			{loop categories(3) $t1}
+<tr>
+      <td class="prolist"><a href="{$t1[url]}" title="{$t1[catname]}">{$t1[catname]}</a>
+</td>
+    </tr>{/loop}
+
+    <tr>
+      <td><div class="title"></div></td>
+    </tr>
+    <tr>
+      <td><img src="{$skin_path}/t.gif" width="1" height="6" /></td>
+    </tr>
+    <!-- {loop archive(2,0,0,'0,0,0',16,'aid',5,false,0) $i $arc} --><tr>
+      <td class="prolist"><a href="{$arc[url]}" title="{$arc[title]}">{$arc[title]}</a></td>
+    </tr><!-- {/loop} -->
+    <tr>
+      <td height="18">&nbsp;</td>
+    </tr>
+	    <tr>
+      <td><div class="title">{lang(search)}</div></td>
+    </tr>
+    <tr>
+      <td><img src="{$skin_path}/t.gif" width="1" height="5" /></td>
+    </tr>
+    <tr>
+      <td height="28" valign="top" bgcolor="#F7F7F7">
+<form name='search' method="post" action="<?php echo url('archive/search');?>"onsubmit="return check()">
+				<input  id="keys" name="keyword" type="text" align="absmiple" style="margin-left:2px; width:156px;vertical-align:top; margin-top:1px;" />
+				<input type="image" src="{$skin_path}/sear.gif" style="vertical-align:top; margin-left:1px; margin-top:2px;" class="noInput" align="absmiple" name='submit' value="" />
+				</form>
+				</td>
+    </tr>
+    
+    <tr>
+      <td height="18">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><div class="title">{lang(contactus)}</div></td>
+    </tr>
+    <tr>
+      <td><img src="{$skin_path}/contact.jpg" alt="Contact " width="200" height="50" border="0" style="margin-top:5px;" /></td>
+    </tr>
+    <tr>
+      <td style="line-height:20px; padding-top:8px; padding-left:2px;">
+<ul>
+<li>{lang(address)}：{get(address)}</li>
+<li>{lang(tel)}：{get(tel)}</li>
+<li>{lang(fax)}：{get(fax)}</li> 
+<li>{lang(email)}：{get(email)}</li> 
+</ul>
+</td>
+    </tr>   
+    <tr>
+      <td><img src="{$skin_path}/t.gif" width="1" height="6" /></td>
+    </tr>
+  </table>

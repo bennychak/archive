@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3006271240</channel_id>
+<channel_name><![CDATA[辽宁卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24059130]]></cur_program_id>
+<cur_program_name><![CDATA[欢乐集结号]]></cur_program_name>
+<cur_program_time><![CDATA[17:13]]></cur_program_time>
+<next_program_name><![CDATA[辽宁新闻]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[权威资讯传播大政方针，媒体眼光观察社会热点，全新的新闻脱口秀，独具特色的搞笑娱乐，精彩纷呈！]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/i1291369847_1.jpg]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/liaoning.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/liaoning.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100012</chat_id>
+   <chat_title><![CDATA[辽宁卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[辽宁电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[午夜剧场: 中国地（10-12）智者无敌（10-12）]]></pn>
+		<tm><![CDATA[00:50]]></tm>
+		<id><![CDATA[24059121]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[黑土地]]></pn>
+		<tm><![CDATA[06:00]]></tm>
+		<id><![CDATA[24059122]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[第一时间]]></pn>
+		<tm><![CDATA[06:30]]></tm>
+		<id><![CDATA[24059123]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天天唱响]]></pn>
+		<tm><![CDATA[08:02]]></tm>
+		<id><![CDATA[24059124]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[上午剧场:夏家三千金之爱情真善美（29-32）]]></pn>
+		<tm><![CDATA[08:05]]></tm>
+		<id><![CDATA[24059125]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[说天下]]></pn>
+		<tm><![CDATA[11:45]]></tm>
+		<id><![CDATA[24059126]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新笑林]]></pn>
+		<tm><![CDATA[12:33]]></tm>
+		<id><![CDATA[24059127]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[王刚讲故事]]></pn>
+		<tm><![CDATA[12:55]]></tm>
+		<id><![CDATA[24059128]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[下午剧场:三国（61-64）]]></pn>
+		<tm><![CDATA[13:25]]></tm>
+		<id><![CDATA[24059129]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[欢乐集结号]]></pn>
+		<tm><![CDATA[17:13]]></tm>
+		<id><![CDATA[24059130]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[辽宁新闻]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24059131]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[北方剧场:中国地（13-15）]]></pn>
+		<tm><![CDATA[19:35]]></tm>
+		<id><![CDATA[24059132]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[王刚讲故事]]></pn>
+		<tm><![CDATA[22:10]]></tm>
+		<id><![CDATA[24059133]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[娱乐节目展播]]></pn>
+		<tm><![CDATA[22:45]]></tm>
+		<id><![CDATA[24059134]]></id>
+	</p>
+
+</root>

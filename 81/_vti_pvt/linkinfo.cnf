@@ -1,0 +1,145 @@
+vti_encoding:SR|utf8-nl
+<%=mm_loginaction%>:admin/login.asp admin/复件login.asp guaiguai/login.asp
+http\://music13.163888.net/c404ee74842/2006/12/05/22/music/48282873443.mp3:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2008/7/25/10/bienfantaisie,20080725100301944.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2006/9/10/10/bienfantaisie,2006091018191.jpg:data/bien.asp data/bien_bak.asp
+http\://images.blogcn.com/2008/7/25/10/bienfantaisie,20080725100139011.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+inc/demo.asp:inc/bien_head.asp
+http\://<%=(comment.fields.item("comment_website").value)%>:blog.asp article.asp
+http\://images.blogcn.com/2006/9/10/10/bienfantaisie,2006091018162.jpg:data/bien.asp data/bien_bak.asp
+http\://bienfantaisie.veryplace.com/upload/03250701.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://www.sxcf.net.cn:data/bien.asp data/bien_bak.asp data/bien2.asp
+<%=(webcollect.fields.item("web_link").value)%>:guest/index.asp admin/webcollect.asp demo.asp
+data/upload/09200701/5.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+inc/guaiguai/show.asp:inc/bien_head.asp
+data/upload/09200701/3.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2006/9/10/10/bienfantaisie,20060910181849.jpg:data/bien.asp data/bien_bak.asp
+http\://images.blogcn.com/2006/9/10/10/bienfantaisie,20060910181721.jpg:data/bien.asp data/bien_bak.asp
+iloveyou/ewebeditor/sysimage/emot/31.gif:data/bien.asp data/bien_bak.asp data/bien2.asp
+data/upload/09200701/11.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2008/7/25/10/bienfantaisie,20080725100245956.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2006/12/5/7/bienfantaisie,20061205124656.gif:data/bien.asp data/bien_bak.asp
+http\://images.blogcn.com/2006/9/10/10/bienfantaisie,20060910181721.jp(lval8g:data/bien.asp data/bien_bak.asp
+http\://<%=(base.fields.item("address").value)%>/:search.asp guest/index.asp admin/message.asp guaiguai/show.asp admin/main.asp demo.asp
+<%=mm_movefirst%>:search.asp admin/delguest.asp admin/ip.asp guest/index.asp admin/bookmanage.asp admin/list.asp book.asp guaiguai/del.asp guaiguai/show.asp 复件index.asp demo.asp index.asp
+http\://notem6715.info:data/bien.asp data/bien_bak.asp data/bien2.asp
+<%=(link.fields.item("link").value)%>:admin/link.asp guest/index.asp sch.asp guaiguai/show.asp 复件index.asp all.asp article.asp demo.asp index.asp
+data/<p>b龕egw:data/bien.asp data/bien_bak.asp data/bien2.asp
+listenwind/archive/:inc/calendar.htm
+clsid\:6bf52a52-394a-11d3-b153-00c04f79faa6:music/exobud.asp
+http\://images.blogcn.com/2008/7/25/9/bienfantaisie,20080725095927097.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+inc/article.asp:inc/bien_head.asp
+http\://filer.blogbus.com/5434909/5434909_1315113317k.jpg:data/bien.asp data/bien_bak.asp
+javascript\:document.myform.reset():ewebeditor/admin_modipwd.asp
+user19/bienfantaisie/upload/2004102419455014233.jpg:data/bien.asp data/bien_bak.asp
+data/upload/05180703.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2008/7/25/10/bienfantaisie,20080725100245822.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2006/9/21/11/bienfantaisie,20060921213142.jpg:data/bien.asp data/bien_bak.asp
+data/upload/09200701/1.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2008/7/25/10/bienfantaisie,20080725100139177.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2006/6/7/1/bienfantaisie,2006060705159.jpg:data/bien.asp data/bien_bak.asp
+data/upload/gzldy.swf:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2006/4/3/9/bienfantaisie,2006040316619.jpg:data/bien.asp data/bien_bak.asp
+buttonimage/<%=sstyledir%>/modepreview.gif:ewebeditor/ewebeditor.asp
+http\://images.blogcn.com/2008/7/25/10/bienfantaisie,20080725100245889.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2008/7/25/10/bienfantaisie,20080725100139265.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+buttonimage/<%=sstyledir%>/modetext.gif:ewebeditor/ewebeditor.asp
+http\://bienfantaisie.veryplace.com/upload/gzldy.swf:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://bienfantaisie.veryplace.com/bbs/:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://v.blog.sina.com.cn/b/vblog_player.swf:data/bien.asp data/bien_bak.asp data/bien2.asp
+data/upload/g.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+<%=(web.fields.item("web_link").value)%>:sch.asp 复件index.asp all.asp article.asp index.asp
+http\://images.blogcn.com/2008/7/25/10/bienfantaisie,20080725100139345.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://bienfantaisie.veryplace.com:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://wpa.qq.com/msgrd:guest/index.asp guaiguai/show.asp
+data/upload/09200701/8.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://<%=(base.fields.item("address").value)%>:inc/bien_head.asp article.asp
+http\://images.blogcn.com/2006/11/30/2/bienfantaisie,200611302627.gif:data/bien.asp data/bien_bak.asp
+buttonimage/<%=sstyledir%>/modecode.gif:ewebeditor/ewebeditor.asp
+user19/bienfantaisie/upload/20041119444271940.jpg:data/bien.asp data/bien_bak.asp
+http\://imagelval.?*tt?0<table cellspacing=0 cellpadding=0 width=740 border=0><tbody><tr><td align=middle><img height=270 src=:data/bien.asp data/bien_bak.asp data/bien2.asp
+file\:///c|/documents and settings/soleil/桌面/download/images/default.css:admin/belong.asp admin/webcollect.asp guaiguai/del.asp admin/belongdel.asp admin/webcollectdel.asp guaiguai/index.asp
+data/upload/hyy.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+data/upload/09200701/10.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://www.xuhu.org/viewthread.php:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://www.acsu.buffalo.edu/~amuraco/escaflowne-sora.mp3:data/bien.asp data/bien_bak.asp data/bien2.asp
+inc/all.asp:inc/bien_head.asp
+http\://filer.blogbus.com/5434909/5434909_13151132882.jpg:data/bien.asp data/bien_bak.asp
+http\://t.qq.com/southernweekly:data/bien.asp data/bien_bak.asp
+inc/sch.asp:inc/bien_head.asp
+http\://music9.163888.net/283526242/2006/12/01/23/music/4828287333.mp3:data/bien.asp data/bien_bak.asp
+data/upload/05180701.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://bienfantaisie.veryplace.com/upload/04160701.jpg:data/bien2.asp
+<%=(base.fields.item("logo").value)%>:guest/index.asp guaiguai/show.asp demo.asp
+http\://filer.blogbus.com/5434909/5434909_1315113295m.jpg:data/bien.asp data/bien_bak.asp
+data/upload/09200701/6.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+css/<%=sstylecss%>/editor.css:ewebeditor/ewebeditor.asp
+http\://www.miibeian.gov.cn:guest/index.asp guaiguai/show.asp 复件index.asp admin/main.asp demo.asp index.asp
+data/upload/09200701/12.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2008/7/25/10/bienfantaisie,20080725100246017.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+data/upload/06090701.mp3:data/bien.asp data/bien_bak.asp data/bien2.asp
+mailto\:bienfantaisie@hotmail.com:guest/index.asp guaiguai/show.asp admin/main.asp demo.asp
+buttonimage/<%=sstyledir%>/modeedit.gif:ewebeditor/ewebeditor.asp
+user19/bienfantaisie/upload/20041125135721.jpg:data/bien.asp data/bien_bak.asp
+http\://images.blogcn.com/2008/7/25/9/bienfantaisie,20080725095927031.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://t.qq.com/cbnweekly:data/bien.asp data/bien_bak.asp
+http\://t.qq.com/bienfantaisie:data/bien.asp data/bien_bak.asp
+inc/guest/index.asp:inc/bien_head.asp
+http\://images.blogcn.com/2006/11/30/7/bienfantaisie,2006113013049.gif:data/bien.asp data/bien_bak.asp
+http\://t.qq.com/arsenal:data/bien.asp data/bien_bak.asp
+iloveyou/ewebeditor/sysimage/emot/49.gif:data/bien.asp data/bien_bak.asp data/bien2.asp
+data/upload/09200701/4.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2006/9/10/10/bienfantaisie,2006091018172.jpg:data/bien.asp data/bien_bak.asp
+clsid\:d27cdb6e-ae6d-11cf-96b8-444553540000:test/index.html
+<%= mm_logout %>:admin/top.asp guaiguai/index.asp
+http\://images.blogcn.com/2006/11/30/7/bienfantaisie,2006113013114.gif:data/bien.asp data/bien_bak.asp
+user19/bienfantaisie/upload/200411311102663816.jpg:data/bien.asp data/bien_bak.asp
+data/upload/09200701/2.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2006/9/10/10/bienfantaisie,20060910181645.jpg:data/bien.asp data/bien_bak.asp
+http\://images.blogcn.com/2006/4/3/9/bienfantaisie,20060403162710.jpg:data/bien.asp data/bien_bak.asp
+http\://images.blogcn.com/2007/4/27/10/apparition_dream,20070427100049100.gif:guaiguai/articledel.asp guaiguai/del.asp guaiguai/login.asp guaiguai/index.asp
+<%=(base.fields.item("fishlogo").value)%>:guest/index.asp inc/bien_head.asp guaiguai/show.asp article.asp demo.asp
+http\://images.blogcn.com/2008/7/25/9/bienfantaisie,20080725095927163.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://filer.blogbus.com/5434909/5434909_1315113309j.jpg:data/bien.asp data/bien_bak.asp
+http\://www.ewebsoft.com:ewebeditor/admin_default.asp ewebeditor/dialog/about.htm
+buttonimage/<%=sstyledir%>/sizeplus.gif:ewebeditor/ewebeditor.asp
+http\://images.blogcn.com/2006/9/10/10/bienfantaisie,2006091018189.jpg:data/bien.asp data/bien_bak.asp
+http\://bbs.webasp.net:ewebeditor/admin_default.asp
+http\://images.blogcn.com/2008/7/25/9/bienfantaisie,20080725095926928.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://www.adobe.com/go/getflashplayer:test/index.html
+http\://www.webasp.net:ewebeditor/admin_default.asp
+ewebeditor/buttonimage/standard/code.gif:ewebeditor/dialog/help/main.htm
+http\://images.blogcn.com/2008/7/25/10/bienfantaisie,20080725100245754.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://t.qq.com/bjdaxue:data/bien.asp data/bien_bak.asp
+http\://filer.blogbus.com/5434909/5434909_1315113302e.jpg:data/bien.asp data/bien_bak.asp
+http\://images.blogcn.com/2006/9/10/10/bienfantaisie,20060910181532.jpg:data/bien.asp data/bien_bak.asp
+<%=mm_movenext%>:search.asp admin/delguest.asp admin/ip.asp guest/index.asp admin/bookmanage.asp admin/list.asp book.asp guaiguai/del.asp guaiguai/show.asp 复件index.asp demo.asp index.asp
+javascript\:;:inc/calendar.htm
+http\://t.qq.com/lihaipengtx:data/bien.asp data/bien_bak.asp
+iloveyou/ewebeditor/sysimage/emot/05.<p>繬hn鰁p籗*y烻ju:data/bien.asp data/bien_bak.asp data/bien2.asp
+mailto\:webmaster@webasp.net:ewebeditor/admin_default.asp
+mailto\:bienfantaisie@163.com:guest/index.asp guaiguai/show.asp admin/main.asp demo.asp
+iloveyou/ewebeditor/sysimage/emot/01.gif:data/bien.asp data/bien_bak.asp data/bien2.asp
+inc/guaiguai/login.asp:inc/bien_head.asp
+http\://images.blogcn.com/2006/9/10/10/bienfantaisie,20060910181838.jpg:data/bien.asp data/bien_bak.asp
+<%=mm_moveprev%>:search.asp admin/delguest.asp admin/ip.asp guest/index.asp admin/bookmanage.asp admin/list.asp book.asp guaiguai/del.asp guaiguai/show.asp 复件index.asp demo.asp index.asp
+http\://images.blogcn.com/2006/11/30/7/bienfantaisie,20061130124031.gif:data/bien.asp data/bien_bak.asp
+http\://www.adobe.com/images/shared/download_buttons/get_flash_player.gif:test/index.html
+data/upload/05090701.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+iloveyou/ewebeditor/sysimage/emot/08.gif:data/bien.asp data/bien_bak.asp data/bien2.asp
+buttonimage/<%=sstyledir%>/sizeminus.gif:ewebeditor/ewebeditor.asp
+http\://http\://www.ewebsoft.com/product/ewebeditor/:ewebeditor/admin_default.asp
+http\://www.ewebsoft.com/product/ewebeditor/:ewebeditor/dialog/about.htm
+http\://www.ewebsoft.com/:ewebeditor/admin_login.asp
+http\://t.qq.com/eeocomcn:data/bien.asp data/bien_bak.asp
+http\://images.blogcn.com/2008/7/25/9/bienfantaisie,20080725095927229.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+data/upload/09200701/9.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+<%=mm_movelast%>:search.asp admin/delguest.asp admin/ip.asp guest/index.asp admin/bookmanage.asp admin/list.asp book.asp guaiguai/del.asp guaiguai/show.asp 复件index.asp demo.asp index.asp
+http\://<%=(base.fields.item("address").value)%>/data/path.asp:admin/message.asp
+data/upload/09200701/7.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+http\://images.blogcn.com/2006/11/29/11/bienfantaisie,20061129205015.gif:data/bien.asp data/bien_bak.asp
+data/upload/05180702.gif:data/bien.asp data/bien_bak.asp data/bien2.asp
+data/upload/04160701.jpg:data/bien.asp data/bien_bak.asp data/bien2.asp
+<%=mm_editaction%>:admin/bookedit.asp admin/link.asp blog.asp guest/index.asp admin/addmusic.asp admin/belong.asp admin/bookadd.asp admin/bookdel.asp admin/delforbiddenip.asp admin/delmusic.asp admin/forbiddenip.asp admin/webcollect.asp admin/add.asp admin/base.asp admin/belongdel.asp admin/deleteguest.asp admin/edit.asp admin/webcollectdel.asp article.asp guaiguai/index.asp admin/del.asp admin/linkdel.asp admin/commentdelete.asp guaiguai/articledel.asp
+http\://www.baidu.com/s:admin/ip.asp demo.asp
+http\://images.blogcn.com/2004/10/22/2/bienfantaisie,200410222032081717.jpg:data/bien.asp data/bien_bak.asp

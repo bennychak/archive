@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>708402866</channel_id>
+<channel_name><![CDATA[云南卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24058615]]></cur_program_id>
+<cur_program_name><![CDATA[自然密码 2011-242 锁蛇人与蛇语言]]></cur_program_name>
+<cur_program_time><![CDATA[17:35]]></cur_program_time>
+<next_program_name><![CDATA[晚间节目]]></next_program_name>
+<next_program_time><![CDATA[17:59]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[以新闻节目为骨干，社教、文体、娱乐节目多元化发展，高品质的自制剧集及实时的综艺体育直播屡创收视高峰。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/yunnan.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/yunnan.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/yunnan.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100020</chat_id>
+   <chat_title><![CDATA[云南卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[云南电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[等到胜利那一天（10~12）]]></pn>
+		<tm><![CDATA[00:20]]></tm>
+		<id><![CDATA[24057365]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[翡翠剧场 连续剧 迷案-1937（12）（45分钟版）]]></pn>
+		<tm><![CDATA[01:16]]></tm>
+		<id><![CDATA[24058595]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[翡翠剧场 连续剧 迷案-1937（13）（40分钟版）]]></pn>
+		<tm><![CDATA[02:24]]></tm>
+		<id><![CDATA[24058596]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[开始曲]]></pn>
+		<tm><![CDATA[04:00]]></tm>
+		<id><![CDATA[24058597]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[夜剧场 电影 飞侠小白龙（1）（40分钟版）]]></pn>
+		<tm><![CDATA[04:04]]></tm>
+		<id><![CDATA[24058598]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[夜剧场 电影 飞侠小白龙（2）（40分钟版）]]></pn>
+		<tm><![CDATA[04:45]]></tm>
+		<id><![CDATA[24058599]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[夜剧场 电影 击情越界（1）（30分钟版）]]></pn>
+		<tm><![CDATA[05:47]]></tm>
+		<id><![CDATA[24058600]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[夜剧场 电影 击情越界（2）（30分钟版）]]></pn>
+		<tm><![CDATA[06:28]]></tm>
+		<id><![CDATA[24058601]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[白天专题]]></pn>
+		<tm><![CDATA[07:08]]></tm>
+		<id><![CDATA[24058602]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播 新看点]]></pn>
+		<tm><![CDATA[07:40]]></tm>
+		<id><![CDATA[24058603]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播 新视野]]></pn>
+		<tm><![CDATA[08:24]]></tm>
+		<id><![CDATA[24058604]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典剧场 连续剧 暗香（25）（36分钟版）]]></pn>
+		<tm><![CDATA[08:58]]></tm>
+		<id><![CDATA[24058605]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典剧场 连续剧 暗香（26）（36分钟版）]]></pn>
+		<tm><![CDATA[09:48]]></tm>
+		<id><![CDATA[24058606]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典剧场 连续剧 暗香（27）（36分钟版）]]></pn>
+		<tm><![CDATA[10:39]]></tm>
+		<id><![CDATA[24058607]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[养生汇 2011-133]]></pn>
+		<tm><![CDATA[11:30]]></tm>
+		<id><![CDATA[24058608]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[旅游新时空]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24058609]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[传奇剧场 连续剧 天使的诱惑（6）（41分钟版）]]></pn>
+		<tm><![CDATA[12:41]]></tm>
+		<id><![CDATA[24058610]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[传奇剧场 连续剧 天使的诱惑（7）（41分钟版）]]></pn>
+		<tm><![CDATA[13:38]]></tm>
+		<id><![CDATA[24058611]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[传奇剧场 连续剧 天使的诱惑（8）（41分钟版）]]></pn>
+		<tm><![CDATA[14:33]]></tm>
+		<id><![CDATA[24058612]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[传奇剧场 连续剧 天使的诱惑（9）（41分钟版）]]></pn>
+		<tm><![CDATA[15:29]]></tm>
+		<id><![CDATA[24058613]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[传奇剧场 连续剧 天使的诱惑（10）（41分钟版）]]></pn>
+		<tm><![CDATA[16:25]]></tm>
+		<id><![CDATA[24058614]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[自然密码 2011-242 锁蛇人与蛇语言]]></pn>
+		<tm><![CDATA[17:35]]></tm>
+		<id><![CDATA[24058615]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[晚间节目]]></pn>
+		<tm><![CDATA[17:59]]></tm>
+		<id><![CDATA[24057366]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[自然密码]]></pn>
+		<tm><![CDATA[18:10]]></tm>
+		<id><![CDATA[24057367]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[云南新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24058616]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天气预报]]></pn>
+		<tm><![CDATA[18:53]]></tm>
+		<id><![CDATA[24058617]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[准点转播《新闻联播》]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24058618]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[浪漫剧场 连续剧 中国地（13）（34分钟版）]]></pn>
+		<tm><![CDATA[19:34]]></tm>
+		<id><![CDATA[24058619]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[云南新闻]]></pn>
+		<tm><![CDATA[19:35]]></tm>
+		<id><![CDATA[24057368]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[浪漫剧场 连续剧 中国地（14）（40分钟版）]]></pn>
+		<tm><![CDATA[20:18]]></tm>
+		<id><![CDATA[24058620]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[浪漫剧场 连续剧 中国地（15）（50分钟版）]]></pn>
+		<tm><![CDATA[21:10]]></tm>
+		<id><![CDATA[24058621]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典人文地理]]></pn>
+		<tm><![CDATA[22:13]]></tm>
+		<id><![CDATA[24058622]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典人文地理]]></pn>
+		<tm><![CDATA[22:51]]></tm>
+		<id><![CDATA[24057369]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[要闻播报]]></pn>
+		<tm><![CDATA[23:00]]></tm>
+		<id><![CDATA[24058623]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播 新视野]]></pn>
+		<tm><![CDATA[23:08]]></tm>
+		<id><![CDATA[24058624]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典人文地理 2011-177 军国主义的绝声]]></pn>
+		<tm><![CDATA[23:37]]></tm>
+		<id><![CDATA[24058625]]></id>
+	</p>
+
+</root>

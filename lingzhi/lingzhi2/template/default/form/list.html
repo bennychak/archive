@@ -1,0 +1,55 @@
+{template 'header.html'}
+
+<div class="box left">
+    {template 'user/left.html'}
+</div>
+
+<div class="box right">
+
+    <form name="listform" id="listform"  action="<?php echo uri();?>" method="post">
+
+        <div class='title'>
+            {lang(search)} &nbsp;&nbsp;
+            {loop $field $f}
+            {if $f[name]=='my_name' || $f[name]=='my_title'}
+           {$f.name|lang}:{form::input($f[name])}
+            {/if}
+            {/loop}
+            &nbsp;&nbsp;
+            {form::submit()}
+        </div>
+
+        <table style="width: 100%" cellspacing=1 cellpadding=1 border=1 >
+            <tbody>
+                <tr>
+
+                    {loop $field $f}
+                    <th><!--{$f.name}-->{$f.name|lang}</th>
+                    {/loop}
+                    <th>操作</th>
+                </tr>
+
+                {loop $data $d}
+                <tr class="s_out" onmouseover="m_over(this)" onmouseout="m_out(this)">
+                    {loop $field $f}
+                    <?php $name=$f['name']; ?>
+                    <td>
+                        {cut($d[$name])}
+                    </td>
+                    {/loop}
+                    <td>
+                        <a href='{url('form/show/form/'.get('form').'/id/'.$d[$primary_key])}'>查看</a>
+                    </td>
+                </tr>
+                {/loop}
+
+            </tbody>
+        </table>
+    </form>
+
+
+    <p><?php echo pagination::html($record_count); ?></p>
+
+</div>
+
+{template 'footer.html'}

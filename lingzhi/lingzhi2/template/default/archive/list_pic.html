@@ -1,0 +1,35 @@
+{template 'header.html'}<!-- 调用页头模板 -->
+<div id="c">
+{template 'position.html'}<!-- 调用导航模板 -->
+
+<div id="right">
+<div id="text">
+<!-- 内容缩略图列表 -->
+		{loop $archives $i $arc}
+		<div class="product_box">
+			<div class="p_box"><a title="{$arc[title]}" target="_blank" href="{$arc[url]}"><img alt="{$arc[title]}" src="{get(site_url)}{$arc[thumb]}" onerror='this.src="{get(site_url)}{config::get('onerror_pic')}"' /></a></div>
+			<h5><a title="{$arc[title]}" target="_blank" href="{$arc[url]}">{$arc[title]}</a></h5>
+		</div>
+		{/loop}
+		
+		<div class="clear"></div>
+		<div class="blank10"></div>
+		<!-- 内容列表分页 -->
+		{if isset($pages)}
+		{category_pagination($catid)}
+		{/if}
+
+<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+
+</div>
+</div>
+
+
+{template 'left.html'}<!-- 调用通用左栏 -->
+
+<div class="clear"></div>
+</div>
+<!-- 调用页底模板 -->
+{template 'footer.html'}

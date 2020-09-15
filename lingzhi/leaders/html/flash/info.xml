@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <banner> 
+      <content> 
+		<!-- background -->
+        <photo>flashpic/bg.jpg</photo>
+        <text><![CDATA[<p align="left"><font size="18" face="Century Gothic" color="#cc0066">AMAY JEWELRY CORPORATION LIMITED.</font><br></p><p align="left"><font face="Century Gothic" size="18" color="#808080">The <font size="36" color="#cc0066">best </font>quality and design </font><font size="18" color="#808080">is just </font></p><p align="right"><font face="Century Gothic" size="30" color="#cc0066" >for you</font></p>]]></text>
+        <text_x>10</text_x>
+        <text_y>10</text_y>
+      </content>
+      <product> 
+        <photo>flashpic/1.jpg</photo>
+        <url>http://www.amay-jewelry.com</url>
+      </product>
+      <product> 
+        <photo>flashpic/2.jpg</photo>
+        <url>http://www.amay-jewelry.com</url>
+      </product>
+      <product> 
+        <photo>flashpic/3.jpg</photo>
+        <url>http://www.amay-jewelry.com</url>
+      </product>
+    </banner>
+  

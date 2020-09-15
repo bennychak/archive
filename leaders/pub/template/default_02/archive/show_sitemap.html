@@ -1,0 +1,44 @@
+{template 'header.html'}
+<div class="box line_4">
+{template 'left.html'}
+<!--left_1 end-->
+
+<div class="right_2">
+<div class="t_2 mb10"><div><h3>{$category[$catid][catname]}</h3><span>Archive list</span></div></div>
+{template 'position.html'}
+
+<div id="title">
+
+			<div class="text"><div class="sitemap">
+			<style type="text/css">
+				.sitemap {padding:10px 50px;}
+				.sitemap h2 {line-height:22px;font-size:14px;margin:5px 0px;padding-left:20px;background:url({$skin_path}/down.gif) left top no-repeat;color:#333;}
+				.sitemap h2 a {color:#333;}
+				.sitemap h3,.sitemap h4,.sitemap h5, {font-size:12px;padding-left:40px;font-weight:normal;color:#555;}
+				.sitemap h3 a,.sitemap h4 a,.sitemap h5 a {color:#555;font-size:12px;font-weight:normal;}
+			</style>
+			<h2><a title="网站首页" target="_blank" href="{$base_url}/">首页</a></h2>
+			{loop categories() $t}
+			<h2><a title="{$t[catname]}" target="_blank" href="{$t[url]}">{$t[catname]}</a></h2>
+				{loop categories($t[catid]) $t1}
+				<h3><a title="{$t1[catname]}" target="_blank" href="{$t1[url]}">{$t1[catname]}</a></h3>
+					{loop categories($t1[catid]) $t2}
+					<h4><a title="{$t2[catname]}" target="_blank" href="{$t2[url]}">{$t2[catname]}</a></h4>
+						{loop categories($t2[catid]) $t3}
+						<h5><a title="{$t3[catname]}" target="_blank" href="{$t3[url]}">{$t3[catname]}</a></h5>
+						{/loop}
+					{/loop}
+				{/loop}
+			{/loop}
+		</div></div>
+			<div class="blank10"></div>
+		</div>
+		<div class="blank30"></div>
+		<a title="返回顶部" href="#" class="clear floatright"><img alt="返回顶部" src="{$skin_url}/gotop.gif"></a>
+	<div class="clear"></div>
+
+</div>
+<div class="clear"></div>
+</div>
+<!--box end-->
+{template 'footer.html'}

@@ -1,0 +1,13 @@
+<div id="toggle_facelist" class="layer6 toggle none">
+    <div class="layer6_bar">
+        <div class="statearrow6"></div>
+        <div class="listborder">
+            <span class="last">默认</span>
+            <span><a href="#">蛋蛋</a></span>
+        </div>
+        <a title="关闭" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+    </div>
+    <div class="facelist face_default">
+        <a href="#"><img src="images/face/1.gif" /></a><a href="#"><img src="images/face/2.gif" /></a><a href="#"><img src="images/face/3.gif" /></a><a href="#"><img src="images/face/4.gif" /></a><a href="#"><img src="images/face/5.gif" /></a><a href="#"><img src="images/face/6.gif" /></a><a href="#"><img src="images/face/7.gif" /></a><a href="#"><img src="images/face/8.gif" /></a><a href="#"><img src="images/face/9.gif" /></a><a href="#"><img src="images/face/10.gif" /></a><a href="#"><img src="images/face/11.gif" /></a><a href="#"><img src="images/face/12.gif" /></a><a href="#"><img src="images/face/13.gif" /></a><a href="#"><img src="images/face/14.gif" /></a><a href="#"><img src="images/face/15.gif" /></a><a href="#"><img src="images/face/16.gif" /></a><a href="#"><img src="images/face/17.gif" /></a><a href="#"><img src="images/face/18.gif" /></a><a href="#"><img src="images/face/19.gif" /></a><a href="#"><img src="images/face/20.gif" /></a><a href="#"><img src="images/face/21.gif" /></a><a href="#"><img src="images/face/22.gif" /></a><a href="#"><img src="images/face/23.gif" /></a><a href="#"><img src="images/face/24.gif" /></a><a href="#"><img src="images/face/25.gif" /></a><a href="#"><img src="images/face/26.gif" /></a><a href="#"><img src="images/face/27.gif" /></a><a href="#"><img src="images/face/28.gif" /></a><a href="#"><img src="images/face/29.gif" /></a><a href="#"><img src="images/face/30.gif" /></a><a href="#"><img src="images/face/31.gif" /></a><a href="#"><img src="images/face/32.gif" /></a><a href="#"><img src="images/face/33.gif" /></a><a href="#"><img src="images/face/34.gif" /></a><a href="#"><img src="images/face/35.gif" /></a><a href="#"><img src="images/face/36.gif" /></a>
+    </div>
+</div>

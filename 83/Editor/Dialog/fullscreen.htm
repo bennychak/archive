@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+<TITLE>Editor - 全屏编辑模式</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<style type="text/css">
+body {margin: 0px;border:0px; background-color: buttonface; }
+</style>
+</HEAD>
+<BODY scroll="no" onunload="Minimize()">
+<div style="display:none"><textarea name="fsContent"></textarea></div>
+<script src="common/dialog.js"></script>
+<script>
+var sUrl = opener.location.pathname + "?lnk=fsContent&loadmode=FULLSCREEN"
+
+fsContent.value = opener.getBodyHTML();
+
+function Minimize()
+{
+	opener.setHTML(Editor.getBodyHTML());
+	opener.Editor.focus();
+	self.close();
+}
+document.write("<iframe ID='Editor' src='" + sUrl + "' frameborder='0' scrolling='no' width='100%' height='100%'></iframe>");
+</script>
+</BODY>
+</HTML>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+<channel_id>4172356212</channel_id>
+<channel_name><![CDATA[河南卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24056706]]></cur_program_id>
+<cur_program_name><![CDATA[阳光剧场:丐侠传奇(1-2)]]></cur_program_name>
+<cur_program_time><![CDATA[16:37]]></cur_program_time>
+<next_program_name><![CDATA[河南新闻联播]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[	 
+	]]></def_program>
+<channel_desc><![CDATA[以权威时政新闻为主干，以多姿多彩的综艺娱乐节目为龙头，荟萃社教、综艺、影视剧等精品节目。
+    ]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/henan.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/henan.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/henan.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100022</chat_id>
+   <chat_title><![CDATA[河南卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[河南电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[拍客行动(重播)]]></pn>
+		<tm><![CDATA[01:08]]></tm>
+		<id><![CDATA[24056695]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[武林风(精编)]]></pn>
+		<tm><![CDATA[02:00]]></tm>
+		<id><![CDATA[24056696]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[华豫之门(精编)]]></pn>
+		<tm><![CDATA[03:20]]></tm>
+		<id><![CDATA[24056697]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 中原晨报]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24056698]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 河南新闻联播(重播)]]></pn>
+		<tm><![CDATA[07:30]]></tm>
+		<id><![CDATA[24056699]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 好戏天天看]]></pn>
+		<tm><![CDATA[07:57]]></tm>
+		<id><![CDATA[24056700]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 晨光剧场:少林寺传奇Ⅲ(31-33)]]></pn>
+		<tm><![CDATA[08:51]]></tm>
+		<id><![CDATA[24056701]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[动画剧场:天火传说(31)]]></pn>
+		<tm><![CDATA[11:27]]></tm>
+		<id><![CDATA[24056702]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[钢镚大财神(重)]]></pn>
+		<tm><![CDATA[11:52]]></tm>
+		<id><![CDATA[24056703]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[中原午报(直播)]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24056704]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[阳光剧场:晚婚(29-32)]]></pn>
+		<tm><![CDATA[13:05]]></tm>
+		<id><![CDATA[24056705]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[阳光剧场:丐侠传奇(1-2)]]></pn>
+		<tm><![CDATA[16:37]]></tm>
+		<id><![CDATA[24056706]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[河南新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24056707]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[央视新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24056708]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[星光剧场:少林寺传奇Ⅲ(29-31)]]></pn>
+		<tm><![CDATA[19:34]]></tm>
+		<id><![CDATA[24056709]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[创意时代]]></pn>
+		<tm><![CDATA[22:05]]></tm>
+		<id><![CDATA[24056710]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[钢镚大财神]]></pn>
+		<tm><![CDATA[23:07]]></tm>
+		<id><![CDATA[24056711]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[月光剧场:迷案-1937(9-10)]]></pn>
+		<tm><![CDATA[23:38]]></tm>
+		<id><![CDATA[24056712]]></id>
+	</p>
+
+</root>

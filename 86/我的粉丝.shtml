@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>我的粉丝 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/好友导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <div class="content_bar">
+                    	<div class="contentinfo">共有15位粉丝</div>
+                    </div>
+                    <hr />
+                    <div id="avatarlist3" class="fn_avatar_hover">
+                        <ul class="avatarlist">
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                                <div class="layer4 fix_layer">
+                                    <div class="statearrow3"></div><p>移除粉丝</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="删除"></div><div class="btn btn2"><input type="reset" value="黑名单"></div></div>
+                                    <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 offline"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="avatar1">
+                                    <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                        <a href="个人主页.shtml">
+                                            <div class="headbox"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="avatardetail">
+                                    <a href="#" class="icon16 close7 fix_a" title="移除粉丝"><span></span><em>关闭</em></a>
+                                    <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                </div>
+                            </li>
+                        </ul>
+                        </div>
+                    <!--#include file="inc/pagination.shtml"-->
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

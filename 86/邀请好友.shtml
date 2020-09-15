@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>邀请好友 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/好友导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                	<ul class="ulbox1">
+                    	<li>
+                        	<a href="导入通讯录.shtml">
+                            <strong>导入邮箱的通讯录至邀请名单</strong>
+                            <span>支持 <img src="/images/invite_mail.png" align="absmiddle" /> 等11种常用邮箱</span>
+                        	</a>
+                        </li>
+                    	<li>
+                        	<a href="通过链接邀请.shtml">
+                            <strong>通过链接邀请</strong>
+                            <span>用 <img src="/images/invite_im.png" align="absmiddle" /> 等聊天工具发送邀请链接</span>
+                        	</a>
+                        </li>
+                    	<li>
+                        	<a href="导入msn.shtml">
+                            <strong>导入MSN联系人至邀请名单</strong>
+                            <span>可导入你的 <img src="/images/invite_msn.png" align="absmiddle" /> MSN上的联系人名单</span>
+                        	</a>
+                        </li>
+                    	<li>
+                        	<a href="发送mail邀请.shtml">
+                            <strong>直接发送E-mail邀请</strong>
+                            <span>向对方的邮箱发送邀请邮件 <img src="/images/webmailico.gif" align="absmiddle" /></span>
+                        	</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

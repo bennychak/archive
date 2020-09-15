@@ -1,0 +1,27 @@
+{template 'header.html'}
+	<div class="sidebar">
+		{template 'left.html'}
+	</div>
+	<!--  -->
+	<div id="right">
+		{template 'position.html'}
+		<div id="title" style="width:640px;">
+
+			<div class="text">
+<ul class="news_list">
+{loop $archives $i $sp}
+<li><span class="date">{$sp[adddate]}</span><a title="{$sp[title]}" target="_blank" href="{$sp[url]}">{$sp[title]}</a></li>
+{/loop}
+</ul>
+<div class="blank10"></div>
+<!-- 内容列表分页 -->
+{if isset($pages)}
+{special::pagination()}
+{/if}
+</div>
+<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+</div><div class="clear"></div>
+	</div>
+{template 'footer.html'}

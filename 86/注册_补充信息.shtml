@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>注册_补充信息 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+<link href="css/reg.dev.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="ui_reg">
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="regstep regstep2"></div>
+            	<div class="inner">
+                	<form action="" method="post">
+                	<table class="regtable" cellpadding="0" cellspacing="0" border="0">
+                    	<tr>
+                        	<th>昵称</th>
+                        	<td class="tinput"><input type="text" /></td>
+                        	<td class="checkbox">
+                            	<div class="icon16 check_n"><span></span>请输入昵称，中英文皆可</div>
+                            </td>
+                            <td></td>
+                        </tr>
+                    	<tr>
+                        	<th>真实姓名</th>
+                        	<td class="tinput"><input type="text" /></td>
+                            <td></td>
+                            <td class="check_select"><select><option>不显示</option></select></td>
+                        </tr>
+                    	<tr>
+                        	<th>性别</th>
+                        	<td class="moreradio">
+                            	<label><input type="radio" name="sex" /> 男</label>
+                                <label><input type="radio" name="sex" /> 女</label>
+                            </td>
+                            <td></td>
+                        	<td class="check_select"><select><option>显示</option></select></td>
+                        </tr>
+                    	<tr>
+                        	<th>出生年月</th>
+                        	<td class="sinput2" colspan="2"><select><option>1987</option></select> 年 <select><option>02</option></select> 月 <select><option>05</option></select> 日 <span>　属相: 兔　星座: 金牛</span></td>
+                        	<td class="check_select"><select><option>显示</option></select></td>
+                        </tr>
+                    	<tr>
+                        	<th>所在地</th>
+                        	<td class="sinput"><select class="sinput_1"><option>北京</option></select><select><option>海淀</option></select></td>
+                        	<td></td>
+                            <td class="check_select"><select><option>显示</option></select></td>
+                        </tr>
+                    	<tr>
+                        	<th></th>
+                        	<td colspan="3"><input type="checkbox" /> 我已看过并同意<a href="#">《推博网络服务使用协议》</a></td>
+                        </tr>
+                    	<tr>
+                        	<th></th>
+                        	<td colspan="3">
+                            	<div class="regnow">
+                                    <input class="step2" type="button" value="下一步" onclick="javascript:window.location.href='注册_注册完成.shtml'" /><!--submit-->
+                            	</div>
+                            </td>
+                        </tr>
+                    </table>
+                    </form>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain
+            </div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side_login.shtml"-->
+    </div>
+</div>
+
+</div>
+</body>
+</html>

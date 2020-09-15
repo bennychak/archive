@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2631736979</channel_id>
+<channel_name><![CDATA[广东新闻]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24057340]]></cur_program_id>
+<cur_program_name><![CDATA[正点报道+瞬间看天地]]></cur_program_name>
+<cur_program_time><![CDATA[18:00]]></cur_program_time>
+<next_program_name><![CDATA[健康面对面]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[精彩节目推荐:
+《妈妈课堂》
+《女人私语》
+《孕育精彩》 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[以新形象、高品位、大视角和贴近生活、服务大众为宗旨，全天二十四小时不停放送。 ]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/gdtv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/guangdongxinwen.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/guangdong.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100035</chat_id>
+   <chat_title><![CDATA[广东新闻频道]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[广东电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[新闻最前线]]></pn>
+		<tm><![CDATA[00:09]]></tm>
+		<id><![CDATA[24057308]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[英语新闻]]></pn>
+		<tm><![CDATA[01:32]]></tm>
+		<id><![CDATA[24057309]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[寰宇地理]]></pn>
+		<tm><![CDATA[01:47]]></tm>
+		<id><![CDATA[24057310]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[环球报道]]></pn>
+		<tm><![CDATA[02:16]]></tm>
+		<id><![CDATA[24057311]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广东新闻联播]]></pn>
+		<tm><![CDATA[02:36]]></tm>
+		<id><![CDATA[24057312]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[两岸视点]]></pn>
+		<tm><![CDATA[03:00]]></tm>
+		<id><![CDATA[24057313]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日关注]]></pn>
+		<tm><![CDATA[03:21]]></tm>
+		<id><![CDATA[24057314]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广东新闻联播]]></pn>
+		<tm><![CDATA[04:11]]></tm>
+		<id><![CDATA[24057315]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[630新闻]]></pn>
+		<tm><![CDATA[05:03]]></tm>
+		<id><![CDATA[24057316]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻最前线]]></pn>
+		<tm><![CDATA[05:37]]></tm>
+		<id><![CDATA[24057317]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广东早晨]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24057318]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻最前线]]></pn>
+		<tm><![CDATA[08:10]]></tm>
+		<id><![CDATA[24057319]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正点报道]]></pn>
+		<tm><![CDATA[09:00]]></tm>
+		<id><![CDATA[24057320]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻最前线]]></pn>
+		<tm><![CDATA[09:14]]></tm>
+		<id><![CDATA[24057321]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正点报道]]></pn>
+		<tm><![CDATA[10:00]]></tm>
+		<id><![CDATA[24057322]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日关注]]></pn>
+		<tm><![CDATA[10:11]]></tm>
+		<id><![CDATA[24057323]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正点报道]]></pn>
+		<tm><![CDATA[11:00]]></tm>
+		<id><![CDATA[24057324]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[聚焦119]]></pn>
+		<tm><![CDATA[11:15]]></tm>
+		<id><![CDATA[24057325]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻故事]]></pn>
+		<tm><![CDATA[11:35]]></tm>
+		<id><![CDATA[24057326]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正点报道]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24057327]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[两岸视点]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24057328]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正点报道]]></pn>
+		<tm><![CDATA[13:00]]></tm>
+		<id><![CDATA[24057329]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻最前线]]></pn>
+		<tm><![CDATA[13:13]]></tm>
+		<id><![CDATA[24057330]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正点报道]]></pn>
+		<tm><![CDATA[14:00]]></tm>
+		<id><![CDATA[24057331]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻最前线]]></pn>
+		<tm><![CDATA[14:14]]></tm>
+		<id><![CDATA[24057332]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正点报道]]></pn>
+		<tm><![CDATA[15:00]]></tm>
+		<id><![CDATA[24057333]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[英语新闻]]></pn>
+		<tm><![CDATA[15:12]]></tm>
+		<id><![CDATA[24057334]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[环球周刊]]></pn>
+		<tm><![CDATA[15:24]]></tm>
+		<id><![CDATA[24057335]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正点报道]]></pn>
+		<tm><![CDATA[16:00]]></tm>
+		<id><![CDATA[24057336]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[手语新闻]]></pn>
+		<tm><![CDATA[16:15]]></tm>
+		<id><![CDATA[24057337]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正点报道]]></pn>
+		<tm><![CDATA[17:00]]></tm>
+		<id><![CDATA[24057338]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[寰宇地理]]></pn>
+		<tm><![CDATA[17:10]]></tm>
+		<id><![CDATA[24057339]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[正点报道+瞬间看天地]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24057340]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[健康面对面]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24057341]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[社会纵横]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24057342]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[环球报道]]></pn>
+		<tm><![CDATA[19:12]]></tm>
+		<id><![CDATA[24057343]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻最前线]]></pn>
+		<tm><![CDATA[19:30]]></tm>
+		<id><![CDATA[24057344]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[超级采访车]]></pn>
+		<tm><![CDATA[21:00]]></tm>
+		<id><![CDATA[24057345]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[两岸视点]]></pn>
+		<tm><![CDATA[21:25]]></tm>
+		<id><![CDATA[24057346]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广东报道]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24057347]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广东新闻联播]]></pn>
+		<tm><![CDATA[22:30]]></tm>
+		<id><![CDATA[24057348]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日关注]]></pn>
+		<tm><![CDATA[22:57]]></tm>
+		<id><![CDATA[24057349]]></id>
+	</p>
+
+</root>

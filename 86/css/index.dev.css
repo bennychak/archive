@@ -1,0 +1,20 @@
+#ui_index{}
+
+	#ui_index #ui_head{}
+
+	#ui_index #ui_contain{}
+		#ui_index #ui_main{}
+			#ui_index #ui_left {}
+			#ui_index #ui_inmain {}
+	
+	#ui_index #ui_side{}
+
+	#ui_index #ui_foot{}
+
+
+/* 头像列表重写 */
+
+
+/* 留言列表重写 */
+
+

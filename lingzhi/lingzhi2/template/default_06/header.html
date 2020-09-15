@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>{if !empty($archive[mtitle])}
+  {$archive[mtitle]}-
+{elseif !empty($archive[title])}
+  {$archive[title]}-
+{else}
+  {if $type[meta_title]}
+    {$type[meta_title]}-
+  {elseif typename($type[typeid])}
+    {typename($type[typeid])}-
+  {/if}
+  {if $category[$catid][meta_title]}
+    {$category[$catid][meta_title]}-
+  {elseif !empty($catid)}
+    {catname($catid)}-
+  {/if}
+{/if}
+{get('fullname')} - Powered by CmsEasy</title>
+<meta name="keywords" content="{if $archive[keyword]}{$archive[keyword]}{else}{if $type[keyword]}{$type[keyword]}{elseif $category[$catid][keyword]}{$category[$catid][keyword]}{else}{get('site_keyword')}{/if}{/if}" />
+<meta name="description" content="{if $archive[description]}{$archive[description]}{else}{if $type[description]}{$type[description]}{elseif $category[$catid][description]}{$category[$catid][description]}{else}{get('site_description')}{/if}{/if}" />
+<meta name="author" content="CmsEasy Team" />
+<link rel="icon" href="{get(site_url)}favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{get(site_url)}favicon.ico" type="image/x-icon" />
+<link href="{$skin_path}/ime.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+<!-- 
+function ResumeError()  
+{ 
+    return true; 
+} 
+window.onerror = ResumeError; 
+function check()
+{
+if(document.search.keyword.value.length==0){
+     alert("{lang(pleaceinputtext)}");
+     document.search.keyword.focus();
+     return false;
+    }
+
+	}
+// --> 
+</script>
+</head>
+
+<body>
+<table width="850" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:20px;">
+  <tr>
+    <td width="570"><a href="{$base_url}/"><img src="{$skin_path}/logo.gif" alt="PUDA CABLE GROUP" width="324" height="23" border="0" /></a></td>
+    <td width="280" align="right" valign="bottom" style="padding-bottom:3px;">
+
+	<a title="{lang(feedback)}" href="{url('guestbook')}" target="_blank" class="aGray"><img src="{$skin_path}/arr1.gif" width="4" height="4" border="0" align="absmiddle" /> &nbsp;{lang(feedback)}</a>
+		
+		<a href="{$site_url}" onclick="window.external.addFavorite(this.href,this.title);return false;" title='{get(sitename)}' rel="sidebar"><img src="{$skin_path}/arr1.gif" width="4" height="4" border="0" align="absmiddle" /> &nbsp;{lang(favorite)}</a></td>
+  </tr>
+</table>
+<table width="850" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;" id="menu">
+  <tr>
+    <td width="8"><img src="{$skin_path}/menu_left.png" width="8" height="35" /></td>
+    <td width="829" background="{$skin_path}/menu.png"><table width="833" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+					<td width="136" height="35" align="center" valign="middle"><a title="{lang(backhome)}" href="{get(site_url)}" {if $catid==0} class="menuA"{/if}>{lang(homepage)}</a></td>
+{loop categories_nav() $t}
+<td width="136" height="35" align="center" valign="middle"><a title="{$t[catname]}" href="{$t[url]}"{if isset($topid) && $topid==$t[catid]}  class="menuA"{/if}>{$t[catname]}</a></td>
+{/loop}
+
+      </tr>
+    </table></td>
+    <td width="8"><img src="{$skin_path}/menu_right.png" width="8" height="35" /></td>
+  </tr>
+</table>
+<div id="show">
+
+    <img src="{$skin_path}/banner01.jpg" width="850" height="180" />
+
+</div>

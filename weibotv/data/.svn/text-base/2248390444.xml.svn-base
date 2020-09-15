@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2248390444</channel_id>
+<channel_name><![CDATA[炫动卡通]]></channel_name>
+<channel_typeid><![CDATA[24]]></channel_typeid>
+<channel_typename><![CDATA[上海文广]]></channel_typename>
+<channel_rq><![CDATA[2]]></channel_rq>
+<cur_program_id><![CDATA[24057227]]></cur_program_id>
+<cur_program_name><![CDATA[超炫新片剧场]]></cur_program_name>
+<cur_program_time><![CDATA[18:03]]></cur_program_time>
+<next_program_name><![CDATA[超炫新片剧场]]></next_program_name>
+<next_program_time><![CDATA[19:03]]></next_program_time>
+<def_program><![CDATA[国内3大卡通电视台之一.
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[全天播出18小时各类动画剧场，几大主题动画剧场各具特色，锁定不同目标受众，推出各种类型的优秀动画。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/xdkttv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shanghai.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shanghai.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100043</chat_id>
+   <chat_title><![CDATA[炫动卡通]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[东方宽频]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[炫动早餐剧场]]></pn>
+		<tm><![CDATA[06:03]]></tm>
+		<id><![CDATA[24057214]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新动漫情报]]></pn>
+		<tm><![CDATA[07:03]]></tm>
+		<id><![CDATA[24057215]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[无敌炫动白天剧场]]></pn>
+		<tm><![CDATA[07:33]]></tm>
+		<id><![CDATA[24057216]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[无敌炫动白天剧场]]></pn>
+		<tm><![CDATA[09:33]]></tm>
+		<id><![CDATA[24057217]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[炫动酷地带]]></pn>
+		<tm><![CDATA[11:03]]></tm>
+		<id><![CDATA[24057218]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[超炫新片剧场]]></pn>
+		<tm><![CDATA[11:33]]></tm>
+		<id><![CDATA[24057219]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[超炫新片剧场]]></pn>
+		<tm><![CDATA[12:03]]></tm>
+		<id><![CDATA[24057220]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[超炫新片剧场]]></pn>
+		<tm><![CDATA[12:33]]></tm>
+		<id><![CDATA[24057221]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[追炫白金剧场]]></pn>
+		<tm><![CDATA[13:33]]></tm>
+		<id><![CDATA[24057222]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[追炫白金剧场]]></pn>
+		<tm><![CDATA[15:03]]></tm>
+		<id><![CDATA[24057223]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[儿童剧场]]></pn>
+		<tm><![CDATA[16:03]]></tm>
+		<id><![CDATA[24057224]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[超炫剧场]]></pn>
+		<tm><![CDATA[17:03]]></tm>
+		<id><![CDATA[24057225]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[炫动酷地带]]></pn>
+		<tm><![CDATA[17:33]]></tm>
+		<id><![CDATA[24057226]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[超炫新片剧场]]></pn>
+		<tm><![CDATA[18:03]]></tm>
+		<id><![CDATA[24057227]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[超炫新片剧场]]></pn>
+		<tm><![CDATA[19:03]]></tm>
+		<id><![CDATA[24057228]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新动漫情报]]></pn>
+		<tm><![CDATA[20:03]]></tm>
+		<id><![CDATA[24057229]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[追炫白金剧场]]></pn>
+		<tm><![CDATA[20:33]]></tm>
+		<id><![CDATA[24057230]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[追炫白金剧场]]></pn>
+		<tm><![CDATA[22:03]]></tm>
+		<id><![CDATA[24057231]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[超炫新片剧场]]></pn>
+		<tm><![CDATA[23:03]]></tm>
+		<id><![CDATA[24057232]]></id>
+	</p>
+
+</root>

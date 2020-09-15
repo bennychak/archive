@@ -1,0 +1,39 @@
+{template 'header.html'}
+<div id="mid" style="background:none;">
+		<div id="guide">
+			You are here: &nbsp; <a href="{$base_url}/">{get('sitename')}</a>  &gt; {loop position($typeid) $t}<a href="{$t.url}">{$t['name']}</a>  &gt; {/loop}
+		</div>
+		<div style="padding:10px 25px 20px;width:693px;float:left;">
+			<div class="BigTitle" >{typename($typeid)} News</div>
+			<div class="Dialog2" style="float:none;">
+				<div class="Dialog2Title">
+					Latest Search
+				</div>
+				<div id="LatestNewsContent"><div style="margin-top:20px;"></div>
+				<center>
+<form name='search_form' action="<?php echo url('archive/search');?>" onsubmit="search_check();" method="post">
+            <input   id="InputSearch" name="keyword" type="text" style="width:300px;" align="absmiddle" onclick="if(this.value=='Search Yona'){ this.value='';}" value="CmsEasy Search" />&nbsp; 
+            <input type="image" src="{$skin_path}/search.gif" align="absmiddle" name='submit' value="搜索" style="border:none;" />
+        </form>
+</center>
+<div style="margin-top:20px;"></div>
+<h5 style="margin-left:30px;">Did you mean to search for	 :	<span> “{$keyword}” </span></h5>
+<div style="margin-top:20px;"></div>
+					<table width="680" align="center" border="0" cellpadding="10">
+{loop $articles $article}<tr>
+      <td class="prolist" style="width:100%;"><a href="{$article[url]}"><?php if($keyword) echo str_replace($keyword,"<strong>$keyword</strong>",$article['title']); else { ?>{$article[title]}<?php } ?></a></td></tr>{/loop}
+</table>
+<div style="clear:both; height:1px; font-size:1px;">&nbsp;</div>
+
+<div class="blank10"></div>
+<div class="pages">
+<?php echo pagination::html($record_count,5); ?>
+</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+<div style="clear:both; height:1px; font-size:1px;">&nbsp;</div>
+</div>
+{template 'footer.html'}

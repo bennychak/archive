@@ -1,0 +1,52 @@
+{template 'header.html'}
+<div id="c">
+<div id="position">
+<span><a title="{get('sitename')}" href="{$base_url}">{get('sitename')}</a>{area::getpositonhtml(get('province_id'),get('city_id'),get('section_id'),get('id'))}</span><strong>{lang(nowposition)}</strong>
+</div>
+{template 'left.html'}
+
+<div id="right">
+
+<div id="text">
+
+
+
+<ul class="news_list">
+			{loop $archives $i $arc}
+			<li><span class="date">{$arc[adddate]}</span><a title="{$arc[title]}" target="_blank" href="{$arc[url]}">{$arc[title]}</a></li>
+			{/loop}
+		</ul>
+		<div class="blank10"></div>
+		{if isset($pages)}
+		{area::pagination($areaid)}
+		{/if}
+
+<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+
+</div>
+</div>
+<div class="clear"></div>
+</div>
+
+
+<script> 
+function resizeImg(obj)
+{ 
+var obj = document.getElementById(obj); 
+var objContent = obj.innerHTML;
+var imgs = obj.getElementsByTagName('img'); 
+if(imgs==null) return; 
+for(var i=0; i<imgs.length; i++) 
+{ 
+if(imgs[i].width>parseInt(obj.style.width)) 
+{ 
+imgs[i].width = parseInt(obj.style.width);
+} 
+} 
+} 
+window.onload = function() {resizeImg('text');
+} 
+</script>
+{template 'footer.html'}

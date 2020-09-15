@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3661744838</channel_id>
+<channel_name><![CDATA[东方卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24056366]]></cur_program_id>
+<cur_program_name><![CDATA[娱乐星天地]]></cur_program_name>
+<cur_program_time><![CDATA[17:00]]></cur_program_time>
+<next_program_name><![CDATA[东方新闻]]></next_program_name>
+<next_program_time><![CDATA[18:00]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[“激荡传媒风云，改变电视格局。”新的上海东方卫视，准备以全新姿态和面貌迎接新一轮的媒体大战。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/dftv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/dongfang.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/dongfang.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100093</chat_id>
+   <chat_title><![CDATA[东方卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[东方宽频]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[东方直播室]]></pn>
+		<tm><![CDATA[00:35]]></tm>
+		<id><![CDATA[24056354]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[看东方]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24056356]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:新《水浒传》(55-56)]]></pn>
+		<tm><![CDATA[09:00]]></tm>
+		<id><![CDATA[24056358]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[爱情公寓II(12)]]></pn>
+		<tm><![CDATA[10:40]]></tm>
+		<id><![CDATA[24056360]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[东方午新闻]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24056362]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:宫心计(30-33)]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24056364]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[娱乐星天地]]></pn>
+		<tm><![CDATA[17:00]]></tm>
+		<id><![CDATA[24056366]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[东方新闻]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24056368]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[黄金剧场:新《水浒传》(57-58)]]></pn>
+		<tm><![CDATA[19:32]]></tm>
+		<id><![CDATA[24056370]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[幸福魔方]]></pn>
+		<tm><![CDATA[21:15]]></tm>
+		<id><![CDATA[24056372]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[东方夜新闻]]></pn>
+		<tm><![CDATA[23:00]]></tm>
+		<id><![CDATA[24056374]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[就是爱漂亮]]></pn>
+		<tm><![CDATA[23:45]]></tm>
+		<id><![CDATA[24056376]]></id>
+	</p>
+
+</root>

@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ivoiriens.com</title>
+<!--#include file="public/inc/common.shtml" -->
+</head>
+
+<body>
+<div id="container">
+<!--#include file="public/inc/head.shtml" -->
+    <div id="body">
+    	<div class="grid1 clear" style="+height:31px; +overflow:hidden;">
+		<!--#include file="public/inc/commontool.shtml" -->
+        </div>
+        <div class="clear">
+        	<div class="grid2">
+            	<div class="grid_in1" style=" margin-bottom:5px;">
+                    <div class="grid_in2">
+					<!--#include file="public/inc/push.shtml" -->
+                    </div>
+                </div>
+                <div>
+				<!--#include file="public/inc/googlead1.php" -->
+            	</div>
+            </div>
+        	<div class="grid3 clear">
+            	<div class="grid_in3">
+                    <div class="grid_in2">
+					<!--#include file="public/inc/hotsite.shtml" -->
+                    </div>
+                </div>
+                <div class="ad_banner1">
+				<!--#include file="public/inc/ad_banner1.shtml" -->
+                </div>
+            	<div class="grid_in3">
+                    <div class="grid_in2">
+					<!--#include file="public/inc/classify.shtml" -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--#include file="public/inc/foot.shtml" -->
+</div>
+</body>
+</html>

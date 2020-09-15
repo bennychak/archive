@@ -1,0 +1,16 @@
+<!-- Google CSE Search Box Begins -->
+<form action="http://www.google.ci/cse" id="cse-search-box" target="_blank">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-7893614427491637:owjdio-5rep" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="50" class="searchinput" />
+    <input type="submit" name="sa" value="Rechercher" style="font-family: Arial; font-size: 15px; height:28px;" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.ci/cse/brand?form=cse-search-box&amp;lang=fr"></script> 
+<!-- Google CSE Search Box Ends -->
+<div class="weatherbox">
+<!-- Yahoo! Weather Badge -->
+    <iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="http://weather.yahoo.com/badge/?id=1339615&u=c&t=trans&l=navigation" height="35px" width="350px"></iframe>
+<!-- Yahoo! Weather Badge -->
+</div>

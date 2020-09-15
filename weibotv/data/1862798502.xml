@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>1862798502</channel_id>
+<channel_name><![CDATA[股市直通车]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[0]]></cur_program_id>
+<cur_program_name><![CDATA[该频道暂无预告]]></cur_program_name>
+<cur_program_time><![CDATA[]]></cur_program_time>
+<next_program_name><![CDATA[该频道暂无预告]]></next_program_name>
+<next_program_time><![CDATA[]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[汇聚各大券商研究所、基金公司、独立研究机构的研究报告，创立全新的投资顾问模式。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/gushi.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/zhitongche.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/gushi.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>65</chat_id>
+   <chat_title><![CDATA[股市直通车]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[联合财富]]></client_tips>
+
+</root>

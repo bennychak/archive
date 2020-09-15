@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>1249794075</channel_id>
+<channel_name><![CDATA[嘉佳卡通]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[2]]></channel_rq>
+<cur_program_id><![CDATA[0]]></cur_program_id>
+<cur_program_name><![CDATA[该频道暂无预告]]></cur_program_name>
+<cur_program_time><![CDATA[]]></cur_program_time>
+<next_program_name><![CDATA[该频道暂无预告]]></next_program_name>
+<next_program_time><![CDATA[]]></next_program_time>
+<def_program><![CDATA[	 
+	]]></def_program>
+<channel_desc><![CDATA[整合最优秀的动画节目，最新的动画资讯，最受欢迎的栏目类型，努力为各个年龄段的观众量身制作优质的动画节目。 
+
+
+  ]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/jjkongtong.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/jiajia.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/jiajia.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100033</chat_id>
+   <chat_title><![CDATA[嘉佳卡通]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[广东电视台]]></client_tips>
+
+</root>

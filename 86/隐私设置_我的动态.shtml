@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>隐私设置_我的动态 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+<div id="ui_setpravite">
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/设置导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <div class="content_bar">
+                        <div class="contentinfo listborder">
+                        	<span class="last"><a href="隐私设置_基本选项.shtml">基本选项</a></span>
+                            <span>我的动态</span>
+                            <span><a href="隐私设置_好友阻止.shtml">好友阻止</a></span>
+                            <span><a href="黑名单.shtml">黑名单</a></span>
+                        </div>
+                    </div>
+                    <hr />
+                    <form method="post" action="">
+                        <h4>你的哪些动态，会显示到你好友的"好友动态"中：</h4>
+                        <dl>
+                            <dd><input name="active_show" type="checkbox" /> 修改个人资料（仅好友可见的部分）</dd>
+                            <dd><input name="active_show" type="checkbox" /> 更新头像</dd>
+                            <dd><input name="active_show" type="checkbox" /> 上传新照片</dd>
+                            <dd><input name="active_show" type="checkbox" /> 发表新日记</dd>
+                            <dd><input name="active_show" type="checkbox" /> 建立新群</dd>
+                            <dd><input name="active_show" type="checkbox" /> 加入某群</dd>
+                            <dd><input name="active_show" type="checkbox" /> 加某人为好友</dd>
+                            <dd><input name="active_show" type="checkbox" /> 添加新组件</dd>
+                        </dl>
+                        <h4>你和你的好友以下交流，会显示到你们共同好友的"好友动态"中：</h4>
+                        <dl>
+                            <dd><input name="communicate_show" type="checkbox" /> 在好友的留言板添加留言</dd>
+                            <dd><input name="communicate_show" type="checkbox" /> 在好友的日记、照片等添加评论</dd>
+                        </dl>
+                        <div class="tbminbtnbox"><div class="btn btn4"><input type="submit" value="保存设置"></div></div>
+                    </form>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</div>
+</body>
+</html>

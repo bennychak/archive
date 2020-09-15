@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?>
+<TemplateList>
+	<item id="template" xml="Editor_Template.xml" html="Editor_Template.html" width="550" height="400" filters="SCRIPT" filtermode="true" lnk="xxx_1"><![CDATA[新建样式]]></item>
+	<item id="Editor_full" xml="Editor_Full.xml" html="Editor_Full.html" width="700" height="500" filters="SCRIPT" filtermode="true" lnk="xxx_1"><![CDATA[完整工具栏版]]></item>
+	<item id="20060628" xml="20060628.xml" html="Editor_1.html" width="800" height="530" filters="SCRIPT" filtermode="true" lnk="xxx_1"><![CDATA[常用样式版]]></item>
+</TemplateList>

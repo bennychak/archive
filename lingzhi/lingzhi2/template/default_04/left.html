@@ -1,0 +1,41 @@
+		
+			<div class="title_red">
+			<strong>{lang(quicknav)}</strong><span> - Type</span>
+		</div>
+		<div class="blank10"></div>
+		<div id="menu">
+		<!--只展开当前栏目所在一级栏目下的分类-->
+<?php $__pid = getcategoryparentsid($catid);?>
+{loop categories_nav() $t}
+<li><a title="{$t[catname]}" href="{$t[url]}"{if isset($topid) && $topid==$t[catid]} class="on"{/if}>{$t[catname]}</a></li>
+{if $t[catid]==$__pid}
+<!-- {loop category::listcategorydata($__pid) $type} -->
+<li><a href="{$type[url]}" title="{$type[catname]}" class="on2">{$type[catname]}</a></li>
+<!-- {/loop} -->
+{/if}
+{/loop}
+<!--只展开当前栏目所在一级栏目下的分类-->
+			</div>
+		
+		
+		<div class="blank10"></div>
+		<div class="title_red">
+			<strong>{lang(relatedarticles)}</strong><span> - News</span>
+		</div>
+		<div class="blank5"></div>
+		<ul class="padding10 news">
+			<!-- {loop archive($catid,0,0,'0,0,0',16,'aid',5,false,0) $i $arc}  -->
+			<li><strong>"</strong> <a href="{$arc[url]}" title="{$arc[title]}">{$arc[title]}</a></li>
+			<!-- {/loop} -->
+		</ul>
+		<div class="blank10"></div>
+		<div class="title_gray">
+			<h5><strong>{lang(contactus)}</strong><span> - Contact</span></h5>
+</div>
+<div class="blank5"></div>
+<ul class="padding5">
+	<li><strong>{lang(address)}：</strong>{get('address')}</li>
+	<li><strong>{lang(tel)}：</strong>{get('tel')}</li>
+	<li><strong>{lang(fax)}：</strong>{get('fax')}</li>
+	<li><strong>{lang(email)}：</strong>{get('email')}</li>
+</ul>

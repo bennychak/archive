@@ -1,0 +1,3 @@
+<div id="position">
+<strong>当前位置：</strong><a title="{get('sitename')}" href="{$base_url}">{get('sitename')}</a>{loop type_position($type['typeid']) $t}<a title="{$t['name']}" href="{$t.url}">{$t['name']}</a>{/loop}
+</div>

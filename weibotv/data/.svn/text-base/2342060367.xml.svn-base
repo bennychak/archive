@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2342060367</channel_id>
+<channel_name><![CDATA[内蒙古卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24057122]]></cur_program_id>
+<cur_program_name><![CDATA[财富百分百]]></cur_program_name>
+<cur_program_time><![CDATA[17:25]]></cur_program_time>
+<next_program_name><![CDATA[内蒙古新闻联播]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[ 精彩节目推荐:
+《经典剧场》
+《合家欢剧场》
+《星空剧场》
+ 
+]]></def_program>
+<channel_desc><![CDATA[内蒙古电视台汉语卫视频道以现代感、时尚感和民族地域特色赢得了广大区内外观众的好评。 ]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/nmgtv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/neimenggu.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/neimenggu.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100030</chat_id>
+   <chat_title><![CDATA[内蒙古卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[内蒙古电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[动感剧场:28集:房子（5—8）]]></pn>
+		<tm><![CDATA[00:05]]></tm>
+		<id><![CDATA[24057115]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[现场]]></pn>
+		<tm><![CDATA[05:40]]></tm>
+		<id><![CDATA[24057116]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[蔚蓝的故乡]]></pn>
+		<tm><![CDATA[06:50]]></tm>
+		<id><![CDATA[24057117]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[草原晨曲]]></pn>
+		<tm><![CDATA[07:30]]></tm>
+		<id><![CDATA[24057118]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[财富百分百]]></pn>
+		<tm><![CDATA[08:00]]></tm>
+		<id><![CDATA[24057119]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[情感剧场:30集:水月洞天（4-6）]]></pn>
+		<tm><![CDATA[08:50]]></tm>
+		<id><![CDATA[24057120]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[32集:薛仁贵（1）]]></pn>
+		<tm><![CDATA[12:45]]></tm>
+		<id><![CDATA[24057121]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[财富百分百]]></pn>
+		<tm><![CDATA[17:25]]></tm>
+		<id><![CDATA[24057122]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[内蒙古新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24057123]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[转播中央电视台新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24057124]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[现场]]></pn>
+		<tm><![CDATA[19:35]]></tm>
+		<id><![CDATA[24057125]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[北方剧场:36集:倾城之恋（2、3）]]></pn>
+		<tm><![CDATA[20:25]]></tm>
+		<id><![CDATA[24057126]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[晚间报道]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24057127]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[蔚蓝的故乡]]></pn>
+		<tm><![CDATA[23:15]]></tm>
+		<id><![CDATA[24057128]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[内蒙古新闻联播（重播）]]></pn>
+		<tm><![CDATA[23:40]]></tm>
+		<id><![CDATA[24057129]]></id>
+	</p>
+
+</root>

@@ -1,0 +1,6 @@
+RewriteEngine on
+
+#RewriteBase  /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule !\.(mp3|wmv|wma|rm|rmvb|js|ico|gif|jpeg|jpg|png|css|swf|php|html|shtml|xml|xsl|wsdl|xslt)$ index.php [NC]
+

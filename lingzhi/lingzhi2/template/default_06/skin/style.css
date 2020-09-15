@@ -1,0 +1,118 @@
+/*w3cn.org主样式表 ajie@netease.com last modify:2004-06-20 */
+@charset "utf-8";
+html {
+  scrollbar-face-color : #F5F5F5;
+  scrollbar-arrow-color :white;
+}
+img  {border: 0px;}
+html {min-width: 962px;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,
+form, fieldset, legend, button, input, textarea, 
+th, td
+{margin:0px;padding:0px;}
+fieldset, img {border:0;}
+li {list-style:none;}
+body,button, input, select, textarea /* for ie */ {font: 12px tahoma,Helvetica,arial, "\5b8b\4f53", sans-serif;}
+address, cite, dfn, em, var { font-style: normal; } 
+code, kbd,samp { font-family: courier new, courier, monospace; }
+
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+h1, h2, h3, h4, h5, h6 {}
+h1 {font-size: 2em;}
+h2 {font-size: 1.7em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.38em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1.1em;font-style: italic;}
+address,cite,dfn,em,var{font-style:normal;}
+caption,td {font-weight: normal;}
+cite, blackquote, em, i {font-style: italic;}
+strong, b {	font-weight: bold;}
+pre, code {font-family: monospace;font-size: 1.1em;}
+abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help;}
+
+table {	border-collapse:collapse;border-spacing:0;}
+
+
+.clear {clear:both;}
+.floatleft {float:left;}
+.floatright {float:right;}
+
+#body {padding:22px 0px 0px 0px;}
+#main {width:850px;margin:0px auto;padding:0px auto;overflow:hidden;}
+
+#left {float:left;width:212px;}
+#right {float:right;width:777px;overflow:hidden;background:white;}
+
+a {margin: 0px;padding:0px;border:0px;}
+a:link {color:#333;text-decoration:none;}
+a:visited{color:#666;text-decoration: none;}
+a:hover{color:#3399FF;text-decoration: underline;}
+.clear {clear:both;}
+
+/*定义页面顶部样式top，包含logo和topmenu两个层*/
+#head {height:104px;}
+
+#logo {float:left;width:330px;height:50px;margin:32px 9px 0px;}
+#logo a {display:block;height: 100%;width: 100%;}
+#logo a span {display:none;}
+
+#topmenu {float:right;width:618px;margin:30px 0px 0px;text-align:right;}
+#search {padding:0px 10px 0px 0px;}
+#search a {float:right;}
+
+#nav {clear:both;height:37px;line-height:37px;margin:18px 0px 0px;padding:0px 0px 0px 20px;background:url(nav_bg.gif) repeat-x;text-align:left;}
+#nav a {color:white;display:block;float:left;height:37px;line-height:37px;padding:0px 18px;font-weight:bold;font-size:14px;text-decoration:none;}
+#nav a:hover,#nav a.on {background:url(nav_hover.gif) center top no-repeat;}
+
+#search_btn {height:18px;border:1px solid #ccc;color:#999;background:#F5F5F5;margin-right:20px;}
+
+/* 内页 */
+
+#banner {padding-bottom:15px;background:url(banner_bottom.gif) left 156px repeat-x;}
+
+#c {width:850px;background:url(c_bg.gif) left top repeat-y;}
+
+#position {height:40px;padding:55px 0px 0px 365px;background:url(position_bg.png) left top no-repeat;font-size:14px;}
+#position span {float:right;padding:3px 12px;background:#F5F5F5;}
+#position a {font-size:12px;padding:0px 10px 0px 12px;background:url(dot_r.gif) left center no-repeat;}
+
+#menu {padding:0px 1px;padding-top:10px;background:#83B4D9;}
+#menu a {display:block;height:40px;line-height:40px;overflow:hidden;padding-left:30px;font-size:14px;font-weight:bold;color:white;background:url(i_menu_line.gif) left top no-repeat;}
+#menu a:hover,#i_menu a.on,#menu a.on {background:url(menu_hover.gif) 1px top no-repeat;text-decoration:none;}
+#menu a.home {background:url(menu_home.gif) 1px top no-repeat;text-decoration:none;}
+
+.left_box {padding:5px;background:url(i_c_bg.gif) left top repeat-x;color:white;}
+.left_box a {color:white;}
+.left_box ul li {line-height:26px;padding-left:15px;border-bottom:1px dotted #F5F5F5;background:url(dot_w.gif) 5px 10px no-repeat;}
+
+.area_box {padding:10px;}
+
+.area_box a {float:left;padding:0px 6px;/* display:inline; */white-space: nowrap;}
+
+.title {height:34px;line-height:34px;padding-left:30px;color:white;font-size:14px;font-weight:bold;background:#E47C01 url(title.gif) 8px 10px no-repeat;}
+
+
+#text {width:700px;line-height:200%;padding:20px 38px;font-size:14px;}
+
+h1#title { line-height:40px;
+  padding-top:20px;
+  font-size:22px;
+  text-align:center;
+  background:url(point.gif) left bottom repeat-x;
+  color:#333;
+  font-weight:normal;
+}
+.contentinfo {
+  line-height:34px;
+  text-align:center;
+  border-top:1px dotted #ccc;
+  color:#999;
+}
+
+.contentinfo a {color:#999;}
+
+

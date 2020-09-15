@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>二级页面</title>
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="script/jquery-1.4.2.min.js"></script>
+<script language="javascript" src="script/base.js"></script>
+</head>
+
+<body>
+<div id="topbar">
+	<ul>
+    	<li><a href="#"></a></li>
+    	<li><a href="#"></a></li>
+        <li class="clear"></li>
+    </ul>
+</div>
+<div id="container" class="sub">
+	<!--#include file="/inc/top.shtml"-->
+	<div class="content">
+    	<div class="left">
+        	<h2>
+                <div class="con">了解我们</div>
+                <div class="shadow1"></div>
+                <img class="sq" src="images/sq.gif" />
+            </h2>
+        	<div class="window_box">
+            	<div class="window"></div>
+            </div>
+        </div>
+        <div class="right">
+        	<h2>关于我们</h2>
+        	<div class="con"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+	<!--#include file="/inc/foot.shtml"-->
+</div>
+</body>
+</html>

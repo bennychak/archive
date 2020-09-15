@@ -1,0 +1,20 @@
+<div id="head">
+    <div id="logo">
+        <a title="www.ivoiriens.com" href="http://www.ivoiriens.com"><img alt="Ivoiriens.com" src="/images/logo2.png" /></a>
+    </div><!--
+    <div id="head_ad">
+    	<img src="/images/head_ad.jpg" />
+    </div>-->
+</div>
+
+<div id="nav">
+    <table cellpadding="0" cellspacing="0" border="0" align="center">
+        <tr>
+            <td class="first this"><strong><a href="/index.shtml">Navigation</a></strong></td>
+            <td><strong><a href="http://maison.ivoiriens.com/portal.php">Portal</a></strong></td>
+            <td><strong><a href="http://maison.ivoiriens.com/forum.php">Forum</a></strong><div class="menu2 bordernone"></div></td>
+            <td><strong><a href="http://maison.ivoiriens.com/group.php">Group</a></strong><div class="menu2 bordernone"></div></td>
+            <td><strong><a href="http://maison.ivoiriens.com/home.php">Home</a></strong></td>
+        </tr>
+    </table>
+</div>

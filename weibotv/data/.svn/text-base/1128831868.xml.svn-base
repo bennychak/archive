@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>1128831868</channel_id>
+<channel_name><![CDATA[湖北卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24056481]]></cur_program_id>
+<cur_program_name><![CDATA[开心下午茶]]></cur_program_name>
+<cur_program_time><![CDATA[17:55]]></cur_program_time>
+<next_program_name><![CDATA[中国行]]></next_program_name>
+<next_program_time><![CDATA[18:22]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[观众收视时间最长的省级卫视之一，新闻、财经及影视娱乐节目各具特色，深受观众好评。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/hubei.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/hubei.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/hubei.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100090</chat_id>
+   <chat_title><![CDATA[湖北卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[湖北电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[ 天生我财]]></pn>
+		<tm><![CDATA[07:12]]></tm>
+		<id><![CDATA[24056477]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 精选剧场:天不藏奸]]></pn>
+		<tm><![CDATA[09:35]]></tm>
+		<id><![CDATA[24056478]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[精彩剧场]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24056479]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[吾股丰登]]></pn>
+		<tm><![CDATA[17:17]]></tm>
+		<id><![CDATA[24056480]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[开心下午茶]]></pn>
+		<tm><![CDATA[17:55]]></tm>
+		<id><![CDATA[24056481]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[中国行]]></pn>
+		<tm><![CDATA[18:22]]></tm>
+		<id><![CDATA[24056482]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[湖北新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24056483]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[中央台新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24056484]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[欢乐喜洋洋]]></pn>
+		<tm><![CDATA[19:35]]></tm>
+		<id><![CDATA[24056485]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[相亲齐上阵]]></pn>
+		<tm><![CDATA[20:20]]></tm>
+		<id><![CDATA[24056486]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧:老马家的幸福往事]]></pn>
+		<tm><![CDATA[21:35]]></tm>
+		<id><![CDATA[24056487]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[荆楚夜新闻]]></pn>
+		<tm><![CDATA[23:25]]></tm>
+		<id><![CDATA[24056488]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[精品剧场]]></pn>
+		<tm><![CDATA[23:37]]></tm>
+		<id><![CDATA[24056489]]></id>
+	</p>
+
+</root>

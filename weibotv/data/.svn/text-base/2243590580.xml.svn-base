@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2243590580</channel_id>
+<channel_name><![CDATA[财富天下]]></channel_name>
+<channel_typeid><![CDATA[23]]></channel_typeid>
+<channel_typename><![CDATA[财经资讯]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[0]]></cur_program_id>
+<cur_program_name><![CDATA[该频道暂无预告]]></cur_program_name>
+<cur_program_time><![CDATA[]]></cur_program_time>
+<next_program_name><![CDATA[该频道暂无预告]]></next_program_name>
+<next_program_time><![CDATA[]]></next_program_time>
+<def_program><![CDATA[	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[财富天下是国家广电总局批准设立的130多家数字付费频道中的四大数字财经频道之一，目前由深圳证券信息有限公司承担节目制作及运营。
+]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/i1279704224_1.jpg]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/tianxia.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/caifu.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100051</chat_id>
+   <chat_title><![CDATA[财富天下]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[证券信息]]></client_tips>
+
+</root>

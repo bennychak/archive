@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3226032409</channel_id>
+<channel_name><![CDATA[PLU游戏频道]]></channel_name>
+<channel_typeid><![CDATA[15]]></channel_typeid>
+<channel_typename><![CDATA[游戏频道]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[0]]></cur_program_id>
+<cur_program_name><![CDATA[该频道暂无预告]]></cur_program_name>
+<cur_program_time><![CDATA[]]></cur_program_time>
+<next_program_name><![CDATA[该频道暂无预告]]></next_program_name>
+<next_program_time><![CDATA[]]></next_program_time>
+<def_program><![CDATA[]]></def_program>
+<channel_desc><![CDATA[PLU游戏娱乐平台以举办推广各类电子竞技赛事、传播报道国内外电子竞技热点重点新闻、选拔包装中国电子竞技职业高手为主要职能。 时尚前卫的赛事包装、酷炫激昂的选手MV、空前火爆的高手对决、搞笑多变的访谈节目为您缤纷呈现！
+]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/plu.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/plu.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/plu.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100050</chat_id>
+   <chat_title><![CDATA[PLU游戏频道]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[PLU]]></client_tips>
+
+</root>

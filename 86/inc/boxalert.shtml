@@ -1,0 +1,42 @@
+<!--
+弹出框框基于jQuery插件NyroModal，
+支持的媒体类型： Images, Inline HTML, iFrame, AJAX, Video，
+调用方法详见：http://nyromodal.nyrodev.com/#demos
+-->
+
+<div id="boxalert" style=" display:none;">
+	<div class="TB_modal">
+        <div class="cl">
+            <div class="l_t"><h4>推给我关注的人</h4><a title="不再显示" id="TB_closeWindowButton" class="icon16 close16 nyroModalClose" href="我的首页.shtml"><span></span><em>关闭</em></a></div>
+            <div class="l_m">
+<!--
+所有的弹出框都是包含在<div class="l_m">...</div>范围内，然就是将标题<h4>推给我关注的人</h4>内的文字修改为需要的即可。
+-->
+<!--转发内容-->
+                <div class="con">推：早在一个月前菜菜在西安出差的时候就对姐妹们横扫大柳树羡慕不已回北京后就奔大柳树速速拔草了，呵呵，去的是新址收获美鞋三双～和大家一起清凉下，欣赏欣赏白菜价的美鞋～ </div>
+                <form action="" method="post">
+                    <dl class="f">
+                        <dd><em>还可以输入140个汉字</em></dd>
+                        <dd><textarea></textarea></dd>
+                        <dd>
+                            <div class="faceselect">
+                                <a href="#"></a>
+                            </div>
+                            <label class="right" for="forAndcomment"><input type="checkbox" id="forAndcomment"> 同时作为评论发布</label>
+                        </dd>
+                        <dd class="smc">
+                            <div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="发布"></div><div class="btn btn2"><input type="button" class="nyroModalClose" value="取消"></div></div>
+                        </dd>
+                    </dl>
+                </form>
+<!--/转发内容-->
+<!--转发成功-->
+                <div class="icon52 trans_success"><span></span><b>转发成功!</b></div>
+<!--/转发成功-->
+<!--转发失败-->
+                <div class="icon52 trans_fail"><span></span><b>转发失败!</b></div>
+<!--/转发失败-->
+            </div>
+        </div>
+    </div>
+</div>

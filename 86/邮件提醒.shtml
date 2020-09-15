@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>邮件提醒 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+<div id="ui_mailalert">
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/设置导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                	<form action="" method="post">
+                        <h4>
+                            <p>以下动态，发送提醒邮件到你的邮箱bienfantaisie@hotmail.com中：</p>
+                            <em>(仅发送你离线后收到的各种消息)</em>
+                        </h4>
+                        <dl>
+                            <dt>我与好友间的交流</dt>
+                            <dd><input name="communicate_friend" type="checkbox" /> 好友给我发送，或回复短消息</dd>
+                            <dd><input name="communicate_friend" type="checkbox" /> 好友给我留言，或回复我的留言</dd>
+                            <dd><input name="communicate_friend" type="checkbox" /> 好友评论了我的照片、日记及其他内容，或回复我对他的评论</dd>
+                        </dl>
+                        <dl>
+                            <dt>系统消息</dt>
+                            <dd><input name="system_message" type="checkbox" /> 好友请求</dd>
+                            <dd><input name="system_message" type="checkbox" /> 好友的生日提醒</dd>
+                        </dl>
+                        <dl>
+                            <dt>邮件发送频率</dt>
+                            <dd><select><option>每天发送一次</option></select></dd>
+                        </dl>
+                        <dl>
+                            <dt>你的动态，是否通过邮件发送给你邀请过、但还未加入开心网的人</dt>
+                            <dd><input name="send_mail" type="radio" /> 是</dd>
+                            <dd><input name="send_mail" type="radio" /> 否</dd>
+                        </dl>
+                        <div class="tbminbtnbox"><div class="btn btn4"><input type="submit" value="保存设置"></div></div>
+                    </form>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</div>
+</body>
+</html>

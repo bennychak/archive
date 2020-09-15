@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>隐私设置_好友阻止 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+<div id="ui_setpravite">
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/设置导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <div class="content_bar">
+                        <div class="contentinfo listborder">
+                        	<span class="last"><a href="隐私设置_基本选项.shtml">基本选项</a></span>
+                            <span><a href="隐私设置_我的动态.shtml">我的动态</a></span>
+                            <span>好友阻止</span>
+                            <span><a href="黑名单.shtml">黑名单</a></span>
+                        </div>
+                    </div>
+                    <hr />
+                    <h4>对以下好友隐身</h4>
+                    <table class="setaccount" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td>我的首页：</td>
+                            <td width="160">
+                            <form class="right_f" action="" method="post">
+                                <div class="right_fcon">
+                                    <div class="right_absolute">
+                                        <div class="seinput">
+                                            <div class="seinput_in">
+                                                <input type="text" />
+                                            </div>
+                                            <!--<input type="submit" class="seinputbtn" value="搜索" /> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right_fb">
+                                    <a href="#" class="layTogglea icon16 dbarrow1 l2a"><span></span></a>
+                                    <div id="toggle_selectfriend" class="layer2 toggle">
+                                        <!--#include file="inc/toggle_selectfriend.shtml"-->
+                                    </div>
+                                </div>
+                            </form>
+                            </td>
+                            <td>
+                            	<div class="btn commentsub"><input type="submit" value="添加"></div>
+                            </td>
+                        </tr>
+                    </table>
+                    <h4>以下好友不能访问我的这些内容</h4>
+                    <table class="setaccount" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td>我的日记：</td>
+                            <td width="160">
+                            <form class="right_f" action="" method="post">
+                                <div class="right_fcon">
+                                    <div class="right_absolute">
+                                        <div class="seinput">
+                                            <div class="seinput_in">
+                                                <input type="text" />
+                                            </div>
+                                            <!--<input type="submit" class="seinputbtn" value="搜索" /> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right_fb">
+                                    <a href="#" class="layTogglea icon16 dbarrow1 l2a"><span></span></a>
+                                    <div id="toggle_selectfriend2" class="layer2 toggle">
+                                        <!--#include file="inc/toggle_selectfriend.shtml"-->
+                                    </div>
+                                </div>
+                            </form>
+                            </td>
+                            <td>
+                            	<div class="btn commentsub"><input type="submit" value="添加"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>我的照片：</td>
+                            <td width="160">
+                            <form class="right_f" action="" method="post">
+                                <div class="right_fcon">
+                                    <div class="right_absolute">
+                                        <div class="seinput">
+                                            <div class="seinput_in">
+                                                <input type="text" />
+                                            </div>
+                                            <!--<input type="submit" class="seinputbtn" value="搜索" /> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right_fb">
+                                    <a href="#" class="layTogglea icon16 dbarrow1 l2a"><span></span></a>
+                                    <div id="toggle_selectfriend3" class="layer2 toggle">
+                                        <!--#include file="inc/toggle_selectfriend.shtml"-->
+                                    </div>
+                                </div>
+                            </form>
+                            </td>
+                            <td>
+                            	<div class="btn commentsub"><input type="submit" value="添加"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>我的记录：</td>
+                            <td width="160">
+                            <form class="right_f" action="" method="post">
+                                <div class="right_fcon">
+                                    <div class="right_absolute">
+                                        <div class="seinput">
+                                            <div class="seinput_in">
+                                                <input type="text" />
+                                            </div>
+                                            <!--<input type="submit" class="seinputbtn" value="搜索" /> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right_fb">
+                                    <a href="#" class="layTogglea icon16 dbarrow1 l2a"><span></span></a>
+                                    <div id="toggle_selectfriend4" class="layer2 toggle">
+                                        <!--#include file="inc/toggle_selectfriend.shtml"-->
+                                    </div>
+                                </div>
+                            </form>
+                            </td>
+                            <td>
+                            	<div class="btn commentsub"><input type="submit" value="添加"></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</div>
+</body>
+</html>

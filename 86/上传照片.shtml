@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>上传照片 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7">
+
+    <div id="ui_contain">
+		<!--#include file="inc/相册导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <div class="content_bar">
+                    	<form method="post" action="">
+                            <div class="operation listborder">
+                                <span class="last">上传到专辑：<select><option>默认相册(12)</option></select></span>
+                                <span class="icon16 createalbum"><a href="#"><strong class="iconsp"></strong>新建相册</a></span>
+                            </div>
+                        </form>
+                    </div>
+                    <hr />
+                </div>
+            </div>
+            <div id="ui_inmain">
+            	<div id="bit_skill" class="inmain_box">
+                	<h2>小技巧</h2>
+                    <ul>
+                    	<li>
+                            <img src="images/skill1.png" /><br />
+                            <span>以缩略图方式查看图片，选择图片更直观。</span>    
+                        </li>
+                        <li>
+                            <img src="images/skill2.png" /><br />
+                            <span>按住Ctrl或Shift键,可以一次选中多张照片。</span>    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

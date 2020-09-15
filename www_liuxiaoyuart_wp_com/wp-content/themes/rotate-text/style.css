@@ -1,0 +1,54 @@
+/*  
+Theme Name: Rotate Text
+Theme URI: http://falconerdesigns.com/
+Description: <a href="http://falconerdesigns.com">Rotate Text</a> is a unique theme, which has interesting small bits scattered all over the theme zip. It has a nice flash animation in header, which gives this theme an edge. It has nice simple web 2.0 dark color palette, Also theme has clean coding so that it can be modified very easily to one's need. It has in-built AJAX comments which requires no extra plugins to be uploaded. It has 125x125 ready ad blocks in the ad.php template file, which is also adsense code ready. Theme is also checked on all browsers for good looks. For support/custom modification of this theme, please contact <a href="http://ddsos.org">EP</a>.
+Version: 1.7
+Author: Ekta Paneri
+Author URI: http://ddsos.org/
+Tags: dark, fixed width, three columns, widgets, ajax, flash, right sidebar
+Align classes: .aligncenter
+*/
+
+@import url(default.css);
+
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.alignleft {
+   float: left;
+}
+
+.alignright {
+   float: right;
+}
+
+.wp-caption {
+   border: 1px solid #222;
+   text-align: center;
+   background-color: #000;
+   padding-top: 4px;
+   margin: 10px;
+color:#eee;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+}

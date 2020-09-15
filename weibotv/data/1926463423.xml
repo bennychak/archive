@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>1926463423</channel_id>
+<channel_name><![CDATA[珠江频道]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24057268]]></cur_program_id>
+<cur_program_name><![CDATA[电视剧:富贵门(29-30)]]></cur_program_name>
+<cur_program_time><![CDATA[16:40]]></cur_program_time>
+<next_program_name><![CDATA[今日财经]]></next_program_name>
+<next_program_time><![CDATA[18:15]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[第一粤语电视频道，广东省所有境内频道中覆盖最广、收视最高、创收最优的电视频道。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/gdtv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/zhujiang.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/zhujiang.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100096</chat_id>
+   <chat_title><![CDATA[珠江频道]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[广东电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[夜倾情]]></pn>
+		<tm><![CDATA[00:05]]></tm>
+		<id><![CDATA[24057258]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[迷局寻踪]]></pn>
+		<tm><![CDATA[01:10]]></tm>
+		<id><![CDATA[24057259]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[系列剧:外来媳妇本地郎]]></pn>
+		<tm><![CDATA[06:40]]></tm>
+		<id><![CDATA[24057260]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[气象伴早行]]></pn>
+		<tm><![CDATA[07:34]]></tm>
+		<id><![CDATA[24057261]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日关注]]></pn>
+		<tm><![CDATA[07:40]]></tm>
+		<id><![CDATA[24057262]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:西游记(37-38)]]></pn>
+		<tm><![CDATA[08:50]]></tm>
+		<id><![CDATA[24057263]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[系列剧:外来媳妇本地郎]]></pn>
+		<tm><![CDATA[11:03]]></tm>
+		<id><![CDATA[24057264]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间说法]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24057265]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:恋爱星求人(12-14)]]></pn>
+		<tm><![CDATA[12:25]]></tm>
+		<id><![CDATA[24057266]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:难为女儿红(21-22)]]></pn>
+		<tm><![CDATA[14:05]]></tm>
+		<id><![CDATA[24057267]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[电视剧:富贵门(29-30)]]></pn>
+		<tm><![CDATA[16:40]]></tm>
+		<id><![CDATA[24057268]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日财经]]></pn>
+		<tm><![CDATA[18:15]]></tm>
+		<id><![CDATA[24057269]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[630新闻]]></pn>
+		<tm><![CDATA[18:29]]></tm>
+		<id><![CDATA[24057270]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:新京城四少(14-15)]]></pn>
+		<tm><![CDATA[19:07]]></tm>
+		<id><![CDATA[24057271]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻简报]]></pn>
+		<tm><![CDATA[20:00]]></tm>
+		<id><![CDATA[24057272]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日关注]]></pn>
+		<tm><![CDATA[21:00]]></tm>
+		<id><![CDATA[24057273]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧:富贵门(39-40)]]></pn>
+		<tm><![CDATA[22:35]]></tm>
+		<id><![CDATA[24057274]]></id>
+	</p>
+
+</root>

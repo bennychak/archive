@@ -1,0 +1,16 @@
+{if type($typeid)}
+<div class="t_1 mb5"><div><h3><a href="{$typeurl($typeid)}" title="{$type[$typeid][typename]}">{$type[$typeid][typename]}</a></h3></div></div>
+<ul class="leftmenu mb10">
+{loop type($typeid) $type}
+<li><a href="{typeurl($type['typeid'])}" title="{$type['typename']}">{$type['typename']}</a></li>
+{/loop}
+</ul>
+{/if}
+{if $parentid}
+<div class="t_1 mb5"><div><h3><a href="{typeurl($parentid)}" title="{typename($parentid)}">{typename($parentid)}</a></h3></div></div>
+<ul class="leftmenu mb10">
+{loop type($parentid) $type}
+<li><a href="{typeurl($type['typeid'])}" title="{$type['typename']}">{$type['typename']}</a></li>
+{/loop}
+</ul>
+{/if}

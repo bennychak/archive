@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2811142890</channel_id>
+<channel_name><![CDATA[上视娱乐]]></channel_name>
+<channel_typeid><![CDATA[24]]></channel_typeid>
+<channel_typename><![CDATA[上海文广]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24057424]]></cur_program_id>
+<cur_program_name><![CDATA[新老娘舅·新老娘舅微博]]></cur_program_name>
+<cur_program_time><![CDATA[18:00]]></cur_program_time>
+<next_program_name><![CDATA[新老娘舅]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[	 
+	]]></def_program>
+<channel_desc><![CDATA[努力弘扬海派综艺节目，全方位满足资讯时代观众的心理需求。注重新闻性、娱乐性、时尚性。
+]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/smg.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shanghai.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shanghai.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100042</chat_id>
+   <chat_title><![CDATA[上视娱乐]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[东方宽频]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[新娱乐在线]]></pn>
+		<tm><![CDATA[06:00]]></tm>
+		<id><![CDATA[24057410]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新老娘舅·新老娘舅微博]]></pn>
+		<tm><![CDATA[07:01]]></tm>
+		<id><![CDATA[24057411]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新老娘舅]]></pn>
+		<tm><![CDATA[07:28]]></tm>
+		<id><![CDATA[24057412]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[相约星期六]]></pn>
+		<tm><![CDATA[08:00]]></tm>
+		<id><![CDATA[24057413]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[快乐三兄弟]]></pn>
+		<tm><![CDATA[09:28]]></tm>
+		<id><![CDATA[24057414]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[百家心]]></pn>
+		<tm><![CDATA[09:44]]></tm>
+		<id><![CDATA[24057415]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[可凡倾听]]></pn>
+		<tm><![CDATA[10:21]]></tm>
+		<id><![CDATA[24057416]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天籁村]]></pn>
+		<tm><![CDATA[11:21]]></tm>
+		<id><![CDATA[24057417]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新娱乐在线]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24057418]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新老娘舅·新老娘舅微博]]></pn>
+		<tm><![CDATA[13:00]]></tm>
+		<id><![CDATA[24057419]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新老娘舅]]></pn>
+		<tm><![CDATA[13:27]]></tm>
+		<id><![CDATA[24057420]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[14:07]]></tm>
+		<id><![CDATA[24057421]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[家庭演播室]]></pn>
+		<tm><![CDATA[16:45]]></tm>
+		<id><![CDATA[24057422]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[淘最上海]]></pn>
+		<tm><![CDATA[17:36]]></tm>
+		<id><![CDATA[24057423]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[新老娘舅·新老娘舅微博]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24057424]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新老娘舅]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24057425]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[快乐三兄弟]]></pn>
+		<tm><![CDATA[19:05]]></tm>
+		<id><![CDATA[24057426]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[欢乐星期二]]></pn>
+		<tm><![CDATA[19:20]]></tm>
+		<id><![CDATA[24057427]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[百家心]]></pn>
+		<tm><![CDATA[20:20]]></tm>
+		<id><![CDATA[24057428]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新娱乐在线]]></pn>
+		<tm><![CDATA[21:00]]></tm>
+		<id><![CDATA[24057429]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新娱乐影院]]></pn>
+		<tm><![CDATA[21:58]]></tm>
+		<id><![CDATA[24057430]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[36.7℃明星听诊会]]></pn>
+		<tm><![CDATA[23:49]]></tm>
+		<id><![CDATA[24057431]]></id>
+	</p>
+
+</root>

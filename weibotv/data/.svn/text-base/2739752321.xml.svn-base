@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2739752321</channel_id>
+<channel_name><![CDATA[陕西卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24056579]]></cur_program_id>
+<cur_program_name><![CDATA[第一财富]]></cur_program_name>
+<cur_program_time><![CDATA[17:47]]></cur_program_time>
+<next_program_name><![CDATA[健康56点]]></next_program_name>
+<next_program_time><![CDATA[18:00]]></next_program_time>
+<def_program><![CDATA[	 
+	]]></def_program>
+<channel_desc><![CDATA[以“传五千年历史文明，播新时代先进文化”为理念，致力于频道专业化，栏目对象化，节目精品化。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/sxtv1.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shanxi.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shanxi.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100017</chat_id>
+   <chat_title><![CDATA[陕西卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[陕西电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[陕西新闻联播]]></pn>
+		<tm><![CDATA[06:32]]></tm>
+		<id><![CDATA[24056573]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[鉴藏]]></pn>
+		<tm><![CDATA[07:16]]></tm>
+		<id><![CDATA[24056574]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天下奇谭]]></pn>
+		<tm><![CDATA[07:36]]></tm>
+		<id><![CDATA[24056575]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[08:25]]></tm>
+		<id><![CDATA[24056576]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[千家百态]]></pn>
+		<tm><![CDATA[12:20]]></tm>
+		<id><![CDATA[24056577]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视剧]]></pn>
+		<tm><![CDATA[13:00]]></tm>
+		<id><![CDATA[24056578]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[第一财富]]></pn>
+		<tm><![CDATA[17:47]]></tm>
+		<id><![CDATA[24056579]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[健康56点]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24056580]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[陕西新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24056581]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[转中央台新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24056582]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧场:我的父亲是“板凳”]]></pn>
+		<tm><![CDATA[19:35]]></tm>
+		<id><![CDATA[24056583]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[千家百态]]></pn>
+		<tm><![CDATA[22:20]]></tm>
+		<id><![CDATA[24056584]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[生活魔法师]]></pn>
+		<tm><![CDATA[22:57]]></tm>
+		<id><![CDATA[24056585]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今夜女人帮]]></pn>
+		<tm><![CDATA[23:22]]></tm>
+		<id><![CDATA[24056586]]></id>
+	</p>
+
+</root>

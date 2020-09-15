@@ -1,0 +1,127 @@
+    	<div id="logo">
+        	<a href="我的首页.shtml" target="rightFrame" class="logoimg"><span>logo</span></a>
+            <ul class="set_index">
+                <li><a href="我的首页.shtml" target="rightFrame">首页</a></li>
+                <li class="last"><a href="#">设为主页</a></li>
+            </ul>
+        </div>
+        <div class="user_box">
+        	<div class="box_top"></div>
+        	<div class="box_con">
+            	<div class="avatar_my_box">
+                    <div class="avatar_my">
+                        <a title="" href="个人主页.shtml" target="rightFrame"><img alt="" src="images/temp_avatar_my.jpg" /></a>
+                    </div>
+                    <div class="user_status">
+                        <div class="icon16 user_live offline">
+                            <span></span>隐身 [<a href="#">退出</a>]
+                        </div>
+                        <div class="user_name">
+                            <p><strong>王琦</strong></p>
+                            <p><a href="个人主页.shtml" target="rightFrame">预览个人主页</a></p>
+                        </div>
+                        <div class="icon_more user_lv">
+                            <a href="#" class="icon16 user_level"><span>等级：</span><span class="note">38</span></a>
+                            <a href="#" class="icon16 user_money"><span>金钱：</span><span class="note">1680</span></a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="user_property">
+                	<li>
+                        <a href="#">
+                            <span>10</span>
+                            <em>徽章</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="我的好友.shtml" target="rightFrame">
+                            <span>24</span>
+                            <em>好友</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>43</span>
+                            <em>粉丝</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="last">
+                            <span>15</span>
+                            <em>推博</em>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="user_medal">
+                	<li><a title="勋章1枚" class="medal1" href="#"><span>勋章一枚</span></a></li>
+                	<li><a title="勋章1枚" class="medal2" href="#"><span>勋章一枚</span></a></li>
+                	<li><a title="勋章1枚" class="medal3" href="#"><span>勋章一枚</span></a></li>
+                	<li><a title="勋章1枚" class="medal2" href="#"><span>勋章一枚</span></a></li>
+                	<li><a title="勋章1枚" class="medal3" href="#"><span>勋章一枚</span></a></li>
+                	<li><a title="更多..." class="medal_rarrow" href="#"><span>更多...</span></a></li>
+                </ul>
+                <hr class="user_hr1" />
+                <ul class="icon_system">
+                	<li>
+                        <a href="我的首页.shtml" target="rightFrame">
+                            <img src="../images/apps/app5.png" />
+                            <em>首页</em>
+                        </a>
+                    </li>
+                	<li>
+                        <a href="我的好友.shtml" target="rightFrame">
+                            <img src="../images/apps/app6.png" />
+                            <em>好友</em>
+                        </a>
+                    </li>
+                	<li>
+                        <a href="账户设置_基本资料.shtml" target="rightFrame">
+                            <img src="../images/apps/app7.png" />
+                            <em>设置</em>
+                        </a>
+                    </li>
+                	<li>
+                    	<b class="layTogglea"><i>24</i></b>
+                        <a href="我的消息.shtml" target="rightFrame">
+                            <img src="../images/apps/app8.png" />
+                            <em>消息</em>
+                        </a>
+                        <div id="toggle_messageside" class="layer3 toggle">
+                        	<div class="statearrow2"></div>
+                        	<div class="list_t"></div>
+                        	<ul class="list_m">
+                                <li><a href="#">未读消息</a>(4)</li>
+                                <li><a href="#">好友请求</a>(2/10)</li>
+                                <li><a href="#">应用请求</a>(1/8)</li>
+                                <li><a href="#">新粉丝</a>(10)</li>
+                                <li><a href="#">微博评论</a>(6)</li>
+                                <li><a href="#">相册评论</a>(3)</li>
+                                <li><a href="#">提到我的</a>(3)</li>
+                            </ul>
+                        	<div class="list_b"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="user_applist">
+                    <ul class="app">
+                        <li>
+                            <a href="相册.shtml" target="rightFrame"><img src="../images/apps/app1.png" /><em>相册</em></a>
+                        </li>
+                        <li>
+                            <a href="分类导航.shtml" target="rightFrame"><img src="../images/apps/app2.png" /><em>分类</em></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="../images/apps/app3.png" /><em>小组</em></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="../images/apps/app4.png" /><em>任务</em></a>
+                        </li>
+                    </ul>
+                    <div class="icon_more manage">
+                    	<a href="#" class="icon16 manage1"><span>*</span>管理</a>
+                    	<a href="#" class="icon16 manage2"><span>+</span>添加</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box_bottom"></div>
+        </div>

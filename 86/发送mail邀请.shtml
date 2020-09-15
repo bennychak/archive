@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>发送mail邀请 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/好友导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <form class="ivbox" action="" method="post">
+                    <table class="ivbox_tb" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <th>对方E-mail：</th>
+                            <td><textarea></textarea></td>
+                            <td>
+                            	<div class="ar1"><div>填写多个Email时:请用空格、逗号、分号或者回车分割。</div></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>邮件标题：</th>
+                            <td><input class="input2" type="text" /></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>附言</th>
+                            <td><textarea></textarea></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="导入联系人"></div></div></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    </form>
+                </div>
+            </div>
+            <div id="ui_inmain">
+            </div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3051487004</channel_id>
+<channel_name><![CDATA[贵州卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24056670]]></cur_program_id>
+<cur_program_name><![CDATA[ 雪豹(20——24)]]></cur_program_name>
+<cur_program_time><![CDATA[13:17]]></cur_program_time>
+<next_program_name><![CDATA[ 股市先锋]]></next_program_name>
+<next_program_time><![CDATA[18:00]]></next_program_time>
+<def_program><![CDATA[ 
+ 
+]]></def_program>
+<channel_desc><![CDATA[国内第一家定位为西部区域媒体的省级卫视，全面覆盖西部12省，将凭借西部的收视优势，打造“西部黄金卫视”品牌！]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/guizhou.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/guizhou.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/guizhou.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100021</chat_id>
+   <chat_title><![CDATA[贵州卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[贵州电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[ 贵州新闻联播]]></pn>
+		<tm><![CDATA[00:30]]></tm>
+		<id><![CDATA[24056662]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 火线(6—7)国际大营救(15——16)]]></pn>
+		<tm><![CDATA[01:15]]></tm>
+		<id><![CDATA[24056663]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 贵州新闻联播]]></pn>
+		<tm><![CDATA[06:00]]></tm>
+		<id><![CDATA[24056664]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 股市先锋]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24056665]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 侠骨丹心(19——23)]]></pn>
+		<tm><![CDATA[07:53]]></tm>
+		<id><![CDATA[24056666]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 午间道]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24056667]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 真相]]></pn>
+		<tm><![CDATA[12:40]]></tm>
+		<id><![CDATA[24056668]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 气象快讯]]></pn>
+		<tm><![CDATA[13:15]]></tm>
+		<id><![CDATA[24056669]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[ 雪豹(20——24)]]></pn>
+		<tm><![CDATA[13:17]]></tm>
+		<id><![CDATA[24056670]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 股市先锋]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24056671]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 贵州新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24056672]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 天气预报]]></pn>
+		<tm><![CDATA[18:55]]></tm>
+		<id><![CDATA[24056673]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 中央台新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24056674]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 隋唐英雄传(15——17)]]></pn>
+		<tm><![CDATA[19:35]]></tm>
+		<id><![CDATA[24056675]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 家和万事兴]]></pn>
+		<tm><![CDATA[22:20]]></tm>
+		<id><![CDATA[24056676]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 真相]]></pn>
+		<tm><![CDATA[23:10]]></tm>
+		<id><![CDATA[24056677]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 中国电脑福利彩票开奖公告]]></pn>
+		<tm><![CDATA[23:45]]></tm>
+		<id><![CDATA[24056678]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 贵州旅游天气预报]]></pn>
+		<tm><![CDATA[23:46]]></tm>
+		<id><![CDATA[24056679]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 火线(8)]]></pn>
+		<tm><![CDATA[23:50]]></tm>
+		<id><![CDATA[24056680]]></id>
+	</p>
+
+</root>

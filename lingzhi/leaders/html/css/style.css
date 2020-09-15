@@ -1,0 +1,182 @@
+/* Design by King.
+/* 浏览器使用文字显示的大小失效, 文字定义为 10 - 12px */
+
+/*Arial,sans-serif,tahoma*/
+
+@import url("screen.css"); /* 常用目录 */
+/* Html 全局定义 */
+/* 网页主要布局与配色 - 首页 */
+BODY	{
+	margin: 0;
+	padding: 0;
+	color: #333333;
+	background-color:#FFFFFF;
+	border-style: none
+	}
+
+table,th,td	{ font: 12px tahoma }
+a	{ color: #000000; text-decoration: none }
+a:hover	{ color: #0099FF; text-decoration: underline }
+
+/* Banner*/
+#index_banner {
+border-bottom:10px solid #cccccc;
+border-top:1px solid #cccccc;
+margin:0 0 3px 0;
+}
+
+#page_toper{
+border-bottom:1px solid #cccccc;
+border-top:1px solid #cccccc;
+}
+
+#form th {padding:4px;background-color:#f5f5f5;text-align:right;vertical-align:top;font-weight:lighter;border-bottom:1px solid #e1e1e1;border-top: 3px solid #fff;}
+#form td td td {padding:0;}
+#form td td {padding:0;}
+#form td {padding:6px;}
+
+.product_field {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #16344f; FONT-FAMILY: "Arial"; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+
+.product_name {color:#912653; font-weight:bold}
+
+.limap {
+	FONT-SIZE: 11px; COLOR: #907d86; FONT-FAMILY: "Arial"; LETTER-SPACING: 1px
+}
+.limap A:link {
+	FONT-SIZE: 11px; COLOR: #907d86; FONT-FAMILY: "Arial"; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.limap A:visited {
+	FONT-SIZE: 11px; COLOR: #907d86; FONT-FAMILY: "Arial"; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.limap A:active {
+	FONT-SIZE: 11px; COLOR: #907d86; FONT-FAMILY: "Arial"; LETTER-SPACING: 1px; TEXT-DECORATION: underline
+}
+.limap A:hover {
+	FONT-SIZE: 11px; COLOR: #907d86; FONT-FAMILY: "Arial"; LETTER-SPACING: 1px; TEXT-DECORATION: underline
+}
+
+.style1 {color: #999999; text-decoration: underline}
+.style2 {color: #666666; text-decoration: underline}
+.style3 {color: #336699}
+.style4 {color: #999999}
+.style5 {
+	color: #666666;
+	font-family: tahoma;
+}
+
+input	{ font: 12px tahoma }
+.input	{ border-bottom: 1px solid #666666; border-right: 1px solid #666666; border-left: 1px solid #CACACA; border-top: 1px solid #CACACA; background: #FFFFFF }
+
+
+/*页顶文字菜单*/
+#index_top_text_menu{
+font: 10px tahoma;
+}
+
+.footer_reserved{
+font: 9px tahoma;
+}
+
+.title_contentb {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #732842; 
+	FONT-FAMILY: "Verdana";
+	LETTER-SPACING: 0px; 
+	TEXT-DECORATION: none
+}
+
+
+
+/* 文字与超连接默认样式 */
+A	{ color: #333333; text-decoration: none }
+A:hover	{ color: #0099FF; text-decoration: underline }
+A:active	{ color: #663399; text-decoration: none }
+/* Tbale Style */
+
+/* 图片样式 */
+img	{ border-style: none; margin: 0px;/* IE vertical-align: middle */ }
+
+.menu_off {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: "Arial"; LETTER-SPACING: 0px; BACKGROUND-COLOR: #f7f7f7; TEXT-DECORATION: none;cursor: pointer
+}
+
+.menu_on {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #c56014; FONT-FAMILY: "Arial"; LETTER-SPACING: 0px; BACKGROUND-COLOR: #f4f4e9; TEXT-DECORATION: none;cursor: pointer
+}
+
+.menu_on_left{
+ background-color:#CC0066
+}
+
+.menu_off_left{
+ background-color:#FFFFFF
+}
+
+.bn	{ border-bottom: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC }
+
+.about_us_text{
+font: 16px Tahoma, Arial, Verdana;
+}
+
+.why_choose_title{
+font: 16px Tahoma, Arial, Verdana;
+font-weight:bold;
+color:#FF0000;
+}
+
+.why_choose_title_sub{
+font: 12px Tahoma, Arial, Verdana;
+font-weight:bold;
+color:#732842;
+}
+
+.order_p{
+margin:5px;
+padding:0px;
+}
+
+.table_title {
+font-family: "Arial"; 
+font-size: 11px; 
+letter-spacing: 0px;  
+color: #666666; 
+font-weight: bold; 
+background-color: #F4F4E9;
+padding:7px
+}
+.table_title a:link {text-decoration: none ; letter-spacing: 0px;   color: #1F305B; font-weight: bold;}
+.table_title a:visited {text-decoration: none ; letter-spacing: 0px;   color: #1F305B; font-weight: bold;}
+.table_title a:active {text-decoration: underline ; letter-spacing: 0px;   color: #BB9C65;}
+.table_title a:hover {text-decoration: underline ; letter-spacing: 0px;   color: #BB9C65;}
+.table_text {
+font-family: "Arial"; 
+font-size: 11px; 
+color: #666666; 
+background-color: #F7F7F7;
+padding:7px
+}
+
+.table_text p{
+margin:2px
+}
+
+.title_orange_l {
+	font-family: "Arial";
+	font-size: 12px;
+	letter-spacing: 0px;
+	color: #C56014;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.table_title_nonbold {
+	font-family:  "Arial";
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #666666;
+	background-color: #F4F4E9;
+	height: 23px;
+}

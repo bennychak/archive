@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>4004492900</channel_id>
+<channel_name><![CDATA[上视戏剧]]></channel_name>
+<channel_typeid><![CDATA[24]]></channel_typeid>
+<channel_typename><![CDATA[上海文广]]></channel_typename>
+<channel_rq><![CDATA[2]]></channel_rq>
+<cur_program_id><![CDATA[24058766]]></cur_program_id>
+<cur_program_name><![CDATA[戏剧大舞台]]></cur_program_name>
+<cur_program_time><![CDATA[16:00]]></cur_program_time>
+<next_program_name><![CDATA[电视书苑]]></next_program_name>
+<next_program_time><![CDATA[06:00]]></next_program_time>
+<def_program><![CDATA[栏目推荐：
++东方戏剧大舞台 
++三人麻辣烫 
++缘来一家门 
++爱心剧场 
++海上大剧院 
++东方之韵戏剧长廊 
++电视书苑 	 
+	]]></def_program>
+<channel_desc><![CDATA[中国第一家戏剧电视媒体,它以现代人文眼光为立足点,以现代时尚视角为切入口,以新颖的... 
+]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/smg.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shanghai.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shanghai.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100041</chat_id>
+   <chat_title><![CDATA[上视戏剧]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[东方宽频]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[电视书苑]]></pn>
+		<tm><![CDATA[06:00]]></tm>
+		<id><![CDATA[24058762]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[戏剧长廊]]></pn>
+		<tm><![CDATA[06:57]]></tm>
+		<id><![CDATA[24058763]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[名家名段任你点]]></pn>
+		<tm><![CDATA[07:57]]></tm>
+		<id><![CDATA[24058764]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[电视书苑]]></pn>
+		<tm><![CDATA[09:00]]></tm>
+		<id><![CDATA[24058765]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[戏剧大舞台]]></pn>
+		<tm><![CDATA[16:00]]></tm>
+		<id><![CDATA[24058766]]></id>
+	</p>
+
+</root>

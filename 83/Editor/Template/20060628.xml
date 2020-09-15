@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Editor><Declare>
+		<Version>2.0</Version>
+		<Author>Jalon Huang</Author>
+		<ReleaseDate>2004-09-01</ReleaseDate>
+	</Declare>
+	<SystemPath>
+		<Common>common/</Common>
+		<Dialog>dialog/</Dialog>
+		<Style>style/</Style>
+		<Images>images/</Images>
+		<Plugins>plugins/</Plugins>
+		<Language>language/</Language>
+		<BtnImage>images/button/</BtnImage>
+		<BgImage>images/bgimage/</BgImage>
+		<IconImage>images/icon/</IconImage>
+		<FilesImage>images/files/</FilesImage>
+	</SystemPath>
+	<Elements>
+		<Imports>
+			<item type="Script">common/bin.js</item>
+			<item type="Script">common/comm.js</item>
+			<item type="Script">common/comm2.js</item>
+			<item type="Script">common/table.js</item>
+			<item type="Script">common/decode.js</item>
+			<item type="Script">common/main.js</item>
+		</Imports>
+		<TempDivElement>
+			<item id="divSysTemp" style="display:none;"/>
+			<item id="divLangPackTemp" style="display:none;"/>
+			<item id="divClipBoardTemp" style="VISIBILITY:hidden;OVERFLOW:hidden;POSITION:absolute;WIDTH:0px;HEIGHT:0px;"/>
+			<item id="divMiscTemp" style="display:none;"><![CDATA[]]></item>
+		</TempDivElement>
+		<SideBtnElement>
+			<item src="images/plus.gif" class="plusBtn" border="0" onclick="scrollChange(100)"/>
+			<item src="images/minus.gif" class="minusBtn" border="0" onclick="scrollChange(-100)"/>
+		</SideBtnElement>
+		<ModeBtnElement><item align="center" class="ModeBtnUp" id="ModeBtn_VIEW" onclick="setMode('VIEW')" title="预览"/>
+			<item align="center" class="ModeBtnUp" id="ModeBtn_CODE" onclick="setMode('CODE')" title="代码"/>
+			<item align="center" class="ModeBtnUp" id="ModeBtn_EDIT" onclick="setMode('EDIT')" title="视图"/>
+		</ModeBtnElement></Elements>
+	<Config>
+		<ID clientCode="true">20060628</ID>
+		<Language clientCode="true">Chinese.xml</Language>
+		<StyleSheet clientCode="true">default.css</StyleSheet>
+		<InitMode clientCode="true">EDIT</InitMode>
+		<UrlMode clientCode="true">3</UrlMode>
+		<FilterMode clientCode="true">true</FilterMode>
+		<Filters clientCode="true">SCRIPT</Filters>
+		<UploadPath clientCode="true">upload/</UploadPath>
+		<CheckRefer clientCode="false">true</CheckRefer>
+		<UploadComponent clientCode="false">1</UploadComponent>
+		<CreateFldrMode clientCode="false"></CreateFldrMode>
+		<IMAGEALLOWEXT>gif|jpg|jpeg|bmp|png</IMAGEALLOWEXT>
+		<FLASHALLOWEXT>swf</FLASHALLOWEXT>
+		<MEDIAALLOWEXT>rm|ram|mp3|wav|mid|midi|ra|avi|mpg|mpeg|asf|asx|wma|wmv|mov</MEDIAALLOWEXT>
+		<FILESALLOWEXT>rar|zip|exe|doc|xls|chm|txt</FILESALLOWEXT>
+		<IMAGEMAXSIZE>5000</IMAGEMAXSIZE>
+		<FLASHMAXSIZE>5000</FLASHMAXSIZE>
+		<MEDIAMAXSIZE>5000</MEDIAMAXSIZE>
+		<FILESMAXSIZE>5000</FILESMAXSIZE>
+	</Config>
+	<Toolbars>
+		<Group title="格式工具栏">
+			<item type="ImgBtn" id="TBHandle" class="TBHandle" icon="" onclick=""/>
+			<item type="Select" id="FormatBlock" class="TBGen" icon="" onclick="" onchange="ExecCommand(true,'FormatBlock',this.value);this.selectedIndex=0;"/>
+			<item type="Select" id="FontName" class="TBGen" icon="" onclick="" onchange="ExecCommand(true,'fontname',this.value);this.selectedIndex=0;"/>
+			<item type="Select" id="FontSize" class="TBGen" icon="" onclick="" onchange="ExecCommand(true,'fontsize',this.value);this.selectedIndex=0;"/>
+			<item type="Select" id="EditorZoom" class="TBGen" icon="" onclick="" onchange="doEditorZoom(this.value);"/>
+			<item type="ImgBtn" id="Bold" class="ImgBtn" icon="bold.gif" onclick="ExecCommand(true,'bold')"/>
+			<item type="ImgBtn" id="Italic" class="ImgBtn" icon="italic.gif" onclick="ExecCommand(true,'italic')"/>
+			<item type="ImgBtn" id="UnderLine" class="ImgBtn" icon="underline.gif" onclick="ExecCommand(true,'underline')"/>
+			<item type="ImgBtn" id="StrikeThrough" class="ImgBtn" icon="strikethrough.gif" onclick="ExecCommand(true,'StrikeThrough')"/>
+			<item type="ImgBtn" id="SuperScript" class="ImgBtn" icon="superscript.gif" onclick="ExecCommand(true,'superscript')"/>
+			<item type="ImgBtn" id="SubScript" class="ImgBtn" icon="subscript.gif" onclick="ExecCommand(true,'subscript')"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="JustifyLeft" class="ImgBtn" icon="justifyleft.gif" onclick="ExecCommand(true,'justifyleft')"/>
+			<item type="ImgBtn" id="JustifyCenter" class="ImgBtn" icon="justifycenter.gif" onclick="ExecCommand(true,'justifycenter')"/>
+			<item type="ImgBtn" id="JustifyRight" class="ImgBtn" icon="justifyright.gif" onclick="ExecCommand(true,'justifyright')"/>
+			<item type="ImgBtn" id="JustifyFull" class="ImgBtn" icon="justifyfull.gif" onclick="ExecCommand(true,'JustifyFull')"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="OrderedList" class="ImgBtn" icon="insertorderedlist.gif" onclick="ExecCommand(true,'insertorderedlist')"/>
+			<item type="ImgBtn" id="UnOrderedList" class="ImgBtn" icon="insertunorderedlist.gif" onclick="ExecCommand(true,'insertunorderedlist')"/>
+			<item type="ImgBtn" id="Indent" class="ImgBtn" icon="indent.gif" onclick="ExecCommand(true,'indent')"/>
+			<item type="ImgBtn" id="Outdent" class="ImgBtn" icon="outdent.gif" onclick="ExecCommand(true,'outdent')"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="Paragraph" class="ImgBtn" icon="insertParagraph.gif" onclick="ExecCommand(true,'InsertParagraph')"/>
+			<item type="ImgBtn" id="BR" class="ImgBtn" icon="br.gif" onclick="insert('br')"/>
+		</Group>
+		<Group title="常用工具栏">
+			<item type="ImgBtn" id="TBHandle" class="TBHandle" icon="" onclick=""/>
+			<item type="ImgBtn" id="UnDo" class="ImgBtn" icon="undo.gif" onclick="ExecCommand(false,'UnDo')"/>
+			<item type="ImgBtn" id="ReDo" class="ImgBtn" icon="redo.gif" onclick="ExecCommand(false,'ReDo')"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="FindReplace" class="ImgBtn" icon="findreplace.gif" onclick="findReplace()"/>
+			<item type="ImgBtn" id="SelectAll" class="ImgBtn" icon="selectAll.gif" onclick="ExecCommand(false,'SelectAll')"/>
+			<item type="ImgBtn" id="UnSelect" class="ImgBtn" icon="unselect.gif" onclick="ExecCommand(false,'Unselect')"/>
+			<item type="ImgBtn" id="Delete" class="ImgBtn" icon="delete.gif" onclick="ExecCommand(false,'delete')"/>
+			<item type="ImgBtn" id="RemoveFormat" class="ImgBtn" icon="RemoveFormat.gif" onclick="ExecCommand(true,'RemoveFormat')"/>
+			<item type="ImgBtn" id="Cut" class="ImgBtn" icon="cut.gif" onclick="ExecCommand(false,'cut')"/>
+			<item type="ImgBtn" id="Copy" class="ImgBtn" icon="copy.gif" onclick="ExecCommand(false,'copy')"/>
+			<item type="ImgBtn" id="Paste" class="ImgBtn" icon="paste.gif" onclick="ExecCommand(false,'paste')"/>
+			<item type="ImgBtn" id="PasteText" class="ImgBtn" icon="pastetext.gif" onclick="pasteText()"/>
+			<item type="ImgBtn" id="PasteWord" class="ImgBtn" icon="pasteword.gif" onclick="pasteWord()"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="ForeColor" class="ImgBtn" icon="forecolor.gif" onclick="ShowDialog('dialog/selcolor.htm?action=forecolor', 280, 250, true)"/>
+			<item type="ImgBtn" id="BackColor" class="ImgBtn" icon="backcolor.gif" onclick="ShowDialog('dialog/selcolor.htm?action=backcolor', 280, 250, true)"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="BgColor" class="ImgBtn" icon="bgcolor.gif" onclick="ShowDialog('dialog/selcolor.htm?action=bgcolor', 280, 250, true)"/>
+			<item type="ImgBtn" id="BackImage" class="ImgBtn" icon="bgpic.gif" onclick="ShowDialog('dialog/backimage.htm', 350, 210, true)"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="Image" class="ImgBtn" icon="img.gif" onclick="ShowDialog('dialog/img.htm', 350, 315, true)"/>
+			<item type="ImgBtn" id="Flash" class="ImgBtn" icon="flash.gif" onclick="ShowDialog('dialog/flash.htm', 350, 200, true)"/>
+			<item type="ImgBtn" id="Media" class="ImgBtn" icon="media.gif" onclick="ShowDialog('dialog/media.htm', 350, 220, true)"/>
+			<item type="ImgBtn" id="File" class="ImgBtn" icon="file.gif" onclick="ShowDialog('dialog/files.htm', 350, 150, true)"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="Fieldset" class="ImgBtn" icon="fieldset.gif" onclick="ShowDialog('dialog/fieldset.htm', 350, 170, true)"/>
+			<item type="ImgBtn" id="Iframe" class="ImgBtn" icon="iframe.gif" onclick="ShowDialog('dialog/iframe.htm', 350, 200, true)"/>
+			<item type="ImgBtn" id="HorizontalRule" class="ImgBtn" icon="inserthorizontalrule.gif" onclick="ExecCommand(true,'InsertHorizontalRule')"/>
+			<item type="ImgBtn" id="Marquee" class="ImgBtn" icon="marquee.gif" onclick="ShowDialog('dialog/marquee.htm', 395, 150, true)"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="FormText" class="ImgBtn" icon="formtext.gif" onclick="ExecCommand(true,'InsertInputText')"/>
+			<item type="ImgBtn" id="FormTextArea" class="ImgBtn" icon="formtextarea.gif" onclick="ExecCommand(true,'InsertTextArea')"/>
+			<item type="ImgBtn" id="FormRadio" class="ImgBtn" icon="formradio.gif" onclick="ExecCommand(true,'InsertInputRadio')"/>
+			<item type="ImgBtn" id="FormCheckbox" class="ImgBtn" icon="formcheckbox.gif" onclick="ExecCommand(true,'InsertInputCheckbox')"/>
+			<item type="ImgBtn" id="FormDropdown" class="ImgBtn" icon="formdropdown.gif" onclick="ExecCommand(true,'InsertSelectDropdown')"/>
+			<item type="ImgBtn" id="FormButton" class="ImgBtn" icon="formbutton.gif" onclick="ExecCommand(true,'InsertButton')"/>
+		</Group>
+		<Group title="编辑工具栏"><item type="ImgBtn" id="TBHandle" class="TBHandle" icon="" onclick=""/>
+			<item type="ImgBtn" id="TableInsert" class="ImgBtn" icon="tableinsert.gif" onclick="TableInsert()"/>
+			<item type="ImgBtn" id="TableProp" class="ImgBtn" icon="tableProp.gif" onclick="TableProp()"/>
+			<item type="ImgBtn" id="TableRowProp" class="ImgBtn" icon="tablerowprop.gif" onclick="TableRowProp()"/>
+			<item type="ImgBtn" id="TableCellProp" class="ImgBtn" icon="tablecellprop.gif" onclick="TableCellProp()"/>
+			<item type="ImgBtn" id="TableCellSplit" class="ImgBtn" icon="tablecellsplit.gif" onclick="TableCellSplit()"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="TableRowInsertAbove" class="ImgBtn" icon="tablerowinsertabove.gif" onclick="TableRowInsertAbove()"/>
+			<item type="ImgBtn" id="TableRowInsertBelow" class="ImgBtn" icon="tablerowinsertbelow.gif" onclick="TableRowInsertBelow()"/>
+			<item type="ImgBtn" id="TableRowMerge" class="ImgBtn" icon="tablerowmerge.gif" onclick="TableRowMerge()"/>
+			<item type="ImgBtn" id="TableRowSplit" class="ImgBtn" icon="tablerowsplit.gif" onclick="TableRowSplit(2)"/>
+			<item type="ImgBtn" id="TableRowDelete" class="ImgBtn" icon="tablerowdelete.gif" onclick="TableRowDelete()"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="TableColInsertLeft" class="ImgBtn" icon="tablecolinsertleft.gif" onclick="TableColInsertLeft()"/>
+			<item type="ImgBtn" id="TableColInsertRight" class="ImgBtn" icon="tablecolinsertright.gif" onclick="TableColInsertRight()"/>
+			<item type="ImgBtn" id="TableColMerge" class="ImgBtn" icon="tablecolmerge.gif" onclick="TableColMerge()"/>
+			<item type="ImgBtn" id="TableColSplit" class="ImgBtn" icon="tablecolsplit.gif" onclick="TableColSplit(2)"/>
+			<item type="ImgBtn" id="TableColDelete" class="ImgBtn" icon="tablecoldelete.gif" onclick="TableColDelete()"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="CreateLink" class="ImgBtn" icon="createLink.gif" onclick="createLink()"/>
+			<item type="ImgBtn" id="Unlink" class="ImgBtn" icon="unlink.gif" onclick="ExecCommand(true,'UnLink')"/>
+			<item type="ImgBtn" id="Map" class="ImgBtn" icon="map.gif" onclick="mapEdit()"/>
+			<item type="ImgBtn" id="Anchor" class="ImgBtn" icon="anchor.gif" onclick="ShowDialog('dialog/anchor.htm', 270, 220, true);"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="absolutePosition" class="ImgBtn" icon="abspos.gif" onclick="zPosition()"/>
+			<item type="ImgBtn" id="zIndexBackward" class="ImgBtn" icon="backward.gif" onclick="zIndex('-')"/>
+			<item type="ImgBtn" id="zIndexForward" class="ImgBtn" icon="forward.gif" onclick="zIndex('+')"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="Quote" class="ImgBtn" icon="quote.gif" onclick="insert('quote')"/>
+			<item type="ImgBtn" id="Code" class="ImgBtn" icon="code.gif" onclick="insert('code')"/>
+			<item type="ImgBtn" id="TBSep" class="TBSep" icon="" onclick=""/>
+			<item type="ImgBtn" id="Excel" class="ImgBtn" icon="excel.gif" onclick="insert('excel')"/>
+			<item type="ImgBtn" id="Icon" class="ImgBtn" icon="icon.gif" onclick="ShowDialog('dialog/icon.htm', 380, 250, true)"/>
+			<item type="ImgBtn" id="Symbol" class="ImgBtn" icon="symbol.gif" onclick="ShowDialog('dialog/symbol.htm', 350, 220, false)"/>
+			<item type="ImgBtn" id="NowDate" class="ImgBtn" icon="date.gif" onclick="insert('date')"/>
+			<item type="ImgBtn" id="NowTime" class="ImgBtn" icon="time.gif" onclick="insert('time')"/>
+			<item type="ImgBtn" id="Maximize" class="ImgBtn" icon="maximize.gif" onclick="Maximize()"/>
+			<item type="ImgBtn" id="Minimize" class="ImgBtn" icon="minimize.gif" onclick="Minimize()"/>
+		</Group></Toolbars>
+	<Memo><![CDATA[常用样式版,仅放上一些常用的按钮.]]></Memo>
+</Editor>

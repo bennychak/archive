@@ -1,0 +1,14 @@
+<!-- copyright -->
+<div class="copyright">
+    <ul>
+        <li><a href="#" class="last">关于我们</a></li>
+        <li><a href="#">手机版</a></li>
+        <li><a href="#">API</a></li>
+        <li><a href="#">招聘</a></li>
+        <li><a href="#">客服</a></li>
+        <li><a href="#">帮助</a></li>
+    </ul>
+
+	<div>&copy; 2010 推博网</div>
+</div>
+<!-- /copyright -->

@@ -1,0 +1,69 @@
+<HTML>
+<HEAD>
+<TITLE>插入图标</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<STYLE type=text/css>
+BODY {padding:5px}
+IMG {CURSOR:hand;width:20px;height:20px;}
+</STYLE>
+
+<script language="JavaScript" src="dialog.js"></script>
+
+<SCRIPT language=JavaScript>
+function IconClick()
+{
+	if (event.srcElement.tagName.toUpperCase() == "IMG") 
+	{
+		var sPath = ConvertURL(mSystem["IconImage"],"1");
+		var sImgSrc = event.srcElement.getAttribute("src", 2);
+		var url = sPath + sImgSrc.substr(sImgSrc.lastIndexOf("/")+1);
+
+		dialogArguments.insertHTML("<IMG id='Editor_imgTempEle' SRC=" + url + ">");
+
+		var oTempElement = dialogArguments.Editor.document.getElementById("Editor_imgTempEle");
+		oTempElement.src = url;
+		oTempElement.removeAttribute("id");
+		
+		window.returnValue = null;
+		window.close();
+	}
+}
+
+document.onclick=IconClick;
+
+</script>
+</HEAD>
+
+<BODY bgcolor="#ffffff">
+<div id="imagePanel"></div>
+<div id="controlPanel" align="center" style="padding:3px;">
+	<span onClick="showImage(1);"><font color="#990033" style="font-size:12px;cursor:hand;">&lt;&lt;</font></span>
+	<span onClick="showImage(2);"><font color="#990033" style="font-size:12px;cursor:hand;">&gt;&gt;</font></span>
+</div>
+<script>
+function showImage(i)
+{
+	var sHTML = "<tr>";
+	var sFileName;
+	var iStart = (i-1)*6*10 + 1;
+	var iEnd = i*6*10 + 1;
+	var iMax = 85;
+	for(i=iStart;i<iEnd;i++)
+	{
+		if(i>iMax)break;
+		if(i%10 == 1){sHTML += "</tr><tr>";}
+		if(i<10){
+			sFileName = "0" + i.toString() + ".gif";
+		}
+		else{
+			sFileName = i.toString() + ".gif";
+		}
+		sHTML += "<td><img src='../" + mSystem["IconImage"] + sFileName + "'></td>";
+	}
+	sHTML += "</tr>";
+	imagePanel.innerHTML = "<TABLE width='100%' cellSpacing='5' border='0' align='center'>" + sHTML + "</TABLE>";
+}
+showImage(1);
+</script>
+</BODY>
+</HTML>

@@ -1,0 +1,155 @@
+{template 'header.html'}
+<div id="mid">
+ {template 'left.html'}
+  <table width="628" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-left:22px;">
+    <tr>
+      <td>
+{template 'position.html'}
+</td>
+    </tr>
+    <tr>
+      <td height="16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+			
+            <table width="628" border="1" cellpadding="7" cellspacing="0" bordercolor="#EDEDED" style="margin-bottom:20px;">
+              <tr>
+                <td bgcolor="#EDEDED"><img src="{$skin_path}/arr3.gif" width="10" height="8" align="absmiddle" style="margin-right:6px;" /><font color="#CC0000"><strong>{$category[$catid][catname]}</strong></font> --- List</td>
+              </tr>
+              <tr>
+                <td>
+                
+               <div style="padding:10px 25px">
+			<div class="NewsTitle" >{$archive[title]}</div>
+			<div class="PostDate">{$archive[adddate]}</div>
+			<div class="NewsContent" >
+				{$archive[content]}
+<div class="blank30"></div>
+
+
+{if $archive[attr2]}
+<!-- tag -->
+<div class="blank10"></div>
+{lang(productprice)}： {$archive[attr2]}
+{/if}
+
+{if $archive[tag]}
+<!-- tag -->
+<div class="blank10"></div>
+{lang(tag)}： {$archive[tag]}
+{/if}
+
+{if $archive[special]}
+<!-- 专题 -->
+<div class="blank10"></div>
+{lang(special)}： {$archive[special]}
+{/if}
+
+
+{if $archive[type]}
+<!-- 分类 -->
+<div class="blank10"></div>
+{lang(type)}： {$archive[type]}
+{/if}
+
+
+{if $archive[area]}
+<!-- 地区 -->
+<div class="blank10"></div>
+{lang(area)}： {$archive[area]}
+{/if}
+
+<div class="blank30"></div>
+{if $pages>1}
+<!-- 内页分页 -->
+<div class="blank10"></div>
+<div class="pages">
+{archive_pagination($archive)}
+</div>
+<div class="blank30"></div>
+{/if}
+
+<!--自动调用自定义字段-->
+<?php
+$set_field=type::getpositionlink($data['typeid']);
+$set_fields=array();
+if(is_array($set_field))
+foreach($set_field as $key => $value) {
+    $set_fields[]=$value[id];
+}
+?>
+{cb_data($archive)}
+{loop $archive $key $value}
+<?php if(setting::$var['archive'][$name]['typeid'] && !in_array(setting::$var['archive'][$name]['typeid'],$set_fields)){
+  unset($field[$name]);
+  continue;
+}?>
+<?php if(!preg_match('/^my/',$key) || !$value) continue; ?>
+<p> {=setting::$var['archive'][$key]['cname']}: {$value}</p>
+{/loop}
+<div class="blank20"></div>
+
+
+<?php if(archive_attachment($archive['aid'],'id')) { ?>
+<!-- 附件 -->
+<p>
+{lang(attachment)}：{attachment_js($archive['aid'])}
+</p>
+<?php } ?>
+<div class="blank30"></div>
+
+<?php if(hasflash()) { ?>
+        <div style="color:red;font-size:16px;"><?php echo showflash(); ?></div><?php } ?>
+
+<!-- 投票 -->
+        {vote_js($archive[aid])}
+
+
+<script language="JavaScript">
+function shutwin(){
+window.close();
+return;}
+</script>
+
+<div class="blank30"></div>
+
+<div id="tool">
+<ul>
+<li style="width:60px; padding-left:5px;">{lang(strgrades)}：</li>
+<li style="width:100px; padding-left:5px;">{$archive[strgrade]}</li>
+{if get('lang_type')=='cn'}
+<li><a href="javascript:void((function(s,d,e,r,l,p,t,z,c) {var%20f='http://v.t.sina.com.cn/share/share.php?appkey=4174743220',u=z||d.location,p=['&url=',e(u),'& title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'& content=',c||'gb2312','&pic=',e(p||'')].join('');function%20a() {if(!window.open([f,p].join(''),'mb', ['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width- 440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');}; if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();}) (screen,document,encodeURIComponent,'','','','{$archive[title]}','',''));" class="sinaicon">分享到微博</a></li>
+{/if}
+{if $archive[attr2]}
+<li><a title="{lang(makeorders)}" target="_blank" href="{url('archive/orders/aid/'.$archive[aid],true)}" class="orders">{lang(makeorders)}</a></li>
+{/if}
+</ul>
+</div>
+<div class="blank30"></div>
+<div id="page">
+{if $archive['p']['aid']}
+<strong>{lang(archivep)}：</strong><a href="{$archive['p']['url']}">{$archive['p']['title']}</a>
+{else}
+<strong>{lang(archivep)}：</strong>{lang(nopage)}	
+{/if}
+<div class="clear"></div>
+{if $archive['n']['aid']}
+ <strong>{lang(archiven)}：</strong><a href="{$archive['n']['url']}">{$archive['n']['title']}</a>
+{else}
+<strong>{lang(archiven)}：</strong>{lang(nopage)}	
+{/if}
+</div>
+				</div>
+
+	</div>
+                </td>
+              </tr>
+            </table>
+            
+      </td>
+    </tr>
+  </table>
+  <div style="clear:both; height:1px; font-size:1px;">&nbsp;</div>
+</div>
+{template 'footer.html'}

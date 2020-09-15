@@ -1,0 +1,64 @@
+<div id="link">
+	<div class="link_top">{lang(quicknav)}</div>
+	<div class="link_bg">
+		<ul>
+			<!--只展开当前栏目所在一级栏目下的分类-->
+<?php $__pid = getcategoryparentsid($catid);?>
+{loop categories_nav() $t}
+<li><a title="{$t[catname]}" href="{$t[url]}"{if isset($topid) && $topid==$t[catid]} class="on"{/if}>{$t[catname]}</a></li>
+{if $t[catid]==$__pid}
+<!-- {loop category::listcategorydata($__pid) $type} -->
+<li><a href="{$type[url]}" title="{$type[catname]}" class="{if $type[catid]==$catid}on{/if}">{$type[catname]}</a></li>
+<!-- {/loop} -->
+{/if}
+{/loop}
+<!--只展开当前栏目所在一级栏目下的分类-->
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="link_bottom"></div>
+</div>
+<div class="blank10"></div>
+<div id="link">
+<div class="link_top">{lang(siteannoun)}</div>
+	<div class="link_bg">
+		<ul>
+			{loop announ(5) $an}
+			<li><a href="{$an[url]}">{$an[title]}</a></li>
+			{/loop}
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="link_bottom"></div>
+</div>
+<div class="blank10"></div>
+<div id="link">
+	<div class="link_top">{lang(contentspecial)}</div>
+	<div class="link_bg">
+		<ul>
+			<li><strong>{lang(tel)}:</strong></li>
+			<li>{get('tel')}</li>
+			<li><strong>{lang(fax)}:</strong></li>
+			<li>{get('fax')}</li>
+			<li><strong>{lang(address)}:</strong></li>
+			<li>{get('address')}</li>
+			<li><strong>{lang(email)}:</strong></li>
+			<li>{get('email')}</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="link_bottom"></div>
+</div>
+<div class="blank10"></div>
+<div id="link">
+	<div class="link_top">{lang(relatedarticles)}</div>
+	<div class="link_bg">
+		<ul id="related">
+			{loop archive($catid,0,0,'0,0,0',16,'aid',5,false,0) $i $arc} 
+			<li><a href="{$arc[url]}" target="_blank">{$arc[title]}</a></li>
+			{/loop}
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="link_bottom"></div>
+</div>

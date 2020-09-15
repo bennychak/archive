@@ -1,0 +1,200 @@
+.NavigationalMenu{
+align:center;
+background-color: #B0C4DE;
+
+filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#66FFFFFF', EndColorStr='#00FFFFFF');
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+.button{
+	BORDER-RIGHT: #002D96 1px solid; 
+	PADDING-RIGHT: 2px; 
+	BORDER-TOP: #002D96 1px solid; 
+	PADDING-LEFT: 2px; 
+	FONT-SIZE: 12px; 
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#9DBCEA); 
+	BORDER-LEFT: #002D96 1px solid; 
+	CURSOR: hand; 
+	COLOR: black; 
+	PADDING-TOP: 2px; 
+	BORDER-BOTTOM: #002D96 1px solid
+	HEIGHT: 18px;
+	width:auto;
+
+}
+
+.button_1{
+	BORDER-RIGHT: #7b9ebd 1px solid;
+	PADDING-RIGHT: 2px; 
+	BORDER-TOP: #7b9ebd 1px solid; 
+	PADDING-LEFT: 2px; 
+	FONT-SIZE: 12px; 
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); 
+	BORDER-LEFT: #7b9ebd 1px solid; 
+	CURSOR: hand; COLOR: black; 
+	PADDING-TOP: 2px; 
+	BORDER-BOTTOM: #7b9ebd 1px solid
+	HEIGHT: 18px;
+	width:auto;
+
+}
+
+.button_2 {
+	BACKGROUND-COLOR: #f3f3f3;
+	BORDER-COLOR: #000000 #000000 #000000 #000000;
+	BORDER-BOTTOM-WIDTH: 1px;
+	BORDER-LEFT-WIDTH: 1px;
+	BORDER-RIGHT-WIDTH: 1px;
+	BORDER-TOP-WIDTH: 1px;
+	CURSOR: hand;
+	FONT-SIZE: 9pt;
+	HEIGHT: 18px;
+	width:auto;
+	font-family: "宋体";
+	padding: 1px;
+}
+BODY {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	FONT-SIZE: 11px; COLOR: #000000; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, 宋体
+	SCROLLBAR-FACE-COLOR: #eeeeee; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #dee3e7; 
+	SCROLLBAR-3DLIGHT-COLOR: #d1d7dc;
+	SCROLLBAR-ARROW-COLOR: #000000;
+	SCROLLBAR-TRACK-COLOR: #ededed;
+	SCROLLBAR-DARKSHADOW-COLOR: #808080;
+	BACKGROUND-COLOR: #ffffff
+
+}
+
+P {
+	FONT-SIZE: 11px; COLOR: #000000; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, 宋体
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #000000; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, 宋体
+}
+TH {
+	FONT-SIZE: 11px; COLOR: #000000; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, 宋体
+}
+
+.bg {
+	BACKGROUND-COLOR: #ffffff
+}
+.table {
+	BORDER-RIGHT: 1px; 
+	BORDER-TOP: 1px; 
+	BORDER-LEFT: 1px; 
+	WIDTH: 98%; 
+	BORDER-BOTTOM: 1px; 
+	BACKGROUND-COLOR: #ededed
+}
+.tablet {
+	BORDER-RIGHT: 0px; 
+	BORDER-TOP: 0px; 
+	BORDER-LEFT: 0px; 
+	WIDTH: 100%; 
+	BORDER-BOTTOM: 0px
+}
+.td {
+	FONT-WEIGHT: bold; COLOR: #ffffff; HEIGHT: 23px; BACKGROUND-COLOR: #a7a7a7
+}
+.tims {
+	FONT-SIZE: 7pt; COLOR: #808080; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.htd {
+	LINE-HEIGHT: 180%
+}
+
+.htd_bg {
+	LINE-HEIGHT: 180%;
+	background-image: url(../img/gm2logo_bg.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+}
+
+.btd {
+	FONT-WEIGHT: bold
+}
+.bw {
+	WORD-WRAP: break-word
+}
+.tf {
+	TABLE-LAYOUT: fixed
+}
+.t {
+	FONT-WEIGHT: bold; COLOR: #0066cc
+}
+.gray {
+	COLOR: #808080
+}
+.red {
+	COLOR: #ff0000
+}
+.red2 {
+	COLOR: #cc3300
+}
+.blue {
+	COLOR: #0066cc
+}
+.div_alt {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: black 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 18px; BORDER-LEFT: black 1px solid; WIDTH: 240px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #ffffe1
+}
+.f_end {
+	COLOR: #ffffff
+}
+A {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.h_top {
+	FONT-WEIGHT: bold; COLOR: #ededed; TEXT-DECORATION: none
+}
+A.h_top:hover {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+
+A.h_end {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.h_end:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+
+A.h_td {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.h_td:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.h_pop {
+	COLOR: #ededed; TEXT-DECORATION: none
+}
+A.h_pop:hover {
+	TEXT-DECORATION: underline; lor: #808080
+}
+
+.over {} 
+
+.out {filter: Gray} 
+
+.bai {
+	color: #FFFFFF;
+}
+.inimg{margin-right:2em;float:right}input {
+	font-family: "??";
+	font-size: 9pt;
+}

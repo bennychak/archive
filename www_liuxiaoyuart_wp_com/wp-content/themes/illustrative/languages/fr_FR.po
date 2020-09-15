@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: illustrative 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-19 13:37+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: patembe <patembe@gmail.com>\n"
+"Language-Team: patembe <patembe@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:8
+#: header.php:6
+msgid "RSS 2.0 - all posts"
+msgstr "RSS 2.0 - Tous les billets"
+
+#: 404.php:9
+#: header.php:7
+msgid "RSS 2.0 - all comments"
+msgstr "RSS 2.0 6 Tous les commentaires"
+
+#: 404.php:21
+msgid "Sorry! We could not find it"
+msgstr "Désolé! Contenu introuvable"
+
+#: 404.php:22
+msgid "You have requested a page or file which does not exist so we notified the web administrator to check it out."
+msgstr "Vous avez demandé une page ou un fichier inexistant, donc nous notifions le responsable pour vérification."
+
+#: 404.php:23
+msgid "Here are a few options to find what you are looking for."
+msgstr "Voici quelques options pour trouver ce que vou cherchez."
+
+#: 404.php:25
+msgid "Double check the web address for typos"
+msgstr "Vérfiez deux fois l'adresse web."
+
+#: 404.php:26
+msgid "Head back to our home page via the navigation below"
+msgstr "Retournez à l'accueil via la navigation."
+
+#: 404.php:27
+msgid "Visit our full website"
+msgstr "Visitez notre site web en entier."
+
+#: 404.php:28
+msgid "sitemap here"
+msgstr "Plan du site ici"
+
+#: 404.php:31
+#: header.php:35
+msgid "Home"
+msgstr "Accueil"
+
+#: 404.php:32
+msgid "Blog"
+msgstr "Blog"
+
+#: 404.php:33
+msgid "About"
+msgstr "A propos"
+
+#: 404.php:34
+msgid "Contact"
+msgstr "Contact"
+
+#: archive.php:9
+msgid "Search Results"
+msgstr "Résultats de recherche"
+
+#: archive.php:10
+#, php-format
+msgid "Keyword: &#8216;%1$s&#8217;"
+msgstr "Mot clé : : &#8216;%1$s&#8217;"
+
+#: archive.php:14
+msgid "Archive"
+msgstr "Archive"
+
+#: archive.php:19
+#, php-format
+msgid "Archive for the &#8216;%1$s&#8217; Category"
+msgstr "Archive pour la catégorie &#8216;%1$s&#8217; "
+
+#: archive.php:22
+#, php-format
+msgid "Posts Tagged &#8216;%1$s&#8217;"
+msgstr "Billets taggués &#8216;%1$s&#8217;"
+
+#: archive.php:25
+#: archive.php:28
+#: archive.php:31
+#, php-format
+msgid "Archive for %1$s"
+msgstr "Archive pour %1$s"
+
+#: archive.php:34
+msgid "Author Archive"
+msgstr "Archive de l'auteur"
+
+#: archive.php:37
+msgid "Blog Archives"
+msgstr "Archives du blog"
+
+#: archive.php:52
+#: archives.php:18
+#: index.php:18
+#: page.php:12
+#: single.php:12
+msgid "F jS, Y"
+msgstr "L J F Y"
+
+#: archive.php:54
+#: archives.php:20
+#: index.php:20
+#: page.php:14
+#: single.php:14
+msgid "Edit"
+msgstr "Modifier"
+
+#: archive.php:55
+#: index.php:21
+msgid "No comments"
+msgstr "0 commentaires"
+
+#: archive.php:55
+#: index.php:21
+msgid "1 comment"
+msgstr "1 commentaire"
+
+#: archive.php:55
+#: index.php:21
+#, php-format
+msgid "% comments"
+msgstr "% commentaires"
+
+#: archive.php:55
+#: index.php:21
+msgid "Comments off"
+msgstr "Commentaires clos"
+
+#: archive.php:62
+#: index.php:28
+#: single.php:25
+msgid "Categories: "
+msgstr "Catégories :"
+
+#: archive.php:63
+#: index.php:29
+#: single.php:26
+msgid "Tags: "
+msgstr "Tags : "
+
+#: archives.php:22
+#: page.php:16
+#: single.php:16
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: archives.php:23
+#: page.php:17
+#: single.php:17
+msgid "Go to comments"
+msgstr "Aller aux commentaires"
+
+#: archive.php:76
+#: archives.php:53
+#: index.php:42
+#: page.php:39
+#: single.php:44
+msgid "Oops, This is error box"
+msgstr "Oups, il y a une erreur"
+
+#: archive.php:81
+#: archives.php:58
+#: index.php:47
+#: page.php:44
+#: single.php:49
+msgid "Sorry, no posts matched your criteria."
+msgstr "Désolé, aucun billet corespondant"
+
+#: comments.php:5
+msgid "Enter your password to view comments."
+msgstr "Entrez votre mot de passe pour voir les commentaires"
+
+#: comments.php:25
+#: comments.php:28
+msgid "Comments"
+msgstr "Commentaires"
+
+#: comments.php:26
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: comments.php:34
+msgid "Trackback"
+msgstr "Trackback"
+
+#: comments.php:58
+msgid "No comments yet."
+msgstr "Pas encore de commentaire"
+
+#: comments.php:72
+msgid "Comment pages"
+msgstr "Pages de commentaires"
+
+#: comments.php:91
+#: functions.php:63
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: comments.php:91
+#: functions.php:63
+msgid "H:i"
+msgstr "G:M"
+
+#: comments.php:108
+msgid "No trackbacks yet."
+msgstr "Pas encore de trackbacks"
+
+#: comments.php:123
+msgid "Comments are closed."
+msgstr "Les commentaires sont clos"
+
+#: comments.php:134
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Vous devez être <a href=\"%s\">connecté</a> pour laisser un commentaire."
+
+#: comments.php:150
+msgid "Logged in as"
+msgstr "Connecté en tant que"
+
+#: comments.php:151
+msgid "Log out of this account"
+msgstr "Déconnexion de ce compte"
+
+#: comments.php:151
+msgid "Logout &raquo;"
+msgstr "Déconnexion  &raquo;"
+
+#: comments.php:157
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Bienvenue à nouveau <strong>%s</strong>."
+
+#: comments.php:158
+msgid "Change &raquo;"
+msgstr "Changer &raquo;"
+
+#: comments.php:159
+msgid "Close &raquo;"
+msgstr "Fermer &raquo;"
+
+#: comments.php:166
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:166
+#: comments.php:170
+msgid "(required)"
+msgstr "(requis)"
+
+#: comments.php:170
+msgid "E-Mail (will not be published)"
+msgstr "Email (ne sera pas publié)"
+
+#: comments.php:174
+msgid "Website"
+msgstr "Site Web"
+
+#: comments.php:191
+msgid "Subscribe to comments feed"
+msgstr "Abonnement au flux des commentaires"
+
+#: comments.php:193
+msgid "Submit Comment"
+msgstr "Envoyer commentaire"
+
+#: footer.php:15
+msgid "Copyright &copy; "
+msgstr "Copyright &copy; "
+
+#: footer.php:24
+msgid "Powered by <a href=\"http://wordpress.org/\">WordPress</a> | Theme by <a href=\"http://patembe.com/\">4MB</a>. Valid <a href=\"http://validator.w3.org/check?uri=referer\">XHTML 1.0</a> and <a href=\"http://jigsaw.w3.org/css-validator/check/referer?profile=css3\">CSS 3</a>"
+msgstr "Propulsé par <a href=\"http://wordpress.org/\">WordPress</a> | Theme par <a href=\"http://patembe.com/\">4MB</a>. Valide <a href=\"http://validator.w3.org/check?uri=referer\">XHTML 1.0</a> et <a href=\"http://jigsaw.w3.org/css-validator/check/referer?profile=css3\">CSS 3</a>"
+
+#: header.php:48
+msgid "Type text to search here..."
+msgstr "Entrez votre recherche ..."
+
+#: index.php:25
+msgid "Read more..."
+msgstr "Lire plus ..."
+
+#: index.php:59
+#: archive.php:93
+msgid "Newer Entries"
+msgstr "Billets plus récents"
+
+#: index.php:60
+#: archive.php:94
+msgid "Older Entries"
+msgstr "Billets plus anciens"
+

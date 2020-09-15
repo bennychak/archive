@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_booklist" value="name:id;datatype:Long,name:book_name;datatype:VarChar,name:book_press;datatype:VarChar,name:book_author;datatype:VarChar,name:book_gettime;datatype:VarChar,name:book_class;datatype:VarChar,name:book_presstime;datatype:VarChar,name:book_price;datatype:Double,name:book_count;datatype:VarChar,name:book_note;datatype:VarChar" />
+</info>

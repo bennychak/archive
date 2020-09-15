@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3727832148</channel_id>
+<channel_name><![CDATA[长沙政法]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24057146]]></cur_program_id>
+<cur_program_name><![CDATA[新闻风云汇]]></cur_program_name>
+<cur_program_time><![CDATA[17:20]]></cur_program_time>
+<next_program_name><![CDATA[政法报道]]></next_program_name>
+<next_program_time><![CDATA[18:20]]></next_program_time>
+<def_program><![CDATA[长沙电视政法频道
+ 
+]]></def_program>
+<channel_desc><![CDATA[全国首家政法类专业频道，每天播出电视节目17小时以上，节目通过无线和有线两种方式传播
+]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/changshanzftv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/changshazhengfa.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/changsha.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100036</chat_id>
+   <chat_title><![CDATA[长沙政法频道]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[长沙电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[政法报道]]></pn>
+		<tm><![CDATA[00:22]]></tm>
+		<id><![CDATA[24057130]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[情动八点]]></pn>
+		<tm><![CDATA[01:46]]></tm>
+		<id><![CDATA[24057131]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻风云汇]]></pn>
+		<tm><![CDATA[02:35]]></tm>
+		<id><![CDATA[24057132]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[夜线]]></pn>
+		<tm><![CDATA[03:35]]></tm>
+		<id><![CDATA[24057133]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[方圆之间]]></pn>
+		<tm><![CDATA[05:10]]></tm>
+		<id><![CDATA[24057134]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[政法报道]]></pn>
+		<tm><![CDATA[06:00]]></tm>
+		<id><![CDATA[24057135]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[第一房产]]></pn>
+		<tm><![CDATA[07:25]]></tm>
+		<id><![CDATA[24057136]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻风云汇]]></pn>
+		<tm><![CDATA[07:55]]></tm>
+		<id><![CDATA[24057137]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[爱上十点半]]></pn>
+		<tm><![CDATA[09:21]]></tm>
+		<id><![CDATA[24057138]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[方圆之间]]></pn>
+		<tm><![CDATA[10:17]]></tm>
+		<id><![CDATA[24057139]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[第一房产]]></pn>
+		<tm><![CDATA[11:28]]></tm>
+		<id><![CDATA[24057140]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[政法报道]]></pn>
+		<tm><![CDATA[11:58]]></tm>
+		<id><![CDATA[24057141]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻风云汇]]></pn>
+		<tm><![CDATA[13:21]]></tm>
+		<id><![CDATA[24057142]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[方圆之间]]></pn>
+		<tm><![CDATA[14:19]]></tm>
+		<id><![CDATA[24057143]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[爱上十点半]]></pn>
+		<tm><![CDATA[15:07]]></tm>
+		<id><![CDATA[24057144]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[情动八点]]></pn>
+		<tm><![CDATA[16:17]]></tm>
+		<id><![CDATA[24057145]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[新闻风云汇]]></pn>
+		<tm><![CDATA[17:20]]></tm>
+		<id><![CDATA[24057146]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[政法报道]]></pn>
+		<tm><![CDATA[18:20]]></tm>
+		<id><![CDATA[24057147]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[情动八点]]></pn>
+		<tm><![CDATA[19:45]]></tm>
+		<id><![CDATA[24057148]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[夜线]]></pn>
+		<tm><![CDATA[20:35]]></tm>
+		<id><![CDATA[24057149]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[方圆之间]]></pn>
+		<tm><![CDATA[21:57]]></tm>
+		<id><![CDATA[24057150]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[爱上十点半]]></pn>
+		<tm><![CDATA[22:51]]></tm>
+		<id><![CDATA[24057151]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[第一房产]]></pn>
+		<tm><![CDATA[23:52]]></tm>
+		<id><![CDATA[24057152]]></id>
+	</p>
+
+</root>

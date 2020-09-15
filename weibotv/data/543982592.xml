@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>543982592</channel_id>
+<channel_name><![CDATA[外汇理财频道]]></channel_name>
+<channel_typeid><![CDATA[23]]></channel_typeid>
+<channel_typename><![CDATA[财经资讯]]></channel_typename>
+<channel_rq><![CDATA[2]]></channel_rq>
+<cur_program_id><![CDATA[0]]></cur_program_id>
+<cur_program_name><![CDATA[该频道暂无预告]]></cur_program_name>
+<cur_program_time><![CDATA[]]></cur_program_time>
+<next_program_name><![CDATA[该频道暂无预告]]></next_program_name>
+<next_program_time><![CDATA[]]></next_program_time>
+<def_program><![CDATA[	 
+	]]></def_program>
+<channel_desc><![CDATA[上海文广外汇理财频道是一家资深财经类媒体。主要栏目有：《汇市指南》、《外汇快车》、《股指期货》、《黄金与能源》等。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/smg.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shanghai.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shanghai.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100047</chat_id>
+   <chat_title><![CDATA[外汇理财频道]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[东方宽频]]></client_tips>
+
+</root>

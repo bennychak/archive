@@ -1,0 +1,35 @@
+{template 'header.html'}
+<div id="c">
+{template 'position.html'}
+
+<div id="right">
+
+<div style="padding:30px 0px 0px 15px;">
+{loop categories($catid) $i $t}
+		<div class="category_title">
+			<span><a title="{$t[catname]}" href="{category::url($t[catid])}">more</a></span><a title="{$t[catname]}" href="{category::url($t[catid])}">{$t[catname]}</a>
+		</div>
+		<div style="padding:10px 30px 0px;">
+			{loop archive($t[catid],0,0,'0,0,0',20,'aid',10,false,0) $i $archive}
+			<div class="product_box">
+			<div class="p_box"><a title="{$archive[title]}" target="_blank" href="{$archive[url]}"><img alt="{$archive[title]}" src="{get(site_url)}{$archive[thumb]}" onerror='this.src="{get(site_url)}{config::get('onerror_pic')}"' /></a></div>
+			<h5><a title="{$archive[title]}" target="_blank" href="{$archive[url]}">{$archive[title]}</a></h5>
+		</div>
+			{/loop}
+			</div>
+		<div class="blank10"></div>
+		{/loop}
+</div>
+<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+
+
+</div>
+
+{template 'left.html'}<!-- 调用通用左栏 -->
+
+<div class="clear"></div>
+</div>
+
+{template 'footer.html'}

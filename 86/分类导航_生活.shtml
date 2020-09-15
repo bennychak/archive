@@ -1,0 +1,521 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>分类导航_生活 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+
+		<!--#include file="inc/首页导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                	<div class="category_nav">
+                    	<div class="category_nav_in">
+                            <ul>
+                                <li class="last"><a href="#">娱乐</a></li>
+                                <li><a href="#">体育</a></li>
+                                <li><a href="#">时尚</a></li>
+                                <li class="selected"><a href="#">生活</a></li>
+                                <li><a href="#">商业</a></li>
+                                <li><a href="#">IT</a></li>
+                                <li><a href="#">文化</a></li>
+                                <li><a href="#">汽车</a></li>
+                                <li><a href="#">动漫</a></li>
+                                <li><a href="#">游戏</a></li>
+                                <li><a href="#">星座</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category_nav_sub" id="cat1">
+                    	<div class="statearrow5"></div>
+                    	<ul>
+                        	<li class="lastbg"><a href="#">美食餐饮</a></li>
+                        	<li><a href="分类导航_生活_家居装饰.shtml">家居装饰</a></li>
+                        	<li><a href="#">健康</a></li>
+                        	<li><a href="#">宠物</a></li>
+                        	<li><a href="#">孕婴</a></li>
+                        	<li><a href="#">幼儿教育</a></li>
+                        	<li><a href="#">职场</a></li>
+                        	<li><a href="#">购物</a></li>
+                        	<li><a href="#">旅游</a></li>
+                        	<li><a href="#">数码</a></li>
+                        	<li><a href="#">房产</a></li>
+                        </ul>
+                    </div>
+                    <div class="category_nav_con">
+                    	<div class="left">
+                        	<h2>美食餐饮</h2>
+                            <form action="" method="post">
+                            	<div id="avatarlist5" class="fn_avatar_hover3">
+                                    <ul class="avatarlist">
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="do">
+                                    <label><input type="checkbox" /> 全选</label>
+                                    <span><a href="#">更多...</a></span>
+                                </div>
+                                <div class="tbminbtnbox"><div class="btn btn4"><input type="submit" value="关注"></div></div>
+                            </form>
+                        </div>
+                    	<div class="right">
+                        	<h2>美食餐饮话题排行</h2>
+                            <ol>
+                            	<li class="top"><a href="#">方舟子被袭击</a><span>(84449)</span></li>
+                            	<li class="top"><a href="#">艾美奖</a><span>(84449)</span></li>
+                            	<li class="top"><a href="#">校园生活</a><span>(84449)</span></li>
+                            	<li><a href="#">微博一周年</a><span>(84449)</span></li>
+                            	<li><a href="#">微博改变生活</a><span>(84449)</span></li>
+                            	<li><a href="#">武博会</a><span>(84449)</span></li>
+                            	<li><a href="#">男篮世锦赛</a><span>(84449)</span></li>
+                            	<li><a href="#">开学</a><span>(84449)</span></li>
+                            	<li><a href="#">iPhone4</a><span>(84449)</span></li>
+                            	<li><a href="#">海底捞</a><span>(84449)</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="category_nav_con">
+                    	<div class="left">
+                        	<h2>家居装饰</h2>
+                            <form action="" method="post">
+                            	<div id="avatarlist5" class="fn_avatar_hover3">
+                                    <ul class="avatarlist">
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="do">
+                                    <label><input type="checkbox" /> 全选</label>
+                                    <span><a href="#">更多...</a></span>
+                                </div>
+                                <div class="tbminbtnbox"><div class="btn btn4"><input type="submit" value="关注"></div></div>
+                            </form>
+                        </div>
+                    	<div class="right">
+                        	<h2>家居装饰话题排行</h2>
+                            <ol>
+                            	<li class="top"><a href="#">方舟子被袭击</a><span>(84449)</span></li>
+                            	<li class="top"><a href="#">艾美奖</a><span>(84449)</span></li>
+                            	<li class="top"><a href="#">校园生活</a><span>(84449)</span></li>
+                            	<li><a href="#">微博一周年</a><span>(84449)</span></li>
+                            	<li><a href="#">微博改变生活</a><span>(84449)</span></li>
+                            	<li><a href="#">武博会</a><span>(84449)</span></li>
+                            	<li><a href="#">男篮世锦赛</a><span>(84449)</span></li>
+                            	<li><a href="#">开学</a><span>(84449)</span></li>
+                            	<li><a href="#">iPhone4</a><span>(84449)</span></li>
+                            	<li><a href="#">海底捞</a><span>(84449)</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="category_nav_con">
+                    	<div class="left">
+                        	<h2>健康</h2>
+                            <form action="" method="post">
+                            	<div id="avatarlist5" class="fn_avatar_hover3">
+                                    <ul class="avatarlist">
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                        <li class="listitem">
+                                            <div class="avatar1">
+                                                <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                    <div class="headbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="avatardetail">
+                                                <div class="manage2" href="#"><label title="关注"><input id="" type="checkbox" /></label></div>
+                                                <p class="user_name"><strong><a href="个人主页.shtml">怪叔叔</a></strong> <span>美食达人</span></p>
+                                                <p class="shortintro">老师和君怡姐担任酷我唱吧月赛冠军争夺赛评委，君怡姐.....</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="do">
+                                    <label><input type="checkbox" /> 全选</label>
+                                    <span><a href="#">更多...</a></span>
+                                </div>
+                                <div class="tbminbtnbox"><div class="btn btn4"><input type="submit" value="关注"></div></div>
+                            </form>
+                        </div>
+                    	<div class="right">
+                        	<h2>健康话题排行</h2>
+                            <ol>
+                            	<li class="top"><a href="#">方舟子被袭击</a><span>(84449)</span></li>
+                            	<li class="top"><a href="#">艾美奖</a><span>(84449)</span></li>
+                            	<li class="top"><a href="#">校园生活</a><span>(84449)</span></li>
+                            	<li><a href="#">微博一周年</a><span>(84449)</span></li>
+                            	<li><a href="#">微博改变生活</a><span>(84449)</span></li>
+                            	<li><a href="#">武博会</a><span>(84449)</span></li>
+                            	<li><a href="#">男篮世锦赛</a><span>(84449)</span></li>
+                            	<li><a href="#">开学</a><span>(84449)</span></li>
+                            	<li><a href="#">iPhone4</a><span>(84449)</span></li>
+                            	<li><a href="#">海底捞</a><span>(84449)</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

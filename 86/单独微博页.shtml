@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>单独微博页 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+<div id="ui_wrap1" class="tb_wrap7">
+
+    <div id="ui_contain">
+
+		<!--#include file="inc/个人主页导航.shtml"-->
+
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                	<div class="personal_msg2">
+                    	<ul class="message">
+                            <li class="msglist">
+                                <div class="message_head">
+                                    <div class="avatar_l">
+                                        <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                            <a href="#">
+                                                <div class="headbox"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="message_con">
+                                    <div class="personal_file">
+                                        <p class="add_friends"><a class="icon16 add_friends" href="#"><span>+</span>加为好友</a></p>
+                                        <h1 class="user_name">
+                                            <div class="icon16 user_live online">
+                                                <span class="note"><strong>陈龙</strong></span>
+                                                <span></span>
+                                            </div>
+                                        </h1>
+                                        <ul class="user_property">
+                                            <li class="last">
+                                                <a href="#">
+                                                    <em>徽章</em>
+                                                    <span>10</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <em>好友</em>
+                                                    <span>24</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <em>粉丝</em>
+                                                    <span>43</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <em>推博</em>
+                                                    <span>15</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="iffollow">
+                                            <div class="in listborder2"><span class="icon16 followed last"><span></span>已关注</span><span><a href="#">取消</a></span></div>
+                                        </div>
+                                        <!--<div style="clear:both;"></div> -->
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr />
+                    <div class="independent_microblog">
+                        <p class="statement">早在一个月前菜菜在西安出差的时候就对姐妹们横扫大柳树羡慕不已回北京后就奔大柳树速速拔草了，呵呵，去的是新址收获美鞋三双～和大家一起清凉下，欣赏欣赏白菜价的美鞋～</p>
+                        <div class="albumblog">
+                            <p class="icon_more listborder">
+                                <em class="albumtopic last"><a class="icon16 up fn_up" href="#"><span></span>收起</a></em>
+                                <em class="albumtopic"><a href="#" class="icon16 fullpic"><span></span>查看原图</a></em>
+                                <em class="albumtopic"><a href="#" class="icon16 turnleft"><span></span>向左转</a></em>
+                                <em class="albumtopic"><a href="#" class="icon16 turnright"><span></span>向右转</a></em>
+                            </p>
+                            <p class="personal">
+                                <a class="icon16 viewalbum" href="#"><span></span>去她的相册</a>
+                            </p>
+                            <p><img src="images/temp_img2.jpg"></p>
+                        </div>
+                        <div class="legend">
+                            <div class="duration"><a href="单独微博页.shtml">23分钟前</a> 来自<a href="#">iPhone客户端</a></div>
+                            <div class="action listborder"><span class="last"><a href="#">转发(15)</a></span> <span><a href="#">评论(3)</a></span> <span><a href="#">收藏</a></span></div>
+                        </div>
+                    <hr />
+                    </div>
+                    <div id="avatarlist6" class="comment fn_avatar_hover2">
+                        <form action="" method="post">
+                            <table class="commentmain" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody>
+                                	<tr>
+                                        <td width="30">
+                                            <div class="faceselect">
+                                                <a href="#"></a>
+                                            </div>
+                                        </td>
+                                        <td class="commentinput" colspan="2"><textarea></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><label for="forSametime"><input type="checkbox" id="forSametime"> 同时作为微博发布</label></td>
+                                        <td width="50"><div class="btn commentsub"><input type="submit" value=" 评论 "></div></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                        <div class="content_bar">
+                            <a name="singlepage"></a>
+                            <div class="contentinfo check listborder">
+                                <span class="last">全部</span> <span><a href="#">我关注的</a></span> <span><a href="#">陌生人</a></span>
+                            </div>
+                            <div class="right_box">共有87条评论</div>
+                        </div>
+                        <ul class="comment_list avatarlist message">
+                            <li class="listitem lastborder">
+                                <div class="commentlist_l">
+                                    <div style="background-image: url(images/temp_face24.png);" class="avatar_xs">
+                                        <a href="个人主页.shtml"></a>
+                                    </div>
+                                </div>
+                                <div class="commentlist_r">
+                                    <p class="detailtxt"><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过<a href="#">iPhone客户端</a></span></p>
+                                    <div class="reply"><a class="toggleblock" href="#">回复</a></div>
+                                </div>
+                                <div style="display: none;" class="comment toggleblock_target">
+                                    <div class="statearrow"></div>
+                                    <div class="list_t"></div>
+                                    <div class="list_m">
+                                        <form method="post" action="">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody><tr>
+                                                    <td>
+                                                        <div class="faceselect">
+                                                            <a href="#"></a>
+                                                        </div>
+                                                    </td>
+                                                    <td class="commentinput"><textarea>回复@张娜娜nana</textarea></td>
+                                                    <td><div class="btn commentsub"><input type="submit" value="评论"></div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td><label for="forSametime"><input type="checkbox" id="forSametime"> 同时作为微博发布</label></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody></table>
+                                        </form><!--
+                                        <ul class="comment_list">
+                                            <li class="last">
+                                                <div class="commentlist_l">
+                                                    <div style="background-image: url(images/temp_face24.png);" class="avatar_xs">
+                                                        <a href="个人主页.shtml"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="commentlist_r">
+                                                    <p><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过iPhone客户端</span></p>
+                                                    <div class="reply"><a href="#">回复</a></div>
+                                                </div>
+                                            </li>
+                                        </ul> -->
+                                    </div>
+                                    <div class="list_b"></div>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="commentlist_l">
+                                    <div style="background-image: url(images/temp_face24.png);" class="avatar_xs">
+                                        <a href="个人主页.shtml"></a>
+                                    </div>
+                                </div>
+                                <div class="commentlist_r">
+                                    <p class="detailtxt"><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过<a href="#">iPhone客户端</a></span></p>
+                                    <div class="reply"><a class="toggleblock" href="#">回复</a></div>
+                                </div>
+                                <div style="display: none;" class="comment toggleblock_target">
+                                    <div class="statearrow"></div>
+                                    <div class="list_t"></div>
+                                    <div class="list_m">
+                                        <form method="post" action="">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody><tr>
+                                                    <td>
+                                                        <div class="faceselect">
+                                                            <a href="#"></a>
+                                                        </div>
+                                                    </td>
+                                                    <td class="commentinput"><textarea>回复@张娜娜nana</textarea></td>
+                                                    <td><div class="btn commentsub"><input type="submit" value="评论"></div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td><label for="forSametime"><input type="checkbox" id="forSametime"> 同时作为微博发布</label></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody></table>
+                                        </form><!--
+                                        <ul class="comment_list">
+                                            <li class="last">
+                                                <div class="commentlist_l">
+                                                    <div style="background-image: url(images/temp_face24.png);" class="avatar_xs">
+                                                        <a href="个人主页.shtml"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="commentlist_r">
+                                                    <p><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过iPhone客户端</span></p>
+                                                    <div class="reply"><a href="#">回复</a></div>
+                                                </div>
+                                            </li>
+                                        </ul> -->
+                                    </div>
+                                    <div class="list_b"></div>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="commentlist_l">
+                                    <div style="background-image: url(images/temp_face24.png);" class="avatar_xs">
+                                        <a href="个人主页.shtml"></a>
+                                    </div>
+                                </div>
+                                <div class="commentlist_r">
+                                    <p class="detailtxt"><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过<a href="#">iPhone客户端</a></span></p>
+                                    <div class="reply"><a class="toggleblock" href="#">回复</a></div>
+                                </div>
+                                <div style="display: none;" class="comment toggleblock_target">
+                                    <div class="statearrow"></div>
+                                    <div class="list_t"></div>
+                                    <div class="list_m">
+                                        <form method="post" action="">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody><tr>
+                                                    <td>
+                                                        <div class="faceselect">
+                                                            <a href="#"></a>
+                                                        </div>
+                                                    </td>
+                                                    <td class="commentinput"><textarea>回复@张娜娜nana</textarea></td>
+                                                    <td><div class="btn commentsub"><input type="submit" value="评论"></div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td><label for="forSametime"><input type="checkbox" id="forSametime"> 同时作为微博发布</label></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody></table>
+                                        </form><!--
+                                        <ul class="comment_list">
+                                            <li class="last">
+                                                <div class="commentlist_l">
+                                                    <div style="background-image: url(images/temp_face24.png);" class="avatar_xs">
+                                                        <a href="个人主页.shtml"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="commentlist_r">
+                                                    <p><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过iPhone客户端</span></p>
+                                                    <div class="reply"><a href="#">回复</a></div>
+                                                </div>
+                                            </li>
+                                        </ul> -->
+                                    </div>
+                                    <div class="list_b"></div>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="commentlist_l">
+                                    <div style="background-image: url(images/temp_face24.png);" class="avatar_xs">
+                                        <a href="个人主页.shtml"></a>
+                                    </div>
+                                </div>
+                                <div class="commentlist_r">
+                                    <p class="detailtxt"><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过<a href="#">iPhone客户端</a></span></p>
+                                    <div class="reply"><a class="toggleblock" href="#">回复</a></div>
+                                </div>
+                                <div style="display: none;" class="comment toggleblock_target">
+                                    <div class="statearrow"></div>
+                                    <div class="list_t"></div>
+                                    <div class="list_m">
+                                        <form method="post" action="">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody><tr>
+                                                    <td>
+                                                        <div class="faceselect">
+                                                            <a href="#"></a>
+                                                        </div>
+                                                    </td>
+                                                    <td class="commentinput"><textarea>回复@张娜娜nana</textarea></td>
+                                                    <td><div class="btn commentsub"><input type="submit" value="评论"></div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td><label for="forSametime"><input type="checkbox" id="forSametime"> 同时作为微博发布</label></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody></table>
+                                        </form><!--
+                                        <ul class="comment_list">
+                                            <li class="last">
+                                                <div class="commentlist_l">
+                                                    <div style="background-image: url(images/temp_face24.png);" class="avatar_xs">
+                                                        <a href="个人主页.shtml"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="commentlist_r">
+                                                    <p><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过iPhone客户端</span></p>
+                                                    <div class="reply"><a href="#">回复</a></div>
+                                                </div>
+                                            </li>
+                                        </ul> -->
+                                    </div>
+                                    <div class="list_b"></div>
+                                </div>
+                            </li>
+                            <li class="listitem">
+                                <div class="commentlist_l">
+                                    <div style="background-image: url(images/temp_face24.png);" class="avatar_xs">
+                                        <a href="个人主页.shtml"></a>
+                                    </div>
+                                </div>
+                                <div class="commentlist_r">
+                                    <p class="detailtxt"><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过<a href="#">iPhone客户端</a></span></p>
+                                    <div class="reply"><a class="toggleblock" href="#">回复</a></div>
+                                </div>
+                                <div style="display: none;" class="comment toggleblock_target">
+                                    <div class="statearrow"></div>
+                                    <div class="list_t"></div>
+                                    <div class="list_m">
+                                        <form method="post" action="">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody><tr>
+                                                    <td>
+                                                        <div class="faceselect">
+                                                            <a href="#"></a>
+                                                        </div>
+                                                    </td>
+                                                    <td class="commentinput"><textarea>回复@张娜娜nana</textarea></td>
+                                                    <td><div class="btn commentsub"><input type="submit" value="评论"></div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td><label for="forSametime"><input type="checkbox" id="forSametime"> 同时作为微博发布</label></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody></table>
+                                        </form><!--
+                                        <ul class="comment_list">
+                                            <li class="last">
+                                                <div class="commentlist_l">
+                                                    <div style="background-image: url(images/temp_face24.png);" class="avatar_xs">
+                                                        <a href="个人主页.shtml"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="commentlist_r">
+                                                    <p><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过iPhone客户端</span></p>
+                                                    <div class="reply"><a href="#">回复</a></div>
+                                                </div>
+                                            </li>
+                                        </ul> -->
+                                    </div>
+                                    <div class="list_b"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+					<!--#include file="inc/pagination.shtml"-->
+                </div>
+            </div>
+            <!--#include file="inc/inmain_home.shtml"-->
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

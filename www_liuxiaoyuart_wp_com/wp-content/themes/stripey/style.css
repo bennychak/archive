@@ -1,0 +1,156 @@
+/*
+Theme Name: Stripey
+Description: A very nice Wordpress theme with three columns including a left widgetized sidebar and a right right recent posts and comments sidebar. This theme is designed for the pleasure of your readers - Use wisely!
+Version: 1.0
+Author: Bingo Web Design
+Author URI: http://www.bingowebdesign.info
+Tags: yellow, black, white, light, three-columns
+License: GPL
+*/
+
+@import "cssReset.css";
+@import "classes.css";
+
+.roundedCorner {   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;}
+
+#webPage {width:1000px; text-align:left;}
+
+/*
+ Header Styles
+*/
+
+#header {width:1000px; height:75px; background:url(images/myblog8b_sprite.jpg) -9px -264px no-repeat; position:relative;}
+#header h1 {font-size:3em; float:left; position:relative; top:30px; left:30px;}
+#header h1 a {color:#000;}
+#header .description {position:relative; float:left; top:43px; left:38px; color:#8d8d8d; font-size:1.2em;}
+.rssFeeds {width:321px; height:45px; position:absolute; left:600px; top:20px; text-indent:-9999px; background:url(images/myblog8b_sprite.jpg) -64px -60px;}
+.rssFeeds a {display:block; width:130px; height:45px; float:left;}
+.rssFeeds a.lastRss {margin-left:20px; width:150px;}
+
+/*
+ Nav Styles
+*/
+
+#nav {width:954px; padding:0px 10px; height:42px; background:url(images/myblog8b_sprite.jpg) -9px -17px; color:#fff; font-size:1.3em; text-transform:uppercase; overflow:hidden;
+margin-bottom:25px;}
+#nav li {float:left; font-weight:700; padding:0px 10px;}
+#nav li a {display:block; height:26px; padding:0px 5px; line-height:26px; margin:8px 0px; float:left; color:#fff;}
+#nav li a:hover, #nav .current_page_item a {background:#fcff00; color:#000 !important;}
+
+/*
+ Left Sb Styles
+*/
+
+#leftSidebar{width:239px; margin-left:13px;}
+#leftSidebar .leftSbTop {background:url(images/myblog8b_sprite.jpg) -19px -125px; width:239px; height:10px;}
+#leftSidebar .leftSbBottom {background:url(images/myblog8b_sprite.jpg) -19px -156px; width:239px; height:10px; margin-bottom:45px;}
+#leftSidebar .leftWidget {width:219px; padding-left:20px; background:url(images/sbLeftBg.jpg) repeat-y; color:#fff; font-weight:700; font-size:1.3em; 
+line-height:18px; position:relative; padding-top:30px;}
+#leftSidebar a {color:#fff;}
+#leftSidebar .leftWidget ul li {padding-left:20px; background:url(images/sbLeftArrow.jpg) left top no-repeat;}
+.leftWidget h3 { margin-right:15px; background:url(images/myblog8b_sprite.jpg) -300px -124px; line-height:30px; height:30px; width:100px;
+ text-align:center; top:-10px; color:#000; right:10px; position:absolute;}
+#calendar_wrap a{color:yellow;}
+
+ 
+/*
+ Article Styles
+*/
+.postArticle {position:relative;}
+#articleBar {width:450px; margin-left:25px; padding-bottom:30px;}
+.date {float:left; width:43px; height:41px; display:block; background:url(images/myblog8b_sprite.jpg) -10px -66px; color:#fcff00; font-size:1.6em; font-weight:700;
+ text-align:center; line-height:19px; padding-top:2px; margin-right:10px;}
+.postTitleLabel {float:left; background:#d1d1d1; line-height:25px; padding:0px 10px; max-width:350px; margin-bottom:10px;}	
+.postTitle {float:left; margin-right:10px; color:#666;}
+.postTitle a {color:#666;}
+.byAuthor {font-size:1.4em; color:#666; font-weight:700; line-height:30px;} 
+.byAuthor span {color:#fff;}
+.categories  {margin-left:63px; color:#9e9e9e;  background:url(images/catImage.jpg) no-repeat; line-height:15px; padding-left:20px; display:block; min-height:17px;
+font-size:1.2em;}
+.tags {margin-left:63px; color:#9e9e9e;  background:url(images/thumnImage.jpg) no-repeat; line-height:15px; padding-left:20px; display:block; min-height:17px;
+font-size:1.2em;}
+.categories a, .tags a {color:#9e9e9e;}
+.postContent {margin:10px 10px 20px 63px; width:340px; font-size:1.3em; line-height:16px; border-bottom:1px solid #c9c9c9; padding-bottom:10px; position:relative; text-align:justify;}
+.postContent a {color:#000; text-decoration:underline;}
+.commentsLink {position:relative; width:100px; height:20px; font-size:1.1em; bottom:28px; left:320px; display:block; background:#fff; padding:0px 5px 0px 20px; text-transform:uppercase;}
+.commentsLink span.iconComemnt {display:block; float:left; width:17px; height:17px; background:url(images/myblog8b_sprite.jpg) -271px -125px;}
+.iconPost {width:47px; height:44px; display:block;  position:relative; top:-10px; margin-right:15px; float:right; background:url(images/myblog8b_sprite.jpg) -417px -123px;}
+.pagedPost { text-align:center;}
+/*
+ Right Sidebar Styles
+*/
+#rightSidebar {width:210px; }
+#searchform {width:235px; height:30px; background:url(images/myblog8b_sprite.jpg) -748px -74px; position:relative; margin-bottom:35px;}
+#s {position:absolute; top:5px; left:5px; background:none; border:none;}
+#searchsubmit {position:absolute; top:-3px; left:175px; width:60px; height:30px; background:none; border:none; color:#fff; font-weight:700; font-size:1em; cursor:pointer;}
+.rightWidget span {margin:0px !important;}
+.rightWidget {position:relative; padding-left:35px; margin-bottom:15px;}
+.rightWidget span.widgetIcon { background:url(images/myblog8b_sprite.jpg) -412px -70px; display:block; width:30px; height:30px; position:absolute; top:0px; left:0px;}
+.rightWidget h3 {background:#000; height:25px; width:160px; color:#fcff00; padding-left:40px; font-size:1.3em; font-weight:700; line-height:25px; margin-bottom:5px;}
+.rightWidget h4 {font-size:1.2em; line-height:150%;}
+.rightWidget h4 a {color:#000;}
+.recentcomments {font-size:1.2em; line-height:150%; padding-left:20px; background:url(images/catImage.jpg) no-repeat;}
+.recentcomments a {font-weight:700; color:black}
+.rec-com-post a{color:gray;}
+/*
+ Footer Styles
+*/
+
+#footer {width:1000px; height:64px; background:url(images/myblog8b_sprite.jpg) -10px -181px; color:#fff; position:relative; font-size:1.2em;}
+#footer a {color:#fff;}
+#footer a:hover {color:#FCFF00;}
+#footer  #footerNav { margin-left:10px; width:900px; text-transform:uppercase; height:30px; overflow:hidden; font-weight:700;}
+#footer  #footerNav li {float:left; padding:0px 10px;}
+#footer  #footerNav li a {float:left; padding:0px 10px; line-height:26px; display:block;}
+.lastLine {text-align:center; color:#666;}
+/*
+ Wp General Styles
+*/
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+ 
+
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+}
+.commentArea{ width:377px; padding-left:63px; font-size:1.2em;}
+.commentArea ol li{list-style:none !important; }
+#comment {width:377px;}
+.comment-author {margin:10px 0px;}

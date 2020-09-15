@@ -1,0 +1,266 @@
+{template 'header.html'}
+	<div class="sidebar">
+<div class="title_red">
+	<strong><?php $t=position_p($catid=2);?>
+<a href="{$t.url}" title="{$t['name']}">{$t['name']}</a>
+<?php?></strong><span> - News</span>
+</div>
+<div class="blank5"></div>
+<ul class="padding10 news">
+	<!-- {loop archive(2,0,0,'0,0,0',15,'aid',5,false,0) $i $arc}  -->
+	<li><strong>"</strong> <a href="{$arc[url]}" title="{$arc[title]}">{$arc[title]}</a></li>
+	<!-- {/loop} -->
+</ul>
+<div class="blank10"></div>
+<div class="title_gray">
+	<h5><strong>{lang(contactus)}</strong><span> - Contact</span></h5>
+</div>
+<div class="blank5"></div>
+<ul class="padding5">
+	<li><strong>{lang(address)}：</strong>{get('address')}</li>
+	<li><strong>{lang(tel)}：</strong>{get('tel')}</li>
+	<li><strong>{lang(fax)}：</strong>{get('fax')}</li>
+	<li><strong>{lang(email)}：</strong>{get('email')}</li>
+</ul>
+	</div>
+	<!--  -->
+	<div class="middle">
+<div id="announce" style="width:468px;height:20px;line-height:20px;overflow:hidden;">
+	{loop announ(5) $an}
+	<p><a href="{$an[url]}" title="{$an[title]}">{$an[title]}</a> [{$an[adddate]}]</p>
+	{/loop}
+</div>
+
+<div class="blank10"></div>
+<div class="title_gray">
+	<h5><strong><?php $t=position_p($catid=1);?>
+<a href="{$t.url}" title="{$t['name']}">{$t['name']}</a>
+<?php?></strong><span> - About </span></h5>
+</div>
+<div class="about">
+	<img src="{$skin_path}/about.jpg" style="float:left;width:100px;margin:0px 10px 10px 0px;" />
+	<p style="float:right;width:340px;height:76px;padding:10px;margin:text-indent:20px;background:#F5F5F5;overflow:auto;">{tag_公司简介}</p>
+</div>
+<div class="blank5"></div>
+<div class="title">
+	<strong><?php $t=position_p($catid=3);?>
+<a href="{$t.url}" title="{$t['name']}">{$t['name']}</a>
+<?php?></strong><span> - Products List</span><img src="{$skin_path}/more.gif" />
+</div>
+
+<div class="blank5"></div>
+<script language="JavaScript">
+  //网页载入时初始化两块可滚动内容
+function window_onload() {
+	check_scroll_border('product_s_img');
+}
+
+//
+//内容可滚动效果
+//
+scrolling = false;
+scrolling_step = 1;
+//滚动真实操作
+function scroll(id, left_right, start_stop) {
+	if (start_stop=='stop') {
+scrolling = false;
+return;
+	} else {
+scrolling = true;
+start_scrolling(id, left_right);
+	}
+}
+//开始滚动
+function start_scrolling(id, left_right) {
+	if (scrolling == true) {
+if (left_right=='right') {
+	document.getElementById(id).scrollLeft+=scrolling_step;
+} else {
+	document.getElementById(id).scrollLeft-=scrolling_step;
+}
+
+check_scroll_border(id);
+
+setTimeout('start_scrolling("'+id+'","'+left_right+'")',2);
+	}
+}
+//滚的快一点
+function scroll_faster() {
+	scrolling_step=5;
+}
+//滚的慢一点
+function scroll_slower() {
+	scrolling_step=1;
+}
+//检查如果到边则隐藏滚动按钮
+function check_scroll_border(id) {
+	if (document.getElementById(id).scrollLeft==0) {
+scrolling = false;
+document.getElementById(id+'_scroll_left').style.display = 'block';
+scroll_slower();
+	} else {
+document.getElementById(id+'_scroll_left').style.display = 'block';
+	}
+	if (document.getElementById(id).scrollLeft>=document.getElementById(id).scrollWidth-document.getElementById(id).offsetWidth) {
+scrolling = false;
+document.getElementById(id+'_scroll_right').style.display = 'block';
+scroll_slower();
+	} else {
+document.getElementById(id+'_scroll_right').style.display = 'block';
+	}
+
+}
+</script>
+<div class="i_p_box">
+<div class="go" id="product_s_img_scroll_left" onMouseOver="scroll('product_s_img', 'left', 'start');" onMouseOut="scroll('product_s_img', 'left', 'stop');" onMouseDown="scroll_faster();" onMouseUp="scroll_slower();"><img src="{$skin_path}/go_left.gif" alt="向左滚动" /></div>
+
+<div id="product_s_img">
+<div style="width:55555px;height:94px;overflow:hidden;">
+
+<!--  {loop archive(3,0,0,'0,0,0',20,'aid',10,true,0) $i $arc} -->
+<div class="pic"><a href="{$arc[url]}"><img src="{get(site_url)}{$arc[thumb]}" class="p$i" alt="{$arc[title]}" /></a><h5><a href="{$arc[url]}">{$arc[title]}</a></h5></div>
+<!-- {/loop} -->
+
+</div>
+</div>
+<div class="go" id="product_s_img_scroll_right" onMouseOver="scroll('product_s_img', 'right', 'start');" onMouseOut="scroll('product_s_img', 'right', 'stop');" onMouseDown="scroll_faster();" onMouseUp="scroll_slower();"><img src="{$skin_path}/go_right.gif" alt="向左滚动" /></div>
+
+</div>
+
+
+	</div>
+	<div class="i_news">
+<div class="title_black">
+	<strong>{lang(userlogin)}</strong><span> - Login</span>
+</div>
+
+<div id="login">
+	 {login_js()}
+ </div>
+<div class="blank10"></div>
+<div class="title_gray">
+	<h5><strong>{lang(vote)}</strong><span> - Vote</span></h5>
+</div>
+<div class="blank5"></div>
+	{ballot(1)}
+</div>
+	<div class="blank10"></div>
+	<div id="footer">
+
+
+<style type="text/css">
+#product_s_img {
+float:left;
+width:430px;
+margin:4px 5px;
+overflow:hidden;
+}
+.pic {
+display:block;
+float:left;
+width:140px;
+height:94px;
+margin:0px 8px;
+overflow:hidden;
+}
+.pic img {
+width:140px;
+height:auto;
+}
+.go{
+float:left;
+display:block;
+width:16px;
+height:30px;
+margin-top:38px;
+}
+
+#links {
+position:relative;
+float:right;
+width:168px;
+height:19px;
+line-height:16px;color:#fff;
+background:url({$skin_path}/links.gif) right 2px no-repeat;
+}
+
+#links ul li a, #links ul li a:visited {color:#fff;display:block; text-decoration:none; width:168px; height:19px; text-align:left; padding-left:10px;  line-height:19px; font-size:12px;}
+#links ul {padding:0; margin:0;list-style-type: none; }
+#links ul li {float:left; position:relative;}
+#links ul li ul {display: none;}
+/* specific to non IE browsers */
+
+#links ul li:hover ul {display:block; position:absolute; bottom:18px; left:0;}
+#links ul li:hover ul li a.hide {}
+#links ul li:hover ul li {display:block; width:168px; clear:both;
+background:url({$skin_path}/links_bg.jpg) left top repeat-x;
+}
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css">
+table {border-collapse:collapse; margin:0; padding:0;}
+#links ul li a.hide, #links ul li a:visited.hide {display:none;}
+#links ul li a:hover ul li a.hide {display:none;}
+#links ul li a:hover {color:#fff; background:none;}
+#links ul li a:hover ul {display:block; position:absolute; bottom:22px; right:0;}
+#links ul li a:hover ul li {display:block; background:none; color:#fff; width:168px;overflow:hidden;
+background:url({$skin_path}/links_bg.jpg) repeat-x left top;}
+</style>
+<![endif]-->
+
+<div id="links">
+<ul>
+
+
+
+
+<li><a class="hide" style="text-align:right;font-size:10px;color:#999;">Links<span style="padding-right:80px;"></span></a>
+<!--[if lte IE 6]>
+<a href="#" style="text-align:right;font-size:10px;padding-right:80px;color:#999;">Links
+<table><tr><td>
+<![endif]-->
+<ul>
+<li style="height:7px;background:url({$skin_path}/links_top.png) no-repeat left top !important; /*For Firefox*/*background:none;/*For IE7 & IE6*/_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{$skin_path}/links_top.png',sizingMethod='crop');/*For IE6*/display: block;"></li>
+{loop friendlink('text',0,6) $flink}
+<li>{$flink[link]}</li>
+{/loop}
+<li style="height:41px;background:url({$skin_path}/links_bt.png) no-repeat left top !important; /*For Firefox*/*background:none;/*For IE7 & IE6*/_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{$skin_path}/links_bt.png',sizingMethod='crop');/*For IE6*/display: block;"><a title="{get('sitename')}" href="{$base_url}/">{get('sitename')}</a></li>
+
+</ul>
+<!--[if lte IE 6]>
+</td></tr></table>
+</a>
+<![endif]-->
+</li>
+ 
+
+</ul>
+</div>
+
+&copy; 2008-2009 <a title="{get('sitename')}" href="{$base_url}/" target="_blank">{get('sitename')}</a> All Rights Reserved.  &nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank">{get('site_icp')}</a>
+	</div>
+</div>
+<!-- 非商业用户请勿删除 -->
+<div class="copyright"><a href="http://www.cmseasy.cn" title="Powered by CmsEasy.cn" target="_blank">Powered by CmsEasy</a>&nbsp;&nbsp;{getcnzzcount()}</div>
+<script type="text/javascript"> 
+//
+var t=setInterval(myfunc,2000); 
+var oBox=document.getElementById("announce"); 
+function myfunc(){ 
+var o=oBox.firstChild 
+oBox.removeChild(o) 
+oBox.appendChild(o) 
+} 
+oBox.onmouseover=function()
+{
+clearInterval(t)
+} 
+oBox.onmouseout=function()
+{
+t=setInterval(myfunc,2000)
+} 
+</script>
+<script Language=Javascript Src="{$base_url}/js/tc.Js"></script>
+</body>
+</html>

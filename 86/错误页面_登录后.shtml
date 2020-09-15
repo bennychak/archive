@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>错误页面_登录后 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <div class="nav">
+            <!--#include file="inc/topsearch.shtml"-->
+        </div>
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                	<div class="error_box">
+                    	<div class="left"></div>
+                    	<div class="right">
+                        	<h2>很抱歉，您要访问的页面不存在。</h2>
+                            <p>5秒之后自动返回上一页</p>
+                            <p><a href="#"><strong>&gt; 点击返回上一页</strong></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

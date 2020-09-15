@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>{if !empty($archive[mtitle])}{$archive[mtitle]}-{elseif !empty($archive[title])}{$archive[title]}-{/if}{if $type[meta_title]}{$type[meta_title]}-{elseif typename($type[typeid])}{typename($type[typeid])}-{/if}{if $category[$catid][meta_title]}{$category[$catid][meta_title]}-{elseif !empty($catid)}{catname($catid)}-{/if}{get('fullname')} - Powered by CmsEasy</title>
+<meta name="keywords" content="{if $archive[keyword]}{$archive[keyword]}{else}{if $type[keyword]}{$type[keyword]}{elseif $category[$catid][keyword]}{$category[$catid][keyword]}{else}{get('site_keyword')}{/if}{/if}" />
+<meta name="description" content="{if $archive[description]}{$archive[description]}{else}{if $type[description]}{$type[description]}{elseif $category[$catid][description]}{$category[$catid][description]}{else}{get('site_description')}{/if}{/if}" />
+<meta name="author" content="CmsEasy Team" />
+<link rel="icon" href="{get(site_url)}favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{get(site_url)}favicon.ico" type="image/x-icon" />
+<link href="{$skin_path}/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript">
+<!-- 
+function ResumeError()  
+{ 
+    return true; 
+} 
+window.onerror = ResumeError; 
+function check()
+{
+if(document.search.keyword.value.length==0){
+     alert("{lang(pleaceinputtext)}");
+     document.search.keyword.focus();
+     return false;
+    }
+
+	}
+// --> 
+</script>
+</head>
+<body>
+	<div id="top">
+		<a title="{lang(backhome)}" href="{get(site_url)}" class="on">{lang(homepage)}</a>
+		<a title="{lang(feedback)}" href="{url('guestbook')}" target="_blank">{lang(feedback)}</a>
+	</div>
+	<div id="main">
+		<div id="layout">
+			<div id="search">
+				<form name='search_form' action="<?php echo url('archive/search');?>" onsubmit="search_check();" method="post">
+				<input  id="inputsearch" name="keyword" type="text" align="absmiple" />&nbsp; 
+				<input type="image" src="{$skin_path}/search.gif" align="absmiple" name='submit' value="搜索" />
+				</form>
+			</div>
+			<img alt="联系我们" src="{$skin_path}/contact.gif" width="153" height="16" border="0" usemap="#Map2" style="float:right;margin-top:2px;" />
+			<div id="logo">
+				<a href="{$site_url}"><img src="{get('site_logo')}" alt="{$sitename}" width="{get('logo_width')}"></a>
+			</div>
+			<div class="blank10"></div>
+<div id="banner">
+<script>
+					var NowFrame = 1;
+					var MaxFrame = 3;
+					var bStart = 0;
+					function fnToggle() {
+					var next = NowFrame + 1;
+					if(next == MaxFrame+1) 
+					{
+					NowFrame = MaxFrame;
+					next = 1;
+					}
+					if(bStart == 0)
+					{
+					bStart = 1;
+			  
+					setTimeout('fnToggle()', 3000);
+					return;
+					}
+					else
+					{
+					oTransContainer.filters[0].apply();
+					document.images['odiv'+next].style.display = "";
+					document.images['odiv'+NowFrame].style.display = "none"; 
+					oTransContainer.filters[0].Play(duration=5);
+					if(NowFrame == MaxFrame) 
+					NowFrame = 1;
+					else
+					NowFrame++;
+					} setTimeout('fnToggle()', 6000);
+					}
+					fnToggle();
+				</script>
+
+			<div id=oTransContainer style="FILTER: progid:DXImageTransform.Microsoft.Wipe(GradientSize=1.0, wipeStyle=0, motion='forward'); width: 838px; height: 330px; overflow:hidden;">
+				<a title="{get(slide_pic1_title)}" href="{get(slide_pic1_url)}" target=_blank><img id=odiv1 style="display: yes;" src="{$skin_path}/slide/01.jpg" alt="{get(slide_pic1_title)}" /></a>
+				<a title="{get(slide_pic2_title)}" href="{get(slide_pic2_url)}" target=_blank><img id=odiv2 style="display: none;" src="{$skin_path}/slide/02.jpg" alt="{get(slide_pic2_title)}" /></a>
+				<a title="{slide_pic3_title)}" href="{get(slide_pic3_url)}" target=_blank><img id=odiv3 style="display: none;" src="{$skin_path}/slide/03.jpg" alt="{get(slide_pic3_title)}" /></a>
+			</div>
+</div>
+
+	<div class="blank10"></div>
+	<div id="nav" style="text-align:center;">
+		<a title="{lang(backhome)}" href="{get(site_url)}"{if $catid==0} class="on"{/if}><span>{lang(homepage)}</span></a>
+{loop categories_nav() $t}
+<a title="{$t[catname]}" href="{$t[url]}"{if isset($topid) && $topid==$t[catid]} class="on"{/if}><span>{$t[catname]}</span></a>
+{/loop}
+	</div>
+	<div class="about">
+		<img src="{$skin_path}/about.gif" />
+		<div class="blank5"></div>
+		<p>{tag_公司简介}
+		<img src="{$skin_path}/i_more.jpg" alt="更多" /></p>
+		<div class="blank5"></div>
+	</div>
+</div>
+<div id="footer" style="text-align:left;">
+<style type="text/css">
+#links {
+  float:right;
+  width:121px;
+  height:19px;
+  line-height:16px;
+  background:url({$skin_path}/links.gif) no-repeat;
+}
+#links span {font-size:10px;}
+#links a {text-decoration: none;position: relative;}
+#links table a {color:white;}
+.links {width:168px;position:relative;}
+a.outer, a.outer:visited {width:148px; height:18px; display:block;line-height:18px; overflow:hidden;}
+a.outer:hover {overflow:visible;}
+a.outer:hover table {display:block; position:absolute; overflow: scroll;overflow-x:auto;bottom:8px;left:0px;}
+a.outer:hover table a {display:block; color:#FFF;}
+.holder:hover {height:auto; cursor:pointer;}
+table { width:100%; margin:10px auto 7px; font-size:12px; overflow:hidden; border:none; border-collapse:collapse; }
+table * td{ padding:0px; border:none; }
+
+</style>
+<div id="links">
+<div class="links">
+<a class="outer" href="#">&nbsp;&nbsp;&nbsp;&nbsp;<span>LINKS</span>
+<table border="0"><tr><td>
+<div style="width:168px;height:7px;background:url({$skin_path}/links_top.png) no-repeat left top !important; /*For Firefox*/*background:none;/*For IE7 & IE6*/_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{$skin_path}/links_top.png',sizingMethod='crop');/*For IE6*/
+  display: block;overflow:hidden;"></div>
+<div style="width:148px;padding:10px;background:url({$skin_path}/links_bg.png) repeat-y left top !important; /*For Firefox*/*background:none;/*For IE7 & IE6*/_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{$skin_path}/links_bg.png',sizingMethod='crop');/*For IE6*/
+  display: block;overflow:hidden;">
+{loop friendlink('text',0,6) $flink}
+{$flink[link]}
+{/loop}
+</div>
+<div style="width:148px;height:20px;line-height:20px;padding:10px;background:url({$skin_path}/links_bt.png) no-repeat left top !important; /*For Firefox*/*background:none;/*For IE7 & IE6*/_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{$skin_path}/links_bt.png',sizingMethod='crop');/*For IE6*/
+  display: block;">
+<a title="{get('sitename')}" href="{$base_url}/" style="width:148px;height:20px;overflow:hidden;display:block;">{get('sitename')}</a>
+</div>
+<div class="clear"></div>
+</div></div>
+</td></tr></table>
+</a>
+</div>
+</div>
+<div style="float:left;">
+&copy; 2008-2009&nbsp;<a title="{get('sitename')}" href="{$base_url}/" target="_blank" style="color:#fa6c16;">{get('sitename')}</a>&nbsp;All&nbsp;Rights&nbsp;Reserved. &nbsp;<a title="ICP备案" href="http://www.miibeian.gov.cn" target="_blank">{get('site_icp')}</a>	&nbsp;<a href="http://www.cmseasy.cn" title="Powered by CmsEasy.cn" target="_blank">Powered by CmsEasy</a></div>
+<div class="clear"></div>
+</div>
+<map name="Map2"><area shape="rect" coords="81,-1,156,19" href="{$bast_url}/html/contact.html">
+<area shape="rect" coords="0,-1,71,19" href="javascript:void(0);" onClick="window.external.AddFavorite(document.location.href,document.title)"></map>
+
+</body>
+</html>

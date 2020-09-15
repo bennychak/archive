@@ -1,0 +1,44 @@
+{template 'header.html'}
+<div id="mid">
+ {template 'left.html'}
+  <table width="628" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-left:22px;">
+    <tr>
+      <td>
+<div id="guide">
+			You are here: &nbsp; <a href="{$base_url}/">{get('sitename')}</a>  &gt; {loop position($typeid) $t}<a href="{$t.url}">{$t['name']}</a>  &gt; {/loop}
+		</div>
+</td>
+    </tr>
+    <tr>
+      <td height="16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+			
+            <table width="628" border="1" cellpadding="7" cellspacing="0" bordercolor="#EDEDED" style="margin-bottom:20px;">
+              <tr>
+                <td bgcolor="#EDEDED"><img src="{$skin_path}/arr3.gif" width="10" height="8" align="absmiddle" style="margin-right:6px;" /><font color="#CC0000"><strong>{$type[$typeid][typename]}</strong></font> --- List</td>
+              </tr>
+              <tr>
+                <td>
+                
+               <div style="padding:10px 25px">
+			<div class="NewsTitle" >{$announ[title]}</div>
+			<div class="PostDate">{$announ[adddate]}</div>
+			<div class="NewsContent" >
+				{$announ[content]}
+				</div>
+<div class="blank10"></div>
+	
+		</div>
+	</div>
+                </td>
+              </tr>
+            </table>
+            
+      </td>
+    </tr>
+  </table>
+  <div style="clear:both; height:1px; font-size:1px;">&nbsp;</div>
+</div>
+{template 'footer.html'}

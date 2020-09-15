@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>4122776769</channel_id>
+<channel_name><![CDATA[长沙新闻]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[2]]></channel_rq>
+<cur_program_id><![CDATA[24057160]]></cur_program_id>
+<cur_program_name><![CDATA[天天生活]]></cur_program_name>
+<cur_program_time><![CDATA[18:08]]></cur_program_time>
+<next_program_name><![CDATA[长沙新闻（直播）]]></next_program_name>
+<next_program_time><![CDATA[18:28]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+ 
+2  系统资源以及网络带宽要求低 
+ 
+3  内存操作，不伤硬盘 
+ 
+ 
+]]></def_program>
+<channel_desc><![CDATA[主要自办栏目有《长沙新闻》、《真相调查》《车行天下》《都市人居》《妈妈宝贝儿》等。每天24小时播出。
+]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/changshanzftv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/changshaxinwen.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/changsha.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100037</chat_id>
+   <chat_title><![CDATA[长沙新闻频道]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[长沙电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[长沙新闻（重播）]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24057153]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[黄金剧场]]></pn>
+		<tm><![CDATA[08:00]]></tm>
+		<id><![CDATA[24057154]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[BOBO乐乐园]]></pn>
+		<tm><![CDATA[11:30]]></tm>
+		<id><![CDATA[24057155]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[长沙新闻（重播）]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24057156]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[热线001]]></pn>
+		<tm><![CDATA[12:35]]></tm>
+		<id><![CDATA[24057157]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天天生活（重播）]]></pn>
+		<tm><![CDATA[13:15]]></tm>
+		<id><![CDATA[24057158]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[黄金剧场]]></pn>
+		<tm><![CDATA[13:35]]></tm>
+		<id><![CDATA[24057159]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[天天生活]]></pn>
+		<tm><![CDATA[18:08]]></tm>
+		<id><![CDATA[24057160]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[长沙新闻（直播）]]></pn>
+		<tm><![CDATA[18:28]]></tm>
+		<id><![CDATA[24057161]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天气预报]]></pn>
+		<tm><![CDATA[18:56]]></tm>
+		<id><![CDATA[24057162]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[转播新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24057163]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[传奇剧场]]></pn>
+		<tm><![CDATA[19:30]]></tm>
+		<id><![CDATA[24057164]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日要闻]]></pn>
+		<tm><![CDATA[22:30]]></tm>
+		<id><![CDATA[24057165]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正道剧场]]></pn>
+		<tm><![CDATA[22:42]]></tm>
+		<id><![CDATA[24057166]]></id>
+	</p>
+
+</root>

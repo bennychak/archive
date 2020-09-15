@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>1000637964</channel_id>
+<channel_name><![CDATA[东南卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24056917]]></cur_program_id>
+<cur_program_name><![CDATA[娱乐乐翻天]]></cur_program_name>
+<cur_program_time><![CDATA[17:55]]></cur_program_time>
+<next_program_name><![CDATA[天天加油站]]></next_program_name>
+<next_program_time><![CDATA[18:22]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[中国电视品牌十强，倾力打造“全国一流的卫视频道，建设海峡西岸经济区的主流媒体，独具品牌特色的精品频道”。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/dntv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/dongnan.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/dongnan.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100026</chat_id>
+   <chat_title><![CDATA[东南卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[福建电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[抢鲜看]]></pn>
+		<tm><![CDATA[00:36]]></tm>
+		<id><![CDATA[24056892]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[热播剧场:天师钟馗之人鱼痴恋 第7集]]></pn>
+		<tm><![CDATA[00:41]]></tm>
+		<id><![CDATA[24056893]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播海峡新干线]]></pn>
+		<tm><![CDATA[06:30]]></tm>
+		<id><![CDATA[24056894]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[抢鲜看]]></pn>
+		<tm><![CDATA[06:53]]></tm>
+		<id><![CDATA[24056895]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[早安海西]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24056896]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[东南早间天气预报]]></pn>
+		<tm><![CDATA[07:25]]></tm>
+		<id><![CDATA[24056897]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[东南新闻眼]]></pn>
+		<tm><![CDATA[07:28]]></tm>
+		<id><![CDATA[24056898]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[传奇剧场:仙剑奇侠传Ⅲ 第20集]]></pn>
+		<tm><![CDATA[07:50]]></tm>
+		<id><![CDATA[24056899]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[传奇剧场:仙剑奇侠传Ⅲ 第21集]]></pn>
+		<tm><![CDATA[08:44]]></tm>
+		<id><![CDATA[24056900]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[传奇剧场:仙剑奇侠传Ⅲ 第22集]]></pn>
+		<tm><![CDATA[09:38]]></tm>
+		<id><![CDATA[24056901]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[传奇剧场:仙剑奇侠传Ⅲ 第23集]]></pn>
+		<tm><![CDATA[10:32]]></tm>
+		<id><![CDATA[24056902]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[抢鲜看]]></pn>
+		<tm><![CDATA[11:27]]></tm>
+		<id><![CDATA[24056903]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[福清美佛儿学校]]></pn>
+		<tm><![CDATA[11:32]]></tm>
+		<id><![CDATA[24056904]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[食来运转]]></pn>
+		<tm><![CDATA[11:35]]></tm>
+		<id><![CDATA[24056905]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[招商节目一]]></pn>
+		<tm><![CDATA[11:47]]></tm>
+		<id><![CDATA[24056906]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[海峡午报]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24056907]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[福建西山学校]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24056908]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[非常音乐]]></pn>
+		<tm><![CDATA[12:40]]></tm>
+		<id><![CDATA[24056909]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[偶像剧场:活佛济公 第26集]]></pn>
+		<tm><![CDATA[13:17]]></tm>
+		<id><![CDATA[24056910]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[招商节目二]]></pn>
+		<tm><![CDATA[14:00]]></tm>
+		<id><![CDATA[24056911]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[健康节目]]></pn>
+		<tm><![CDATA[14:12]]></tm>
+		<id><![CDATA[24056912]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[偶像剧场:活佛济公 第27集]]></pn>
+		<tm><![CDATA[14:25]]></tm>
+		<id><![CDATA[24056913]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[偶像剧场:活佛济公 第28集]]></pn>
+		<tm><![CDATA[15:22]]></tm>
+		<id><![CDATA[24056914]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[偶像剧场:活佛济公 第29集]]></pn>
+		<tm><![CDATA[16:16]]></tm>
+		<id><![CDATA[24056915]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[东南胜券]]></pn>
+		<tm><![CDATA[17:15]]></tm>
+		<id><![CDATA[24056916]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[娱乐乐翻天]]></pn>
+		<tm><![CDATA[17:55]]></tm>
+		<id><![CDATA[24056917]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天天加油站]]></pn>
+		<tm><![CDATA[18:22]]></tm>
+		<id><![CDATA[24056918]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[福建卫视新闻]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24056919]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[东南气象快讯]]></pn>
+		<tm><![CDATA[18:56]]></tm>
+		<id><![CDATA[24056920]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[中央新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24056921]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[东南剧苑：暗香 20-21]]></pn>
+		<tm><![CDATA[19:35]]></tm>
+		<id><![CDATA[24056922]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[幸运碰碰碰]]></pn>
+		<tm><![CDATA[20:24]]></tm>
+		<id><![CDATA[24056923]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[明天就出发]]></pn>
+		<tm><![CDATA[21:15]]></tm>
+		<id><![CDATA[24056924]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[海峡新干线]]></pn>
+		<tm><![CDATA[22:05]]></tm>
+		<id><![CDATA[24056925]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[东南晚报]]></pn>
+		<tm><![CDATA[22:35]]></tm>
+		<id><![CDATA[24056926]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[抢鲜看]]></pn>
+		<tm><![CDATA[22:48]]></tm>
+		<id><![CDATA[24056927]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[热播剧场:最后的99天 第1集]]></pn>
+		<tm><![CDATA[22:55]]></tm>
+		<id><![CDATA[24056928]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[热播剧场:最后的99天 第2集]]></pn>
+		<tm><![CDATA[23:43]]></tm>
+		<id><![CDATA[24056929]]></id>
+	</p>
+
+</root>

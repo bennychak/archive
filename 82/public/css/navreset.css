@@ -1,0 +1,13 @@
+/* CSS Document */
+
+body{ margin:0px; font-family:Arial, Helvetica, sans-serif; background:#FFF; font-size:12px;}
+h1,h2,h3,h4,h5,h6,img,div,form,input,ul,li{ margin:0px; padding:0px;}
+h2{ font-size:16px; font-weight:bold; padding:8px 0px 8px 10px;}
+	.grid_in2 h2 a{ text-decoration:none; color:#874604;}
+img{ border:0px;}
+th{ text-align:left;}
+
+a:link{color:#369; text-decoration:underline;}
+a:visited{color:#7F017F;}
+a:hover{color:#3DA50D; text-decoration: none;}
+a:active{color:#F60; text-decoration: none;}

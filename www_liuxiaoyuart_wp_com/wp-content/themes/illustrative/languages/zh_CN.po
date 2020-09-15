@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: illustrative 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-19 13:37+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: patembe <patembe@gmail.com>\n"
+"Language-Team: patembe <patembe@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:8
+#: header.php:6
+msgid "RSS 2.0 - all posts"
+msgstr "RSS 2.0 - 所有文章"
+
+#: 404.php:9
+#: header.php:7
+msgid "RSS 2.0 - all comments"
+msgstr "RSS 2.0 - 所有评论"
+
+#: 404.php:21
+msgid "Sorry! We could not find it"
+msgstr "对不起！没有找到有关内容"
+
+#: 404.php:22
+msgid "You have requested a page or file which does not exist so we notified the web administrator to check it out."
+msgstr "你所要访问页面或文件不存在"
+
+#: 404.php:23
+msgid "Here are a few options to find what you are looking for."
+msgstr "这里有一些你查找内容的相关建议."
+
+#: 404.php:25
+msgid "Double check the web address for typos"
+msgstr "请仔细检查所输入网址的正确性"
+
+#: 404.php:26
+msgid "Head back to our home page via the navigation below"
+msgstr "点击下面返回首页"
+
+#: 404.php:27
+msgid "Visit our full website"
+msgstr "访问我们的全站"
+
+#: 404.php:28
+msgid "sitemap here"
+msgstr "地图"
+
+#: 404.php:31
+#: header.php:35
+msgid "Home"
+msgstr "首页"
+
+#: 404.php:32
+msgid "Blog"
+msgstr "博客"
+
+#: 404.php:33
+msgid "About"
+msgstr "关于"
+
+#: 404.php:34
+msgid "Contact"
+msgstr "联系"
+
+#: archive.php:9
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: archive.php:10
+#, php-format
+msgid "Keyword: &#8216;%1$s&#8217;"
+msgstr "关键字: &#8216;%1$s&#8217;"
+
+#: archive.php:14
+msgid "Archive"
+msgstr "文章存档"
+
+#: archive.php:19
+#, php-format
+msgid "Archive for the &#8216;%1$s&#8217; Category"
+msgstr "关于 &#8216;%1$s&#8217; 的分类目录存档"
+
+#: archive.php:22
+#, php-format
+msgid "Posts Tagged &#8216;%1$s&#8217;"
+msgstr "标签为 &#8216;%1$s&#8217; 的文章"
+
+#: archive.php:25
+#: archive.php:28
+#: archive.php:31
+#, php-format
+msgid "Archive for %1$s"
+msgstr "关于 %1$s 的存档"
+
+#: archive.php:34
+msgid "Author Archive"
+msgstr "作者存档"
+
+#: archive.php:37
+msgid "Blog Archives"
+msgstr "博客文章存档"
+
+#: archive.php:52
+#: archives.php:18
+#: index.php:18
+#: page.php:12
+#: single.php:12
+msgid "F jS, Y"
+msgstr ""
+
+#: archive.php:54
+#: archives.php:20
+#: index.php:20
+#: page.php:14
+#: single.php:14
+msgid "Edit"
+msgstr "编辑"
+
+#: archive.php:55
+#: index.php:21
+msgid "No comments"
+msgstr "没有评论"
+
+#: archive.php:55
+#: index.php:21
+msgid "1 comment"
+msgstr "1 条评论"
+
+#: archive.php:55
+#: index.php:21
+#, php-format
+msgid "% comments"
+msgstr "% 条评论"
+
+#: archive.php:55
+#: index.php:21
+msgid "Comments off"
+msgstr "评论关闭"
+
+#: archive.php:62
+#: index.php:28
+#: single.php:25
+msgid "Categories: "
+msgstr "分类目录: "
+
+#: archive.php:63
+#: index.php:29
+#: single.php:26
+msgid "Tags: "
+msgstr "标签: "
+
+#: archives.php:22
+#: page.php:16
+#: single.php:16
+msgid "Leave a comment"
+msgstr "发表评论"
+
+#: archives.php:23
+#: page.php:17
+#: single.php:17
+msgid "Go to comments"
+msgstr "查看评论"
+
+#: archive.php:76
+#: archives.php:53
+#: index.php:42
+#: page.php:39
+#: single.php:44
+msgid "Oops, This is error box"
+msgstr "对不起，出错啦"
+
+#: archive.php:81
+#: archives.php:58
+#: index.php:47
+#: page.php:44
+#: single.php:49
+msgid "Sorry, no posts matched your criteria."
+msgstr "对不起，没有符合你要求的文章"
+
+#: comments.php:5
+msgid "Enter your password to view comments."
+msgstr "输入您的密码以查看评论."
+
+#: comments.php:25
+#: comments.php:28
+msgid "Comments"
+msgstr "评论"
+
+#: comments.php:26
+msgid "Trackbacks"
+msgstr ""
+
+#: comments.php:34
+msgid "Trackback"
+msgstr ""
+
+#: comments.php:58
+msgid "No comments yet."
+msgstr "还没有人评论"
+
+#: comments.php:72
+msgid "Comment pages"
+msgstr "评论页面"
+
+#: comments.php:91
+#: functions.php:63
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:91
+#: functions.php:63
+msgid "H:i"
+msgstr ""
+
+#: comments.php:108
+msgid "No trackbacks yet."
+msgstr "还没有trackbacks."
+
+#: comments.php:123
+msgid "Comments are closed."
+msgstr "评论已经关闭."
+
+#: comments.php:134
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "你必须 <a href=\"%s\">登入</a> 来发表评论."
+
+#: comments.php:150
+msgid "Logged in as"
+msgstr "现在登录的帐号是"
+
+#: comments.php:151
+msgid "Log out of this account"
+msgstr "登出这个账户"
+
+#: comments.php:151
+msgid "Logout &raquo;"
+msgstr "登出 &raquo;"
+
+#: comments.php:157
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "欢迎回来 <strong>%s</strong>."
+
+#: comments.php:158
+msgid "Change &raquo;"
+msgstr "修改 &raquo;"
+
+#: comments.php:159
+msgid "Close &raquo;"
+msgstr "关闭 &raquo;"
+
+#: comments.php:166
+msgid "Name"
+msgstr "名字"
+
+#: comments.php:166
+#: comments.php:170
+msgid "(required)"
+msgstr "(必填)"
+
+#: comments.php:170
+msgid "E-Mail (will not be published)"
+msgstr "E-Mail (不会对外公开)"
+
+#: comments.php:174
+msgid "Website"
+msgstr "个人网站"
+
+#: comments.php:191
+msgid "Subscribe to comments feed"
+msgstr "订阅评论feed"
+
+#: comments.php:193
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#: footer.php:15
+msgid "Copyright &copy; "
+msgstr ""
+
+#: footer.php:24
+msgid "Powered by <a href=\"http://wordpress.org/\">WordPress</a> | Theme by <a href=\"http://patembe.com/\">4MB</a>. Valid <a href=\"http://validator.w3.org/check?uri=referer\">XHTML 1.0</a> and <a href=\"http://jigsaw.w3.org/css-validator/check/referer?profile=css3\">CSS 3</a>"
+msgstr ""
+
+#: header.php:48
+msgid "Type text to search here..."
+msgstr "在这里输入想要搜索的内容..."
+
+#: index.php:25
+msgid "Read more..."
+msgstr "继续阅读..."
+
+#: index.php:59
+#: archive.php:93
+msgid "Newer Entries"
+msgstr "较新的文章"
+
+#: index.php:60
+#: archive.php:94
+msgid "Older Entries"
+msgstr "较旧的文章"
+

@@ -1,0 +1,19 @@
+<div id="foot">
+<?php $t=position_p($typeid=1);?>
+<a href="{$t.url}" title="{$t['name']}">{$t['name']}</a>	|	
+<?php?>
+<!-- {loop archive(1,0,0,'0,0,0',20,'aid',10,false,0) $i $arc} -->
+<a href="{$arc[url]}" title="{$arc[title]}">{$arc[title]}</a>	|	
+<!-- {/loop} --><?php $t=position_p($typeid=5);?>
+<a href="{$t.url}" title="{$t['name']}">{$t['name']}</a>	|	
+<?php?>
+<a href="#">TOP</a><br />
+Copyright © 2010 <a href="{get(site_url)}">{get(sitename)}</a>. All Rights Reserved.
+<a href="http://www.miibeian.gov.cn/" target="_blank">{get('site_icp')}</a>
+<!-- 非商业用户请勿删除 -->
+<div class="copyright"><a href="http://www.cmseasy.cn" title="Powered by CmsEasy.cn" target="_blank">Powered by CmsEasy</a>&nbsp;&nbsp;{getcnzzcount()}</div>
+</div>
+</div>
+{template 'system/servers.html'}
+</body>
+</html>

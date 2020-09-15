@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>模板代码集锦</title>
+</head>
+
+<body>
+<!--只展开当前栏目所在一级栏目下的分类-->
+<?php $__pid = getcategoryparentsid($catid);?>
+{loop categories_nav() $t}
+<a title="{$t[catname]}" href="{$t[url]}"{if isset($topid) && $topid==$t[catid]} class="on"{/if}>{$t[catname]}</a>
+{if $t[catid]==$__pid}
+<!-- {loop category::listcategorydata($__pid) $type} -->
+<li><a href="{$type[url]}" title="{$type[catname]}" class="{if $type[catid]==$catid}on{/if}">{$type[catname]}</a></li>
+<!-- {/loop} -->
+{/if}
+{/loop}
+<!--只展开当前栏目所在一级栏目下的分类-->
+</body>
+</html>

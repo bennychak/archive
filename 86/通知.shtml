@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>通知 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+<div id="ui_msg">
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/消息导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <div class="content_bar">
+                        <div class="contentinfo check listborder">
+                            <span class="last"><a href="#">全部标记为已读</a></span>
+                            <span><a href="#">删除已读通知</a></span>
+                        </div>
+                    </div>
+                	<div class="con_left">
+                    	<div id="avatarlist7">
+                        	<ul class="avatarlist avatarlist7_request">
+                            	<li class="listitem">
+                                    <div class="avatar1">
+                                        <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                            <a href="#">
+                                                <div class="headbox"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="avatardetail">
+                                        <p class="shortintro newmsg"><span></span><a href="个人主页.shtml">陈龙</a>成为了你的粉丝，正在关注你<b class="duration">9月29日</b></p>
+                                    </div>
+                                    <a href="#" class="reply toggleblock fix_a">删除</a>
+                                    <div class="layer4 fix_layer">
+                                        <div class="statearrow3"></div><p>删除此通知？</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="是"></div><div class="btn btn2"><input type="button" class="cancel" value="否"></div></div>
+                                        <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                    </div>
+                                    <div class="rightarrow icon16" style="display:block;"><span></span></div>
+                                </li>
+                            	<li class="listitem lastborder">
+                                    <div class="avatar1">
+                                        <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                            <a href="#">
+                                                <div class="headbox"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="avatardetail">
+                                        <p class="shortintro newmsg"><span></span><a href="个人主页.shtml">陈龙</a>成为了你的粉丝，正在关注你<b class="duration">9月29日</b></p>
+                                    </div>
+                                    <a href="#" class="reply toggleblock fix_a">删除</a>
+                                    <div class="layer4 fix_layer">
+                                        <div class="statearrow3"></div><p>删除此通知？</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="是"></div><div class="btn btn2"><input type="button" class="cancel" value="否"></div></div>
+                                        <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                    </div>
+                                    <div class="rightarrow icon16"><span></span></div>
+                                </li>
+                            </ul>
+                        	<ul class="avatarlist avatarlist7_request">
+                            	<li class="listitem">
+                                    <div class="avatar1">
+                                        <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                            <a href="#">
+                                                <div class="headbox"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="avatardetail">
+                                        <p class="shortintro newmsg"><span></span><a href="个人主页.shtml">陈龙</a>在推博中提到了你<b class="duration">9月29日</b></p>
+                                    </div>
+                                    <a href="#" class="reply toggleblock fix_a">删除</a>
+                                    <div class="layer4 fix_layer">
+                                        <div class="statearrow3"></div><p>删除此通知？</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="是"></div><div class="btn btn2"><input type="button" class="cancel" value="否"></div></div>
+                                        <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                    </div>
+                                    <div class="rightarrow icon16"><span></span></div>
+                                </li>
+                            	<li class="listitem lastborder">
+                                    <div class="avatar1">
+                                        <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                            <a href="#">
+                                                <div class="headbox"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="avatardetail">
+                                        <p class="shortintro newmsg"><span></span><a href="个人主页.shtml">陈龙</a>在推博中提到了你<b class="duration">9月29日</b></p>
+                                    </div>
+                                    <a href="#" class="reply toggleblock fix_a">删除</a>
+                                    <div class="layer4 fix_layer">
+                                        <div class="statearrow3"></div><p>删除此通知？</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="是"></div><div class="btn btn2"><input type="button" class="cancel" value="否"></div></div>
+                                        <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                    </div>
+                                    <div class="rightarrow icon16"><span></span></div>
+                                </li>
+                            </ul>
+                        	<ul class="avatarlist avatarlist7_request">
+                            	<li class="listitem selected">
+                                    <div class="avatar1">
+                                        <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                            <a href="#">
+                                                <div class="headbox"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="avatardetail">
+                                        <p class="shortintro"><span></span><a href="个人主页.shtml">陈龙</a>评论了你的照片<a href="#">P1070230</a><b class="duration">9月29日</b></p>
+                                    </div>
+                                    <a href="#" class="reply toggleblock fix_a">删除</a>
+                                    <div class="layer4 fix_layer">
+                                        <div class="statearrow3"></div><p>删除此通知？</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="是"></div><div class="btn btn2"><input type="button" class="cancel" value="否"></div></div>
+                                        <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                    </div>
+                                    <div class="rightarrow icon16"><span></span></div>
+                                </li>
+                            	<li class="listitem lastborder">
+                                    <div class="avatar1">
+                                        <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                            <a href="#">
+                                                <div class="headbox"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="avatardetail">
+                                        <p class="shortintro"><span></span><a href="个人主页.shtml">陈龙</a>评论了你的照片<a href="#">P1070230</a><b class="duration">9月29日</b></p>
+                                    </div>
+                                    <a href="#" class="reply toggleblock fix_a">删除</a>
+                                    <div class="layer4 fix_layer">
+                                        <div class="statearrow3"></div><p>删除此通知？</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="是"></div><div class="btn btn2"><input type="button" class="cancel" value="否"></div></div>
+                                        <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                    </div>
+                                    <div class="rightarrow icon16"><span></span></div>
+                                </li>
+                            </ul>
+                        	<ul class="avatarlist avatarlist7_request">
+                            	<li class="listitem lastborder">
+                                    <div class="avatar1">
+                                        <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                            <a href="#">
+                                                <div class="headbox"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="avatardetail">
+                                        <p class="shortintro"><span></span><a href="个人主页.shtml">陈龙</a>成为了你的粉丝，正在关注你<b class="duration">9月29日</b></p>
+                                    </div>
+                                    <a href="#" class="reply toggleblock fix_a">删除</a>
+                                    <div class="layer4 fix_layer">
+                                        <div class="statearrow3"></div><p>删除此通知？</p><div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="是"></div><div class="btn btn2"><input type="button" class="cancel" value="否"></div></div>
+                                        <a title="不再显示" class="icon16 close16" href="#"><span></span><em>关闭</em></a>
+                                    </div>
+                                    <div class="rightarrow icon16"><span></span></div>
+                                </li>
+                            </ul>
+                        </div>
+						<!--#include file="inc/pagination.shtml"-->
+                    </div>
+                    <div class="con_right">
+                    	<div id="con_right_show" class="showmsg">
+                        	<p><a href="个人主页.shtml">陈龙</a>评论了你的照片<a href="#">P1070230</a><span class="duration"> (9月29日)</span></p>
+                            <p class="commentimg"><a href="单独照片页.shtml"><img src="images/temp_photo_s2.jpg" /></a></p>
+                            <div id="avatarlist1">
+                                <ul class="avatarlist">
+                                    <li class="listitem">
+                                        <div class="avatar1">
+                                            <div class="avatar_s" style="background-image: url(images/temp_face48.png);">
+                                                <a href="#">
+                                                    <div class="headbox"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="avatardetail">
+                                            <p><a href="个人主页.shtml">陈龙</a>：小妞你好哇</p>
+                                            <p class="duration">2009-09-12 20:16</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+<!--                    <div style="clear:both"></div> -->
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2453801339</channel_id>
+<channel_name><![CDATA[四川卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24056551]]></cur_program_id>
+<cur_program_name><![CDATA[新商界]]></cur_program_name>
+<cur_program_time><![CDATA[17:52]]></cur_program_time>
+<next_program_name><![CDATA[超炫乐园]]></next_program_name>
+<next_program_time><![CDATA[18:00]]></next_program_time>
+<def_program><![CDATA[ 精彩节目推荐:
+《海外故事会》
+《曲艺故事会》
+《情感故事会》]]></def_program>
+<channel_desc><![CDATA[凭借编排创新、品牌栏目及首播剧，跻身强势省级卫视行列，依托故事定位，全力打造中国"最会讲故事的频道"。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/sctv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/sichuan.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/sichuan.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100016</chat_id>
+   <chat_title><![CDATA[四川卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[四川电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[旅游景点天气预报]]></pn>
+		<tm><![CDATA[00:17]]></tm>
+		<id><![CDATA[24056540]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典剧场]]></pn>
+		<tm><![CDATA[00:25]]></tm>
+		<id><![CDATA[24056541]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[长夜影院]]></pn>
+		<tm><![CDATA[03:35]]></tm>
+		<id><![CDATA[24056542]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[早间气象]]></pn>
+		<tm><![CDATA[06:55]]></tm>
+		<id><![CDATA[24056543]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天府证券]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24056544]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[汇说天下]]></pn>
+		<tm><![CDATA[07:30]]></tm>
+		<id><![CDATA[24056545]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天府旅游]]></pn>
+		<tm><![CDATA[08:00]]></tm>
+		<id><![CDATA[24056546]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[真情剧场]]></pn>
+		<tm><![CDATA[08:05]]></tm>
+		<id><![CDATA[24056547]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间气象]]></pn>
+		<tm><![CDATA[11:56]]></tm>
+		<id><![CDATA[24056548]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午新闻]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24056549]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[中国爱大剧场]]></pn>
+		<tm><![CDATA[12:18]]></tm>
+		<id><![CDATA[24056550]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[新商界]]></pn>
+		<tm><![CDATA[17:52]]></tm>
+		<id><![CDATA[24056551]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[超炫乐园]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24056552]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[四川省城市天气预报]]></pn>
+		<tm><![CDATA[18:53]]></tm>
+		<id><![CDATA[24056553]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[四川新闻]]></pn>
+		<tm><![CDATA[19:35]]></tm>
+		<id><![CDATA[24056554]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[合家欢剧场:勐犸敢死队]]></pn>
+		<tm><![CDATA[20:05]]></tm>
+		<id><![CDATA[24056555]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[晚间报道]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24056556]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[让爱作主]]></pn>
+		<tm><![CDATA[22:18]]></tm>
+		<id><![CDATA[24056557]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[魅力发现]]></pn>
+		<tm><![CDATA[23:45]]></tm>
+		<id><![CDATA[24056558]]></id>
+	</p>
+
+</root>

@@ -1,0 +1,390 @@
+/*w3cn.org主样式表 ajie@netease.com last modify:2004-06-20 */
+@charset "utf-8";
+html {
+  scrollbar-face-color : #F5F5F5;
+  scrollbar-arrow-color :white;
+}
+img  {border: 0px;}
+html {min-width: 962px;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,
+form, fieldset, legend, button, input, textarea, 
+th, td
+{margin:0px;padding:0px;}
+fieldset, img {border:0;}
+li {list-style:none;}
+body,button, input, select, textarea /* for ie */ {font: 12px tahoma,Helvetica,arial, "\5b8b\4f53", sans-serif;}
+address, cite, dfn, em, var { font-style: normal; } 
+code, kbd,samp { font-family: courier new, courier, monospace; }
+
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+h1, h2, h3, h4, h5, h6 {}
+h1 {font-size: 2em;}
+h2 {font-size: 1.7em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.38em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1.1em;font-style: italic;}
+address,cite,dfn,em,var{font-style:normal;}
+caption,td {font-weight: normal;}
+cite, blackquote, em, i {font-style: italic;}
+strong, b {	font-weight: bold;}
+pre, code {font-family: monospace;font-size: 1.1em;}
+abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help;}
+
+table {	border-collapse:collapse;border-spacing:0;}
+body {
+margin: 0px;
+padding: 0px; 
+border: 0px;
+color: #293B49;
+font-size:12px;
+line-height:150%;
+text-align: left;
+background: white url(bg.gif) left top repeat-x;
+font-family: '微软雅黑','Lucida Grande','Lucida Sans Unicode','宋体','新宋体',arial,verdana,sans-serif;
+}
+
+.clear {clear:both;}
+.floatleft {float:left;}
+.floatright {float:right;}
+
+#body {padding:22px 0px 0px 0px;}
+#main {width:1000px;margin:0px auto;padding:0px auto;overflow:hidden;}
+
+#left {float:left;width:212px;}
+#right {float:right;width:777px;overflow:hidden;background:white;}
+
+a {margin: 0px;padding:0px;border:0px;}
+a:link {color:#333;text-decoration:none;}
+a:visited{color:#666;text-decoration: none;}
+a:hover{color:#3399FF;text-decoration: underline;}
+.clear {clear:both;}
+
+/*定义页面顶部样式top，包含logo和topmenu两个层*/
+#head {height:104px;}
+
+#logo {float:left;width:330px;height:50px;margin:32px 9px 0px;}
+#logo a {display:block;height: 100%;width: 100%;}
+#logo a span {display:none;}
+
+#topmenu {float:right;width:618px;margin:30px 0px 0px;text-align:right;}
+#search {padding:0px 10px 0px 0px;}
+#search a {float:right;}
+
+#nav {clear:both;height:37px;line-height:37px;margin:18px 0px 0px;padding:0px 0px 0px 20px;background:url(nav_bg.gif) repeat-x;text-align:left;}
+#nav a {color:white;display:block;float:left;height:37px;line-height:37px;padding:0px 18px;font-weight:bold;font-size:14px;text-decoration:none;}
+#nav a:hover,#nav a.on {background:url(nav_hover.gif) center top no-repeat;}
+
+#search_btn {height:18px;border:1px solid #ccc;color:#999;background:#F5F5F5;margin-right:20px;}
+
+/* 内页 */
+
+#banner {padding-bottom:15px;background:url(banner_bottom.gif) left 156px repeat-x;}
+
+#c {width:1000px;background:url(c_bg.gif) left top repeat-y;}
+
+#position {height:40px;padding:55px 0px 0px 365px;background:url(position_bg.png) left top no-repeat;font-size:14px;}
+#position span {float:right;padding:3px 12px;background:#F5F5F5;}
+#position a {font-size:12px;padding:0px 10px 0px 12px;background:url(dot_r.gif) left center no-repeat;}
+
+#menu {padding:0px 1px;padding-top:10px;background:#83B4D9;}
+#menu a {display:block;height:40px;line-height:40px;overflow:hidden;padding-left:30px;font-size:14px;font-weight:bold;color:white;background:url(i_menu_line.gif) left top no-repeat;}
+#menu a:hover,#i_menu a.on,#menu a.on {background:url(menu_hover.gif) 1px top no-repeat;text-decoration:none;}
+#menu a.home {background:url(menu_home.gif) 1px top no-repeat;text-decoration:none;}
+
+.left_box {padding:5px;background:url(i_c_bg.gif) left top repeat-x;color:white;}
+.left_box a {color:white;}
+.left_box ul li {line-height:26px;padding-left:15px;border-bottom:1px dotted #F5F5F5;background:url(dot_w.gif) 5px 10px no-repeat;}
+
+.area_box {padding:10px;}
+
+.area_box a {float:left;padding:0px 6px;/* display:inline; */white-space: nowrap;}
+
+.title {height:34px;line-height:34px;padding-left:30px;color:white;font-size:14px;font-weight:bold;background:#E47C01 url(title.gif) 8px 10px no-repeat;}
+
+
+#text {width:700px;line-height:200%;padding:20px 38px;font-size:14px;}
+
+h1#title { line-height:40px;
+  padding-top:20px;
+  font-size:22px;
+  text-align:center;
+  background:url(point.gif) left bottom repeat-x;
+  color:#333;
+  font-weight:normal;
+}
+.contentinfo {
+  line-height:34px;
+  text-align:center;
+  border-top:1px dotted #ccc;
+  color:#999;
+}
+
+.contentinfo a {color:#999;}
+
+
+/*工具*/
+#tool {
+	font-size:12px;
+	line-height:20px;
+	border-top:1px solid #DDD;
+	border-bottom:1px solid #DDD;
+	height:20px;
+	margin:10px 0;
+	padding:10px 0 10px 10px;
+	overflow: hidden;
+}
+#tool ul {
+	float:left;
+}
+#tool ul li {
+	float:left;
+	width:90px;
+	line-height:20px;
+}
+#tool .commentary, #tool .print, #tool .copy, #tool .email, #tool .close, #tool .rss_2, #tool .t_1, #tool .t_2, #tool .t_3 {
+	background-image: url(tool.gif);
+	background-repeat: no-repeat;
+	background-position: left -20px;
+	height:20px;
+	line-height:20px;
+	padding:0 0 0 25px;
+	display:block;
+	margin:0 10px 0 0;
+	color:#333;
+}
+#tool .print {
+	background-position: left -40px;
+}
+#tool .copy {
+	background-position: left -80px;
+}
+#tool .email {
+	background-position: left -100px;
+}
+#tool .close {
+	background-position: left -60px;
+}
+#tool .rss_2 {
+	background-position: left -120px;
+}
+#tool .t_1 {
+	background-position: left -140px;
+}
+#tool .t_2 {
+	background-position: left -160px;
+}
+#tool .t_3 {
+	background-position: left -180px;
+}
+
+#tool .t_4 {padding-left:20px;background:url(comment.gif) left 3px no-repeat;}
+#tool .orders {padding-left:20px;background:url(orders.gif) left 2px no-repeat;}
+#tool .sinaicon {padding-left:20px;background:url(sinaicon.png) left 1px no-repeat;}
+
+.category_title {line-height:32px;padding:0px 10px 0px 40px;background:#F5F5F5 url(title.gif) 10px 10px no-repeat;font-weight:bold;}
+.category_title span {float:right;font-weight:normal;}
+
+/************* 分类列表 */
+.news_list {
+  padding:10px;
+}
+
+.news_list li {
+  clear:both;
+  line-height:28px;
+  padding-left:15px;
+  font-size:14px;
+  border-bottom:1px dotted #F5F5F5;
+  background:url(dot.gif) left 12px no-repeat;
+}
+
+.news_list li a {
+  color:#666;
+}
+
+.news_text h5,.news_text_pic h5 {
+  float:right;
+  width:615px;
+  font-weight:bold;
+  font-size:12px;
+  text-align:left;
+  color:#333;
+  padding-left:10px;
+  background:url(dot_r.gif) left 6px no-repeat;
+}
+
+.news_text h5 {
+  width:750px;
+}
+
+.news_text h5,.news_text_pic h5 a {
+  color:#333;
+}
+
+.news_list .date,.news_text h5 .date,.news_text_pic h5 .date,.strgrade {
+  float:right;
+  padding-right:15px;
+  color:#999;
+  font-weight:normal;
+}
+
+.strgrade {
+  display:block;
+  width:160px;
+  text-align:left;
+}
+
+.news_list p {
+  margin:5px;
+  padding:5px 5px 5px 20px;
+  background:#FFF;
+  text-indent:2em;
+}
+
+.news_text,.news_text_pic {
+  clear:both;
+  height:auto;
+  padding:10px 0px;
+  border-bottom:1px dotted #ccc;
+}
+
+
+.news_text p,.news_text_pic p {
+  float:right;
+  width:610px;
+  text-align:left;
+  color:#999;
+  padding:5px;
+  text-indent:2em;
+}
+
+.news_text p {
+  width:750px;
+}
+
+a.news_text_img {
+  display:block;
+  float:left;
+  height:100px;
+  overflow:hidden;
+  border:1px solid #ccc;
+  margin-right:15px;
+}
+
+
+
+/************* 产品 */
+.product_box {
+  float:left;
+  width:142px;
+  height:166px;
+  margin:5px 10px;
+  padding:5px;
+  background:url(piclist_1.png) right top no-repeat;
+  text-align:center;/*水平居中*/
+	display: table-cell;
+	vertical-align:middle;
+	overflow:hidden;
+}
+
+.p_box {height:110px;_height:130px; /*非IE的主流浏览器识别的垂直居中的方法*/
+        display: table-cell;
+        vertical-align:middle;
+        /*设置水平居中*/
+        text-align:center;
+        /* 针对IE的Hack */
+        *display: block;
+        *font-size: 114px;/*约为高度的0.873，200*0.873 约为175*/
+        *font-family:Arial;/*防止非utf-8引起的hack失效问题，如gbk编码*/
+		}
+
+.product_box a {
+  display:block;
+  width:142px;
+  height:114px;
+  
+	overflow:hidden;
+  color:#333;
+  /*非IE的主流浏览器识别的垂直居中的方法*/
+        display: table-cell;
+        vertical-align:middle;
+        /*设置水平居中*/
+        text-align:center;
+        /* 针对IE的Hack */
+        *display: block;
+        *font-size: 114px;/*约为高度的0.873，200*0.873 约为175*/
+        *font-family:Arial;/*防止非utf-8引起的hack失效问题，如gbk编码*/
+ 
+}
+
+
+.product_box h5 a {
+  width:142px;
+  overflow:hidden;
+  height:54px;
+  line-height:18px;
+  font-size:12px;
+   text-align:center;
+  font-weight:normal;
+}
+
+.p_info {
+  height:20px;
+  line-height:20px;
+  padding-left:30px;
+  background:url(bullet1.gif) left top no-repeat;
+  color:#0D61BA;
+  font-size:14px;
+  font-weight:bold;
+}
+
+
+/************* 分页 */
+
+.pages {
+  clear:both;
+  margin:0px 10px;
+}
+
+.pages strong {
+  color:#555;
+  display:block;
+  float:left;
+  height:18px;
+  line-height:18px;
+  float:left;
+  padding:0px 8px;
+  background:#F5F5F5;
+  border:1px solid #ccc;
+  margin: 0px 3px 0px 0px;
+}
+.pages a {
+  display:block;
+  float:left;
+  height:18px;
+  line-height:18px;
+  float:left;
+  padding:0px 8px;
+  border:1px solid #CCC;
+  text-decoration:none;
+  margin: 0px 3px 0px 0px;
+  color:#555;
+}
+
+.pages span {
+  float:right;
+}
+
+
+
+
+#foot {line-height:28px;padding:15px;border-top:2px solid white;text-align:center;background:#F5F5F5;color:#999;}
+#foot a {color:#999;text-decoration: underline;}
+.date {float:right;color:#999;}
+.blank5,.blank10,.blank30 {clear:both;height:5px;overflow:hidden;}
+.blank10 {height:10px;}
+.blank30 {height:30px;}

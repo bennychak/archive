@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>1722505340</channel_id>
+<channel_name><![CDATA[生活时尚]]></channel_name>
+<channel_typeid><![CDATA[24]]></channel_typeid>
+<channel_typename><![CDATA[上海文广]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24057249]]></cur_program_id>
+<cur_program_name><![CDATA[星尚乐活情报]]></cur_program_name>
+<cur_program_time><![CDATA[18:00]]></cur_program_time>
+<next_program_name><![CDATA[人气美食]]></next_program_name>
+<next_program_time><![CDATA[19:00]]></next_program_time>
+<def_program><![CDATA[	]]></def_program>
+<channel_desc><![CDATA[自由、当代、精致、优雅、前卫的时尚表情，倡导优质生活，革命性地引领着中国电视传媒的品牌形象]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/smg.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shanghai.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shanghai.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100044</chat_id>
+   <chat_title><![CDATA[生活时尚]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[东方宽频]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[人气美食]]></pn>
+		<tm><![CDATA[06:00]]></tm>
+		<id><![CDATA[24057233]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[星尚派]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24057234]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[我为美丽狂]]></pn>
+		<tm><![CDATA[07:30]]></tm>
+		<id><![CDATA[24057235]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[左右时尚]]></pn>
+		<tm><![CDATA[07:53]]></tm>
+		<id><![CDATA[24057236]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[上午剧场]]></pn>
+		<tm><![CDATA[08:53]]></tm>
+		<id><![CDATA[24057237]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[星尚X档案]]></pn>
+		<tm><![CDATA[10:30]]></tm>
+		<id><![CDATA[24057238]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[人气美食]]></pn>
+		<tm><![CDATA[11:00]]></tm>
+		<id><![CDATA[24057239]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[星尚乐活情报]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24057240]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[我为美丽狂]]></pn>
+		<tm><![CDATA[13:00]]></tm>
+		<id><![CDATA[24057241]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日印象]]></pn>
+		<tm><![CDATA[13:30]]></tm>
+		<id><![CDATA[24057242]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[生活全接触]]></pn>
+		<tm><![CDATA[14:30]]></tm>
+		<id><![CDATA[24057243]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[星尚X档案]]></pn>
+		<tm><![CDATA[15:00]]></tm>
+		<id><![CDATA[24057244]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[左右时尚]]></pn>
+		<tm><![CDATA[15:30]]></tm>
+		<id><![CDATA[24057245]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[星尚派]]></pn>
+		<tm><![CDATA[16:30]]></tm>
+		<id><![CDATA[24057246]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[我为美丽狂]]></pn>
+		<tm><![CDATA[17:00]]></tm>
+		<id><![CDATA[24057247]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[生活全接触]]></pn>
+		<tm><![CDATA[17:30]]></tm>
+		<id><![CDATA[24057248]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[星尚乐活情报]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24057249]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[人气美食]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24057250]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日印象]]></pn>
+		<tm><![CDATA[20:00]]></tm>
+		<id><![CDATA[24057251]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[星尚派]]></pn>
+		<tm><![CDATA[21:00]]></tm>
+		<id><![CDATA[24057252]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[我为美丽狂]]></pn>
+		<tm><![CDATA[21:30]]></tm>
+		<id><![CDATA[24057253]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[左右时尚]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24057254]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[生活全接触]]></pn>
+		<tm><![CDATA[23:00]]></tm>
+		<id><![CDATA[24057255]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[我为美丽狂]]></pn>
+		<tm><![CDATA[23:30]]></tm>
+		<id><![CDATA[24057256]]></id>
+	</p>
+
+</root>

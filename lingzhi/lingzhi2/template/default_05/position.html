@@ -1,0 +1,4 @@
+<div id="position">
+<h5>{lang(nowposition)}</h5>
+<a title="{get('sitename')}" href="{get(site_url)}">{get('sitename')}</a>{loop position($catid) $t}<a title="{$t['name']}" href="{$t.url}">{$t['name']}</a>{/loop}
+</div>

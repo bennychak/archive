@@ -1,0 +1,276 @@
+/*
+开发版本：name.dev.css
+发布版本：name.css
+发布压缩版本：name.min.css
+*/
+
+/*
+@import url("reset.dev.css");
+@import url("base.dev.css");
+@import url("fonts.dev.css");
+@import url("grids.dev.css");
+@import url("print.dev.css") print;
+*/
+
+
+/*** reset ***/
+html{color:#000; background:#FFF;}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {margin:0; padding:0;}
+table {border-collapse:collapse; border-spacing:0;}
+fieldset,
+img {border:0;}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {font-style:normal; font-weight:normal;}
+
+li {list-style:none;}
+
+caption,
+th {text-align:left;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {font-size:100%; font-weight:normal;}
+q:before,
+q:after {content:'';}
+abbr,
+acronym {border:0; font-variant:normal;}
+
+/* 保持行高和选择器外观 */
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,
+textarea,
+select {font-family:inherit; font-size:inherit; font-weight:inherit;}
+
+/* 使得IE重置大小 */
+input,
+textarea,
+select {*font-size:100%;}
+
+/* 因为在IE中不继承 */
+legend {color:#000;}
+/*** /reset ***/
+
+
+
+/*** base ***/
+h1 {font-size:138.5%;}
+h2 {font-size:123.1%;}
+h3 {font-size:108%;}
+h1,h2,h3 {/* 上下外补丁基于字号 */margin:1em 0;}
+h1,h2,h3,h4,h5,h6,strong {font-weight:bold;}
+abbr,acronym {border-bottom:1px dotted #000; cursor:help;} 
+em {font-style:italic;}
+blockquote,ul,ol,dl {margin:1em;}
+ol,ul,dl {margin-left:2em;}
+ol li {list-style:decimal outside;}
+ul li {list-style:disc outside;}
+dl dd {margin-left:1em;}
+th,td {border:1px solid #000; padding:.5em; vertical-align:top;}
+th {font-weight:bold;/* text-align:center;*/}
+caption {margin-bottom:.5em; text-align:center;}
+p,fieldset,table,pre {margin-bottom:1em;}
+input[type=text],input[type=password],textarea{width:12.25em; *width:11.9em;}
+
+input[type=submit]{cursor:pointer;}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus{outline:0 solid #6FA1D9 !important; -webkit-box-shadow:0 0 0 #6FA1D9 !important;}
+
+input[type="checkbox"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="radio"]:focus {outline:0 solid #6FA1D9 !important;} 
+/*** /base ***/
+
+
+
+/*** font ***/
+body {font: 12px/1.5 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /*font:12px/1.5 arial,helvetica,clean,sans-serif;*//* *font-size:small; for IE  *font:x-small; for IE in quirks mode */}
+
+select,
+input,
+button,
+textarea {font:100% Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+
+table {font-size:inherit; font:100%;}
+
+pre,
+code,
+kbd,
+samp,
+tt {font-family:monospace; *font-size:108%; line-height:100%;}
+/*** /font ***/
+
+
+
+/*** grids ***/
+/*
+几种常用宽度：
+960:
+	960
+	160+20+770
+	180+20+750
+	300+20+630
+		(300+20)+(310+10+310)
+
+	750+20+180
+	690+20+240
+	630+20+300
+		(310+10+310)+(20+300)
+
+100%:
+
+*/
+
+
+#ui_head {margin-bottom:10px;}
+#ui_foot {margin-top:10px;}
+/*
+#ui_head {background-color:#6CC;}
+#ui_foot {background-color:#6CC;}
+*/
+
+#ui_wrap0:after,
+#ui_wrap1:after,
+#ui_wrap2:after,
+#ui_inmain:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+#ui_wrap0,
+#ui_wrap1,
+#ui_wrap2,
+#ui_inmain{_zoom:1;}
+
+#ui_wrap0,
+.wrap0{width:100%; margin:auto;}
+#ui_wrap1,
+.wrap1{width:960px; _width:963px; margin:auto;}
+#ui_wrap2,
+.wrap2{width:780px; margin:auto;}
+
+	#ui_contain {float:left; width:100%; margin-right:-300px;}
+		#ui_main {margin-right:320px;}
+			#ui_left {float:left; width:160px; min-height:550px; height:auto !important; height:550px;}
+			#ui_inmain {margin-left:180px;}
+	#ui_side {float:right; width:300px;}
+/*
+	#ui_contain {background:#3FF;}
+		#ui_main {background:#3CF;}
+			#ui_left {background-color:#39F;}
+			#ui_inmain {background-color:#C60;}
+	#ui_side {background-color:#CCF; color:#FFF;}
+*/
+
+/*960：大通栏*/
+		.tb_wrap0 #ui_contain{}
+			.tb_wrap0 #ui_main{}
+				.tb_wrap0 #ui_left {display:none;}
+				.tb_wrap0 #ui_inmain {display:none;}
+		.tb_wrap0 #ui_side{display:none;}
+/*/960：大通栏*/
+
+/*960:左+右(左右)*/
+	/*200+760*/
+		.tb_wrap7 #ui_contain{float:right; margin-right:-0; margin-left:-200px;}
+			.tb_wrap7 #ui_main{margin-right:0; margin-left:200px;}
+				.tb_wrap7 #ui_left{ width:560px;}
+				.tb_wrap7 #ui_inmain{margin-left:560px;}
+		.tb_wrap7 #ui_side{float:left; width:200px;}
+	/*/200+760*/
+/*/960:左+右(左右)*/
+
+/*960:左(左右)+右*/
+		.tb_wrap1 #ui_contain,
+		.tb_wrap2 #ui_contain,
+		.tb_wrap3 #ui_contain,
+		.tb_wrap4 #ui_contain,
+		.tb_wrap5 #ui_contain,
+		.tb_wrap6 #ui_contain{margin-right:auto;}
+
+			.tb_wrap1 #ui_main,
+			.tb_wrap2 #ui_main,
+			.tb_wrap3 #ui_main,
+			.tb_wrap4 #ui_main,
+			.tb_wrap5 #ui_main,
+			.tb_wrap6 #ui_main{margin-right:auto;}
+
+			.tb_wrap1 #ui_side,
+			.tb_wrap2 #ui_side,
+			.tb_wrap3 #ui_side,
+			.tb_wrap4 #ui_side,
+			.tb_wrap5 #ui_side,
+			.tb_wrap6 #ui_side{display:none;}
+
+		/*160+20+770*/
+					.tb_wrap1 #ui_left {width:160px;}
+					.tb_wrap1 #ui_inmain {margin-left:180px;}
+		/*/160+20+770*/
+	
+		/*180+20+750*/
+					.tb_wrap2 #ui_left {width:180px;}
+					.tb_wrap2 #ui_inmain {margin-left:200px;}
+		/*/180+20+750*/
+	
+		/*300+20+630*/
+					.tb_wrap3 #ui_left {width:300px;}
+					.tb_wrap3 #ui_inmain {margin-left:320px;}
+		/*/300+20+630*/
+	
+		/*750+20+180*/
+					.tb_wrap4 #ui_left {width:750px;}
+					.tb_wrap4 #ui_inmain {margin-left:770px;}
+		/*/750+20+180*/
+	
+		/*690+20+240*/
+					.tb_wrap5 #ui_left {width:690px;}
+					.tb_wrap5 #ui_inmain {margin-left:710px;}
+		/*/690+20+240*/
+	
+		/*630+20+300*/
+					.tb_wrap6 #ui_left {width:630px;}
+					.tb_wrap6 #ui_inmain {margin-left:650px;}
+		/*/630+20+300*/
+/*/960:左(左右)+右*/
+
+
+.ui_nor #ui_inmain{ display:none;}
+.ui_nor #ui_left { width:758px; float:none;}
+/*** /grids ***/
+
+

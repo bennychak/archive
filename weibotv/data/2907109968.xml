@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2907109968</channel_id>
+<channel_name><![CDATA[浙江卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24057789]]></cur_program_id>
+<cur_program_name><![CDATA[今日证券]]></cur_program_name>
+<cur_program_time><![CDATA[17:50]]></cur_program_time>
+<next_program_name><![CDATA[浙江新闻联播]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[国内最有影响力的媒体之一，立足现代人文理念，凸现鲜明地域特色的人文价值和财富价值。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/zjtv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/zhejiang.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/zhejiang.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100092</chat_id>
+   <chat_title><![CDATA[浙江卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[浙江电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[深夜剧场]]></pn>
+		<tm><![CDATA[03:41]]></tm>
+		<id><![CDATA[24057777]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻深一度]]></pn>
+		<tm><![CDATA[06:15]]></tm>
+		<id><![CDATA[24058904]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[浙江新闻联播]]></pn>
+		<tm><![CDATA[06:30]]></tm>
+		<id><![CDATA[24056425]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日证券]]></pn>
+		<tm><![CDATA[06:51]]></tm>
+		<id><![CDATA[24056427]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典剧场]]></pn>
+		<tm><![CDATA[07:19]]></tm>
+		<id><![CDATA[24057779]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[冲关我最棒]]></pn>
+		<tm><![CDATA[11:45]]></tm>
+		<id><![CDATA[24057781]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间新闻快报]]></pn>
+		<tm><![CDATA[11:55]]></tm>
+		<id><![CDATA[24057783]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[花环夫人]]></pn>
+		<tm><![CDATA[13:00]]></tm>
+		<id><![CDATA[24057785]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[非凡十分]]></pn>
+		<tm><![CDATA[17:17]]></tm>
+		<id><![CDATA[24057787]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日证券]]></pn>
+		<tm><![CDATA[17:30]]></tm>
+		<id><![CDATA[24056429]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[今日证券]]></pn>
+		<tm><![CDATA[17:50]]></tm>
+		<id><![CDATA[24057789]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[浙江新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24056431]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[转播中央电视台新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24057791]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[黄金剧场]]></pn>
+		<tm><![CDATA[19:33]]></tm>
+		<id><![CDATA[24056433]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[爱情连连看]]></pn>
+		<tm><![CDATA[21:02]]></tm>
+		<id><![CDATA[24057793]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[公主嫁到]]></pn>
+		<tm><![CDATA[22:30]]></tm>
+		<id><![CDATA[24057795]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻深一度]]></pn>
+		<tm><![CDATA[22:50]]></tm>
+		<id><![CDATA[24058906]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[深夜剧场]]></pn>
+		<tm><![CDATA[23:10]]></tm>
+		<id><![CDATA[24056435]]></id>
+	</p>
+
+</root>

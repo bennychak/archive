@@ -1,0 +1,97 @@
+<?php $ifonserver=config::get('ifonserver');?>
+{if $ifonserver}
+<link href="{$base_url}/images/left.css" rel="stylesheet" type="text/css" />
+<?php
+if(config::get(serverlistp)=='right'){
+$_serverlistpcss='left';
+$_right = 'right:-136px;';
+$_right1 = 'right:0px;';
+}elseif(config::get(serverlistp)=='left'){
+$_serverlistpcss='right';
+$_right = 'left:-136px;';
+$_width = 'width:170px;';
+}else{
+$_serverlistpcss='right';
+}
+?>
+<style type="text/css">
+* {
+	padding:0;
+	margin:0;
+}
+.cleft_b{
+	position:fixed;top:30%;{$_right}
+}
+.cleft_b1{
+	position:fixed;top:30%;{$_right1}
+}
+.cleft_box{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	{$_width}
+}
+.cleft_box .cright{
+	border: 1px solid #006BAF;
+	background-color: #006BAF;
+	width: 27px;
+	height: 150px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 35px;
+	cursor: pointer;
+	float: {$_serverlistpcss};
+}
+</style>
+<!--[if IE 6]>
+<style type="text/css">
+	.cleft_b {position:absolute;}
+    .cleft_b1 {position:absolute;}
+</style>
+<![endif]-->  
+<script type="text/javascript">
+function copen(){
+	var para = document.getElementById("cleft_box").className = "cleft_b1";
+}
+function cclose(){
+	var para = document.getElementById("cleft_box").className = "cleft_b"; 
+}
+</script>
+<div id="cleft_box" class="cleft_b">
+  <div class="cleft_box"> 
+	<div class="cright" onclick="copen()"> 
+		<div class="cright_ico"></div> 
+		{lang(leftservers)}<span style="layout-flow:vertical-ideographic"></span>
+	</div> 
+	<div class="cleft_box_content"> 
+		<div class="cheader"> 
+			<div class="ctitle" onclick="cclose()">{lang(leftservers)}(x)</div> 
+		</div> 
+		<div class="serverlist"> 
+			<ul>
+			<li><a href="tencent://message/?uin={config::get('qq1')}&Site={config::get('sitename')}&Menu=yes" target="_blank"><img border="0" SRC="http://wpa.qq.com/pa?p=1:{config::get('qq1')}:42" alt="点击这里给我发消息"></a></li>
+            <li><a target="_blank" href="tencent://message/?uin={config::get('qq2')}&Site={config::get('sitename')}&Menu=yes"><img border="0" SRC="http://wpa.qq.com/pa?p=1:{config::get('qq2')}:42" alt="点击这里给我发消息"></a></li> 
+            <li><a target="_blank" href="tencent://message/?uin={config::get('qq3')}&Site={config::get('sitename')}&Menu=yes"><img border="0" SRC="http://wpa.qq.com/pa?p=1:{config::get('qq3')}:42" alt="点击这里给我发消息"></a></li>
+            <li><a target="_blank" href="tencent://message/?uin={config::get('qq4')}&Site={config::get('sitename')}&Menu=yes"><img border="0" SRC="http://wpa.qq.com/pa?p=1:{config::get('qq4')}:42" alt="点击这里给我发消息"></a></li> 
+            <li><a target="_blank" href="tencent://message/?uin={config::get('qq5')}&Site={config::get('sitename')}&Menu=yes"><img border="0" SRC="http://wpa.qq.com/pa?p=1:{config::get('qq5')}:42" alt="点击这里给我发消息"></a></li>   
+			<li><a href="http://amos.im.alisoft.com/msg.aw?v=2&uid={config::get('wangwang')}&site=cntaobao&s=1&charset=utf-8" target="_blank"><img border="0" src="http://amos.im.alisoft.com/online.aw?v=2&uid={config::get('wangwang')}&site=cntaobao&s=1&charset=utf-8"/></a></li> 
+			<li><a href="skype:{config::get('skype')}?call" target="_blank"><img src="http://mystatus.skype.com/smallclassic/{config::get('skype')}"/></a></li> 
+			<li><a target="_blank" href="http://settings.messenger.live.com/Conversation/IMMe.aspx?invitee={config::get('msn')}&mkt=zh-cn"><img style="border-style: none;" src="{$base_url}/images/msn.gif"/></a></li>
+            <?php
+            if(config::get('mods')){
+            ?>
+            <!-- BEGIN CmsEasy Live Code, Copyright (c) 2009 CmsEasy.cn. All Rights Reserved -->
+<script type="text/javascript" language="javascript" src="{$base_url}/celive/js/include.php?cmseasylive&text"></script>
+<!-- END CmsEasy Live Code, Copyright (c) 2009 CmsEasy.cn. All Rights Reserved -->
+            <?php
+            }
+            ?> 
+			</ul> 
+		</div> 
+		<div class="cfooter"></div> 
+	</div>
+  </div> 
+</div>
+{/if}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>4035478592</channel_id>
+<channel_name><![CDATA[广东公共]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24057300]]></cur_program_id>
+<cur_program_name><![CDATA[外来媳妇本地郎]]></cur_program_name>
+<cur_program_time><![CDATA[16:52]]></cur_program_time>
+<next_program_name><![CDATA[dv现场(77)]]></next_program_name>
+<next_program_time><![CDATA[18:52]]></next_program_time>
+<def_program><![CDATA[	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[广东公共频道精选热门影视作品，关注民生，以民意为导向，全力打造一系列内容各异、风格多样的娱乐节目。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/gdtv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/guangdonggonggong.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/guangdong.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100034</chat_id>
+   <chat_title><![CDATA[广东公共]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[广东电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[dv现场]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24057288]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[公道]]></pn>
+		<tm><![CDATA[07:35]]></tm>
+		<id><![CDATA[24057289]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[解密大行动]]></pn>
+		<tm><![CDATA[08:03]]></tm>
+		<id><![CDATA[24057290]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[万家灯火]]></pn>
+		<tm><![CDATA[08:41]]></tm>
+		<id><![CDATA[24057291]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[动漫:数码宝贝(21-24)]]></pn>
+		<tm><![CDATA[09:19]]></tm>
+		<id><![CDATA[24057292]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[dv现场]]></pn>
+		<tm><![CDATA[11:13]]></tm>
+		<id><![CDATA[24057293]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[万家灯火]]></pn>
+		<tm><![CDATA[11:47]]></tm>
+		<id><![CDATA[24057294]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[解密大行动]]></pn>
+		<tm><![CDATA[12:16]]></tm>
+		<id><![CDATA[24057295]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[好奇害死猫]]></pn>
+		<tm><![CDATA[12:45]]></tm>
+		<id><![CDATA[24057296]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[档案]]></pn>
+		<tm><![CDATA[13:23]]></tm>
+		<id><![CDATA[24057297]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[我爱看电影]]></pn>
+		<tm><![CDATA[14:08]]></tm>
+		<id><![CDATA[24057298]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧:宝家有喜(6-7)]]></pn>
+		<tm><![CDATA[14:52]]></tm>
+		<id><![CDATA[24057299]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[外来媳妇本地郎]]></pn>
+		<tm><![CDATA[16:52]]></tm>
+		<id><![CDATA[24057300]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[dv现场(77)]]></pn>
+		<tm><![CDATA[18:52]]></tm>
+		<id><![CDATA[24057301]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧:水浒传(73-74)]]></pn>
+		<tm><![CDATA[19:30]]></tm>
+		<id><![CDATA[24057302]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[解密大行动(944)]]></pn>
+		<tm><![CDATA[21:00]]></tm>
+		<id><![CDATA[24057303]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[万家灯火(77)]]></pn>
+		<tm><![CDATA[21:30]]></tm>
+		<id><![CDATA[24057304]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[公道(97)]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24057305]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[好奇害死猫(50)]]></pn>
+		<tm><![CDATA[22:35]]></tm>
+		<id><![CDATA[24057306]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[剧:水浒传(73-74)]]></pn>
+		<tm><![CDATA[23:13]]></tm>
+		<id><![CDATA[24057307]]></id>
+	</p>
+
+</root>

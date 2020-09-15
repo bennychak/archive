@@ -1,0 +1,118 @@
+<?php /* Smarty version 2.6.25, created on 2010-09-12 10:12:20
+         compiled from admin/details.htm */ ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $this->_tpl_vars['lang']['charset']; ?>
+" />
+<link href="<?php echo $this->_tpl_vars['conf']['url']; ?>
+/templates/<?php echo $this->_tpl_vars['conf']['template']; ?>
+/css/admin.css" rel="stylesheet" type="text/css" />
+<title>CElive</title>
+</head>
+<?php echo '
+<style type="text/css">
+.box {
+  float:left;  
+  margin:5px 10px;
+  font-size:12px;
+}
+
+body {background:#F7F8FD url(_bg.gif) left top;}
+
+.box ul {
+  margin-top:0px;
+}
+
+.box ul li {
+  height:24px;
+  line-height:24px;
+  padding-left:20px;
+  margin-left:20px;
+  background: url('; ?>
+<?php echo $this->_tpl_vars['conf']['url']; ?>
+/templates/<?php echo $this->_tpl_vars['conf']['template']; ?>
+/images/edt.gif<?php echo ') left center no-repeat;
+  float:left;
+}
+
+.box h3,#center .box h3 a {
+  line-height:14px;
+  font-size:14px;
+  padding-left:25px;
+  background:url(rank_2.gif) left 10px no-repeat;
+}
+.box h3 {
+	height:32px;overflow:hidden;
+ line-height:32px;}
+.box h4 {
+  font-size:12px;
+  color:#ccc;
+  
+}
+.border td {
+	border:1px #F8F8F8 solid;
+	padding:3px;
+}
+</style>
+'; ?>
+
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%" class="list" id="table">
+   <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="8">&nbsp;</td>
+        <td><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="b5d6e6">
+          <form action="../admin/details.php" method="post">
+          <tr>
+            <td width="3%" height="22" bgcolor="#FFFFFF"><div align="center" class="text1">
+            <div align="right">用户名称&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            </div></td>
+            <td width="12%" height="22" bgcolor="#FFFFFF"><div align="left"><span class="text1">&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $this->_tpl_vars['username']; ?>
+</span></div></td>
+            </tr>
+            <?php if ($this->_tpl_vars['ifadmin'] == 1): ?>
+            <?php else: ?>
+          <tr>
+            <td height="20" bgcolor="#FFFFFF"><div align="center" class="text1">
+              <div align="right">原先密码&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            </div></td>
+            <td height="20" bgcolor="#FFFFFF"><div align="left"><span class="text1">&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="old_password" size="20" style="width:150px;" /></span></div></td>
+            </tr>
+          <tr>
+            <td height="20" bgcolor="#FFFFFF"><div align="left" class="text1">
+              <div align="right">新的密码&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            </div></td>
+            <td height="20" bgcolor="#FFFFFF"><div align="left"><span class="text1">&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="new_password" size="20" style="width:150px;" /></span></div></td>
+            </tr>
+            <tr>
+            <td height="20" bgcolor="#FFFFFF"><div align="center" class="text1">
+              <div align="right">重复密码&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            </div></td>
+            <td height="20" bgcolor="#FFFFFF"><div align="left"><span class="text1">&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="new_password_again" size="20" style="width:150px;" /></span></div></td>
+            </tr>
+            <?php endif; ?>
+            <tr>
+            <td height="20" bgcolor="#FFFFFF"><div align="center" class="text1">
+              <div align="right">客服姓名&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            </div></td>
+            
+            <td height="20" bgcolor="#FFFFFF"><div align="left"><span class="text1">&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="realname" value="<?php echo $this->_tpl_vars['realname']; ?>
+" size="20" style="width:150px;" /></span></div></td>
+            </tr>
+            <tr>
+            <td height="20" bgcolor="#FFFFFF"><div align="center" class="text1">
+              <div align="right"></div>
+            </div></td>
+            <td height="20" bgcolor="#FFFFFF"><div align="left"><span class="text1">&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="submit" value="修改资料" /></span></div></td><input type="hidden" name="action" value="1" size="20" />
+            </tr>
+         </form>   
+        </table></td>        
+      </tr>
+    </table></td>
+  </tr>  
+</table>
+</body>
+</html>

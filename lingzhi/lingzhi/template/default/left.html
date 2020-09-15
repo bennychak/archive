@@ -1,0 +1,76 @@
+<div id="left">
+
+
+<!--左侧栏目导航开始-->
+<script language="javascript" type="text/javascript">
+var labelarr = new Array();
+function displaynone(id){
+	document.getElementById(id).style.display='none';
+}
+function displayblock(labelarr){
+	for(i=0;i<=labelarr.length;i++){
+		document.getElementById(labelarr[i]).style.display='block';
+	}	
+}
+</script>
+<div id="menu">
+<a href="javascript:void(0)" class="home" id="listnav" onclick="displayblock(labelarr)">+{lang(quicknav)}</a>
+<!-- {loop category::listcategorydata() $i $category} -->
+<?php
+if ($category[level] == '0'){
+ $_pid = $category[catid];
+}
+$pid1 = get('catid');
+for($_j=0;$_j<=$category[level];$_j++){
+ $pid1 = category::getattr($pid1,'parentid');
+ if(empty($pid1)){
+ continue;
+ }else{
+ $_pid1 = $pid1;
+ }
+}
+?>
+<span id="level_{$category[level]}_{$category[catid]}_{$category[parentid]}_{$catid}">
+<script language="javascript" type="text/javascript">
+labelarr[{$i}] = 'level_{$category[level]}_{$category[catid]}_{$category[parentid]}_{$catid}';
+{if $_pid != $_pid1 && $category[level] != 0 && $catid != $_pid}
+displaynone('level_{$category[level]}_{$category[catid]}_{$category[parentid]}_{$catid}');
+{/if}
+</script>
+<a href="{$category[url]}" title="{$category[catname]}" class="{if $category[catid]==$catid}on{/if}">{$category[catname]}</a></span>
+<!-- {/loop} -->
+</div>
+<!--左侧栏目导航结束-->
+
+
+<div class="left_box">
+<div class="title">{lang(contentspecial)}</div>
+<ul>
+<!-- {loop special::listdata() $special} -->
+<li><a href="{$special[url]}" title="{$special[title]}">{$special[title]}</a></li>
+<!-- {/loop} -->
+</ul>
+</div>
+
+
+<div class="title">{lang(arealist)}</div>
+<ul class="area_box">
+<!-- {loop area::listdata(0,50) $area} -->
+<a href="{$area[url]}" title="{$area[name]}">{$area[shortname]}</a>
+<!-- {/loop} -->
+<div class="clear"></div>
+</ul>
+
+<div class="left_box">
+<div class="title">{lang(contactus)}</div>
+<ul>
+<li>{lang(address)}：{get(address)}</li>
+<li>{lang(tel)}：{get(tel)}</li>
+<li>{lang(fax)}：{get(fax)}</li> 
+<li>{lang(email)}：{get(email)}</li> 
+</ul>
+</div>
+
+
+</div>
+

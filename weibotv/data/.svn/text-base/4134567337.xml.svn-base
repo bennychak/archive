@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>4134567337</channel_id>
+<channel_name><![CDATA[8财网络频道]]></channel_name>
+<channel_typeid><![CDATA[23]]></channel_typeid>
+<channel_typename><![CDATA[财经资讯]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[0]]></cur_program_id>
+<cur_program_name><![CDATA[该频道暂无预告]]></cur_program_name>
+<cur_program_time><![CDATA[]]></cur_program_time>
+<next_program_name><![CDATA[该频道暂无预告]]></next_program_name>
+<next_program_time><![CDATA[]]></next_program_time>
+<def_program><![CDATA[	 
+	 
+1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 ]]></def_program>
+<channel_desc><![CDATA[8财网络频道是专业的综合性财经频道，给网民展现一个全新的、实用的投资理财学习平台。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/i1290579990_1.jpg]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/8cai.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/tengxun.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100013</chat_id>
+   <chat_title><![CDATA[8财网络频道]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[迅视传媒]]></client_tips>
+
+</root>

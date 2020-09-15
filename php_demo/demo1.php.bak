@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+body{font:12px/1.75 Tahoma,Arial}
+</style>
+</head>
+
+<body>
+<form action="demo1.php" method="get">
+<input type="text" /><br />
+<!--<input type="submit" name="submitBtn1" value="submitBtn1Value" /> value=&quot;submitBtn1Value&quot; type=&quot;submit&quot; name=&quot;submitBtn1&quot;<br />
+<input type="submit" name="submitBtn4" value="submitBtn4Value" /> value=&quot;submitBtn4Value&quot; type=&quot;submit&quot; name=&quot;submitBtn4&quot;<br />
+-->
+<button type="submit" name="submitBtn2" value="submitBtn2Value">submitBtn2Content</button> value=&quot;submitBtn2Value&quot; type=&quot;submit&quot; name=&quot;submitBtn2&quot;<br />
+<button type="submit" name="submitBtn3" value="submitBtn3Value">submitBtn3Content</button> value=&quot;submitBtn3Value&quot; type=&quot;&quot; name=&quot;submitBtn3&quot;<br />
+</form>
+</body>
+</html>

@@ -1,0 +1,102 @@
+/* CSS GUIDE - 基础元素
+================================================================
+
+/* 1 CSS RESET
+================================================================*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+body{ height:100%;font:12px/1.75 Verdana,Arial,sans-serif; text-align: center; background:#fff;}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}
+strong{font-weight:bold}
+li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+h3{ font-size:14px}
+sup{ vertical-align:text-top}
+sub{ vertical-align:text-bottom}
+input,textarea,select{font-family:Tahoma,Arial,sans-serif; font-size:inherit; *font-size:100%; font-weight:inherit; outline:none}
+textarea{ resize:none; overflow-y:auto; outline:none}
+a{ text-decoration:none}
+a:hover{ text-decoration:underline}
+a:focus{ outline:none}
+
+
+
+
+
+/* 2 全局公用CSS
+================================================================*/
+
+/* 布局
+----------------------------------------------------------------*/
+
+/* 浮动 */
+.clear:after{content:'.';clear:both;display:block;height:0;visibility:hidden;line-height:0}
+.clear{zoom:1}
+
+.left{ float:left}
+.right{ float:right}
+
+/* DISPLAY */
+.dis_b{ display:block}
+.dis_in{ display:inline}
+.dis_inb{ display:inline-block; *display:inline; *zoom:1}
+.vis_on{ visibility: visible;}
+.vis_off{ visibility: hidden;}
+
+/* 文字
+----------------------------------------------------------------*/
+
+/* 字体 */
+@font-face{
+font-family:'atl';
+src:url('../images/atl-webfont.eot');
+src:url('../images/atl-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../images/atl-webfont.woff') format('woff'),
+	url('../images/atl-webfont.ttf') format('truetype'),
+	url('../images/atl-webfont.svg#atl') format('svg');
+font-weight:normal;
+font-style:normal;
+}
+
+.tx_song{ font-family:Simsun}
+.tx_yh{ font-family:Microsoft Yahei}
+.tx_atl{ font-family:atl,Verdana,sans-serif}
+
+/* 字号 */
+.tx_12{ font-size:12px}
+.tx_13{ font-size:13px}
+.tx_14{ font-size:14px}
+
+/* 字重 */
+.tx_b{ font-weight:800}
+.tx_n{ font-weight:normal}
+
+/* 字体样式 */
+.tx_udl{ text-decoration:underline}
+.tx_del{ text-decoration:line-through}
+
+/* 对齐 */
+.tx_l{ text-align:left}
+.tx_c{ text-align:center}
+.tx_r{ text-align:right}
+
+/* 折行 */
+.tx_br{ word-wrap:break-word; word-break:break-all}
+.tx_unbr{ width:100%; overflow: hidden; white-space:nowrap; text-overflow:ellipsis;}
+
+
+
+
+
+/* 3 基本通用元素
+================================================================*/
+
+
+
+
+
+/* 4 其他图片类
+================================================================*/

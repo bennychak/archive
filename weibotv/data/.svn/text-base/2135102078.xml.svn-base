@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2135102078</channel_id>
+<channel_name><![CDATA[Neotv电竞频道]]></channel_name>
+<channel_typeid><![CDATA[15]]></channel_typeid>
+<channel_typename><![CDATA[游戏频道]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24058884]]></cur_program_id>
+<cur_program_name><![CDATA[[直播]GSL3星际II超级联赛 CodeA]]></cur_program_name>
+<cur_program_time><![CDATA[17:00]]></cur_program_time>
+<next_program_name><![CDATA[[直播] WCG2011DNF外卡赛]]></next_program_name>
+<next_program_time><![CDATA[19:00]]></next_program_time>
+<def_program><![CDATA[]]></def_program>
+<channel_desc><![CDATA[WCG2009世界总决赛全程回顾，敬请关注！]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/neotv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/neotv.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/neotv.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100048</chat_id>
+   <chat_title><![CDATA[WCG09总决赛]]></chat_title>
+   <chat_listname><![CDATA[支持]]></chat_listname>
+   <chat_listitem><![CDATA[星际|魔兽|CS|FIFA|CF|DNF]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[NeoTV]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[[直播] WCG2011DNF外卡赛]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24058885]]></id>
+	</p>
+
+</root>

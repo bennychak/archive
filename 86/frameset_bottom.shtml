@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>我的首页 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+<link href="css/index.dev.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="ui_index">
+<div class="tb_wrap7">
+
+
+
+
+<!--#include file="inc/foot.shtml"-->
+
+
+
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{template 'header.html'}
+<div class="box line_4">
+{template 'left.html'}
+<!--left_1 end-->
+
+<div class="right_2">
+<div class="t_2 mb10"><div><h3>搜索结果</h3><span>Archive list</span></div></div>
+<div id="position">
+<strong>当前位置：</strong><a title="{get('sitename')}" href="{$base_url}">{get('sitename')}</a><a title="搜索结果" href="#">搜索结果</a>
+</div>
+
+
+	<center>
+	<div id="search" style="width:680px;">
+				<form name='search' method="post" action="<?php echo url('archive/search');?>"onsubmit="return check()">
+				<span class="greencu">请输入关键字：</span>
+			<select name="typeid">
+				<option value="0">所有分类</option>
+				{loop $type $tp}
+				<option value="{$tp['typeid']}">{$tp['typename']}</option>
+				{/loop}
+			</select>
+				<input  id="inputsearch" name="keyword" type="text" align="absmiple" />&nbsp; 
+				<input type="submit" class="s_btn" align="absmiple" name='submit' value=" " />
+				</form>
+			</div>
+		
+	</center>
+	<div class="blank10"></div>
+	<h4><span style="color:red;font-weight:bold;"> “{$keyword}” </span>的查询结果：</h4>
+	<ul class="news_list">
+		{loop $articles $article}
+		{cb_data($article)}
+		<li><span class="date">{$article['adddate']}</span>[<a href="{$article[caturl]}">{$article[catname]}</a>] <a href="{$article[url]}"><?php if($keyword) echo str_replace($keyword,"<span style=color:red;font-weight:bold;>$keyword</span>",$article['title']); else { ?>{$article[title]}<?php } ?></a>
+		{/loop}
+	</ul>
+	<div class="blank10"></div>
+	<div class="pages">
+		<?php echo pagination::html($record_count,5); ?>
+	</div>
+<div class="blank30"></div>
+		<a title="返回顶部" href="#" class="clear floatright"><img alt="返回顶部" src="{$skin_url}/gotop.gif"></a>
+	<div class="clear"></div>
+
+</div>
+<div class="clear"></div>
+</div>
+<!--box end-->
+{template 'footer.html'}

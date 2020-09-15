@@ -1,0 +1,33 @@
+﻿'┌┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┐
+'┊　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　┊
+'┊　　　　　　　刘小雨儿童艺术画室网站管理系统（ＮＷＥＢ）　　　　　　　┊
+'┊　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　┊
+' 　 版权所有　Nweb.cn
+'
+'　　程序制作　万博工作室
+'　　　　　　　Add:中国四川成都彭州市/611930
+'　　　　　　　Tel:0-13348927760 028-88079088
+'　　　　　　　Fax:83708850
+'　　　　　　　E-m:duolaimi-123@163.com
+'　　　　　　　Q Q:59309100
+'
+'　　官方网址　http://www.Nweb.cn
+'
+'┊　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　┊
+'└┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┘
+'
+'管理登录：/system/adminlogin.asp
+'管理帐号：admin
+'密　　码：admin888
+'
+'网站数据：/Database/#$% ^NwebCn_Site.mdb        (常规内容数据库)
+'　　　　　/Database/Bak_NwebCn_Site.mdb         (备份内容数据库)
+'　　　　　/Database/#$% ^NwebCn_Sata.mdb        (常规流量数据库)
+'　　　　　/Database/Bak_NwebCn_Stat.mdb         (备份流量数据库)
+'常量配置：/Include/Const.asp                    (如果你更改过数据库存放路径或文件名，相应常量在此文件作修改)
+'
+'统计调用：例如你的网站域名为http://www.MyName.com
+'　　　　　你的根目录下文件统计调用代码应为<Script language="javascript" src="Count/stat.asp"></Script>
+'
+'更多帮助：请见http://www.Nweb.cn“常见问题”栏目
+'

@@ -1,0 +1,289 @@
+<html>
+<head>
+<style>body{BACKGROUND-COLOR:#FFFFFF;MARGIN:0px;PADDING:0px;font-size:12px;}</style>
+<meta http-equiv="Content-Type" content="text/html;charset=gb2312"/>
+<meta name="Author" content="Jalon Huang,phoubes@hotmail.com"/>
+<meta name="GENERATOR" content="Editor v2.0"/>
+
+<script>
+var mSystem = new Object();
+mSystem.Version = "2.0";
+mSystem.VARIABLE = new Array("ID","Language","StyleSheet","InitMode","UrlMode","FilterMode","Filters","UploadPath","IMAGEALLOWEXT","FLASHALLOWEXT","MEDIAALLOWEXT","FILESALLOWEXT","IMAGEMAXSIZE","FLASHMAXSIZE","MEDIAMAXSIZE","FILESMAXSIZE");
+mSystem["ID"] = "Editor_full";
+mSystem["Language"] = "Chinese.xml";
+mSystem["StyleSheet"] = "default.css";
+mSystem["InitMode"] = "EDIT";
+mSystem["UrlMode"] = "3";
+mSystem["FilterMode"] = "true";
+mSystem["Filters"] = "SCRIPT";
+mSystem["UploadPath"] = "../Upload/EditorFiles/";
+mSystem["IMAGEALLOWEXT"] = "gif|jpg|jpeg|bmp|png";
+mSystem["FLASHALLOWEXT"] = "swf";
+mSystem["MEDIAALLOWEXT"] = "rm|ram|mp3|wav|mid|midi|ra|avi|mpg|mpeg|asf|asx|wma|wmv|mov";
+mSystem["FILESALLOWEXT"] = "rar|zip|exe|doc|xls|chm|txt";
+mSystem["IMAGEMAXSIZE"] = "5000";
+mSystem["FLASHMAXSIZE"] = "5000";
+mSystem["MEDIAMAXSIZE"] = "5000";
+mSystem["FILESMAXSIZE"] = "5000";
+mSystem["Common"] = "common/";
+mSystem["Dialog"] = "dialog/";
+mSystem["Style"] = "style/";
+mSystem["Images"] = "images/";
+mSystem["Plugins"] = "plugins/";
+mSystem["Language"] = "language/";
+mSystem["BtnImage"] = "images/button/";
+mSystem["BgImage"] = "images/bgimage/";
+mSystem["IconImage"] = "images/icon/";
+mSystem["FilesImage"] = "images/files/";
+</script>
+
+<script language='Javascript' src='common/bin.js'></script>
+<script language='Javascript' src='common/comm.js'></script>
+<script language='Javascript' src='common/comm2.js'></script>
+<script language='Javascript' src='common/table.js'></script>
+<script language='Javascript' src='common/decode.js'></script>
+<script language='Javascript' src='common/main.js'></script>
+<xml src='language/Chinese.xml' id='xmlLangPack'></xml>
+<link href='style/default.css' rel='stylesheet' rev='stylesheet'>
+
+</head>
+	<body>
+<div id='divSysTemp' style='display:none;'></div>
+<div id='divLangPackTemp' style='display:none;'></div>
+<div id='divClipBoardTemp' style='VISIBILITY:hidden;OVERFLOW:hidden;POSITION:absolute;WIDTH:0px;HEIGHT:0px;'></div>
+<div id='divMiscTemp' style='display:none;'></div>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+			<tr>
+				<td valign="top" id="EditorToolbar">
+<table id='EditorLoading' border=0 cellpadding=0 cellspacing=1 width='100%' height='100%'><tr><td width='100%' valign='middle' align='center'><img src='images/loading.gif' border='0'></td></tr></table>
+<div id='divEditorToolbar'><TABLE id='mToolbar' width='100%' cellpadding='0' cellspacing='0'><tr><td id='yToolbar'>
+<div id='TBHandle' class='TBHandle' align='center' title='工具栏头'></div>
+<select id="FontName" class="TBGen" title="字体" onChange="ExecCommand(true,'fontname',this.value);this.selectedIndex=0;">
+	<option selected="true">字体</option>
+	<option value="宋体">宋体</option>
+	<option value="黑体">黑体</option>
+	<option value="楷体_GB2312">楷体</option>
+	<option value="仿宋_GB2312">仿宋</option>
+	<option value="隶书">隶书</option>
+	<option value="幼圆">幼圆</option>
+	<option value="Arial">Arial</option>
+	<option value="Arial Black">Arial Black</option>
+	<option value="Arial Narrow">Arial Narrow</option>
+	<option value="Brush Script	MT">Brush Script MT</option>
+	<option value="Century Gothic">Century Gothic</option>
+	<option value="Comic Sans MS">Comic Sans MS</option>
+	<option value="Courier">Courier</option>
+	<option value="Courier New">Courier New</option>
+	<option value="MS Sans Serif">MS Sans Serif</option>
+	<option value="Script">Script</option>
+	<option value="System">System</option>
+	<option value="Times New Roman">Times New Roman</option>
+	<option value="Verdana">Verdana</option>
+	<option value="Wide Latin">Wide Latin</option>
+	<option value="Wingdings">Wingdings</option>
+</select>
+<select id="FontSize" class="TBGen" title="字号" onChange="ExecCommand(true,'fontsize',this.value);this.selectedIndex=0;">
+	<option selected="true">字号</option>
+	<option value="7">一号</option>
+	<option value="6">二号</option>
+	<option value="5">三号</option>
+	<option value="4">四号</option>
+	<option value="3">五号</option>
+	<option value="2">六号</option>
+	<option value="1">七号</option>
+</select>
+<select id="FormatBlock" class="TBGen" title="段落样式" onChange="ExecCommand(true,'FormatBlock',this.value);this.selectedIndex=0;">
+	<option selected="true">段落样式</option>
+	<option value="&lt;P&gt;">普通</option>
+	<option value="&lt;H1&gt;">标题一</option>
+	<option value="&lt;H2&gt;">标题二</option>
+	<option value="&lt;H3&gt;">标题三</option>
+	<option value="&lt;H4&gt;">标题四</option>
+	<option value="&lt;H5&gt;">标题五</option>
+	<option value="&lt;H6&gt;">标题六</option>
+	<option value="&lt;p&gt;">段落</option>
+	<option value="&lt;dd&gt;">定义</option>
+	<option value="&lt;dt&gt;">术语定义</option>
+	<option value="&lt;dir&gt;">目录列表</option>
+	<option value="&lt;menu&gt;">菜单列表</option>
+	<option value="&lt;PRE&gt;">已编排格式</option>
+</select>
+<select id="EditorZoom" class="TBGen" title="编辑器缩放" onChange="doEditorZoom(this.value);">
+	<option value="10">10%</option>
+	<option value="25">25%</option>
+	<option value="50">50%</option>
+	<option value="75">75%</option>
+	<option value="100" selected="true">100%</option>
+	<option value="150">150%</option>
+	<option value="200">200%</option>
+	<option value="500">500%</option>
+</select>
+</td></tr>
+<tr><td id='yToolbar'>
+<div id='TBHandle' class='TBHandle' align='center' title='工具栏头'></div>
+<div id='UnDo' class='ImgBtn' align='center' title='撤消'><IMG class='FixdIMG' onClick="ExecCommand(false,'UnDo')" src='images/Button/undo.gif'/></div>
+<div id='ReDo' class='ImgBtn' align='center' title='恢复'><IMG class='FixdIMG' onClick="ExecCommand(false,'ReDo')" src='images/Button/redo.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='FindReplace' class='ImgBtn' align='center' title='查找替换'><IMG class='FixdIMG' onClick="findReplace()" src='images/Button/findreplace.gif'/></div>
+<div id='SelectAll' class='ImgBtn' align='center' title='全部选中'><IMG class='FixdIMG' onClick="ExecCommand(false,'SelectAll')" src='images/Button/selectAll.gif'/></div>
+<div id='UnSelect' class='ImgBtn' align='center' title='取消选择'><IMG class='FixdIMG' onClick="ExecCommand(false,'Unselect')" src='images/Button/unselect.gif'/></div>
+<div id='Delete' class='ImgBtn' align='center' title='删除'><IMG class='FixdIMG' onClick="ExecCommand(false,'delete')" src='images/Button/delete.gif'/></div>
+<div id='RemoveFormat' class='ImgBtn' align='center' title='删除文字格式'><IMG class='FixdIMG' onClick="ExecCommand(true,'RemoveFormat')" src='images/Button/RemoveFormat.gif'/></div>
+<div id='Cut' class='ImgBtn' align='center' title='剪切'><IMG class='FixdIMG' onClick="ExecCommand(false,'cut')" src='images/Button/cut.gif'/></div>
+<div id='Copy' class='ImgBtn' align='center' title='复制'><IMG class='FixdIMG' onClick="ExecCommand(false,'copy')" src='images/Button/copy.gif'/></div>
+<div id='Paste' class='ImgBtn' align='center' title='常规粘贴'><IMG class='FixdIMG' onClick="ExecCommand(false,'paste')" src='images/Button/paste.gif'/></div>
+<div id='PasteText' class='ImgBtn' align='center' title='纯文本粘贴'><IMG class='FixdIMG' onClick="pasteText()" src='images/Button/pastetext.gif'/></div>
+<div id='PasteWord' class='ImgBtn' align='center' title='从Word中粘贴'><IMG class='FixdIMG' onClick="pasteWord()" src='images/Button/pasteword.gif'/></div>
+</td></tr>
+<tr><td id='yToolbar'>
+<div id='TBHandle' class='TBHandle' align='center' title='工具栏头'></div>
+<div id='Bold' class='ImgBtn' align='center' title='粗体'><IMG class='FixdIMG' onClick="ExecCommand(true,'bold')" src='images/Button/bold.gif'/></div>
+<div id='Italic' class='ImgBtn' align='center' title='斜体'><IMG class='FixdIMG' onClick="ExecCommand(true,'italic')" src='images/Button/italic.gif'/></div>
+<div id='UnderLine' class='ImgBtn' align='center' title='下划线'><IMG class='FixdIMG' onClick="ExecCommand(true,'underline')" src='images/Button/underline.gif'/></div>
+<div id='StrikeThrough' class='ImgBtn' align='center' title='中划线'><IMG class='FixdIMG' onClick="ExecCommand(true,'StrikeThrough')" src='images/Button/strikethrough.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='Big' class='ImgBtn' align='center' title='字体增大'><IMG class='FixdIMG' onClick="insert('big')" src='images/Button/tobig.gif'/></div>
+<div id='Small' class='ImgBtn' align='center' title='字体减小'><IMG class='FixdIMG' onClick="insert('small')" src='images/Button/tosmall.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='SuperScript' class='ImgBtn' align='center' title='上标'><IMG class='FixdIMG' onClick="ExecCommand(true,'superscript')" src='images/Button/superscript.gif'/></div>
+<div id='SubScript' class='ImgBtn' align='center' title='下标'><IMG class='FixdIMG' onClick="ExecCommand(true,'subscript')" src='images/Button/subscript.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='ForeColor' class='ImgBtn' align='center' title='字体颜色'><IMG class='FixdIMG' onClick="ShowDialog('dialog/selcolor.htm?action=forecolor', 280, 250, true)" src='images/Button/forecolor.gif'/></div>
+<div id='BackColor' class='ImgBtn' align='center' title='字体背景颜色'><IMG class='FixdIMG' onClick="ShowDialog('dialog/selcolor.htm?action=backcolor', 280, 250, true)" src='images/Button/backcolor.gif'/></div>
+</td></tr>
+<tr><td id='yToolbar'>
+<div id='TBHandle' class='TBHandle' align='center' title='工具栏头'></div>
+<div id='JustifyLeft' class='ImgBtn' align='center' title='左对齐'><IMG class='FixdIMG' onClick="ExecCommand(true,'justifyleft')" src='images/Button/justifyleft.gif'/></div>
+<div id='JustifyCenter' class='ImgBtn' align='center' title='居中对齐'><IMG class='FixdIMG' onClick="ExecCommand(true,'justifycenter')" src='images/Button/justifycenter.gif'/></div>
+<div id='JustifyRight' class='ImgBtn' align='center' title='右对齐'><IMG class='FixdIMG' onClick="ExecCommand(true,'justifyright')" src='images/Button/justifyright.gif'/></div>
+<div id='JustifyFull' class='ImgBtn' align='center' title='两端对齐'><IMG class='FixdIMG' onClick="ExecCommand(true,'JustifyFull')" src='images/Button/justifyfull.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='OrderedList' class='ImgBtn' align='center' title='编号'><IMG class='FixdIMG' onClick="ExecCommand(true,'insertorderedlist')" src='images/Button/insertorderedlist.gif'/></div>
+<div id='UnOrderedList' class='ImgBtn' align='center' title='项目符号'><IMG class='FixdIMG' onClick="ExecCommand(true,'insertunorderedlist')" src='images/Button/insertunorderedlist.gif'/></div>
+<div id='Indent' class='ImgBtn' align='center' title='增加缩进量'><IMG class='FixdIMG' onClick="ExecCommand(true,'indent')" src='images/Button/indent.gif'/></div>
+<div id='Outdent' class='ImgBtn' align='center' title='减少缩进量'><IMG class='FixdIMG' onClick="ExecCommand(true,'outdent')" src='images/Button/outdent.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='Paragraph' class='ImgBtn' align='center' title='插入段落'><IMG class='FixdIMG' onClick="ExecCommand(true,'InsertParagraph')" src='images/Button/insertParagraph.gif'/></div>
+<div id='BR' class='ImgBtn' align='center' title='插入换行符'><IMG class='FixdIMG' onClick="insert('br')" src='images/Button/br.gif'/></div>
+</td></tr>
+<tr><td id='yToolbar'>
+<div id='TBHandle' class='TBHandle' align='center' title='工具栏头'></div>
+<div id='Image' class='ImgBtn' align='center' title='插入或修改图片'><IMG class='FixdIMG' onClick="ShowDialog('dialog/img.htm', 350, 315, true)" src='images/Button/img.gif'/></div>
+<div id='Flash' class='ImgBtn' align='center' title='插入Flash动画'><IMG class='FixdIMG' onClick="ShowDialog('dialog/flash.htm', 350, 200, true)" src='images/Button/flash.gif'/></div>
+<div id='Media' class='ImgBtn' align='center' title='插入媒体文件'><IMG class='FixdIMG' onClick="ShowDialog('dialog/media.htm', 350, 220, true)" src='images/Button/media.gif'/></div>
+<div id='File' class='ImgBtn' align='center' title='插入其他文件'><IMG class='FixdIMG' onClick="ShowDialog('dialog/files.htm', 350, 150, true)" src='images/Button/file.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='Fieldset' class='ImgBtn' align='center' title='插入或修改栏目框'><IMG class='FixdIMG' onClick="ShowDialog('dialog/fieldset.htm', 350, 170, true)" src='images/Button/fieldset.gif'/></div>
+<div id='Iframe' class='ImgBtn' align='center' title='插入或修改网页帧'><IMG class='FixdIMG' onClick="ShowDialog('dialog/iframe.htm', 350, 200, true)" src='images/Button/iframe.gif'/></div>
+<div id='HorizontalRule' class='ImgBtn' align='center' title='插入水平尺'><IMG class='FixdIMG' onClick="ExecCommand(true,'InsertHorizontalRule')" src='images/Button/inserthorizontalrule.gif'/></div>
+<div id='Marquee' class='ImgBtn' align='center' title='插入或修改字幕'><IMG class='FixdIMG' onClick="ShowDialog('dialog/marquee.htm', 395, 150, true)" src='images/Button/marquee.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='CreateLink' class='ImgBtn' align='center' title='插入或修改超级链接'><IMG class='FixdIMG' onClick="createLink()" src='images/Button/createLink.gif'/></div>
+<div id='Unlink' class='ImgBtn' align='center' title='取消超级链接或标签'><IMG class='FixdIMG' onClick="ExecCommand(true,'UnLink')" src='images/Button/unlink.gif'/></div>
+<div id='Map' class='ImgBtn' align='center' title='图形热点链接'><IMG class='FixdIMG' onClick="mapEdit()" src='images/Button/map.gif'/></div>
+<div id='Anchor' class='ImgBtn' align='center' title='书签管理'><IMG class='FixdIMG' onClick="ShowDialog('dialog/anchor.htm', 270, 220, true);" src='images/Button/anchor.gif'/></div>
+</td></tr>
+<tr><td id='yToolbar'>
+<div id='TBHandle' class='TBHandle' align='center' title='工具栏头'></div>
+<div id='BgColor' class='ImgBtn' align='center' title='对象背景颜色'><IMG class='FixdIMG' onClick="ShowDialog('dialog/selcolor.htm?action=bgcolor', 280, 250, true)" src='images/Button/bgcolor.gif'/></div>
+<div id='BackImage' class='ImgBtn' align='center' title='背景图片'><IMG class='FixdIMG' onClick="ShowDialog('dialog/backimage.htm', 350, 210, true)" src='images/Button/bgpic.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='absolutePosition' class='ImgBtn' align='center' title='绝对或相对位置'><IMG class='FixdIMG' onClick="zPosition()" src='images/Button/abspos.gif'/></div>
+<div id='zIndexBackward' class='ImgBtn' align='center' title='下移一层'><IMG class='FixdIMG' onClick="zIndex('-')" src='images/Button/backward.gif'/></div>
+<div id='zIndexForward' class='ImgBtn' align='center' title='上移一层'><IMG class='FixdIMG' onClick="zIndex('+')" src='images/Button/forward.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='Quote' class='ImgBtn' align='center' title='引用样式'><IMG class='FixdIMG' onClick="insert('quote')" src='images/Button/quote.gif'/></div>
+<div id='Code' class='ImgBtn' align='center' title='代码样式'><IMG class='FixdIMG' onClick="insert('code')" src='images/Button/code.gif'/></div>
+</td></tr>
+<tr><td id='yToolbar'>
+<div id='TBHandle' class='TBHandle' align='center' title='工具栏头'></div>
+<div id='Excel' class='ImgBtn' align='center' title='插入Excel表格'><IMG class='FixdIMG' onClick="insert('excel')" src='images/Button/excel.gif'/></div>
+<div id='Icon' class='ImgBtn' align='center' title='插入图标'><IMG class='FixdIMG' onClick="ShowDialog('dialog/icon.htm', 380, 250, true)" src='images/Button/icon.gif'/></div>
+<div id='Symbol' class='ImgBtn' align='center' title='插入特殊字符'><IMG class='FixdIMG' onClick="ShowDialog('dialog/symbol.htm', 350, 220, false)" src='images/Button/symbol.gif'/></div>
+<div id='NowDate' class='ImgBtn' align='center' title='插入当前日期'><IMG class='FixdIMG' onClick="insert('date')" src='images/Button/date.gif'/></div>
+<div id='NowTime' class='ImgBtn' align='center' title='插入当前时间'><IMG class='FixdIMG' onClick="insert('time')" src='images/Button/time.gif'/></div>
+</td></tr>
+<tr><td id='yToolbar'>
+<div id='TBHandle' class='TBHandle' align='center' title='工具栏头'></div>
+<div id='FormText' class='ImgBtn' align='center' title='插入输入框'><IMG class='FixdIMG' onClick="ExecCommand(true,'InsertInputText')" src='images/Button/formtext.gif'/></div>
+<div id='FormTextArea' class='ImgBtn' align='center' title='插入文字输入区'><IMG class='FixdIMG' onClick="ExecCommand(true,'InsertTextArea')" src='images/Button/formtextarea.gif'/></div>
+<div id='FormRadio' class='ImgBtn' align='center' title='插入单选钮'><IMG class='FixdIMG' onClick="ExecCommand(true,'InsertInputRadio')" src='images/Button/formradio.gif'/></div>
+<div id='FormCheckbox' class='ImgBtn' align='center' title='插入复选框'><IMG class='FixdIMG' onClick="ExecCommand(true,'InsertInputCheckbox')" src='images/Button/formcheckbox.gif'/></div>
+<div id='FormDropdown' class='ImgBtn' align='center' title='插入下拉框'><IMG class='FixdIMG' onClick="ExecCommand(true,'InsertSelectDropdown')" src='images/Button/formdropdown.gif'/></div>
+<div id='FormButton' class='ImgBtn' align='center' title='插入按钮'><IMG class='FixdIMG' onClick="ExecCommand(true,'InsertButton')" src='images/Button/formbutton.gif'/></div>
+</td></tr>
+<tr><td id='yToolbar'>
+<div id='TBHandle' class='TBHandle' align='center' title='工具栏头'></div>
+<div id='TableInsert' class='ImgBtn' align='center' title='插入表格'><IMG class='FixdIMG' onClick="TableInsert()" src='images/Button/tableinsert.gif'/></div>
+<div id='TableProp' class='ImgBtn' align='center' title='修改表格属性'><IMG class='FixdIMG' onClick="TableProp()" src='images/Button/tableProp.gif'/></div>
+<div id='TableRowProp' class='ImgBtn' align='center' title='表格行属性'><IMG class='FixdIMG' onClick="TableRowProp()" src='images/Button/tablerowprop.gif'/></div>
+<div id='TableCellProp' class='ImgBtn' align='center' title='单元格属性'><IMG class='FixdIMG' onClick="TableCellProp()" src='images/Button/tablecellprop.gif'/></div>
+<div id='TableCellSplit' class='ImgBtn' align='center' title='拆分单元格'><IMG class='FixdIMG' onClick="TableCellSplit()" src='images/Button/tablecellsplit.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='TableRowInsertAbove' class='ImgBtn' align='center' title='插入行（在上方）'><IMG class='FixdIMG' onClick="TableRowInsertAbove()" src='images/Button/tablerowinsertabove.gif'/></div>
+<div id='TableRowInsertBelow' class='ImgBtn' align='center' title='插入行（在下方）'><IMG class='FixdIMG' onClick="TableRowInsertBelow()" src='images/Button/tablerowinsertbelow.gif'/></div>
+<div id='TableRowMerge' class='ImgBtn' align='center' title='合并行（向下方）'><IMG class='FixdIMG' onClick="TableRowMerge()" src='images/Button/tablerowmerge.gif'/></div>
+<div id='TableRowSplit' class='ImgBtn' align='center' title='拆分行'><IMG class='FixdIMG' onClick="TableRowSplit(2)" src='images/Button/tablerowsplit.gif'/></div>
+<div id='TableRowDelete' class='ImgBtn' align='center' title='删除行'><IMG class='FixdIMG' onClick="TableRowDelete()" src='images/Button/tablerowdelete.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='TableColInsertLeft' class='ImgBtn' align='center' title='插入列（在左侧）'><IMG class='FixdIMG' onClick="TableColInsertLeft()" src='images/Button/tablecolinsertleft.gif'/></div>
+<div id='TableColInsertRight' class='ImgBtn' align='center' title='插入列（在右侧）'><IMG class='FixdIMG' onClick="TableColInsertRight()" src='images/Button/tablecolinsertright.gif'/></div>
+<div id='TableColMerge' class='ImgBtn' align='center' title='合并列（向右侧）'><IMG class='FixdIMG' onClick="TableColMerge()" src='images/Button/tablecolmerge.gif'/></div>
+<div id='TableColSplit' class='ImgBtn' align='center' title='拆分列'><IMG class='FixdIMG' onClick="TableColSplit(2)" src='images/Button/tablecolsplit.gif'/></div>
+<div id='TableColDelete' class='ImgBtn' align='center' title='删除列'><IMG class='FixdIMG' onClick="TableColDelete()" src='images/Button/tablecoldelete.gif'/></div>
+</td></tr>
+<tr><td id='yToolbar'>
+<div id='TBHandle' class='TBHandle' align='center' title='工具栏头'></div>
+<div id='SizePlus' class='ImgBtn' align='center' title='增高编辑区'><IMG class='FixdIMG' onClick="scrollChange(100)" src='images/Button/sizeplus.gif'/></div>
+<div id='SizeMinus' class='ImgBtn' align='center' title='减小编辑区'><IMG class='FixdIMG' onClick="scrollChange(-100)" src='images/Button/sizeminus.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='Maximize' class='ImgBtn' align='center' title='全屏编辑'><IMG class='FixdIMG' onClick="Maximize()" src='images/Button/maximize.gif'/></div>
+<div id='Minimize' class='ImgBtn' align='center' title='全屏返回'><IMG class='FixdIMG' onClick="Minimize()" src='images/Button/minimize.gif'/></div>
+<div id='TBSep' class='TBSep' align='center' title='分隔线'></div>
+<div id='Print' class='ImgBtn' align='center' title='打印'><IMG class='FixdIMG' onClick="ExecCommand(true,'Print')" src='images/Button/print.gif'/></div>
+<div id='Help' class='ImgBtn' align='center' title='查看使用帮助'><IMG class='FixdIMG' onClick="ShowDialog('dialog/help.htm','400','300', false)" src='images/Button/help.gif'/></div>
+<div id='About' class='ImgBtn' align='center' title='关于 - Editor'><IMG class='FixdIMG' onClick="ShowDialog('dialog/about.htm','400','220', false)" src='images/Button/about.gif'/></div>
+</td></tr>
+</TABLE>
+</div>
+</td>
+			</tr>
+			<tr>
+				<td width="100%" height="100%" align="center" valign="top" id="EditorFrame" style="display:none">
+					<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td width="2" height="100%"></td>
+							<td width="100%">
+								<iframe frameborder="1" ID="Editor" MARGINHEIGHT="1" MARGINWIDTH="1" width="100%" height="100%" scrolling="yes"></iframe>
+							</td>
+							<td width="1"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" height="27" id="EditorStatusBar" style="display:none">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+						<tr>
+							<td width="50%" align="left" id="EditorModeBtnList">
+	<table border='0' cellpadding='1' cellspacing='3'><tr><td id='ModeBtn_VIEW' align='center' class='ModeBtnUp' onClick="setMode('VIEW')">预览</td>
+<td id='ModeBtn_CODE' align='center' class='ModeBtnUp' onClick="setMode('CODE')">代码</td>
+<td id='ModeBtn_EDIT' align='center' class='ModeBtnUp' onClick="setMode('EDIT')">视图</td>
+</tr></table>
+	</td>
+							<td width="38%" align="right" valign="middle" id="EditorCopyRight">
+	<span id='CopyRight'>&copy; www.Nweb.cn</span>
+	</td>
+							<td width="12%" align="right" valign="middle" id="EditorSideBtnList" style="display:none">
+	<img src='images/plus.gif' border='0' class='plusBtn' onclick='scrollChange(100)'>
+<img src='images/minus.gif' border='0' class='minusBtn' onclick='scrollChange(-100)'>
+
+	</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

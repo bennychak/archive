@@ -1,0 +1,84 @@
+/* CSS GUIDE - 皮肤
+================================================================
+
+/* 1 全局颜色
+================================================================*/
+
+/* color
+----------------------------------------------------------------*/
+
+.c_tx0,body{ color:#333}/* 默认文字颜色 */
+.c_tx1{ color:#999}/* 弱化文字色 */
+.c_tx2{ color:#333}/* 强化文字色 */
+.c_tx3{ color: #666}/* 强化文字色2 */
+.c_tx4{ color:#ba5d12}/* 强调色 标红 */
+.c_tx5,a{ color:#3a9eb3}a:hover{ color:#3a9eb3}a:active{ color:#3a9eb3}/* 链接色 */
+.c_tx6{ color:#999}/* 弱链接色 */
+
+/* background
+----------------------------------------------------------------*/
+
+.bg0,body{ background-color:#fff}/* body背景色 */
+.bg1{ background-color:#eee}
+.bg2{ background-color:#f2f2f2}
+.bg3{ background-color:#d9d9d3}
+.bg4{ background-color:#f5f3f3}
+.bg5{ background-color:#fafafa}
+.bg6{ background-color: #fbfcfa}
+
+/* border
+----------------------------------------------------------------*/
+
+.bor0{ border-color: #efefef}
+.bor1{ border-color:#e8e8e8}
+.bor2{ border-color:#a0a09a}
+.bor3{ border-color:#d0d0c7}
+.bor4{ border-color:#e3e3e3}
+.bor5{ border-color:#dedede}
+.bor6{ border-color:#cacaca}
+
+
+
+
+
+/* 2 基础模块颜色
+================================================================*/
+
+/* 分隔线模块
+----------------------------------------------------------------*/
+
+.m_hr{ background:#ccc}
+
+
+
+/* 3 区域模块颜色
+================================================================*/
+
+/* 导航模块
+----------------------------------------------------------------*/
+
+.m_nav .item a{ background:#000; color:#fff;}
+.m_nav .item a:hover{ background:#333}
+
+/* slide模块
+----------------------------------------------------------------*/
+
+/* slide模块 扩展1 */
+.e_slideMod_item_1 .m_slideMod_hd .arrPart .arrPart_in{ border-color:#f1f3f4 transparent;}
+.e_slideMod_item_1 .m_slideMod_bd{ background:#f1f3f4;}
+
+/* slide模块 扩展2 */
+.e_slideMod_item_2 .m_slideMod_hd .arrPart .arrPart_in{ border-color:#eae9e9 transparent;}
+.e_slideMod_item_2 .m_slideMod_bd{ background:#eae9e9;}
+
+/* slide模块 扩展3 */
+.e_slideMod_item_3 .m_slideMod_hd .arrPart .arrPart_in{ border-color:#fff transparent;}
+.e_slideMod_item_3 .m_slideMod_bd{ background:#fff;}
+
+
+
+
+/* 4 结构颜色
+================================================================*/
+
+.w_foot{ background:#ebeaea}

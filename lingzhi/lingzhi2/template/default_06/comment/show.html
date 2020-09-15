@@ -1,0 +1,35 @@
+{template 'header.html'}
+<style>
+	#HeadNav{ background:url({$skin_path}/nav_news.gif); }
+</style>
+{template 'index/banner.html'}
+<div id="main">
+	<div id="MainLeftNav">
+	{template 'index/menu.html'}
+	</div>
+	<div id="MainRight">
+		<div id="guide">
+			You are here: &nbsp; <a href="{$base_url}/">{get('sitename')}</a>  &gt; <a href="#">{$article['title']}	Comments List</a>  &gt; 
+		</div>
+		<div style="padding:10px 25px 20px;width:693px;float:left;">
+			<div class="BigTitle" >{$article['title']} Comments List</div>
+			<div class="Dialog2" style="float:none;">
+				<div class="Dialog2Title">
+					Comments List
+				</div>
+				<div id="LatestNewsContent">
+					<table width="680" align="center" border="0" cellpadding="10">
+{loop $comments $comment}<tr><td width="90" height="50"><p class="postdate">{sdate($comment[adddate],'Y-m-d H:i')}</p></td><td  width="590" align=left><p><a href="#" class="newsTitle">{$comment[username]}</a><br /><p>{strip_tags($comment[content])}</p></td></tr>
+<?php if(!isset($i)) $i=0;  $i++; if($i<count($comments)) {echo "<br>";} else unset($i); ?>
+{/loop}
+					</table>
+					<div class="blank10"></div>
+<div class="pages">
+ {pagination::html($record_count)}
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{template 'footer.html'}

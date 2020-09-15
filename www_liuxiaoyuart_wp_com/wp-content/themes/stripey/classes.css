@@ -1,0 +1,26 @@
+/*
+	File Name : Main CSS Classes 
+	Info : For us in varios projects
+	Coder : Nicula Vlad (Agilius)
+*/
+
+a{text-decoration:none; color:inherit;}
+
+.newLine {clear:both; display:block;}
+.alignleft {float:left;}
+.alignright {float:right;}
+.aligncenter{display:block; margin:0px auto;}
+
+.hnav li {float:left;}
+
+.content ul li {list-style:inside disc;}
+.content ol li {list-style:inside decimal;}
+.content thead, thead {background:#f5f5f5; color:#333;}
+.content td , td, th{padding:6px; border:1px solid #E9E9E9;}
+.content td a {font-size:1.2em; font-weight:700;}
+.content h1 {font-size:3em; line-height:150%;}
+.content h2 {font-size:2em; line-height:150%;}
+.content h3 {font-size:1.8em; line-height:150%;}
+.content h4 {font-size:1.5em; line-height:150%;}
+.content h5 {font-size:1.3em; line-height:150%;}
+.content h6 {font-size:1em; line-height:150%;}

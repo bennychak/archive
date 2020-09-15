@@ -1,0 +1,8 @@
+﻿    VERSION DATE       TYPE   CHANGES
+    0.0.3   2009/07/31 MODIFY fixed archive.php to show older or newer entries (ThanksJeff Grace)
+		       NEW    Added Chinese-simplified language support. (Thanks Delacour)
+    0.0.2   2009/07/20 MODIFY Only show parent menu in the navigation bar wp_list_page [depth=1].
+                       MODIFY Modify style.css for notification when comments are closed or login required.
+		       NEW    Added Indonesian language support.
+		       NEW    Added French language support. (Thanks Wolforg)
+    0.0.1   2009/07/17 NEW    Released to WordPress themes directory.

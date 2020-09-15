@@ -1,0 +1,14 @@
+<h2><a href="http://maison.ivoiriens.com/forum.php">Forums</a></h2>
+<ul class="clear">
+    <li><div class="icon16 icon1"></div><a target="_blank" href="http://maison.ivoiriens.com/forum.php?mod=forumdisplay&fid=37">Shopping</a></li>
+    <li><div class="icon16 icon1"></div><a target="_blank" href="http://maison.ivoiriens.com/forum.php?mod=forumdisplay&fid=2">Business</a></li>
+    <li><div class="icon16 icon1"></div><a target="_blank" href="http://maison.ivoiriens.com/forum.php?mod=forumdisplay&fid=40">Computers</a></li>
+    <li><div class="icon16 icon1"></div><a target="_blank" href="http://maison.ivoiriens.com/forum.php?mod=forumdisplay&fid=45">Football</a></li>
+    <li><div class="icon16 icon1"></div><a target="_blank" href="http://maison.ivoiriens.com/forum.php?mod=forumdisplay&fid=49">Other Sport</a></li>
+    <li><div class="icon16 icon1"></div><a target="_blank" href="http://maison.ivoiriens.com/forum.php?gid=41">Sexy</a></li>
+</ul>
+<h2><a href="http://maison.ivoiriens.com/forum.php">Hot Groups</a></h2><!--
+<ul class="clear">
+    <li><div class="icon16 icon1"></div><a class="b" target="_blank" href="http://maison.ivoiriens.com/forum.php?mod=group&fid=36">2010 South Africa World Cup</a></li>
+</ul> -->
+<div id="loadgroup" class="clear"></div>

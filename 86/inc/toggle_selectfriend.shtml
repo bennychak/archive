@@ -1,0 +1,20 @@
+<h4>
+    <div class="lyh1">请选择好友</div>
+    <div class="lyh2"><select><option>全部好友</option></select></div>
+</h4>
+<div class="lyb">
+    <ul>
+        <li><label for="forFs1"><input name="fs" id="forFs1" type="radio" /> 白光国</label></li>
+        <li><label for="forFs2"><input name="fs" id="forFs2" type="radio" /> 北邦</label></li>
+        <li><label for="forFs3"><input name="fs" id="forFs3" type="radio" /> 陈晨晨</label></li>
+        <li><label for="forFs4"><input name="fs" id="forFs4" type="radio" /> 陈龙</label></li>
+        <li><label for="forFs5"><input name="fs" id="forFs5" type="radio" /> 付昱</label></li>
+        <li><label for="forFs6"><input name="fs" id="forFs6" type="radio" /> 姜男</label></li>
+        <li><label for="forFs7"><input name="fs" id="forFs7" type="radio" /> 雷杰</label></li>
+        <li><label for="forFs8"><input name="fs" id="forFs8" type="radio" /> 李天瑶</label></li>
+        <li><label for="forFs9"><input name="fs" id="forFs9" type="radio" /> 李天瑶</label></li>
+        <li><label for="forFs10"><input name="fs" id="forFs10" type="radio" /> 梁圈圈</label></li>
+        <li><label for="forFs11"><input name="fs" id="forFs11" type="radio" /> 龙西西</label></li>
+        <li><label for="forFs12"><input name="fs" id="forFs12" type="radio" /> 马月</label></li>
+    </ul>
+</div>

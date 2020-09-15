@@ -1,0 +1,43 @@
+{template 'header.html'}
+<div id="mid">
+ {template 'left.html'}
+  <table width="628" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-left:22px;">
+    <tr>
+      <td>
+{template 'position.html'}
+</td>
+    </tr>
+    <tr>
+      <td height="16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+			
+            <table width="628" border="1" cellpadding="7" cellspacing="0" bordercolor="#EDEDED" style="margin-bottom:20px;">
+              <tr>
+                <td bgcolor="#EDEDED"><img src="{$skin_path}/arr3.gif" width="10" height="8" align="absmiddle" style="margin-right:6px;" /><font color="#CC0000"><strong>{$category[$catid][catname]}</strong></font> --- List</td>
+              </tr>
+              <tr>
+                <td>
+                
+               <div id="LatestNewsContent">
+				<ul class="news_list">
+			{loop $archives $i $arc}
+			<li><span class="date">{$arc[adddate]}</span><a title="{$arc[title]}" target="_blank" href="{$arc[url]}">{$arc[title]}</a></li>
+			{/loop}
+		</ul>
+		<div class="blank10"></div>
+		{if isset($pages)}
+		{type_pagination($typeid)}
+		{/if}
+</div>
+                </td>
+              </tr>
+            </table>
+            
+      </td>
+    </tr>
+  </table>
+  <div style="clear:both; height:1px; font-size:1px;">&nbsp;</div>
+</div>
+{template 'footer.html'}

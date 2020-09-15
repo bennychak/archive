@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>我的首页 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+<link href="css/index.dev.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="ui_index">
+<div id="ui_wrap1" class="tb_wrap7">
+
+    <div id="ui_contain">
+		<!--#include file="inc/首页导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <form action="" method="post">
+                    	<div class="t_t">您还可以输入 <strong>140</strong> 字</div>
+                        <div id="t_box">
+                        	<ul class="tb t_bgtxt">
+                            	<li class="b1"><a class="ica" href="#">推博</a><span></span></li>
+                            	<li class="b2"><a class="ica" href="#">图片</a><div id="fileBrowse"><input type="file" /></div><a class="icon16 uploadico" onclick='filebrowser();' href="#"><span>+</span><span class="note">本地上传</span></a></li>
+                            	<li class="b3"><a class="ica" href="#">音画</a><span><input class="src toggletxt" type="text" value="请输入酷六、土豆，youku等视频网站的视频网址URL" /> <input class="movsubtn" type="button" value="提交" /></span></li>
+                            </ul>
+                            <div class="t_sh"></div>
+                            <div class="t_fa">
+                            	<div class="txt_area">
+                                	<textarea>推博内容</textarea>
+                                </div>
+                            	<div class="img_area">
+                                	<div class="con">
+                                        <div class="left">
+                                            <p><span>DSC_5124</span><a href="#" class="icon16 close7 close7p1" title="移除图片"><span></span><em>关闭</em></a></p>
+                                            <img src="images/temp_movs.jpg" />
+                                        </div>
+                                        <div class="right"><textarea>图片说明</textarea></div>
+                                    </div>
+                                </div>
+                            	<div class="mov_area">
+                                	<div class="con">
+                                        <div class="left">
+                                            <p><span>日本拒绝就...</span><a href="#" class="icon16 close7 close7p1" title="移除视频"><span></span><em>关闭</em></a></p>
+                                            <img src="images/temp_movs.jpg" />
+                                        </div>
+                                        <div class="right"><textarea>视频说明</textarea></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="t_submit">
+                            <div class="right">
+                            	<input id="t_submitbtn" value="发布" type="submit">
+                            </div>
+                        	<div class="left">
+                                <div class="icon_more">
+                                    <a class="icon16 face layTogglea" href="#"><span></span>表情</a>
+                                    <!--#include file="inc/toggle_facelist.shtml"-->
+                                    <a class="icon16 talk" href="#"><span></span>话题</a>
+                                    <a class="icon16 otherone" href="#"><span></span>提到别人</a>
+                                    <a class="icon16 dream" href="#"><span></span>梦话</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                	<div class="contenttop">
+                        <div class="contentbar listborder">
+                            <span class="selected last"><a href="#">推博</a></span>
+                            <span><a href="#">动态</a></span>
+                        </div>
+                        <div class="right_absolute">
+                            <form action="" method="post" class="">
+                                <div class="seinput">
+                                    <div class="seinput_in">
+                                        <input class="toggletxt" value="搜索好友说的话..." type="text" />
+                                    </div>
+                                    <input type="submit" class="seinputbtn" value="搜索" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <form class="contentcheck" action="" method="post">
+                        <label for="forPicture" class="icon16 checkpic"><span class="note"><input id="forPicture" type="checkbox" /></span><span></span>图片</label>
+                        <label for="forVideo" class="icon16 checkvideo"><span class="note"><input id="forVideo" type="checkbox" /></span><span></span>视频</label>
+                    </form>
+                    <ul class="message">
+                    	<li class="msglist prenewmessage">
+                        	<div class="prenewmessage_in">
+                            <a href="#">有新推博，点击查看</a>
+                            </div>
+                        </li>
+                        <li class="msglist newmessage" style="display:none;">
+                            <div class="message_head">
+                                <div class="avatar_s" style="background-image:url(images/temp_face48.png);">
+                                    <a href="个人主页.shtml">
+                                        <div class="headbox"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="message_con">
+                                <p class="statement"><strong><span class="note"><a href="个人主页.shtml">怪叔叔</a></span>：</strong><a href="#">@拖拉夫斯基</a> <a href="#">@五环车神</a> <a href="#">@大众销售</a> 看中了大众的polo sporty 和速腾~但是朋友都说速腾的保养费特别贵~就犹豫了~想着还是买polo吧结果昨儿一个修车的哥们儿说polo的保养费也不便宜~我的小天平又开始左右摇摆乐~polo的车主都来说说吧~polo保养大概一年多少钱啊~</p>
+                                <div class="legend">
+                                    <div class="duration"><a href="单独微博页.shtml">23分钟前</a> 来自<a href="#">iPhone客户端</a></div>
+                                    <div class="action listborder"><span class="last"><a rev="modal" class="nyroModal" href="#boxalert">转发(15)</a></span> <span><a href="#">评论(3)</a></span> <span><a href="#">收藏</a></span></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="msglist">
+                            <div class="message_head">
+                                <div class="avatar_s" style="background-image:url(images/temp_face48.png);">
+                                    <a href="个人主页.shtml">
+                                        <div class="headbox"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="message_con">
+                                <ul class="maybe_friends_list">
+                                    <li>
+                                    	<div class="list_t"></div>
+                                        <div class="list_m">
+                                        	<div class="topic">
+                                        	<div class="avatar_s">
+                                            	<a href="#">关注TA</a> | <a href="#">加为好友</a>
+                                            </div>
+                                            </div>
+                                            <p>为你推荐这条微博，因为 <a href="#">iPhone4</a> 。</p>
+                                            <a href="#" class="icon16 close16" title="不再显示"><span></span><em>关闭</em></a>
+                                    	</div>
+                                        <div class="list_b"></div>
+                                    </li>
+                                </ul>
+                                <p class="statement"><strong><span class="note"><a href="个人主页.shtml">怪叔叔</a></span>：</strong>在香港官网定的iphone4留个印继续跟进。</p>
+                                <div class="legend">
+                                    <div class="duration"><a href="单独微博页.shtml">23分钟前</a> 来自<a href="#">iPhone客户端</a></div>
+                                    <div class="action listborder"><span class="last"><a rev="modal" class="nyroModal" href="#boxalert">转发(15)</a></span> <span><a href="#">评论(3)</a></span> <span><a href="#">收藏</a></span></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="msglist">
+                            <div class="message_head">
+                                <div class="avatar_s" style="background-image:url(images/temp_face48.png);">
+                                    <a href="个人主页.shtml">
+                                        <div class="headbox"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="message_con">
+                                <p class="statement"><strong class="icon16"><span class="online"></span><span class="note"><a href="个人主页.shtml">怪叔叔</a></span><span class="cert"></span>：</strong>在香港官网定的iphone4留个印继续跟进。<strong class="face16"><em class="face_1"></em></strong></p>
+
+                                <div class="albumblog" style="display:none;">
+                                    <p class="icon_more listborder">
+                                        <em class="albumtopic last"><a href="#" class="icon16 up fn_up"><span></span>收起</a></em>
+                                        <em class="albumtopic"><a class="icon16 fullpic" href="#"><span></span>查看原图</a></em>
+                                        <em class="albumtopic"><a class="icon16 turnleft" href="#"><span></span>向左转</a></em>
+                                        <em class="albumtopic"><a class="icon16 turnright" href="#"><span></span>向右转</a></em>
+                                    </p>
+                                    <p class="personal">
+                                        <a href="#" class="icon16 viewalbum"><span></span>去她的相册</a>
+                                    </p>
+                                    <p class="stateimg_l"><img src="images/temp_img2.jpg" /></p>
+                                </div>
+                                <div class="videoblog" style="display:none;">
+                                    <p class="icon_more listborder">
+                                        <em class="videotopic last"><a href="#" class="icon16 up fn_up"><span></span>收起</a></em>
+                                        <em class="videotopic"><a class="icon16 fullpic" href="http://v.youku.com/v_show/id_XMTkyNDgyNjA4.html" target="_blank"><span></span>菊次郎的夏天</a></em>
+                                    </p>
+                                    <p class="statevideo_l">
+                                    	<embed src="http://player.youku.com/player.php/sid/XMTkyNDgyNjA4/v.swf" quality="high" width="400" height="340" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed>
+                                    </p>
+                                </div>
+                                <p class="stateimg fn_stateimg"><img src="images/temp_img1.png" alt="点击放大图片" title="点击放大图片" /></p>
+                                <p class="statevideo"><a href="#" style="background-image: url(images/temp_img1.png);" title="点击播放视频"><img src="images/opacity.gif" /></a></p>
+
+                                <div class="microblog">
+                                    <div class="statearrow"></div>
+                                    <div class="list_t"></div>
+                                    <div class="list_m">
+                                        <p><a href="#">@庞温慧子</a>：早在一个月前菜菜在西安出差的时候就对姐妹们横扫大柳树羡慕不已回北京后就奔大柳树速速拔草了，呵呵，去的是新址收获美鞋三双～和大家一起清凉下，欣赏欣赏白菜价的美鞋～ <span class="listborder"><span class="last"><a href="#">原文转发(2)</a></span> <span><a href="#">原文评论(3)</a></span></span></p>
+                                        <p class="stateimg fn_stateimg"><img src="images/temp_img1.png" /></p>
+                                        <div class="albumblog" style="display:none;">
+                                            <p class="icon_more listborder">
+                                                <em class="albumtopic last"><a href="#" class="icon16 up fn_up"><span></span>收起</a></em>
+                                                <em class="albumtopic"><a class="icon16 fullpic" href="#"><span></span>查看原图</a></em>
+                                                <em class="albumtopic"><a class="icon16 turnleft" href="#"><span></span>向左转</a></em>
+                                                <em class="albumtopic"><a class="icon16 turnright" href="#"><span></span>向右转</a></em>
+                                            </p>
+                                            <p class="personal">
+                                                <a href="#" class="icon16 viewalbum"><span></span>去她的相册</a>
+                                            </p>
+                                            <p class="stateimg_l"><img src="images/temp_img2.jpg" /></p>
+                                        </div>
+                                	</div>
+                                    <div class="list_b"></div>
+                                </div>
+                                
+                                <div class="legend">
+                                    <div class="duration"><a href="单独微博页.shtml">23分钟前</a> 来自<a href="#">iPhone客户端</a></div>
+                                    <div class="action listborder"><span class="last"><a rev="modal" class="nyroModal" href="#boxalert">转发(15)</a></span> <span><a href="#">评论(3)</a></span> <span><a href="#">收藏</a></span></div>
+                                </div>
+                                <div class="comment">
+                                	<div class="statearrow"></div>
+                                	<div class="list_t"></div>
+                                	<div class="list_m">
+                                        <form  method="post" action="">
+                                            <table cellpadding="0" cellspacing="0" border="0">
+                                                <tr>
+                                                    <td>
+                                                    	<div class="faceselect">
+                                                            <a href="#"></a>
+                                                        </div>
+                                                    </td>
+                                                    <td class="commentinput"><textarea></textarea></td>
+                                                    <td><div class="btn commentsub"><input value="评论" type="submit" /></div></td>
+                                                </tr>
+                                                <tr>
+                                                	<td></td>
+                                                	<td><label for="forSametime"><input type="checkbox" id="forSametime" /> 同时作为微博发布</label></td>
+                                                	<td></td>
+                                                </tr>
+                                            </table>
+                                        </form>
+                                        <ul class="comment_list">
+                                        	<li>
+                                            	<div class="commentlist_l">
+                                                	<div class="avatar_xs" style="background-image:url(images/temp_face24.png);">
+                                                        <a href="个人主页.shtml"></a>
+                                                    </div>
+                                                </div>
+                                            	<div class="commentlist_r">
+                                                	<p><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过iPhone客户端</span></p>
+                                                    <div class="reply"><a href="#">删除</a> <a href="#">回复</a></div>
+                                                </div>
+                                            </li>
+                                        	<li>
+                                            	<div class="commentlist_l">
+                                                	<div class="avatar_xs" style="background-image:url(images/temp_face24.png);">
+                                                        <a href="个人主页.shtml"></a>
+                                                    </div>
+                                                </div>
+                                            	<div class="commentlist_r">
+                                                	<p><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过iPhone客户端</span></p>
+                                                    <div class="reply"><a href="#">回复</a></div>
+                                                </div>
+                                            </li>
+                                        	<li class="last">
+                                            	<div class="commentlist_l">
+                                                	<div class="avatar_xs" style="background-image:url(images/temp_face24.png);">
+                                                        <a href="个人主页.shtml"></a>
+                                                    </div>
+                                                </div>
+                                            	<div class="commentlist_r">
+                                                	<p><a href="个人主页.shtml">穆萱</a>：好棒好棒加油哦！<span class="duration">1分钟前通过iPhone客户端</span></p>
+                                                    <div class="reply"><a href="#">回复</a></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <p class="morecomment">后面还有146条评论，<a href="单独微博页.shtml#singlepage">点击查看&gt;&gt;</a></p>
+                                    </div>
+                                	<div class="list_b"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="msgmore">
+                	<div class="msgmore_txt">
+                		<span href="#" class="icon16"><strong>更多</strong><span></span></span>
+                	</div>
+                </a>
+            </div>
+            <!--#include file="inc/inmain_home.shtml"-->
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+		<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+<!--#include file="inc/boxalert.shtml"-->
+</div>
+</body>
+</html>

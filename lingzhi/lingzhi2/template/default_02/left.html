@@ -1,0 +1,46 @@
+<div class="left_1">
+
+<!--左侧栏目导航开始-->
+<script language="javascript" type="text/javascript">
+var labelarr = new Array();
+function displaynone(id){
+	document.getElementById(id).style.display='none';
+}
+function displayblock(labelarr){
+	for(i=0;i<=labelarr.length;i++){
+		document.getElementById(labelarr[i]).style.display='block';
+	}	
+}
+</script>
+<div class="t_1 mb5"><div><h3><a href="javascript:void(0)" class="home" id="listnav" onclick="displayblock(labelarr)">+快速导航</a></h3></div></div>
+<ul class="leftmenu mb10">
+<!-- {loop category::listcategorydata() $i $category} -->
+<span id="level_{$category[level]}_{$category[catid]}_{$category[parentid]}_{$catid}">
+<script language="javascript" type="text/javascript">
+labelarr[{$i}] = 'level_{$category[level]}_{$category[catid]}_{$category[parentid]}_{$catid}';
+{if $catid!=$category[parentid] && $category[parentid]!=0 && $category[catid]!=$catid}
+displaynone('level_{$category[level]}_{$category[catid]}_{$category[parentid]}_{$catid}');
+{/if}
+</script>
+<li><a href="{$category[url]}" title="{$category[catname]}" class="{if $category[catid]==$catid}on{/if}">{$category[catname]}</a></li>
+</span>
+<!-- {/loop} -->
+</ul>
+<!--左侧栏目导航结束-->
+{template 'left/quick.html'}
+{template 'left/search.html'}
+
+<div class="t_1 mb10"><div><h3>专题</h3></div></div>
+<ul class="f_link">
+<!-- {loop special::listdata() $special} -->
+<li><a href="{$special[url]}" title="{$special[title]}">{$special[title]}</a></li>
+<!-- {/loop} -->
+</ul>
+
+<div class="t_1 mb10"><div><h3>相关内容</h3></div></div>
+<ul class="f_link">
+<!-- {loop archive($catid,0,0,'0,0,0',20,'aid',5,false,0) $i $arc} -->
+<li><a href="{$arc[url]}" title="{$arc[title]}">{$arc[title]}</a></li>
+<!-- {/loop} -->
+</ul>
+</div>

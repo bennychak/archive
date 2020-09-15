@@ -1,0 +1,62 @@
+/* CSS Document */
+ul,li,ol,dl,dd{ list-style:none;}
+div,p,img,ul,li,ol,dl,dd,h2{ margin:0; padding:0;}
+img{ border:none;}
+
+body{ margin:0; background-color:#C8C8C8; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+#topbar{ height:45px; background:#FFF url(../images/bodybg.gif) repeat-x bottom;}
+	#topbar ul{ float:right;}
+	#topbar li{ float:left; background-color:#CCF;}
+	#topbar a{ display:block; height:30px; width:88px; border-left:#000 3px solid;}
+#container{ background:#C8C8C8 url(../images/foot.png) repeat-x bottom; padding-top:5px; overflow:hidden;}
+	.top{ width:931px; height:186px; background:url(../images/top.png) no-repeat; margin:0 auto;}
+		.menu{ height:48px; width:577px; margin:0 auto; overflow:hidden; padding-top:15px;}
+		.topmenu{ height:14px; width:577px; height:30px; padding-top:63px; margin:0 auto; overflow:hidden;}
+		.menu .left,.topmenu .left{ float:left; position:relative; overflow:hidden; width:210px; height:48px;}
+		.menu .right,.topmenu .right{ float:right; position:relative; overflow:hidden; width:210px; height:48px;}
+		.menu .left div,.menu .right div{ width:48px; height:48px; float:left; position:relative;}
+		.menu span{ position:absolute; top:-10px; z-index:3; display:block;}
+		.menu a{ width:48px; height:106px; background:url(../images/menu.png); display:block; outline:none; position:relative;}
+			.menu .m1{ left:0;}
+			.menu .m2{ left:49px;}
+			.menu .m3{ left:63px;}
+			.menu .m4{ left:112px;}
+			.menu .m1 a{ background-position:0 -58px;}
+			.menu .m2 a{ background-position:-58px -58px;}
+			.menu .m3 a{ background-position:-116px -58px;}
+			.menu .m4 a{ background-position:-174px -58px;}
+			.t1,.t2,.t3,.t4{ position:absolute; font-weight:bold; display:none; white-space:nowrap;}
+			.topmenu .t1{ left:0; color:#397baf;}
+			.topmenu .t2{ left:95px; color:#06945b;}
+			.topmenu .t3{ left:63px; color:#1d5c8e;}
+			.topmenu .t4{ left:162px; color:#0f6d47;}
+	.content{ width:929px; background-color:#E4E4E4; margin:0 auto; padding-bottom:30px;}
+	.sub .content{ height:590px;}
+		.content .left{ float:left; width:690px; position:relative;}
+			.content .left h2{ position:relative; height:40px;}
+				.content .left h2 .con{ height:30px; background:#2c95e9; width:900px; padding:5px 20px; line-height:30px; color:#FFF; font-size:18px; font-family:微软雅黑; position:absolute; left:-28px; top:24px; z-index:2;}
+				.content .left .shadow1{ height:28px; background:url(../images/shadow.gif) repeat-x; width:912px; position:absolute; left:0; top:64px; z-index:1;}
+				.content .left .sq{ display:block; position:absolute; left:-28px; top:9px;}
+			.window_box{ width:700px; height:353px; position:relative;}
+			.window{ width:720px; height:353px; background:url(../images/window.jpg) no-repeat; position:absolute; left:-32px; top:20px; }
+			.sub .window_box{ width:261px;}
+			.sub .window{ width:281px; background:url(../images/window2.jpg) no-repeat; top:45px;}
+		.content .right{ margin-left:700px;}
+			.right .ad{ width:212px; height:297px; padding-top:40px;}
+		.sub .content .left{ width:270px;}
+		.sub .content .right{ margin-left:270px; padding-top:100px; padding-right:30px;}
+			.sub .right h2{ padding:5px 0; color:#666; font-size:18px; font-family:微软雅黑; margin-bottom:10px;}
+			.sub .right .con{ padding:10px; border:#FFF 1px dashed;}
+		.imgul{ margin-left:10px; float:left;}
+		.imgul li{ width:120px; height:172px; float:left; margin-right:1px; background:#000; background-image:url(../images/age.png); background-repeat:no-repeat;}
+		.imgul li a{ width:120px; height:172px; display:block;}
+			.imgul li.u1{ background-position:0 bottom;}
+			.imgul li.u2{ background-position:-120px bottom;}
+			.imgul li.u3{ background-position:-240px bottom;}
+			.imgul li.u4{ background-position:-360px bottom;}
+		.news{ width:396px; height:163px; background:url(../images/newsbg.png) no-repeat; float:left; margin-left:10px; padding:8px;}
+			.news h2{ margin:0;}
+			.news h2 a{ font-size:16px; font-weight:normal; color:#ff6900; text-decoration:none;}
+	.shadow{ background:url(../images/shadow.png) no-repeat; width:980px; height:118px; margin:0 auto;}
+
+.clear{ clear:both;}

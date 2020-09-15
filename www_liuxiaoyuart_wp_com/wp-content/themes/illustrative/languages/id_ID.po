@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: illustrative 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-19 13:37+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: patembe <patembe@gmail.com>\n"
+"Language-Team: patembe <patembe@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:8
+#: header.php:6
+msgid "RSS 2.0 - all posts"
+msgstr "RSS 2.0 - semua artikel"
+
+#: 404.php:9
+#: header.php:7
+msgid "RSS 2.0 - all comments"
+msgstr "RSS 2.0 - semua komentar"
+
+#: 404.php:21
+msgid "Sorry! We could not find it"
+msgstr "Maaf! Kami tidak menemukannya"
+
+#: 404.php:22
+msgid "You have requested a page or file which does not exist so we notified the web administrator to check it out."
+msgstr "Anda telah meminta halaman atau file yang tidak ada sehingga kami memberi memberitahu administrator untuk memeriksanya."
+
+#: 404.php:23
+msgid "Here are a few options to find what you are looking for."
+msgstr "Berikut ini adalah opsi untuk menemukan apa yang Anda cari."
+
+#: 404.php:25
+msgid "Double check the web address for typos"
+msgstr "Periksa kembali alamat web yang Anda ketikkan"
+
+#: 404.php:26
+msgid "Head back to our home page via the navigation below"
+msgstr "Kembali ke halaman utama dengan menggunakan tautan di bawah"
+
+#: 404.php:27
+msgid "Visit our full website"
+msgstr "Kunjungi daftar isi website kami"
+
+#: 404.php:28
+msgid "sitemap here"
+msgstr "peta situs di sini"
+
+#: 404.php:31
+#: header.php:35
+msgid "Home"
+msgstr "Beranda"
+
+#: 404.php:32
+msgid "Blog"
+msgstr "Blog"
+
+#: 404.php:33
+msgid "About"
+msgstr "Perihal"
+
+#: 404.php:34
+msgid "Contact"
+msgstr "Kontak"
+
+#: archive.php:9
+msgid "Search Results"
+msgstr "Hasil Pencarian"
+
+#: archive.php:10
+#, php-format
+msgid "Keyword: &#8216;%1$s&#8217;"
+msgstr "Kata kunci: &#8216;%1$s&#8217;"
+
+#: archive.php:14
+msgid "Archive"
+msgstr "Arsip"
+
+#: archive.php:19
+#, php-format
+msgid "Archive for the &#8216;%1$s&#8217; Category"
+msgstr "Arsip untuk kategori &#8216;%1$s&#8217;"
+
+#: archive.php:22
+#, php-format
+msgid "Posts Tagged &#8216;%1$s&#8217;"
+msgstr "Tag artikel &#8216;%1$s&#8217;"
+
+#: archive.php:25
+#: archive.php:28
+#: archive.php:31
+#, php-format
+msgid "Archive for %1$s"
+msgstr "Arsip untuk %1$s"
+
+#: archive.php:34
+msgid "Author Archive"
+msgstr "Arsip Penulis"
+
+#: archive.php:37
+msgid "Blog Archives"
+msgstr "Arsip Blog"
+
+#: archive.php:52
+#: archives.php:18
+#: index.php:18
+#: page.php:12
+#: single.php:12
+msgid "F jS, Y"
+msgstr "j F, Y"
+
+#: archive.php:54
+#: archives.php:20
+#: index.php:20
+#: page.php:14
+#: single.php:14
+msgid "Edit"
+msgstr "Sunting"
+
+#: archive.php:55
+#: index.php:21
+msgid "No comments"
+msgstr "Tidak ada komentar"
+
+#: archive.php:55
+#: index.php:21
+msgid "1 comment"
+msgstr "1 komentar"
+
+#: archive.php:55
+#: index.php:21
+#, php-format
+msgid "% comments"
+msgstr "% komentar"
+
+#: archive.php:55
+#: index.php:21
+msgid "Comments off"
+msgstr "Komentar ditutup"
+
+#: archive.php:62
+#: index.php:28
+#: single.php:25
+msgid "Categories: "
+msgstr "Kategori: "
+
+#: archive.php:63
+#: index.php:29
+#: single.php:26
+msgid "Tags: "
+msgstr "Tag: "
+
+#: archives.php:22
+#: page.php:16
+#: single.php:16
+msgid "Leave a comment"
+msgstr "Berikan komentar"
+
+#: archives.php:23
+#: page.php:17
+#: single.php:17
+msgid "Go to comments"
+msgstr "Lihat komentar"
+
+#: archive.php:76
+#: archives.php:53
+#: index.php:42
+#: page.php:39
+#: single.php:44
+msgid "Oops, This is error box"
+msgstr "Oops, Ini adalah kotak galat"
+
+#: archive.php:81
+#: archives.php:58
+#: index.php:47
+#: page.php:44
+#: single.php:49
+msgid "Sorry, no posts matched your criteria."
+msgstr "Maaf, tidak ada artikel yang sesuai kriteria Anda."
+
+#: comments.php:5
+msgid "Enter your password to view comments."
+msgstr "Masukkan kata sandi untuk melihat komentar"
+
+#: comments.php:25
+#: comments.php:28
+msgid "Comments"
+msgstr "Komentar"
+
+#: comments.php:26
+msgid "Trackbacks"
+msgstr "Tautan balik"
+
+#: comments.php:34
+msgid "Trackback"
+msgstr "Tautan balik"
+
+#: comments.php:58
+msgid "No comments yet."
+msgstr "Belum ada komentar"
+
+#: comments.php:72
+msgid "Comment pages"
+msgstr "Halaman komentar"
+
+#: comments.php:91
+#: functions.php:63
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s pukul %2$s"
+
+#: comments.php:91
+#: functions.php:63
+msgid "H:i"
+msgstr "G:i"
+
+#: comments.php:108
+msgid "No trackbacks yet."
+msgstr "Belum ada tautan balik"
+
+#: comments.php:123
+msgid "Comments are closed."
+msgstr "Komentar ditutup"
+
+#: comments.php:134
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Anda harus <a href=\"%s\">masuk log</a> terlebih dahulu untuk mengirim komentar."
+
+#: comments.php:150
+msgid "Logged in as"
+msgstr "Anda masuk log sebagai"
+
+#: comments.php:151
+msgid "Log out of this account"
+msgstr "Keluarkan akun ini dari log"
+
+#: comments.php:151
+msgid "Logout &raquo;"
+msgstr "Keluar log &raquo;"
+
+#: comments.php:157
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Selamat datang kembali <strong>%s</strong>."
+
+#: comments.php:158
+msgid "Change &raquo;"
+msgstr "Ganti pengguna &raquo;"
+
+#: comments.php:159
+msgid "Close &raquo;"
+msgstr "Tutup &raquo;"
+
+#: comments.php:166
+msgid "Name"
+msgstr "Nama"
+
+#: comments.php:166
+#: comments.php:170
+msgid "(required)"
+msgstr "(wajib)"
+
+#: comments.php:170
+msgid "E-Mail (will not be published)"
+msgstr "E-mail (tidak akan dipublikasikan)"
+
+#: comments.php:174
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:191
+msgid "Subscribe to comments feed"
+msgstr "Berlangganan dengan umpan komentar"
+
+#: comments.php:193
+msgid "Submit Comment"
+msgstr "Kirim komentar"
+
+#: footer.php:15
+msgid "Copyright &copy; "
+msgstr "Hak cipta &copy;"
+
+#: footer.php:24
+msgid "Powered by <a href=\"http://wordpress.org/\">WordPress</a> | Theme by <a href=\"http://patembe.com/\">4MB</a>. Valid <a href=\"http://validator.w3.org/check?uri=referer\">XHTML 1.0</a> and <a href=\"http://jigsaw.w3.org/css-validator/check/referer?profile=css3\">CSS 3</a>"
+msgstr "Menggunakan <a href=\"http://wordpress.org/\">WordPress</a> | Tema oleh <a href=\"http://patembe.com/\">4MB</a>. Valid <a href=\"http://validator.w3.org/check?uri=referer\">XHTML 1.0</a> dan <a href=\"http://jigsaw.w3.org/css-validator/check/referer?profile=css3\">CSS 3</a>"
+
+#: header.php:48
+msgid "Type text to search here..."
+msgstr "Lakukan pencarian di sini..."
+
+#: index.php:25
+msgid "Read more..."
+msgstr "Baca lanjutannya..."
+
+#: index.php:59
+#: archive.php:93
+msgid "Newer Entries"
+msgstr "Entri yang lebih baru"
+
+#: index.php:60
+#: archive.php:94
+msgid "Older Entries"
+msgstr "Entri yang lebih lama"
+

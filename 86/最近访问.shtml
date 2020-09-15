@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>最近访问 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+</head>
+
+<body>
+
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <!--#include file="inc/好友导航.shtml"-->
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                    <div class="content_bar">
+                        <div class="contentinfo listborder">
+                        	<span class="last">谁来看过我</span>
+                            <span><a href="#">我去看过谁</a></span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div id="avatarlist2" class="fn_avatar_hover">
+                    <ul class="avatarlist">
+                    	<li class="listitem">
+                            <div class="avatar1">
+                                <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                    <a href="个人主页.shtml">
+                                        <div class="headbox"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="avatardetail">
+                                <a title="删除访问脚印" class="icon16 close7 fix_a" href="#"><span></span><em>关闭</em></a>
+                                <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                <p class="shortintro">老师和君怡姐担任酷我.....</p>
+                                <p class="visittime">来访:15:03</p>
+                            </div>
+                        </li>
+                    	<li class="listitem">
+                            <div class="avatar1">
+                                <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                    <a href="个人主页.shtml">
+                                        <div class="headbox"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="avatardetail">
+                                <a title="删除访问脚印" class="icon16 close7 fix_a" href="#"><span></span><em>关闭</em></a>
+                                <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                <p class="shortintro">老师和君怡姐担任酷我.....</p>
+                                <p class="visittime">来访:15:03</p>
+                            </div>
+                        </li>
+                    	<li class="listitem">
+                            <div class="avatar1">
+                                <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                    <a href="个人主页.shtml">
+                                        <div class="headbox"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="avatardetail">
+                                <a title="删除访问脚印" class="icon16 close7 fix_a" href="#"><span></span><em>关闭</em></a>
+                                <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                <p class="shortintro">老师和君怡姐担任酷我.....</p>
+                                <p class="visittime">来访:15:03</p>
+                            </div>
+                        </li>
+                    	<li class="listitem">
+                            <div class="avatar1">
+                                <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                    <a href="个人主页.shtml">
+                                        <div class="headbox"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="avatardetail">
+                                <a title="删除访问脚印" class="icon16 close7 fix_a" href="#"><span></span><em>关闭</em></a>
+                                <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                <p class="shortintro">老师和君怡姐担任酷我.....</p>
+                                <p class="visittime">来访:15:03</p>
+                            </div>
+                        </li>
+                    	<li class="listitem">
+                            <div class="avatar1">
+                                <div style="background-image: url(images/temp_face48.png);" class="avatar_s">
+                                    <a href="个人主页.shtml">
+                                        <div class="headbox"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="avatardetail">
+                                <a title="删除访问脚印" class="icon16 close7 fix_a" href="#"><span></span><em>关闭</em></a>
+                                <p class="icon16 online"><strong><span></span><a href="个人主页.shtml">怪叔叔</a></strong></p>
+                                <p class="shortintro">老师和君怡姐担任酷我.....</p>
+                                <p class="visittime">来访:15:03</p>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                    <!--#include file="inc/pagination.shtml"-->
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain</div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+</body>
+</html>

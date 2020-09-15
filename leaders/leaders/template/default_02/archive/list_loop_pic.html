@@ -1,0 +1,31 @@
+{template 'header.html'}
+<div class="box line_4">
+{template 'left.html'}
+<!--left_1 end-->
+
+<div class="right_2">
+<div class="t_2 mb10"><div><h3>{$category[$catid][catname]}</h3><span>Archive list</span></div></div>
+{template 'position.html'}
+
+		{loop type($typeid) $i $t}
+		<div class="category_title">
+			<span><a title="{$t[typename]}" href="{typeurl($t[typeid])}">更多</a></span><a title="{$t[typename]}" href="{typeurl($t[typeid])}"><h4>{$t[typename]}</h4></a>
+		</div>
+		{loop article($t[typeid],20,'aid',8,true,'') $i $arc}
+			<div class="product_box">
+			<a title="{$arc[title]}" target="_blank" href="{$arc[url]}"><img alt="{$arc[title]}" src="{$arc[image]}" width="{get(thumb_width)}" height="{get(thumb_height)}" onerror='this.src="{config::get('onerror_pic')}"' /></a>
+			<h5><a title="{$arc[title]}" target="_blank" href="{$arc[url]}">{$arc[title]}</a></h5>
+		</div>
+			{/loop}
+		
+		{/loop}
+
+<div class="blank30"></div>
+		<a title="返回顶部" href="#" class="clear floatright"><img alt="返回顶部" src="{$skin_url}/gotop.gif"></a>
+	<div class="clear"></div>
+
+</div>
+<div class="clear"></div>
+</div>
+<!--box end-->
+{template 'footer.html'}

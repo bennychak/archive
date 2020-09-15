@@ -1,0 +1,50 @@
+    	<div id="logo">
+        	<a href="我的首页.shtml" class="logoimg"><span>logo</span></a>
+        </div>
+        <div class="user_box">
+        	<div class="box_top"></div>
+        	<div class="box_con">
+                <!--注册时不显示登录框-->
+            	<form action="" method="post">
+                	<table class="loginbox fn_showlogin_target" style="display:none;" cellpadding="0" cellspacing="0" border="0">
+                    	<tr>
+                        	<td>
+                            	<div class="note icon16 check_n"><span></span>账号格式错误，请重新填写</div>
+                            	<input class="user toggletxt" type="text" value="邮箱" />
+                            </td>
+                        </tr>
+                    	<tr>
+                        	<td>
+                            	<div class="note icon16 check_n"><span></span>密码错误，请重试</div>
+                            	<input class="user togglepass tginput_img1" type="password" value="" />
+                            </td>
+                        </tr>
+                    	<tr>
+                        	<td><label><input type="checkbox" /> 下次自动登录</label> <span class="findpass"><a href="#">找回密码</a></span></td>
+                        </tr>
+                    	<tr>
+                        	<td class="loginsubmit"><input type="button" value="登录推博" onclick="javascript:window.location.href='我的首页.shtml'" /><!--submit--></td>
+                        </tr>
+                        <tr>
+                        	<td>
+                            	<div class="regnow">
+                                    <input class="step1" type="button" value="立即注册" onclick="javascript:window.location.href='注册_补充信息.shtml'" /><!--submit-->
+                            	</div>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <!--/注册时不显示登录框-->
+                <!--注册时显示内容-->
+                	<table class="loginbox" cellpadding="0" cellspacing="0" border="0">
+                    	<tr>
+                        	<td class="loginsubmit">
+                            	<div class="note">已有微博账号？请直接登录</div>
+                                <input class="fn_showlogin" type="button" value="登录推博" />
+                            </td>
+                        </tr>
+                    </table>
+                <!--/注册时显示内容-->
+            </div>
+            <div class="box_bottom"></div>
+        </div>

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>找回密码-填写邮箱</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="{$base_url}/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="{$base_url}/images/user/login.css" />
+</head>
+<body>
+<script type="text/javascript">
+function set_question(value)
+{
+	document.getElementById("question").value=value;
+	document.getElementById("question").focus();
+}
+</script>
+    <center>
+<form id="login_form"   name="loginform" method="post"  action="<?php echo url('user/getpass') ?>">
+<input name="step" type="hidden" value="3">
+            <div id="position">
+                <div id="inposition">
+                    <div class="login-left">
+                        <div class="login-left-logo">
+                            <img src="{$base_url}/images/user/login-logo.gif" width="297" height="78" /></div>
+                        <div class="login-left-content">
+                            <ul>
+                                <li>引领中国企业E化潮流</li>
+                                <li>操作便捷、最高效的集中控制面板</li>
+                                <li>功能强大的域名主机管理系统</li>
+                            </ul>
+                        </div>
+                        <div class="login-left-sever">
+                            <a href="http://www.cmseasy.org/forum-9-1.html" target="_blank">
+                                <img src="{$base_url}/images/user/icon-demo.gif" width="16" height="16" align="absmiddle" />
+                                帮 助
+                            </a><a href="tencent://message/?uin={get('qq1')}&Site=您的建站服务专家&Menu=yes">
+                                <img src="{$base_url}/images/user/icon-login-seaver.gif" width="16" height="16" align="absmiddle" />
+                                在线客服
+                            </a>
+                        </div>
+                    </div>
+                    <div class="login-right">
+                        <div id="UpdatePanel1">
+	
+                                <div class="login-right-title"> </div>
+                                <div class="login-right-input">
+                                    <table width="200" border="0" cellspacing="0" cellpadding="0">
+									    <tr>
+<td style="height: 30px" align="right">找回密码：</td>
+<td>填写邮箱
+</td>
+</tr>
+                                        <tr>
+                                            <td nowrap="nowrap" align="right" id="tdLeft">
+                                               输入注册填写的邮箱：
+                                            </td>
+                                            <td>
+												<input name="e_mail" type="text" id="e_mail" value="" tabindex="1"  class="input" />
+												</td>
+                                        </tr>
+                                       										
+						
+										<tr>
+                                            <td style="height: 30px" align="right">
+                                               
+                                            </td>
+                                            <td style="height: 30px" nowrap="nowrap">
+
+												<input type="submit" name="submit" value=" 下一步 " class="button"   />
+
+                                    </a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                
+                            
+</div>
+                      
+                        </div>
+                </div>
+            </div>
+		</form>
+    </center>
+    <div id="header">
+        <span>
+            <a href="{$base_url}/" target="_blank"><strong>首页</strong></a>&nbsp;|&nbsp;&nbsp;<a href="http://www.cmseasy.org/forum-10-1.html" target="_blank">报错</a>&nbsp;|&nbsp;&nbsp;<a href="http://www.cmseasy.org/forum-9-1.html" target="_blank">教程</a>&nbsp;|&nbsp;&nbsp;<a href="http://www.cmseasy.org/" target="_blank">交流</a>
+        </span>
+                                  
+    </div>
+    <div id="content">
+        <img src="{$base_url}/images/user/login-wel.gif" />
+    </div>
+    <div id="buttom">
+        <div class="copy2">
+            <nobr>Copyright &copy; 2003-2009. All Rights Reserved.</nobr>
+        </div>
+        <div class="copy">
+
+    </div>
+	<script type="text/javascript">
+function ResumeError()  
+{ 
+    return true; 
+} 
+window.onerror = ResumeError;
+document.loginform.passwd1.focus();
+</script>
+</body>
+</html>

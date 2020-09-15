@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2309309351</channel_id>
+<channel_name><![CDATA[深圳卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24057090]]></cur_program_id>
+<cur_program_name><![CDATA[剧场(5集)]]></cur_program_name>
+<cur_program_time><![CDATA[13:06]]></cur_program_time>
+<next_program_name><![CDATA[深视新闻]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[]]></def_program>
+<channel_desc><![CDATA[突出资讯、娱乐、时尚的节目内容，全力打造具备深圳文化符号特征的电视媒体。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/shenzhen.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shenzhen.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shenzhen.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100029</chat_id>
+   <chat_title><![CDATA[深圳卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[深圳电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[剧场(4集)]]></pn>
+		<tm><![CDATA[07:55]]></tm>
+		<id><![CDATA[24057082]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[金钟正流行]]></pn>
+		<tm><![CDATA[11:37]]></tm>
+		<id><![CDATA[24057084]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正午30分]]></pn>
+		<tm><![CDATA[11:55]]></tm>
+		<id><![CDATA[24057086]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[解密]]></pn>
+		<tm><![CDATA[12:26]]></tm>
+		<id><![CDATA[24057088]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[剧场(5集)]]></pn>
+		<tm><![CDATA[13:06]]></tm>
+		<id><![CDATA[24057090]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[深视新闻]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24057092]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[黄金剧场:永不磨灭的番号(2集)]]></pn>
+		<tm><![CDATA[19:30]]></tm>
+		<id><![CDATA[24057094]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[大娱乐家]]></pn>
+		<tm><![CDATA[21:20]]></tm>
+		<id><![CDATA[24057096]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播港澳台]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24057098]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[金钟奖总决赛]]></pn>
+		<tm><![CDATA[22:30]]></tm>
+		<id><![CDATA[24057100]]></id>
+	</p>
+
+</root>

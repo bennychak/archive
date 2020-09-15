@@ -1,0 +1,144 @@
+<div class="friendlist_box">
+    <div class="searchbox">
+        <div class="right_absolute">
+            <form class="" method="post" action="">
+                <div class="seinput">
+                    <div class="seinput_in">
+                        <input type="text" value="你要去看谁？" class="toggletxt">
+                    </div>
+                    <input type="submit" value="搜索" class="seinputbtn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="listbox">
+        <div class="grouplist">
+            <form method="post" action="">
+                <dl>
+                    <dd style="border:none;">
+                        <a class="icon16 bluearrow groupitem" href="#"><span></span><span class="note">同事(1/17)</span></a>
+                        <ul class="none">
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <a class="icon16 bluearrow groupitem" href="#"><span></span><span class="note">同学(2/17)</span></a>
+                        <ul class="none">
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <a class="icon16 bluearrow groupitem" href="#"><span></span><span class="note">朋友(3/17)</span></a>
+                        <ul class="none">
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <a class="icon16 bluearrow groupitem" href="#"><span></span><span class="note">未分组(11/17)</span></a>
+                        <ul class="none">
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b><img align="absmiddle" src="images/temp_face24.png" /> 于洋</b>
+                                    <em class="icon16 online"><span></span></em>
+                                </a>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+            </form>
+        </div>
+    </div>
+</div>

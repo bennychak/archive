@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2084914015</channel_id>
+<channel_name><![CDATA[广东卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24057011]]></cur_program_id>
+<cur_program_name><![CDATA[宫(30)]]></cur_program_name>
+<cur_program_time><![CDATA[17:06]]></cur_program_time>
+<next_program_name><![CDATA[宫(31)]]></next_program_name>
+<next_program_time><![CDATA[18:06]]></next_program_time>
+<def_program><![CDATA[	 
+	]]></def_program>
+<channel_desc><![CDATA[以“财富”为特色，强化升级新闻资讯、娱乐、影视剧场和人文故事各方势力，六军齐发，各领风骚！]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/gdtv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/guangdong.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/guangdong.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100027</chat_id>
+   <chat_title><![CDATA[广东卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[广东电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[爱在苍茫大地(25)]]></pn>
+		<tm><![CDATA[01:05]]></tm>
+		<id><![CDATA[24056979]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[爱在苍茫大地(26)]]></pn>
+		<tm><![CDATA[02:06]]></tm>
+		<id><![CDATA[24056981]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[战火中青春之血染风采(14)]]></pn>
+		<tm><![CDATA[04:48]]></tm>
+		<id><![CDATA[24056983]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[战火中青春之血染风采(15)]]></pn>
+		<tm><![CDATA[05:46]]></tm>
+		<id><![CDATA[24056985]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广东早晨]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24056987]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[股舞飞阳]]></pn>
+		<tm><![CDATA[07:35]]></tm>
+		<id><![CDATA[24056989]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[少林寺传奇之大漠英豪(11)]]></pn>
+		<tm><![CDATA[08:08]]></tm>
+		<id><![CDATA[24056991]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[少林寺传奇之大漠英豪(12)]]></pn>
+		<tm><![CDATA[09:04]]></tm>
+		<id><![CDATA[24056993]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[少林寺传奇之大漠英豪(13)]]></pn>
+		<tm><![CDATA[10:02]]></tm>
+		<id><![CDATA[24056995]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[少林寺传奇之大漠英豪(14)]]></pn>
+		<tm><![CDATA[10:59]]></tm>
+		<id><![CDATA[24056997]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[探寻]]></pn>
+		<tm><![CDATA[11:57]]></tm>
+		<id><![CDATA[24056999]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间新闻]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24057001]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[宫(26)]]></pn>
+		<tm><![CDATA[13:08]]></tm>
+		<id><![CDATA[24057003]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[宫(27)]]></pn>
+		<tm><![CDATA[14:07]]></tm>
+		<id><![CDATA[24057005]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[宫(28)]]></pn>
+		<tm><![CDATA[15:07]]></tm>
+		<id><![CDATA[24057007]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[宫(29)]]></pn>
+		<tm><![CDATA[16:06]]></tm>
+		<id><![CDATA[24057009]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[宫(30)]]></pn>
+		<tm><![CDATA[17:06]]></tm>
+		<id><![CDATA[24057011]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[宫(31)]]></pn>
+		<tm><![CDATA[18:06]]></tm>
+		<id><![CDATA[24057013]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[转播中央台新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24057015]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[广东新闻联播]]></pn>
+		<tm><![CDATA[19:31]]></tm>
+		<id><![CDATA[24057017]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[谁知女人心(4)]]></pn>
+		<tm><![CDATA[20:08]]></tm>
+		<id><![CDATA[24057019]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[谁知女人心(5)]]></pn>
+		<tm><![CDATA[21:04]]></tm>
+		<id><![CDATA[24057021]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[谁知女人心(6)]]></pn>
+		<tm><![CDATA[21:58]]></tm>
+		<id><![CDATA[24057023]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[社会纵横]]></pn>
+		<tm><![CDATA[22:52]]></tm>
+		<id><![CDATA[24057025]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[全球零距离]]></pn>
+		<tm><![CDATA[23:06]]></tm>
+		<id><![CDATA[24057027]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[活力影院:危险游戏]]></pn>
+		<tm><![CDATA[23:39]]></tm>
+		<id><![CDATA[24057029]]></id>
+	</p>
+
+</root>

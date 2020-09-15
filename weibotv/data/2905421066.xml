@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2905421066</channel_id>
+<channel_name><![CDATA[重庆卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24057944]]></cur_program_id>
+<cur_program_name><![CDATA[重播:百家故事台]]></cur_program_name>
+<cur_program_time><![CDATA[17:45]]></cur_program_time>
+<next_program_name><![CDATA[首播: 品读]]></next_program_name>
+<next_program_time><![CDATA[18:03]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[植根巴渝本土文化，拥有《重庆新闻联播》、《三峡大移民》、《龙门阵》等深受喜爱的名牌栏目。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/cqtv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/chongqing.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/chongqing.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100095</chat_id>
+   <chat_title><![CDATA[重庆卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[重庆电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[重播:经典电影赏析或英雄剧]]></pn>
+		<tm><![CDATA[00:35]]></tm>
+		<id><![CDATA[24057911]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:百家故事台]]></pn>
+		<tm><![CDATA[02:05]]></tm>
+		<id><![CDATA[24057912]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:天天红歌会]]></pn>
+		<tm><![CDATA[02:20]]></tm>
+		<id><![CDATA[24057913]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:记忆]]></pn>
+		<tm><![CDATA[02:40]]></tm>
+		<id><![CDATA[24057914]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播: 重庆好人]]></pn>
+		<tm><![CDATA[03:10]]></tm>
+		<id><![CDATA[24057915]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:鱼水情深]]></pn>
+		<tm><![CDATA[03:25]]></tm>
+		<id><![CDATA[24057916]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[经典电影]]></pn>
+		<tm><![CDATA[03:50]]></tm>
+		<id><![CDATA[24057917]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:五个重庆]]></pn>
+		<tm><![CDATA[05:20]]></tm>
+		<id><![CDATA[24057918]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:财经时间]]></pn>
+		<tm><![CDATA[05:35]]></tm>
+		<id><![CDATA[24057919]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播:健康大学堂]]></pn>
+		<tm><![CDATA[06:02]]></tm>
+		<id><![CDATA[24057920]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:信念]]></pn>
+		<tm><![CDATA[06:19]]></tm>
+		<id><![CDATA[24057921]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:品读]]></pn>
+		<tm><![CDATA[06:36]]></tm>
+		<id><![CDATA[24057922]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[中国西部旅游]]></pn>
+		<tm><![CDATA[06:40]]></tm>
+		<id><![CDATA[24056517]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[早间新闻]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24056518]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播:天天红歌会]]></pn>
+		<tm><![CDATA[07:34]]></tm>
+		<id><![CDATA[24057923]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:记忆]]></pn>
+		<tm><![CDATA[07:55]]></tm>
+		<id><![CDATA[24057924]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:十大民生]]></pn>
+		<tm><![CDATA[08:26]]></tm>
+		<id><![CDATA[24057925]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:五个重庆]]></pn>
+		<tm><![CDATA[08:48]]></tm>
+		<id><![CDATA[24057926]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:财经时间]]></pn>
+		<tm><![CDATA[09:05]]></tm>
+		<id><![CDATA[24057927]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:重庆好人]]></pn>
+		<tm><![CDATA[09:28]]></tm>
+		<id><![CDATA[24057928]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:鱼水情深]]></pn>
+		<tm><![CDATA[09:44]]></tm>
+		<id><![CDATA[24057929]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播重庆]]></pn>
+		<tm><![CDATA[10:00]]></tm>
+		<id><![CDATA[24057930]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播:电影赏析]]></pn>
+		<tm><![CDATA[10:18]]></tm>
+		<id><![CDATA[24057931]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:百家故事台]]></pn>
+		<tm><![CDATA[11:43]]></tm>
+		<id><![CDATA[24057932]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间新闻]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24056519]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[环球风]]></pn>
+		<tm><![CDATA[12:35]]></tm>
+		<id><![CDATA[24057933]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:信念]]></pn>
+		<tm><![CDATA[13:08]]></tm>
+		<id><![CDATA[24057934]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播: 记忆]]></pn>
+		<tm><![CDATA[13:25]]></tm>
+		<id><![CDATA[24057935]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播重庆]]></pn>
+		<tm><![CDATA[14:00]]></tm>
+		<id><![CDATA[24057936]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:十大民生]]></pn>
+		<tm><![CDATA[14:17]]></tm>
+		<id><![CDATA[24057937]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:五个重庆]]></pn>
+		<tm><![CDATA[14:40]]></tm>
+		<id><![CDATA[24057938]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[英雄剧场]]></pn>
+		<tm><![CDATA[15:00]]></tm>
+		<id><![CDATA[24057939]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:重庆好人]]></pn>
+		<tm><![CDATA[16:30]]></tm>
+		<id><![CDATA[24057940]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:鱼水情深]]></pn>
+		<tm><![CDATA[16:47]]></tm>
+		<id><![CDATA[24057941]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:信念]]></pn>
+		<tm><![CDATA[17:05]]></tm>
+		<id><![CDATA[24057942]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:天天红歌会]]></pn>
+		<tm><![CDATA[17:22]]></tm>
+		<id><![CDATA[24057943]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[重播:百家故事台]]></pn>
+		<tm><![CDATA[17:45]]></tm>
+		<id><![CDATA[24057944]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播: 品读]]></pn>
+		<tm><![CDATA[18:03]]></tm>
+		<id><![CDATA[24057945]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重庆新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24056520]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[中央台新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24057946]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播:十大民生]]></pn>
+		<tm><![CDATA[19:32]]></tm>
+		<id><![CDATA[24057947]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播:五个重庆]]></pn>
+		<tm><![CDATA[19:53]]></tm>
+		<id><![CDATA[24057948]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播:财经时间]]></pn>
+		<tm><![CDATA[20:10]]></tm>
+		<id><![CDATA[24057949]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播:经典电影赏析或英雄剧]]></pn>
+		<tm><![CDATA[20:35]]></tm>
+		<id><![CDATA[24057950]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[晚间新闻]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24056521]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播: 重庆好人]]></pn>
+		<tm><![CDATA[22:08]]></tm>
+		<id><![CDATA[24057951]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[特别关注]]></pn>
+		<tm><![CDATA[22:15]]></tm>
+		<id><![CDATA[24056522]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播: 鱼水情深]]></pn>
+		<tm><![CDATA[22:25]]></tm>
+		<id><![CDATA[24057952]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[拍案说法]]></pn>
+		<tm><![CDATA[22:40]]></tm>
+		<id><![CDATA[24056523]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播:记忆]]></pn>
+		<tm><![CDATA[22:42]]></tm>
+		<id><![CDATA[24057953]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首播:信念]]></pn>
+		<tm><![CDATA[23:15]]></tm>
+		<id><![CDATA[24057954]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[重播:品读]]></pn>
+		<tm><![CDATA[23:38]]></tm>
+		<id><![CDATA[24057955]]></id>
+	</p>
+
+</root>

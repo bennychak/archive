@@ -1,0 +1,26 @@
+{template 'header.html'}
+	<div class="sidebar">
+		{template 'left.html'}
+	</div>
+	<!--  -->
+	<div id="right">
+		{template 'position.html'}
+		{loop $archives $i $arc}
+		<div class="news_text">
+			<h5><span class=date>{$arc[adddate]}</span><a title="{$arc[title]}" href="{$arc[url]}">{$arc[title]}</a>{if $archive[attr2]}&nbsp;&nbsp;<a title="{lang(makeorders)}" target="_blank" href="{url('archive/orders/aid/'.$archive[aid],true)}" class="orders">{lang(makeorders)}</a>{/if}</h5>
+			<p>{cut(strip_tags($arc['introduce']),100)}…<a title="{$arc[title]}" href="{$arc[url]}">[{lang(more)}]</a><p>
+			<div class="clear"></div>
+		</div>
+		{/loop}
+<div class="blank30"></div>
+<!-- 内容列表分页 -->
+{if isset($pages)}
+{category_pagination($catid)}
+{/if}
+
+<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+	<div class="clear"></div>
+	</div>
+{template 'footer.html'}

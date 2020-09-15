@@ -1,0 +1,16 @@
+	<div class="blank10"></div>
+	<div id="footer">
+		<span style="float:right;">
+		<!-- {loop archive(1,0,0,'0,0,0',6,'aid',5,false,0) $i $arc} -->
+			<a href="{$arc[url]}" title="{$arc[title]}">{$arc[title]}</a>	-	
+			<!-- {/loop} -->
+			<a href="#">Top</a>
+			</span>
+		© 2008-2009 <a title="{get('sitename')}" href="{$base_url}/" target="_blank">{get('sitename')}</a> All Rights Reserved. <a href="http://www.miibeian.gov.cn/" target="_blank">{get('site_icp')}</a>
+	</div>
+</div>
+<!-- 非商业用户请勿删除 -->
+<div class="copyright"><a href="http://www.cmseasy.cn" title="Powered by CmsEasy.cn" target="_blank">Powered by CmsEasy</a>&nbsp;&nbsp;{getcnzzcount()}</div>
+{template 'system/servers.html'}
+</body>
+</html>

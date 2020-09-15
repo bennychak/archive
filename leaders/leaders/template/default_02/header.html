@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>{if !empty($archive[mtitle])}
+  {$archive[mtitle]}-
+{elseif !empty($archive[title])}
+  {$archive[title]}-
+{else}
+  {if $type[meta_title]}
+    {$type[meta_title]}-
+  {elseif typename($type[typeid])}
+    {typename($type[typeid])}-
+  {/if}
+  {if $category[$catid][meta_title]}
+    {$category[$catid][meta_title]}-
+  {elseif !empty($catid)}
+    {catname($catid)}-
+  {/if}
+{/if}
+{get('fullname')} - Powered by CmsEasy</title>
+<meta name="keywords" content="{if $archive[keyword]}{$archive[keyword]}{else}{if $type[keyword]}{$type[keyword]}{elseif $category[$catid][keyword]}{$category[$catid][keyword]}{else}{get('site_keyword')}{/if}{/if}" />
+<meta name="description" content="{if $archive[description]}{$archive[description]}{else}{if $type[description]}{$type[description]}{elseif $category[$catid][description]}{$category[$catid][description]}{else}{get('site_description')}{/if}{/if}" />
+<meta name="author" content="CmsEasy Team" />
+<link rel="icon" href="{get(site_url)}favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{get(site_url)}favicon.ico" type="image/x-icon" />
+<link href="{$skin_path}/reset.css" rel="stylesheet" type="text/css" />
+<link href="{$skin_path}/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript">
+<!-- 
+function ResumeError()  
+{ 
+    return true; 
+} 
+window.onerror = ResumeError; 
+function check()
+{
+if(document.search.keyword.value.length==0){
+     alert("{lang(pleaceinputtext)}");
+     document.search.keyword.focus();
+     return false;
+    }
+
+	}
+// --> 
+</script>
+</head>
+<body>
+<div class="header box">
+<div class="logo"><a href="{$site_url}"><img src="{get('site_logo')}" alt="{$sitename}" width="{get('logo_width')}"></a></div>
+<div class="topnav">
+<a href="{$site_url}">{lang(homepage)}</a>|
+<a href="{$site_url}" onclick="window.external.addFavorite(this.href,this.title);return false;" title='{get(sitename)}' rel="sidebar">{lang(favorite)}</a>|
+<a title="留言" href="{url('guestbook')}" target="_blank">{lang(feedback)}</a>
+</div>
+<div class="blank10"></div>
+<div class="topmenu">
+<div>
+<a title="{lang(backhome)}" href="{get(site_url)}" class="on">{lang(homepage)}</a>
+{loop categories_nav() $t}
+| <a title="{$t[catname]}" href="{$t[url]}"{if isset($topid) && $topid==$t[catid]} class="on"{/if}>{$t[catname]}</a>
+{/loop}
+</div>
+</div>
+</div>
+<div class="blank10"></div>
+<div class="banner_1 box">
+<script type="text/javascript">
+switch({get('slide_number')}){/*幻灯片数量控制*/
+	case 1:
+	var files='{get(site_url)}{get(slide_pic1)}';/*广告图片*/
+    var links='{get(slide_pic1_url)}';/*图片上的链接,注意链接中的&要用%26替换*/
+    var texts='{get(slide_pic1_title)}';/*图片标题*/
+	break
+	case 2:
+	var files='{get(site_url)}{get(slide_pic1)}|{get(site_url)}{get(slide_pic2)}';/*广告图片*/
+var links='{get(slide_pic1_url)}|{get(slide_pic2_url)}';/*图片上的链接,注意链接中的&要用%26替换*/
+var texts='{get(slide_pic1_title)}|{get(slide_pic2_title)}';/*图片标题*/
+	break
+	case 3:
+	var files='{get(site_url)}{get(slide_pic1)}|{get(site_url)}{get(slide_pic2)}|{get(site_url)}{get(slide_pic3)}';/*广告图片*/
+var links='{get(slide_pic1_url)}|{get(slide_pic2_url)}|{get(slide_pic3_url)}';/*图片上的链接,注意链接中的&要用%26替换*/
+var texts='{get(slide_pic1_title)}|{get(slide_pic2_title)}|{get(slide_pic3_title)}';/*图片标题*/
+    case 4:
+	var files='{get(site_url)}{get(slide_pic1)}|{get(site_url)}{get(slide_pic2)}|{get(site_url)}{get(slide_pic3)}|{get(site_url)}{get(slide_pic4)}';/*广告图片*/
+var links='{get(slide_pic1_url)}|{get(slide_pic2_url)}|{get(slide_pic3_url)}|{get(slide_pic4_url)}';/*图片上的链接,注意链接中的&要用%26替换*/
+var texts='{get(slide_pic1_title)}|{get(slide_pic2_title)}|{get(slide_pic3_title)}|{get(slide_pic4_title)}';/*图片标题*/
+   default:
+   var files='{get(site_url)}{get(slide_pic1)}|{get(site_url)}{get(slide_pic2)}|{get(site_url)}{get(slide_pic3)}|{get(site_url)}{get(slide_pic4)}|{get(site_url)}{get(slide_pic5)}';/*广告图片*/
+var links='{get(slide_pic1_url)}|{get(slide_pic2_url)}|{get(slide_pic3_url)}|{get(slide_pic4_url)}|{get(slide_pic5_url)}';/*图片上的链接,注意链接中的&要用%26替换*/
+var texts='{get(slide_pic1_title)}|{get(slide_pic2_title)}|{get(slide_pic3_title)}|{get(slide_pic4_title)}|{get(slide_pic5_title)}';/*图片标题*/
+}
+
+var swf_width=970;/*修改flash宽，图片广告需要适应此宽度*/
+var swf_height={get('slide_height')};/*修改flash高，图片广告需要适应此高度*/
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+document.write('<param name="movie" value="{get(site_url)}images/slide/focus.swf"><param name="quality" value="high">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'">');
+document.write('<embed src="{get(site_url)}images/slide/focus.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'& menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>'); 
+</script>
+</div>
+<div class="blank10"></div>

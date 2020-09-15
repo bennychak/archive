@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>我的收藏 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+<link href="css/index.dev.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="ui_index">
+<div id="ui_wrap1" class="tb_wrap7">
+
+    <div id="ui_contain">
+
+            <!--#include file="inc/首页导航.shtml"-->
+
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="inner">
+                	<div class="contenttop">
+                        <div class="contentbar listborder">
+                            <span class="selected last"><a href="#">我的收藏</a></span>
+                        </div>
+                        <div class="right_absolute">共12条</div>
+                    </div>
+                    <hr class="hr1" />
+                    <ul class="message">
+                        <li class="msglist">
+                            <div class="message_head">
+                                <div class="avatar_s" style="background-image:url(images/temp_face48.png);">
+                                    <a href="个人主页.shtml">
+                                        <div class="headbox"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="message_con">
+                            	<p class="collect_time">收藏于：8月30日 12:11</p>
+                                <p class="statement"><strong><span class="note"><a href="个人主页.shtml">怪叔叔</a></span>：</strong>在香港官网定的iphone4留个印继续跟进。</p>
+                                <div class="legend">
+                                    <div class="duration"><a href="单独微博页.shtml">23分钟前</a> 来自<a href="#">iPhone客户端</a></div>
+                                    <div class="action listborder"><span class="last"><a rev="modal" class="nyroModal" href="#boxalert">转发(15)</a></span> <span><a href="#">评论(3)</a></span> <span><a href="#">取消收藏</a></span></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="msglist">
+                            <div class="message_head">
+                                <div class="avatar_s" style="background-image:url(images/temp_face48.png);">
+                                    <a href="个人主页.shtml">
+                                        <div class="headbox"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="message_con">
+                            	<p class="collect_time">收藏于：8月30日 12:11</p>
+                                <p class="statement"><strong class="icon16"><span class="online"></span><span class="note"><a href="个人主页.shtml">怪叔叔</a></span><span class="cert"></span>：</strong>在香港官网定的iphone4留个印继续跟进。<strong class="face16"><em class="face_1"></em></strong></p>
+                                <div class="microblog">
+                                    <div class="statearrow"></div>
+                                    <div class="list_t"></div>
+                                    <div class="list_m">
+                                        <p><a href="#">@庞温慧子</a>：早在一个月前菜菜在西安出差的时候就对姐妹们横扫大柳树羡慕不已回北京后就奔大柳树速速拔草了，呵呵，去的是新址收获美鞋三双～和大家一起清凉下，欣赏欣赏白菜价的美鞋～ <span class="listborder"><span class="last"><a href="#">原文转发(2)</a></span> <span><a href="#">原文评论(3)</a></span></span></p>
+                                        <p class="stateimg fn_stateimg"><img src="images/temp_img1.png" /></p>
+                                        <div class="albumblog" style="display:none;">
+                                            <p class="icon_more listborder">
+                                                <em class="albumtopic last"><a href="#" class="icon16 up fn_up"><span></span>收起</a></em>
+                                                <em class="albumtopic"><a class="icon16 fullpic" href="#"><span></span>查看原图</a></em>
+                                                <em class="albumtopic"><a class="icon16 turnleft" href="#"><span></span>向左转</a></em>
+                                                <em class="albumtopic"><a class="icon16 turnright" href="#"><span></span>向右转</a></em>
+                                            </p>
+                                            <p class="personal">
+                                                <a href="#" class="icon16 viewalbum"><span></span>去她的相册</a>
+                                            </p>
+                                            <p class="stateimg_l"><img src="images/temp_img2.jpg" /></p>
+                                        </div>
+                                	</div>
+                                    <div class="list_b"></div>
+                                </div>
+                                <div class="legend">
+                                    <div class="duration"><a href="单独微博页.shtml">23分钟前</a> 来自<a href="#">iPhone客户端</a></div>
+                                    <div class="action listborder"><span class="last"><a rev="modal" class="nyroModal" href="#boxalert">转发(15)</a></span> <span><a href="#">评论(3)</a></span> <span><a href="#">取消收藏</a></span></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="msgmore">
+                	<div class="msgmore_txt">
+                		<span href="#" class="icon16"><strong>更多</strong><span></span></span>
+                	</div>
+                </a>
+            </div>
+			<!--#include file="inc/inmain_home.shtml"-->
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side.shtml"-->
+    </div>
+</div>
+<div id="boxalert" style=" display:none;">
+	<div class="TB_modal">
+        <div class="cl">
+            <div class="l_t"><h4>推给我关注的人</h4><a title="不再显示" id="TB_closeWindowButton" class="icon16 close16 nyroModalClose" href="我的首页.shtml"><span></span><em>关闭</em></a></div>
+            <div class="l_m">
+                <div class="con">推：早在一个月前菜菜在西安出差的时候就对姐妹们横扫大柳树羡慕不已回北京后就奔大柳树速速拔草了，呵呵，去的是新址收获美鞋三双～和大家一起清凉下，欣赏欣赏白菜价的美鞋～ </div>
+                <form action="" method="post">
+                    <dl class="f">
+                        <dd><em>还可以输入140个汉字</em></dd>
+                        <dd><textarea></textarea></dd>
+                        <dd>
+                            <div class="faceselect">
+                                <a href="#"></a>
+                            </div>
+                            <label class="right" for="forAndcomment"><input type="checkbox" id="forAndcomment"> 同时作为评论发布</label>
+                        </dd>
+                        <dd class="smc">
+                            <div class="tbminbtnbox"><div class="btn commentsub"><input type="submit" value="发布"></div><div class="btn btn2"><input type="button" class="nyroModalClose" value="取消"></div></div>
+                        </dd>
+                    </dl>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

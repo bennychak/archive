@@ -1,0 +1,38 @@
+{template 'header.html'}<!-- 调用页头模板 -->
+<div id="c">
+<div id="position">
+<span><a title="{get('sitename')}" href="{$base_url}">{get('sitename')}</a><a title="{$special[title]}" href="#">{$special[title]}</a></span><strong>{lang(nowposition)}</strong>
+</div>
+{template 'left.html'}<!-- 调用通用左栏 -->
+
+<div id="right">
+<div id="text">
+<div style="padding:5px;border-bottom:1px dotted #ccc;">
+<!-- 专题图片 -->
+<img src="{$special[banner]}" style="float:left;margin:0px 20px 20px 0px;" />
+<!-- 专题介绍 -->
+{$special[description]}
+<div class="clear"></div>
+</div>
+<!-- 内容_内容简介列表 -->
+<ul class="news_list">
+{loop $archives $i $sp}
+<li><span class="date">{$sp[adddate]}</span><a title="{$sp[title]}" target="_blank" href="{$sp[url]}">{$sp[title]}</a></li>
+{/loop}
+</ul>
+<div class="blank10"></div>
+<!-- 内容列表分页 -->
+{if isset($pages)}
+{special::pagination()}
+{/if}
+
+<div class="blank30"></div>
+<a title="{lang(gotop)}" href="#" class="clear floatright"><img alt="{lang(gotop)}" src="{$skin_url}/gotop.gif"></a>
+<div class="blank30"></div>
+
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<!-- 调用页底模板 -->
+{template 'footer.html'}

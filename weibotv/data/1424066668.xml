@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>1424066668</channel_id>
+<channel_name><![CDATA[金鹰卡通]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24058350]]></cur_program_id>
+<cur_program_name><![CDATA[大画连篇]]></cur_program_name>
+<cur_program_time><![CDATA[18:00]]></cur_program_time>
+<next_program_name><![CDATA[宝贝GO]]></next_program_name>
+<next_program_time><![CDATA[19:00]]></next_program_time>
+<def_program><![CDATA[ 精彩节目推荐:
+《飞行家族酷乐园》
+《榜样东西》
+《动漫驿站》
+ ]]></def_program>
+<channel_desc><![CDATA[中国第一家动画专业卫星频道，金鹰卡通卫视诞生，与湖南卫视共同组成湖南电视产业的双子星座。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/jytv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/jinying.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/jinying.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100032</chat_id>
+   <chat_title><![CDATA[金鹰卡通]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[金鹰网]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[飞行点点名]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24058342]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[麦咭学学看剧场]]></pn>
+		<tm><![CDATA[07:15]]></tm>
+		<id><![CDATA[24058343]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[仔仔卡通城]]></pn>
+		<tm><![CDATA[08:00]]></tm>
+		<id><![CDATA[24058344]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间泡泡堂]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24058345]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[小飞卡通屋]]></pn>
+		<tm><![CDATA[12:50]]></tm>
+		<id><![CDATA[24058346]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[玩名堂]]></pn>
+		<tm><![CDATA[16:20]]></tm>
+		<id><![CDATA[24058347]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[麦咭卡通坊]]></pn>
+		<tm><![CDATA[16:45]]></tm>
+		<id><![CDATA[24058348]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[飞行幼乐园]]></pn>
+		<tm><![CDATA[17:30]]></tm>
+		<id><![CDATA[24058349]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[大画连篇]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24058350]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[宝贝GO]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24058351]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[玩名堂]]></pn>
+		<tm><![CDATA[19:45]]></tm>
+		<id><![CDATA[24058352]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[快乐卡通]]></pn>
+		<tm><![CDATA[20:10]]></tm>
+		<id><![CDATA[24058353]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[开心吧]]></pn>
+		<tm><![CDATA[21:15]]></tm>
+		<id><![CDATA[24058354]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[有味童年]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24058355]]></id>
+	</p>
+
+</root>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>830075195</channel_id>
+<channel_name><![CDATA[天津卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24056782]]></cur_program_id>
+<cur_program_name><![CDATA[ 快乐家游战]]></cur_program_name>
+<cur_program_time><![CDATA[17:55]]></cur_program_time>
+<next_program_name><![CDATA[ 天津新闻]]></next_program_name>
+<next_program_time><![CDATA[18:30]]></next_program_time>
+<def_program><![CDATA[	 
+	]]></def_program>
+<channel_desc><![CDATA[强档栏目领衔，王牌主持加盟，重金剧场亮相，全新的卫视频道将给您带来震撼的感受。
+&nbsp;&nbsp;]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/tjtv.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/tianjin.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/tianjin.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100024</chat_id>
+   <chat_title><![CDATA[天津卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[天津电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[ 金牌剧场: 抗日奇侠(35)]]></pn>
+		<tm><![CDATA[00:15]]></tm>
+		<id><![CDATA[24056769]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 专题广告]]></pn>
+		<tm><![CDATA[00:50]]></tm>
+		<id><![CDATA[24056770]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 通宵剧场:勐犸敢死队(1.2)]]></pn>
+		<tm><![CDATA[01:05]]></tm>
+		<id><![CDATA[24056771]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 通宵剧场:少林寺传奇之大漠英豪(22.23)]]></pn>
+		<tm><![CDATA[03:10]]></tm>
+		<id><![CDATA[24056772]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 今夜有戏]]></pn>
+		<tm><![CDATA[05:00]]></tm>
+		<id><![CDATA[24056773]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 通宵剧场:少林寺传奇之大漠英豪(24)]]></pn>
+		<tm><![CDATA[05:58]]></tm>
+		<id><![CDATA[24056774]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 广告]]></pn>
+		<tm><![CDATA[06:58]]></tm>
+		<id><![CDATA[24056775]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 津晨播报]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24056776]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 休闲剧场:铁道游击队(5.6)]]></pn>
+		<tm><![CDATA[08:00]]></tm>
+		<id><![CDATA[24056777]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 休闲剧场:水浒传(53.54)]]></pn>
+		<tm><![CDATA[09:55]]></tm>
+		<id><![CDATA[24056778]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 12点报道]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24056779]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 午间剧场:水浒传(55.56)]]></pn>
+		<tm><![CDATA[12:32]]></tm>
+		<id><![CDATA[24056780]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 情感剧场:少林寺传奇之大漠英豪(31.32.33.34)]]></pn>
+		<tm><![CDATA[14:35]]></tm>
+		<id><![CDATA[24056781]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[ 快乐家游战]]></pn>
+		<tm><![CDATA[17:55]]></tm>
+		<id><![CDATA[24056782]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 天津新闻]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24056783]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 天气预报]]></pn>
+		<tm><![CDATA[18:57]]></tm>
+		<id><![CDATA[24056784]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 转播中央台新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24056785]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 快乐生活剧场:水浒传(57)]]></pn>
+		<tm><![CDATA[19:30]]></tm>
+		<id><![CDATA[24056786]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 快乐生活剧场:水浒传(58)]]></pn>
+		<tm><![CDATA[20:30]]></tm>
+		<id><![CDATA[24056787]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 老郭讲水浒]]></pn>
+		<tm><![CDATA[21:20]]></tm>
+		<id><![CDATA[24056788]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 今夜有水浒]]></pn>
+		<tm><![CDATA[21:32]]></tm>
+		<id><![CDATA[24056789]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 天津新闻(重播)]]></pn>
+		<tm><![CDATA[22:30]]></tm>
+		<id><![CDATA[24056790]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 天气预报(重播)]]></pn>
+		<tm><![CDATA[22:57]]></tm>
+		<id><![CDATA[24056791]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[ 爱情保卫战(重播)]]></pn>
+		<tm><![CDATA[23:05]]></tm>
+		<id><![CDATA[24056792]]></id>
+	</p>
+
+</root>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3199745535</channel_id>
+<channel_name><![CDATA[上视新闻综合]]></channel_name>
+<channel_typeid><![CDATA[24]]></channel_typeid>
+<channel_typename><![CDATA[上海文广]]></channel_typename>
+<channel_rq><![CDATA[3]]></channel_rq>
+<cur_program_id><![CDATA[24057402]]></cur_program_id>
+<cur_program_name><![CDATA[少儿剧场（tvsou提供）]]></cur_program_name>
+<cur_program_time><![CDATA[17:18]]></cur_program_time>
+<next_program_name><![CDATA[看龙岩（tvsou提供）]]></next_program_name>
+<next_program_time><![CDATA[18:18]]></next_program_time>
+<def_program><![CDATA[	 
+	]]></def_program>
+<channel_desc><![CDATA[人人关注的新闻节目一改过去严肃有余而活泼不足的状态，作为“龙头”版块进行精心打造！
+
+]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/smg.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/shanghai.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/shanghai.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100046</chat_id>
+   <chat_title><![CDATA[上视新闻综合]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[东方宽频]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[经济纵横]]></pn>
+		<tm><![CDATA[00:03]]></tm>
+		<id><![CDATA[24057397]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[百姓视点]]></pn>
+		<tm><![CDATA[07:02]]></tm>
+		<id><![CDATA[24057398]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[龙岩客家语栏目：客家风（tvsou提供）]]></pn>
+		<tm><![CDATA[12:10]]></tm>
+		<id><![CDATA[24057399]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间剧场：大侦探 28-30（tvsou提供）]]></pn>
+		<tm><![CDATA[12:25]]></tm>
+		<id><![CDATA[24057400]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[旅游中国（tvsou提供）]]></pn>
+		<tm><![CDATA[15:30]]></tm>
+		<id><![CDATA[24057401]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[少儿剧场（tvsou提供）]]></pn>
+		<tm><![CDATA[17:18]]></tm>
+		<id><![CDATA[24057402]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[看龙岩（tvsou提供）]]></pn>
+		<tm><![CDATA[18:18]]></tm>
+		<id><![CDATA[24057403]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[龙岩新闻联播（tvsou提供）]]></pn>
+		<tm><![CDATA[18:40]]></tm>
+		<id><![CDATA[24057404]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[黄金剧场：大时代 6、7]]></pn>
+		<tm><![CDATA[20:10]]></tm>
+		<id><![CDATA[24057405]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[龙岩新闻联播]]></pn>
+		<tm><![CDATA[22:30]]></tm>
+		<id><![CDATA[24057406]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[龙岩天气预报]]></pn>
+		<tm><![CDATA[22:47]]></tm>
+		<id><![CDATA[24057407]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[晚间剧场：咫尺天涯 3]]></pn>
+		<tm><![CDATA[22:55]]></tm>
+		<id><![CDATA[24057408]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[百姓视点]]></pn>
+		<tm><![CDATA[23:50]]></tm>
+		<id><![CDATA[24057409]]></id>
+	</p>
+
+</root>

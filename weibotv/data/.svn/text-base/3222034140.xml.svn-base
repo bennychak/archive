@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>3222034140</channel_id>
+<channel_name><![CDATA[股市在线]]></channel_name>
+<channel_typeid><![CDATA[23]]></channel_typeid>
+<channel_typename><![CDATA[财经资讯]]></channel_typename>
+<channel_rq><![CDATA[2]]></channel_rq>
+<cur_program_id><![CDATA[24060228]]></cur_program_id>
+<cur_program_name><![CDATA[财富无限]]></cur_program_name>
+<cur_program_time><![CDATA[16:55]]></cur_program_time>
+<next_program_name><![CDATA[开盘扫描]]></next_program_name>
+<next_program_time><![CDATA[09:25]]></next_program_time>
+<def_program><![CDATA[]]></def_program>
+<channel_desc><![CDATA[股市在线立足于证券市场，以专业的投资顾问团队，秉承为中小投资者服务的宗旨，致力于打造中国领先的财经视频网络服务平台。]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/espn.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/gushi.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/gushi.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100053</chat_id>
+   <chat_title><![CDATA[股市在线]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[股市在线]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[开盘扫描]]></pn>
+		<tm><![CDATA[09:25]]></tm>
+		<id><![CDATA[24060221]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[主力动向]]></pn>
+		<tm><![CDATA[10:50]]></tm>
+		<id><![CDATA[24060222]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[慧眼看盘]]></pn>
+		<tm><![CDATA[13:00]]></tm>
+		<id><![CDATA[24060223]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[策略出击]]></pn>
+		<tm><![CDATA[14:20]]></tm>
+		<id><![CDATA[24060224]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[收市综述]]></pn>
+		<tm><![CDATA[15:10]]></tm>
+		<id><![CDATA[24060225]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[赢家感悟]]></pn>
+		<tm><![CDATA[15:30]]></tm>
+		<id><![CDATA[24060226]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[投投是道]]></pn>
+		<tm><![CDATA[16:00]]></tm>
+		<id><![CDATA[24060227]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[财富无限]]></pn>
+		<tm><![CDATA[16:55]]></tm>
+		<id><![CDATA[24060228]]></id>
+	</p>
+
+</root>

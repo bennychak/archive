@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>注册 - 推博网</title>
+<!--#include file="inc/common.shtml"-->
+<link href="css/reg.dev.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="ui_reg">
+<div id="ui_wrap1" class="tb_wrap7 ui_nor">
+
+    <div id="ui_contain">
+        <div id="ui_main">
+            <div id="ui_left">
+            	<div class="regstep regstep1"></div>
+            	<div class="inner">
+                	<form action="" method="post">
+                	<table class="regtable" cellpadding="0" cellspacing="0" border="0">
+                    	<tr>
+                        	<th>电子邮箱</th>
+                        	<td class="tinput"><input type="text" /></td>
+                        	<td class="checkbox">
+                            	<div class="icon16 check_y"><span></span></div>
+                            </td>
+                        </tr>
+                    	<tr>
+                        	<th>创建密码</th>
+                        	<td class="tinput"><input type="password" /></td>
+                        	<td class="checkbox">
+                            	<div class="icon16 check_n"><span></span>密码太短了，至少6位</div>
+                            </td>
+                        </tr>
+                    	<tr>
+                        	<th>确认密码</th>
+                        	<td class="tinput"><input type="password" /></td>
+                        	<td class="checkbox">
+                            	<div class="icon16 check_r"><span></span>请重复输入你的密码</div>
+                            </td>
+                        </tr>
+                    	<tr>
+                        	<th>验证码</th>
+                        	<td class="tinput checkcode" colspan="2"><input type="text" /> <img src="images/temp_checkcode.png" align="absmiddle" /> <a href="#">看不清，换一张</a></td>
+                        </tr>
+                    	<tr>
+                        	<th></th>
+                        	<td colspan="2"><input type="checkbox" /> 我已看过并同意<a href="#">《推博网络服务使用协议》</a></td>
+                        </tr>
+                    	<tr>
+                        	<th></th>
+                        	<td colspan="2">
+                            	<div class="regnow">
+                                    <input class="step1" type="button" value="立即注册" onclick="javascript:window.location.href='注册_补充信息.shtml'" /><!--submit-->
+                            	</div>
+                            </td>
+                        </tr>
+                    </table>
+                    </form>
+                </div>
+            </div>
+            <div id="ui_inmain">ui_inmain
+            </div>
+        </div>
+        <!--#include file="inc/copyright.shtml"-->
+    </div>
+
+    <div id="ui_side">
+<!--#include file="inc/side_login.shtml"-->
+    </div>
+</div>
+
+</div>
+</body>
+</html>

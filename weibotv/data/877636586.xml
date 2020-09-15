@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>877636586</channel_id>
+<channel_name><![CDATA[青海卫视]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[4]]></channel_rq>
+<cur_program_id><![CDATA[24057052]]></cur_program_id>
+<cur_program_name><![CDATA[体验车世界]]></cur_program_name>
+<cur_program_time><![CDATA[13:15]]></cur_program_time>
+<next_program_name><![CDATA[卡通先锋地带]]></next_program_name>
+<next_program_time><![CDATA[18:00]]></next_program_time>
+<def_program><![CDATA[1  观众越多，播放越流畅 
+	 
+2  系统资源以及网络带宽要求低 
+	 
+3  内存操作，不伤硬盘 
+	 
+	 
+	]]></def_program>
+<channel_desc><![CDATA[为中国观众倾力打造全新卫星频道，以年轻和互动为频道特点，定位服务于中国年轻人群。 ]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/qinghai.jpg]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/qinghai.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/qinghai.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100091</chat_id>
+   <chat_title><![CDATA[青海卫视]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[青海电视台]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[剧场]]></pn>
+		<tm><![CDATA[00:00]]></tm>
+		<id><![CDATA[24057045]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[青海新闻联播(重播)]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24058270]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[昆仑剧场:]]></pn>
+		<tm><![CDATA[07:20]]></tm>
+		<id><![CDATA[24058271]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[中国西部旅游]]></pn>
+		<tm><![CDATA[07:30]]></tm>
+		<id><![CDATA[24057046]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻快点]]></pn>
+		<tm><![CDATA[08:00]]></tm>
+		<id><![CDATA[24057047]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻聚焦]]></pn>
+		<tm><![CDATA[08:15]]></tm>
+		<id><![CDATA[24057048]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日青海]]></pn>
+		<tm><![CDATA[08:25]]></tm>
+		<id><![CDATA[24057049]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[正午时分]]></pn>
+		<tm><![CDATA[11:50]]></tm>
+		<id><![CDATA[24057050]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[放眼天下]]></pn>
+		<tm><![CDATA[12:15]]></tm>
+		<id><![CDATA[24057051]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[午间360]]></pn>
+		<tm><![CDATA[12:30]]></tm>
+		<id><![CDATA[24058272]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[郁金香剧场:]]></pn>
+		<tm><![CDATA[12:50]]></tm>
+		<id><![CDATA[24058273]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[体验车世界]]></pn>
+		<tm><![CDATA[13:15]]></tm>
+		<id><![CDATA[24057052]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[卡通先锋地带]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24057053]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[大美青海]]></pn>
+		<tm><![CDATA[18:20]]></tm>
+		<id><![CDATA[24058274]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[青海新闻联播]]></pn>
+		<tm><![CDATA[18:30]]></tm>
+		<id><![CDATA[24057054]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[青海天气预报]]></pn>
+		<tm><![CDATA[18:52]]></tm>
+		<id><![CDATA[24058275]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[本省天气预报]]></pn>
+		<tm><![CDATA[18:53]]></tm>
+		<id><![CDATA[24057055]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[转播中央台新闻联播]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24058276]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[走进三江源]]></pn>
+		<tm><![CDATA[19:30]]></tm>
+		<id><![CDATA[24057056]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[新闻聚焦]]></pn>
+		<tm><![CDATA[19:50]]></tm>
+		<id><![CDATA[24057057]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[职场故事]]></pn>
+		<tm><![CDATA[21:40]]></tm>
+		<id><![CDATA[24057058]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[青海新闻联播]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24057059]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[放眼天下]]></pn>
+		<tm><![CDATA[22:22]]></tm>
+		<id><![CDATA[24057060]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[晚间播报]]></pn>
+		<tm><![CDATA[23:00]]></tm>
+		<id><![CDATA[24058277]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[风声:]]></pn>
+		<tm><![CDATA[23:10]]></tm>
+		<id><![CDATA[24058278]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[体验车世界]]></pn>
+		<tm><![CDATA[23:22]]></tm>
+		<id><![CDATA[24057061]]></id>
+	</p>
+
+</root>

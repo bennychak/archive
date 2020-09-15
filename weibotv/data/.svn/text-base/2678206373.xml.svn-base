@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+
+<channel_id>2678206373</channel_id>
+<channel_name><![CDATA[第一财经]]></channel_name>
+<channel_typeid><![CDATA[20]]></channel_typeid>
+<channel_typename><![CDATA[热门电视台]]></channel_typename>
+<channel_rq><![CDATA[5]]></channel_rq>
+<cur_program_id><![CDATA[24057193]]></cur_program_id>
+<cur_program_name><![CDATA[理财宝典]]></cur_program_name>
+<cur_program_time><![CDATA[17:40]]></cur_program_time>
+<next_program_name><![CDATA[直播:今日股市]]></next_program_name>
+<next_program_time><![CDATA[18:00]]></next_program_time>
+<def_program><![CDATA[ 精彩节目推荐:
+《财经早班车》
+《午间论市》
+《财经中间站》
+《市场零距离》
+《行业报告》]]></def_program>
+<channel_desc><![CDATA[中国唯一以投资者为收视对象的专业财经频道。第一财经为你创造价值！]]></channel_desc>
+<channel_logo><![CDATA[http://imgcache.qq.com/qqlive/images/client_web/channel_images/smg.gif]]></channel_logo>
+<channel_big_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/biglogo/diyicaijing.jpg]]></channel_big_logo>
+<channel_small_logo><![CDATA[http://imgcache.qq.com/qqlive/images/tvlogo/smalllogo/diyi.png]]></channel_small_logo>
+<channel_linktitle><![CDATA[]]></channel_linktitle>
+<channel_linkurl><![CDATA[]]></channel_linkurl>
+<chat>
+   <chat_id>100007</chat_id>
+   <chat_title><![CDATA[第一财经]]></chat_title>
+   <chat_listname><![CDATA[]]></chat_listname>
+   <chat_listitem><![CDATA[]]></chat_listitem>
+</chat>
+<client_tips><![CDATA[东方宽频]]></client_tips>
+
+	<p  >
+		<pn><![CDATA[今日股市]]></pn>
+		<tm><![CDATA[06:03]]></tm>
+		<id><![CDATA[24057167]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:财经早班车]]></pn>
+		<tm><![CDATA[07:00]]></tm>
+		<id><![CDATA[24057168]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:市场零距离]]></pn>
+		<tm><![CDATA[09:00]]></tm>
+		<id><![CDATA[24057169]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:最新闻]]></pn>
+		<tm><![CDATA[10:05]]></tm>
+		<id><![CDATA[24057170]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:整点解盘]]></pn>
+		<tm><![CDATA[10:10]]></tm>
+		<id><![CDATA[24057171]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:券商晨会报告]]></pn>
+		<tm><![CDATA[10:25]]></tm>
+		<id><![CDATA[24057172]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:市场零距离]]></pn>
+		<tm><![CDATA[10:30]]></tm>
+		<id><![CDATA[24057173]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:最新闻]]></pn>
+		<tm><![CDATA[11:00]]></tm>
+		<id><![CDATA[24057174]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:整点解盘]]></pn>
+		<tm><![CDATA[11:05]]></tm>
+		<id><![CDATA[24057175]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:市场零距离]]></pn>
+		<tm><![CDATA[11:15]]></tm>
+		<id><![CDATA[24057176]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:财经中间站]]></pn>
+		<tm><![CDATA[12:00]]></tm>
+		<id><![CDATA[24057177]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:市场零距离]]></pn>
+		<tm><![CDATA[13:00]]></tm>
+		<id><![CDATA[24057178]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:半点解盘]]></pn>
+		<tm><![CDATA[13:30]]></tm>
+		<id><![CDATA[24057179]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:最新闻]]></pn>
+		<tm><![CDATA[13:55]]></tm>
+		<id><![CDATA[24057180]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:市场零距离]]></pn>
+		<tm><![CDATA[14:00]]></tm>
+		<id><![CDATA[24057181]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:半点解盘]]></pn>
+		<tm><![CDATA[14:30]]></tm>
+		<id><![CDATA[24057182]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:最新闻]]></pn>
+		<tm><![CDATA[14:55]]></tm>
+		<id><![CDATA[24057183]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:券商尾盘报告]]></pn>
+		<tm><![CDATA[15:00]]></tm>
+		<id><![CDATA[24057184]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播: 尾市盘点]]></pn>
+		<tm><![CDATA[15:15]]></tm>
+		<id><![CDATA[24057185]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播: 尾市盘点]]></pn>
+		<tm><![CDATA[15:30]]></tm>
+		<id><![CDATA[24057186]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:最新闻]]></pn>
+		<tm><![CDATA[16:00]]></tm>
+		<id><![CDATA[24057187]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:市场零距离]]></pn>
+		<tm><![CDATA[16:05]]></tm>
+		<id><![CDATA[24057188]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:今日期市]]></pn>
+		<tm><![CDATA[16:10]]></tm>
+		<id><![CDATA[24057189]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[财判]]></pn>
+		<tm><![CDATA[16:30]]></tm>
+		<id><![CDATA[24057190]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[第一地产]]></pn>
+		<tm><![CDATA[17:00]]></tm>
+		<id><![CDATA[24057191]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[天下汽车]]></pn>
+		<tm><![CDATA[17:25]]></tm>
+		<id><![CDATA[24057192]]></id>
+	</p>
+
+	<p cur="1" >
+		<pn><![CDATA[理财宝典]]></pn>
+		<tm><![CDATA[17:40]]></tm>
+		<id><![CDATA[24057193]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:今日股市]]></pn>
+		<tm><![CDATA[18:00]]></tm>
+		<id><![CDATA[24057194]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:谈股论金]]></pn>
+		<tm><![CDATA[19:00]]></tm>
+		<id><![CDATA[24057195]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[直播:公司与行业]]></pn>
+		<tm><![CDATA[20:00]]></tm>
+		<id><![CDATA[24057196]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[财经夜行线]]></pn>
+		<tm><![CDATA[21:00]]></tm>
+		<id><![CDATA[24057197]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[首席评论]]></pn>
+		<tm><![CDATA[21:35]]></tm>
+		<id><![CDATA[24057198]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[财判]]></pn>
+		<tm><![CDATA[22:00]]></tm>
+		<id><![CDATA[24057199]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[第一地产]]></pn>
+		<tm><![CDATA[22:30]]></tm>
+		<id><![CDATA[24057200]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[今日股市]]></pn>
+		<tm><![CDATA[22:54]]></tm>
+		<id><![CDATA[24057201]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[财经关键词]]></pn>
+		<tm><![CDATA[23:22]]></tm>
+		<id><![CDATA[24057202]]></id>
+	</p>
+
+	<p  >
+		<pn><![CDATA[理财宝典]]></pn>
+		<tm><![CDATA[23:40]]></tm>
+		<id><![CDATA[24057203]]></id>
+	</p>
+
+</root>

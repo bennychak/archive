@@ -1,0 +1,13 @@
+<div class="nav">
+    <ul class="menu">
+        <li class="selected"><div class="menuside"></div><a class="icon16 account_pic" href="账户设置_基本资料.shtml"><span></span>账户设置</a></li>
+        <li><a href="#组件设置.shtml">组件设置</a></li>
+        <li><a href="隐私设置_基本选项.shtml">隐私设置</a></li>
+        <li><a href="邮件提醒.shtml">邮件提醒</a></li>
+        <li><a href="#手机绑定.shtml">手机绑定</a></li>
+        <li><a href="#支付中心.shtml">支付中心</a></li>
+    </ul>
+    <div class="menu_right"></div>
+    
+    <!--#include file="topsearch.shtml"-->
+</div>

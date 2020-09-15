@@ -1,0 +1,201 @@
+/* CSS GUIDE - 模块和结构
+================================================================
+images
+/* 1 基础模块
+================================================================*/
+
+/* 分隔线模块
+----------------------------------------------------------------*/
+
+.m_hr{ height:1px; font-size: 0; margin-bottom: 20px; clear:both; overflow: hidden}
+
+/* 相片列表模块
+----------------------------------------------------------------*/
+
+.m_gallery_lst{ padding-left:10px;}
+.m_gallery_row{ margin-bottom: 30px}
+.m_gallery_item{ float:left; padding-top:10px; margin-right:10px;}
+.m_gallery_item .pic{ margin-bottom:5px;}
+.m_gallery_item .pic img{ max-width: 180px; border:#fff 5px solid;}
+.m_gallery_item .info{}
+
+.m_gallery_lst .m_hr{ margin-right: 49px}
+
+/* 播放器模块
+----------------------------------------------------------------*/
+
+.m_mediaWrap{ text-align: center;}
+.m_mediaWrap embed{ width:320px; height:240px;}
+
+
+/* 2 区域模块
+================================================================*/
+
+/* 导航模块
+----------------------------------------------------------------*/
+
+.m_nav{ margin-bottom:30px; z-index:100;}
+.m_nav ul{}
+.m_nav .item{ display: block; border:#fff 1px solid; border-top:0;}
+.m_nav .item a{ display: block; text-align:center; font-size: 18px;}
+.m_nav .item a:hover{ text-decoration: none;}
+
+/* logo模块
+----------------------------------------------------------------*/
+
+.m_logo{ width:259px; height: 100px; background:url(../images/wetouch_logo.png) no-repeat; margin: 0 auto;
+-webkit-background-size:259px 100px;
+-moz-background-size:259px 100px;
+-o-background-size:259px 100px;
+-ms-background-size:259px 100px;
+background-size:259px 100px;
+}
+.m_logo a{ display: block; width:259px; height: 100px; overflow: hidden; text-indent: -9999px; _text-indent: 0; _line-height: 9999px}
+
+/* slide模块
+----------------------------------------------------------------*/
+
+.m_slideMod_item{ margin-bottom: -15px}
+.m_slideMod_hd{ height:15px; overflow: hidden}
+.m_slideMod_hd .arrPart{ width:50%;}
+.m_slideMod_hd .arrPart .arrPart_in{ height:0; font-size: 0; border-width:0 15px 15px; border-style:dashed dashed solid;}
+.m_slideMod_hd .arrPart_1{ float:left;}
+.m_slideMod_hd .arrPart_1 .arrPart_in{ border-left-width:0;}
+.m_slideMod_hd .arrPart_2{ float:right;}
+.m_slideMod_hd .arrPart_2 .arrPart_in{ border-right-width:0;}
+
+.m_slideMod_bd{ padding:20px 0; width:100%; overflow: hidden;}
+.m_slideMod_bd .slideMod_title{}
+.m_slideMod_bd .slideMod_title .tit{ text-align: center;}
+.m_slideMod_bd .slideMod_title .en{ font-size: 30px; line-height: 34px; text-transform: uppercase;}
+.m_slideMod_bd .slideMod_title .zh{ font-size: 22px; line-height: 30px}
+
+.m_slideMod_bd .slideMod_content{ padding:20px 0 20px;}
+
+/* slide模块 扩展1 */
+.e_slideMod_item_1{}
+
+/* slide模块 扩展2 */
+.e_slideMod_item_2{}
+
+/* slide模块 扩展3 */
+.e_slideMod_item_3{}
+.e_slideMod_item_3 .slideMod_content{ text-align:center}
+.e_slideMod_item_3 .pic_leagueMember{max-width:100%;}
+
+
+
+
+
+/* 3 结构
+================================================================*/
+
+.w_stream{ width:100%; min-width:320px; text-align:left}
+
+.w_stream_hd{ padding:0 0 30px;}
+
+.w_stream_ft{}
+
+.w_foot{ height:30px; padding-top:12px;}
+.w_foot .bottom_note{ width:157px; height: 14px; margin: 0 auto; background: url(../images/bottom_note.png) no-repeat;
+-webkit-background-size:157px 14px;
+-moz-background-size:157px 14px;
+-o-background-size:157px 14px;
+-ms-background-size:157px 14px;
+background-size:157px 14px;
+}
+
+
+
+
+
+/* MEDIA QUERIES
+================================================================================================================================*/
+
+@media screen and (min-width: 960px) {
+
+/* 1 基础模块
+================================================================*/
+
+/* 分隔线模块
+----------------------------------------------------------------*/
+
+/* 相片列表模块
+----------------------------------------------------------------*/
+
+.m_gallery_lst{ padding-left:49px;}
+.m_gallery_row{}
+.m_gallery_item{ width:190px; margin-right:34px;}
+
+/* 播放器模块
+----------------------------------------------------------------*/
+
+
+.m_mediaWrap{}
+.m_mediaWrap embed{ width:480px; height:400px;}
+
+
+
+
+
+/* 2 区域模块
+================================================================*/
+
+/* 导航模块
+----------------------------------------------------------------*/
+
+.m_nav{ position: fixed; _position: absolute; width:960px; top: 0; margin-bottom:0;}
+.m_nav ul{ float: right}
+.m_nav .item{ border:#fff 1px solid; float: left}
+.m_nav .item a{ float: left; height: 34px; line-height: 27px; padding: 6px 10px 0; font-size: 24px;
+-webkit-transition:all .1s ease-in-out;
+-moz-transition:all .1s ease-in-out;
+-o-transition:all .1s ease-in-out;
+-ms-transition:all .1s ease-in-out;
+transition:all .1s ease-in-out;
+}
+.m_nav .item a:hover{ height:50px; padding-top:20px;}
+
+/* logo模块
+----------------------------------------------------------------*/
+
+.m_logo{ width:518px; height: 200px;
+-webkit-background-size:518px 200px;
+-moz-background-size:518px 200px;
+-o-background-size:518px 200px;
+-ms-background-size:518px 200px;
+background-size:518px 200px;
+}
+.m_logo a{ width:518px; height: 200px}
+
+/* slide模块
+----------------------------------------------------------------*/
+
+.m_slideMod_bd{ min-height:300px}
+.m_slideMod_bd .slideMod_content{ padding:20px 0 50px;}
+
+
+
+
+
+/* 3 结构
+================================================================*/
+
+.w_stream{ width:960px; margin:0 auto}
+
+.w_stream_hd{ padding:150px 0 30px;}
+
+.w_foot{ height:60px; padding-top:32px;}
+.w_foot .bottom_note{ width:314px; height: 27px;
+-webkit-background-size:314px 27px;
+-moz-background-size:314px 27px;
+-o-background-size:314px 27px;
+-ms-background-size:314px 27px;
+background-size:314px 27px;
+}
+
+}
+
+
+
+

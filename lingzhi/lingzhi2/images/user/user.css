@@ -1,0 +1,530 @@
+html {
+  scrollbar-face-color : #E9F1F7;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font: 12px verdana, arial, helvetica, sans-serif,宋体;
+	color: #333;
+	background-color: #284256;
+	}
+div,form,img,ul,ol,li,dl,dt,dd,p {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+#table {
+  font-size:12px;
+}
+
+#table tr td {
+border:1px solid #F8F8F8;
+}
+
+
+#table .left {
+  width:150px;
+  text-align:right;
+  padding-right:5px;
+}
+
+#table .right {
+  text-align:left;
+  padding-left:5px;
+}
+
+#table .gray {
+  width:30%;
+}
+
+#c #table {
+  width:100%;
+}
+
+ul,ol,li {
+  list-style:none;
+}
+
+img {
+  border:0;
+}
+
+.clear {
+  clear:both;
+}
+
+.floatleft {
+  float:left;
+}
+
+.floatright {
+  float:right;
+}
+
+.copyright,.copyright a {
+  text-align:center;
+  font-size:10px;
+  color:#ccc;
+}
+a {
+	text-decoration: none;
+	color:  #333;
+	outline: none;
+	}
+a:visited {
+	color:  #666;
+	}
+a:active {
+	color:  #666;
+	}
+a:hover {
+	color: #666;
+	text-decoration: underline;
+	}
+.ahem {
+	display: none;
+	}
+strong, b {
+	font-weight: bold;
+	}
+p {
+	font-size: 12px;
+	line-height: 22px;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+	}
+th {background:#E2E7EF;border-top:1px solid #C3CED8;}
+
+h1 {
+	font-size: 24px;
+	line-height: 44px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h2 {
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h3 {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h4 {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h5 {
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h6 {
+	font-size: 10px;
+	line-height: 18px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+img {
+	border: 0;
+	}
+.nowrap {
+	white-space: nowrap;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+
+	}
+.tiny {
+	font-size: 9px;
+	line-height: 16px;
+	margin-top: 15px;
+	margin-bottom: 5px; 
+	}	
+#top {
+	
+	background: url(top-bg.gif) left top repeat-x;
+	height: 58px;
+	color:white;
+	overflow:hidden;
+	text-align:right;
+	}
+#top li {
+  clear:both;
+  height:24px;
+  line-height:24px;
+}
+#top .go_home a {
+  float:left;
+  display:block;
+  padding:0px 10px 5px;
+  background:url(top-line.gif) right top no-repeat;
+}
+#logo {float:left;}
+html>body #top {
+	height: 58px; /* ie5win fudge ends */
+	}
+.help {
+    float:right;
+	width:300px;
+}
+#logo {
+    float:left;
+	width:262px;
+}
+#bg {
+  background: #EEF2FB;
+}
+#left {
+	position: absolute;
+	top: 64px;
+	left: 0px;
+	width:186px;
+	}
+html>body #left {
+	width: 186px; /* ie5win fudge ends */
+	}
+
+#menu {
+    background: url(left-menu-norm.gif) left top repeat-y;
+}
+
+#menu h5 a {
+  display:block;
+  text-align: center;
+  font-weight:bold;
+  background: url(left-menubg.gif) left top no-repeat;
+  height: 26px;
+  line-height: 26px;
+  overflow:hidden;
+}
+
+#menu h5 a:visited,#menu h5.on {
+  display:block;
+  text-align: center;
+  font-weight:bold;
+  background: url(left-title.gif) left top no-repeat;
+  height: 32px;
+  line-height: 32px;
+  overflow:hidden;
+}
+
+#menu a {
+  display:block;
+  padding-left:70px;
+  background: url(menu_bg1.gif) left top no-repeat;
+  height:26px;
+  line-height:26px;
+  overflow:hidden;
+}
+
+#menu a:hover {
+  display:block;
+  padding-left:70px;
+  color: #669A01;
+  background: url(left-menu-on.gif) left top no-repeat;
+  height:26px;
+  line-height:26px;
+}
+
+
+#menu-bottom {
+  clear:both;
+  background: url(menu_bottomimg.gif) left top no-repeat;
+  height:2px;
+}
+
+div.sdmenu {
+	width: 186px;
+}
+div.sdmenu div {
+	background: url(menu_bg1.gif) left top no-repeat;
+	overflow: hidden;
+}
+div.sdmenu div:first-child {
+	background: url(toptitle.gif) no-repeat;
+}
+div.sdmenu div.collapsed {
+	height: 32px;
+	line-height:32px;
+}
+div.sdmenu div span {
+	display: block;
+	height:32px;
+	line-height:32px;
+	font-weight: bold;
+	padding-left:50px;
+    background: url(left-title.gif) left top no-repeat;
+	cursor: default;
+}
+div.sdmenu div.collapsed span {
+	background: url(left-menubg.gif) left top no-repeat;
+	height:32px;
+	line-height:32px;
+}
+
+div.sdmenu div a.current {
+	background : red;
+}
+div.sdmenu div a:hover {
+	background: url(left-menubg.gif) left top no-repeat;
+	text-decoration: none;
+}
+
+
+#middle {
+    height:500px;
+	margin: 0px 0px 0px 190px;
+	padding:6px 10px 10px 0px;
+	background: #EEF2FB url(middle_bg.gif) right top repeat-y;
+}
+
+#nav {
+  background: url(nav_bg.png) right top no-repeat;
+  height:29px;
+}
+
+.nav {
+  padding:0px 15px;
+  height:29px;
+  line-height:29px;
+  background: url(nav_left.gif) left top no-repeat;
+}
+
+.nav a {
+  display:block;
+  float:left;
+  background:url(nav_menu_line.gif) right center no-repeat;
+  height:29px;
+}
+
+.nav a.on,.nav a.yixuan {
+  display:block;
+  float:left;
+  background:url(nav_menu_bg.gif) right bottom no-repeat;
+  height:29px;
+  font-weight:bold;
+  color:#333;
+}
+
+.nav a span {
+  display:block;
+  float:left; 
+  padding:0px 10px; 
+}
+.nav a.on span,.nav a.yixuan span {
+  display:block;
+  float:left; 
+  padding:0px 15px 0px 15px; 
+  background:url(nav_menu_left.gif) left bottom no-repeat;
+  height:29px;
+}
+
+#c {
+  background: #F8F8F9 url(c_right_bg.gif) right top repeat-y;
+  
+}
+
+.c {
+  padding:20px;
+  background: url(c_left_bg.gif) left top repeat-y;
+  min-height:300px;
+}
+
+#c_bt {
+  background: url(c_bt_bg.png) right top no-repeat;
+  height:29px;
+}
+
+.c_bt {
+  background: url(c_bt.gif) left bottom no-repeat;
+  height:29px;
+}
+
+#position {
+  margin-bottom:15px;
+  padding:10px;
+  border-bottom:1px solid #DDE4E9;
+}
+
+.box {
+  padding:10px;
+  border:1px solid #C5CDC4;
+  background:#F1F4F7 url(box_bg.gif) left top repeat-x;
+}
+
+/* 底部 */
+
+#footer {
+  position :  relative;
+  background: url(footer.gif) left bottom repeat-x;
+  width:100%;
+}
+
+#copy {
+  padding:15px 5px 0px 0px;
+  text-align:center;
+  background:url(copy.png) right bottom no-repeat;
+
+  height:25px;
+  line-height:25px;
+  color:#789;
+  font-size:10px;
+}
+
+#copy a {
+  float:right;
+  display:block;
+  width:121px;
+}
+#copy a {color:#999;}
+
+.blank5,.blank10,blank20 {
+  clear: both;
+  height: 5px;
+}
+
+.blank10 {
+  height:10px;
+}
+
+.blank20 {
+  height:20px;
+}
+
+.blank30 {
+  height: 30px;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.input {
+  border:1px solid #C2D0DB;
+  background:url(input_bg.png) right bottom repeat-x;
+  text-align:center;
+  height:24px;
+  height:24px;
+  color:#395366;
+  font-size:12px;
+}
+
+.logout {
+  float:right;
+  display:block;
+  width:44px;
+  height:20px;
+  line-height:20px;
+  text-align:center;
+  background:url(login-out.gif);
+  color:#B8D3E8;
+}
+
+a.logout ,a:visited.logout ,a:active.logout ,a:hover.logout  {color:#B8D3E8;
+text-decoration: none;
+	}
+
+/*按钮*/
+.button {
+	background:url(buttom_bg.gif) right top no-repeat;
+	height:20px;
+	cursor:pointer;
+	text-align:center;
+	padding:2px 10px;
+	border:1px solid #879DAB;
+	color:#395366;
+	overflow:hidden;
+}
+
+#message {
+    height:22px;
+	line-height:22px;
+	padding:0px 10px;
+    background:#EEF2FB;
+	border:1px dotted #ccc;
+}
+
+#quick {
+  float:rights;
+}
+
+.hid_box {
+  clear:both;
+  width:100%;
+}
+
+.hid_box h5 {
+  display:block;
+  height:26px;
+  line-height:26px;
+  padding-left:50px;
+  font-size:12px;
+  font-weight:normal;
+  background:url(hid_box.gif) left top no-repeat;
+}
+
+.hid_box ul li {
+  padding:5px 10px;
+}
+
+.hid_box .hbox {
+  padding:10px 50px 20px;
+  background:white;
+}
+
+.hbox table .left {
+  text-align:right;
+  padding-right:10px;
+}
+
+/************* 分页 */
+
+.page {
+  clear:both;
+  margin:30px 0px 0px;
+}
+
+.page strong {
+  color:#FFF;
+  display:block;
+  float:left;
+  height:18px;
+  line-height:18px;
+  float:left;
+  padding:0px 8px;
+  background:#ccc;
+  border:1px solid #ccc;
+  margin: 0px 3px 0px 0px;
+}
+.page a {
+  display:block;
+  float:left;
+  height:18px;
+  line-height:18px;
+  float:left;
+  padding:0px 8px;
+  border:1px solid #CCC;
+  text-decoration:none;
+  margin: 0px 3px 0px 0px;
+  color:#555;
+}
+
+.page span {
+  float:right;
+}
