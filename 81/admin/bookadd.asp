@@ -64,8 +64,8 @@ If (CStr(Request("MM_insert")) = "form1") Then
   MM_editConnection = MM_bien_STRING
   MM_editTable = "book"
   MM_editRedirectUrl = "../seccess.html"
-  MM_fieldsStr  = "book_name|value|book_press|value|book_author|value|book_gettime|value|book_class|value|book_presstime|value|book_price|value|book_count|value|book_note|value"
-  MM_columnsStr = "book_name|',none,''|book_press|',none,''|book_author|',none,''|book_gettime|',none,''|book_class|',none,''|book_presstime|',none,''|book_price|none,none,NULL|book_count|',none,''|book_note|',none,''"
+  MM_fieldsStr  = "book_name|value|book_press|value|book_author|value|book_gettime|value|book_class|value|book_presstime|value|book_price|value|book_count|value|book_note|value|book_dadsay|value|book_momsay|value|book_getprice|value|book_isbn|value|book_cnClassification|value|book_usClassification|value"
+  MM_columnsStr = "book_name|',none,''|book_press|',none,''|book_author|',none,''|book_gettime|',none,''|book_class|',none,''|book_presstime|',none,''|book_price|none,none,NULL|book_count|',none,''|book_note|',none,''|book_dadsay|',none,''|book_momsay|',none,''|book_getprice|',none,''|book_isbn|',none,''|book_cnClassification|',none,''|book_usClassification|',none,''"
 
   ' create the MM_fields and MM_columns arrays
   MM_fields = Split(MM_fieldsStr, "|")
@@ -152,10 +152,10 @@ End If
 
 <body>
 <form id="form1" name="form1" method="POST" action="<%=MM_editAction%>">
-  <table border="0" cellspacing="0" cellpadding="0">
+  <table border="0" cellspacing="0" cellpadding="2">
     <tr>
-      <td width="60">书名</td>
-      <td width="600"><label>
+      <td>书名</td>
+      <td><label>
         <input name="book_name" type="text" id="book_name" size="100" maxlength="100" />
       </label></td>
     </tr>
@@ -181,7 +181,23 @@ End If
     </tr>
     <tr>
       <td>定价</td>
-      <td><input name="book_price" type="text" id="book_price" size="10" maxlength="10" /></td>
+      <td><input name="book_price" type="text" id="book_price" value="0" size="10" maxlength="10" /></td>
+    </tr>
+    <tr>
+      <td>得到价格</td>
+      <td><input name="book_getprice" type="text" id="book_getprice" value="0" size="10" maxlength="10" /></td>
+    </tr>
+    <tr>
+      <td>ISBN</td>
+      <td><input name="book_isbn" type="text" id="book_isbn" value="0" size="16" maxlength="16" /></td>
+    </tr>
+    <tr>
+      <td>中国国家图书馆分类号</td>
+      <td><input name="book_cnClassification" type="text" id="book_cnClassification" size="16" maxlength="16" /></td>
+    </tr>
+    <tr>
+      <td>美国国会图书馆分类号</td>
+      <td><input name="book_usClassification" type="text" id="book_usClassification" size="16" maxlength="16" /></td>
     </tr>
     <tr>
       <td>册数</td>
@@ -190,7 +206,19 @@ End If
     <tr>
       <td>备注</td>
       <td><label>
-        <textarea name="book_note" cols="30" rows="3" id="book_note"></textarea>
+        <textarea name="book_note" cols="60" rows="2" id="book_note"></textarea>
+      </label></td>
+    </tr>
+    <tr>
+      <td>爸爸说</td>
+      <td><label>
+        <textarea name="book_dadsay" cols="60" rows="5" id="book_dadsay"></textarea>
+      </label></td>
+    </tr>
+    <tr>
+      <td>妈妈说</td>
+      <td><label>
+        <textarea name="book_momsay" cols="60" rows="5" id="book_momsay"></textarea>
       </label></td>
     </tr>
     <tr>

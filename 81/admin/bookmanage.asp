@@ -407,8 +407,14 @@ End If
     <option value="book_class">分类</option>
     <option value="book_presstime">出版时间</option>
     <option value="book_price">定价</option>
+    <option value="book_getprice">得到价格</option>
+    <option value="book_isbn">ISBN</option>
+    <option value="book_cnClassification">中国国家图书馆分类号</option>
+    <option value="book_usClassification">美国国会图书馆分类号</option>
     <option value="book_count">册数</option>
     <option value="book_note">备注</option>
+    <option value="book_dadsay">爸爸说</option>
+    <option value="book_momsay">妈妈说</option>
   </select>
   </label>
   <label>
@@ -456,8 +462,13 @@ next
   <% End If ' end Not MM_atTotal %>
 </form></span>
 <% If Not booklist.EOF Or Not booklist.BOF Then %>
-<table bgcolor="#CCCCCC" cellspacing="1" cellpadding="4">
-  <tr class="diary_datetitle" bgcolor="#FFFFDD" style="text-align:left;">
+<style>
+.bookmanagelist{ border:#000 1px solid; border-left:none; border-right:none;}
+.bookmanagelist td{ padding:2px}
+.diary_datatitle{ background:#f4f4f4}
+</style>
+<table class="bookmanagelist" cellspacing="0" cellpadding="0" width="100%" style="width:100%">
+  <tr class="diary_datetitle">
     <td>ID</td>
     <td>书名</td>
     <td>出版社</td>
@@ -466,25 +477,37 @@ next
     <td>分类</td>
     <td>出版时间</td>
     <td>定价</td>
+    <td>得到价格</td>
+    <td>ISBN</td>
+    <td>中国国家图书馆分类号</td>
+    <td>美国国会图书馆分类号</td>
     <td>册数</td>
+    <td>爸爸说</td>
+    <td>妈妈说</td>
     <td>备注</td>
     <td width="60">动作</td>
   </tr>
   <% 
 While ((Repeat1__numRows <> 0) AND (NOT booklist.EOF)) 
 %>
-    <tr bgcolor="#FFFFFF" onMouseOver="this.bgColor='#EEEFFF'" onMouseOut="this.bgColor='#ffffff'">
+    <tr onMouseOver="this.bgColor='#EEEFFF'" onMouseOut="this.bgColor='#ffffff'">
       <td height="30">&nbsp;<%=(booklist.Fields.Item("id").Value)%></td>
-      <td>&nbsp;<%=(booklist.Fields.Item("book_name").Value)%></td>
-      <td>&nbsp;<%=(booklist.Fields.Item("book_press").Value)%></td>
-      <td>&nbsp;<%=(booklist.Fields.Item("book_author").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_name").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_press").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_author").Value)%></td>
       <td><div style="white-space:nowrap;">&nbsp;<%=(booklist.Fields.Item("book_gettime").Value)%></div></td>
-      <td>&nbsp;<%=(booklist.Fields.Item("book_class").Value)%></td>
-      <td>&nbsp;<%=(booklist.Fields.Item("book_presstime").Value)%></td>
-      <td>&nbsp;￥<%=(booklist.Fields.Item("book_price").Value)%></td>
-      <td>&nbsp;<%=(booklist.Fields.Item("book_count").Value)%></td>
-      <td>&nbsp;<%=(booklist.Fields.Item("book_note").Value)%></td>
-      <td>&nbsp;<A HREF="bookedit.asp?<%= Server.HTMLEncode(MM_keepNone) & MM_joinChar(MM_keepNone) & "id=" & booklist.Fields.Item("id").Value %>">编辑</A> <A HREF="bookdel.asp?<%= Server.HTMLEncode(MM_keepNone) & MM_joinChar(MM_keepNone) & "id=" & booklist.Fields.Item("id").Value %>">删除</A></td>
+      <td><%=(booklist.Fields.Item("book_class").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_presstime").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_price").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_getprice").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_isbn").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_cnClassification").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_usClassification").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_count").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_dadsay").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_momsay").Value)%></td>
+      <td><%=(booklist.Fields.Item("book_note").Value)%></td>
+      <td><A HREF="bookedit.asp?<%= Server.HTMLEncode(MM_keepNone) & MM_joinChar(MM_keepNone) & "id=" & booklist.Fields.Item("id").Value %>">编辑</A> <A HREF="bookdel.asp?<%= Server.HTMLEncode(MM_keepNone) & MM_joinChar(MM_keepNone) & "id=" & booklist.Fields.Item("id").Value %>">删除</A></td>
     </tr>
     <% 
   Repeat1__index=Repeat1__index+1

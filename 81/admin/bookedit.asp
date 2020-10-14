@@ -66,8 +66,8 @@ If (CStr(Request("MM_update")) = "form1" And CStr(Request("MM_recordId")) <> "")
   MM_editColumn = "id"
   MM_recordId = "" + Request.Form("MM_recordId") + ""
   MM_editRedirectUrl = "../seccess.html"
-  MM_fieldsStr  = "book_name|value|book_press|value|book_author|value|book_gettime|value|book_class|value|book_presstime|value|book_price|value|book_count|value|book_note|value"
-  MM_columnsStr = "book_name|',none,''|book_press|',none,''|book_author|',none,''|book_gettime|',none,''|book_class|',none,''|book_presstime|',none,''|book_price|none,none,NULL|book_count|',none,''|book_note|',none,''"
+  MM_fieldsStr  = "book_name|value|book_press|value|book_author|value|book_gettime|value|book_class|value|book_presstime|value|book_price|value|book_count|value|book_note|value|book_dadsay|value|book_momsay|value|book_getprice|value|book_isbn|value|book_cnClassification|value|book_usClassification|value"
+  MM_columnsStr = "book_name|',none,''|book_press|',none,''|book_author|',none,''|book_gettime|',none,''|book_class|',none,''|book_presstime|',none,''|book_price|none,none,NULL|book_count|',none,''|book_note|',none,''|book_dadsay|',none,''|book_momsay|',none,''|book_getprice|',none,''|book_isbn|',none,''|book_cnClassification|',none,''|book_usClassification|',none,''"
 
   ' create the MM_fields and MM_columns arrays
   MM_fields = Split(MM_fieldsStr, "|")
@@ -329,10 +329,10 @@ MM_atTotal = (MM_rsCount <> -1 And MM_offset + MM_size >= MM_rsCount)
 
 <body>
 <form ACTION="<%=MM_editAction%>" METHOD="POST" id="form1" name="form1">
-  <table border="0" cellspacing="0" cellpadding="0">
+  <table border="0" cellspacing="0" cellpadding="2">
     <tr>
-      <td width="60">书名</td>
-      <td width="600"><label>
+      <td>书名</td>
+      <td><label>
         <input name="book_name" type="text" id="book_name" value="<%=(bookedit.Fields.Item("book_name").Value)%>" size="100" maxlength="100" />
       </label></td>
     </tr>
@@ -361,13 +361,41 @@ MM_atTotal = (MM_rsCount <> -1 And MM_offset + MM_size >= MM_rsCount)
       <td><input name="book_price" type="text" id="book_price" value="<%=(bookedit.Fields.Item("book_price").Value)%>" size="10" maxlength="10" /></td>
     </tr>
     <tr>
+      <td>得到价格</td>
+      <td><input name="book_getprice" type="text" id="book_getprice" value="<%=(bookedit.Fields.Item("book_getprice").Value)%>" size="10" maxlength="10" /></td>
+    </tr>
+    <tr>
+      <td>ISBN</td>
+      <td><input name="book_isbn" type="text" id="book_isbn" value="<%=(bookedit.Fields.Item("book_isbn").Value)%>" size="16" maxlength="16" /></td>
+    </tr>
+    <tr>
+      <td>中国国家图书馆分类号</td>
+      <td><input name="book_cnClassification" type="text" id="book_cnClassification" value="<%=(bookedit.Fields.Item("book_cnClassification").Value)%>" size="16" maxlength="16" /></td>
+    </tr>
+    <tr>
+      <td>美国国会图书馆分类号</td>
+      <td><input name="book_usClassification" type="text" id="book_usClassification" value="<%=(bookedit.Fields.Item("book_usClassification").Value)%>" size="16" maxlength="16" /></td>
+    </tr>
+    <tr>
       <td>册数</td>
       <td><input name="book_count" type="text" id="book_count" value="<%=(bookedit.Fields.Item("book_count").Value)%>" size="10" maxlength="10" /></td>
     </tr>
     <tr>
       <td>备注</td>
       <td><label>
-        <textarea name="book_note" cols="30" rows="3" id="book_note"><%=(bookedit.Fields.Item("book_note").Value)%></textarea>
+        <textarea name="book_note" cols="60" rows="2" id="book_note"><%=(bookedit.Fields.Item("book_note").Value)%></textarea>
+      </label></td>
+    </tr>
+    <tr>
+      <td>爸爸说</td>
+      <td><label>
+        <textarea name="book_dadsay" cols="60" rows="5" id="book_dadsay"><%=(bookedit.Fields.Item("book_dadsay").Value)%></textarea>
+      </label></td>
+    </tr>
+    <tr>
+      <td>妈妈说</td>
+      <td><label>
+        <textarea name="book_momsay" cols="60" rows="5" id="book_momsay"><%=(bookedit.Fields.Item("book_momsay").Value)%></textarea>
       </label></td>
     </tr>
     <tr>

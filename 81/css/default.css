@@ -1,6 +1,6 @@
-body{ font-family:Arial, Helvetica, sans-serif;}
+body{ font-family:Arial, Helvetica, sans-serif; }
 .skin_cm{ text-decoration:none}
-.diary_datetitle {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; color:#999; font-size:12px; font-weight: bold; text-align: center; border-color: #ccc; border-style: solid; border-width: 1px}
+.diary_datetitle { font-weight: bold; text-align: center;}
 .line {  border-color: black black #CCCCCC; border-style: dotted; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
 .topbg {background-color: #003562}
 td{ font-size:12px;}
