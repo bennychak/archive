@@ -50,10 +50,10 @@ End If
 </head>
 
 <body marginheight="0" marginwidth="0" topmargin="0" leftmargin="0">
-<table background="../image/bg.gif" width="100%" border="0" cellspacing="0" cellpadding="0">
+<table style="background:#ffffee" width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td height="30">&nbsp;
-	<font size=2 color=red>
+    <td style="padding:5px 10px 4px; border-bottom:#000 1px solid; line-height:20px; font-size:14px;>
+	<font>
 <a href="main.asp" target="main">π‹¿Ì</a>&nbsp;
 <a href="../demo.asp" target="main">‘§¿¿</a>&nbsp;
 <a href="base.asp" target="main">…Ë÷√</a>&nbsp;

@@ -1,4 +1,5 @@
-body{ font-family:Arial, Helvetica, sans-serif; }
+html,form{margin:0; padding:0}
+body{ font-family:Arial, Helvetica, sans-serif; margin:0; padding:0}
 .skin_cm{ text-decoration:none}
 .diary_datetitle { font-weight: bold; text-align: center;}
 .line {  border-color: black black #CCCCCC; border-style: dotted; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
@@ -13,7 +14,7 @@ a:hover {  color: #9D0A0F; text-decoration: none}
 .diary_bg1 { color:#3e3e3e;}
 .diary_arr { cursor: hand}
 .diary_poster {  color: orange}
-.diary_title {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 10pt; font-weight: bolder}
+.diary_title { padding:15px 10px 0; font-size: 14px; display:block;}
 .ubb_quote {  background-color: #fbfbfb; border-color: #999999; border-style: solid; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 1px}
 .ubb_code {  background-color: #f2f2f2; border-color: #999999; border-style: dotted; border-width: 1px}
 .left { background-color: #efefef}
@@ -26,13 +27,3 @@ a:hover {  color: #9D0A0F; text-decoration: none}
 .lt {  text-decoration: underline overline line-through; color: #000000;}
 .marktxt_align1 { text-align: left} /* CSS Document */
 
-
-BODY{ 
-SCROLLBAR-FACE-COLOR: #FFFFFF;  
-SCROLLBAR-HIGHLIGHT-COLOR: #cc3300; 
-SCROLLBAR-SHADOW-COLOR: #cc3300; 
-SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; 
-SCROLLBAR-DARKSHADOW-COLOR: #FFFFFF; 
-SCROLLBAR-ARROW-COLOR: #cc3300; 
-SCROLLBAR-TRACK-COLOR: #FFFFFF; 
-} 

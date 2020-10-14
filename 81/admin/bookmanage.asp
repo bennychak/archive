@@ -59,7 +59,7 @@ booklist_numRows = 0
 Dim Repeat1__numRows
 Dim Repeat1__index
 
-Repeat1__numRows = 100
+Repeat1__numRows = 25
 Repeat1__index = 0
 booklist_numRows = booklist_numRows + Repeat1__numRows
 %>
@@ -393,8 +393,11 @@ End If
 </head>
 
 <body>
-<span class="diary_title">
-<form id="form1" name="form1" method="get" action="bookmanage.asp">搜索到图书<%=(booklist_total)%>册/套   <a href="bookadd.asp" target="main">添加图书</a>
+<span class="diary_title" style="text-align:center;">
+<form id="form1" name="form1" method="get" action="bookmanage.asp">
+<p style="font-size:30px">搜索到<%=(booklist_total)%>条记录</p>
+<p>
+<a href="bookadd.asp" target="main">添加图书</a>
   <label>
   <input name="booksearch" type="text" id="booksearch" size="30" maxlength="50" />
   </label>
@@ -409,8 +412,8 @@ End If
     <option value="book_price">定价</option>
     <option value="book_getprice">得到价格</option>
     <option value="book_isbn">ISBN</option>
-    <option value="book_cnClassification">中国国家图书馆分类号</option>
-    <option value="book_usClassification">美国国会图书馆分类号</option>
+    <option value="book_cnClassification">中国国家图书馆分类号（CLC）</option>
+    <option value="book_usClassification">美国国会图书馆分类号（LCC）</option>
     <option value="book_count">册数</option>
     <option value="book_note">备注</option>
     <option value="book_dadsay">爸爸说</option>
@@ -428,7 +431,8 @@ End If
   <label>
   <input type="submit" name="Submit" value="搜索" />
   </label>
-<span style="font-weight:normal;">（备注字段搜索“借”字以查看图书借阅情况）</span><br><br>
+<span style="font-weight:normal;">（备注字段搜索“借”字以查看图书借阅情况）</span></p>
+<p style="text-align:center;">
 <% If MM_offset <> 0 Then %>
     <A HREF="<%=MM_moveFirst%>">&lt;&lt;</A> <A HREF="<%=MM_movePrev%>">&lt;</A>
     <% End If ' end MM_offset <> 0 %>
@@ -460,32 +464,34 @@ next
 <% If Not MM_atTotal Then %>
   <A HREF="<%=MM_moveNext%>">&gt;</A> <A HREF="<%=MM_moveLast%>">&gt;&gt;</A>
   <% End If ' end Not MM_atTotal %>
+</p>
 </form></span>
 <% If Not booklist.EOF Or Not booklist.BOF Then %>
 <style>
 .bookmanagelist{ border:#000 1px solid; border-left:none; border-right:none;}
-.bookmanagelist td{ padding:2px}
+.bookmanagelist td{ padding:4px}
 .diary_datatitle{ background:#f4f4f4}
 </style>
-<table class="bookmanagelist" cellspacing="0" cellpadding="0" width="100%" style="width:100%">
+<div style="zoom:1; overflow:hidden">
+<table class="bookmanagelist" cellspacing="0" border="0" cellpadding="0" style="width:100%; zoom:1">
   <tr class="diary_datetitle">
-    <td>ID</td>
-    <td>书名</td>
-    <td>出版社</td>
-    <td>作者</td>
-    <td>得到时间</td>
-    <td>分类</td>
-    <td>出版时间</td>
-    <td>定价</td>
-    <td>得到价格</td>
-    <td>ISBN</td>
-    <td>中国国家图书馆分类号</td>
-    <td>美国国会图书馆分类号</td>
-    <td>册数</td>
-    <td>爸爸说</td>
-    <td>妈妈说</td>
-    <td>备注</td>
-    <td width="60">动作</td>
+    <td style="border-bottom:#000 1px solid">ID</td>
+    <td style="border-bottom:#000 1px solid">书名</td>
+    <td style="border-bottom:#000 1px solid">出版社</td>
+    <td style="border-bottom:#000 1px solid">作者</td>
+    <td style="border-bottom:#000 1px solid">得到时间</td>
+    <td style="border-bottom:#000 1px solid">分类</td>
+    <td style="border-bottom:#000 1px solid">出版时间</td>
+    <td style="border-bottom:#000 1px solid">定价</td>
+    <td style="border-bottom:#000 1px solid">得到价格</td>
+    <td style="border-bottom:#000 1px solid">ISBN</td>
+    <td style="border-bottom:#000 1px solid">CLC</td>
+    <td style="border-bottom:#000 1px solid">LCC</td>
+    <td style="border-bottom:#000 1px solid">册数</td>
+    <td style="border-bottom:#000 1px solid">爸爸说</td>
+    <td style="border-bottom:#000 1px solid">妈妈说</td>
+    <td style="border-bottom:#000 1px solid">备注</td>
+    <td style="border-bottom:#000 1px solid" width="60">动作</td>
   </tr>
   <% 
 While ((Repeat1__numRows <> 0) AND (NOT booklist.EOF)) 
@@ -516,7 +522,7 @@ While ((Repeat1__numRows <> 0) AND (NOT booklist.EOF))
 Wend
 %>
 </table>
-
+</div>
 
 <% End If ' end Not booklist.EOF Or NOT booklist.BOF %>
 <% If booklist.EOF And booklist.BOF Then %>

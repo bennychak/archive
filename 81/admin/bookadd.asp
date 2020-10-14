@@ -192,11 +192,11 @@ End If
       <td><input name="book_isbn" type="text" id="book_isbn" value="0" size="16" maxlength="16" /></td>
     </tr>
     <tr>
-      <td>中国国家图书馆分类号</td>
+      <td>中国国家图书馆分类号（CLC）</td>
       <td><input name="book_cnClassification" type="text" id="book_cnClassification" size="16" maxlength="16" /></td>
     </tr>
     <tr>
-      <td>美国国会图书馆分类号</td>
+      <td>美国国会图书馆分类号（LCC）</td>
       <td><input name="book_usClassification" type="text" id="book_usClassification" size="16" maxlength="16" /></td>
     </tr>
     <tr>

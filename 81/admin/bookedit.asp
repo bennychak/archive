@@ -369,11 +369,11 @@ MM_atTotal = (MM_rsCount <> -1 And MM_offset + MM_size >= MM_rsCount)
       <td><input name="book_isbn" type="text" id="book_isbn" value="<%=(bookedit.Fields.Item("book_isbn").Value)%>" size="16" maxlength="16" /></td>
     </tr>
     <tr>
-      <td>中国国家图书馆分类号</td>
+      <td>中国国家图书馆分类号（CLC）</td>
       <td><input name="book_cnClassification" type="text" id="book_cnClassification" value="<%=(bookedit.Fields.Item("book_cnClassification").Value)%>" size="16" maxlength="16" /></td>
     </tr>
     <tr>
-      <td>美国国会图书馆分类号</td>
+      <td>美国国会图书馆分类号（LCC）</td>
       <td><input name="book_usClassification" type="text" id="book_usClassification" value="<%=(bookedit.Fields.Item("book_usClassification").Value)%>" size="16" maxlength="16" /></td>
     </tr>
     <tr>
