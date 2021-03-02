@@ -59,7 +59,7 @@ booklist_numRows = 0
 Dim Repeat1__numRows
 Dim Repeat1__index
 
-Repeat1__numRows = 25
+Repeat1__numRows = 50
 Repeat1__index = 0
 booklist_numRows = booklist_numRows + Repeat1__numRows
 %>
@@ -392,12 +392,11 @@ End If
 <link href="../css/default.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body style="margin:0">
 <span class="diary_title" style="text-align:center;">
 <form id="form1" name="form1" method="get" action="bookmanage.asp">
-<p style="font-size:30px">搜索到<%=(booklist_total)%>条记录</p>
-<p>
-<a href="bookadd.asp" target="main">添加图书</a>
+  <p style="font-size:30px; font-family:Microsoft Yahei,sans-serif">搜索到<%=(booklist_total)%>条记录</p>
+  <p>
   <label>
   <input name="booksearch" type="text" id="booksearch" size="30" maxlength="50" />
   </label>
@@ -429,15 +428,16 @@ End If
   </select>
   </label>
   <label>
-  <input type="submit" name="Submit" value="搜索" />
+    <a class="btn" href="javascript:void(document.form1.submit());">搜索</a>
   </label>
-<span style="font-weight:normal;">（备注字段搜索“借”字以查看图书借阅情况）</span></p>
-<p style="text-align:center;">
+  <a class="btn" href="bookadd.asp" target="main">添加图书</a>
+</p>
+<p style="text-align:center; font-family:Microsoft Yahei,sans-serif">
 <% If MM_offset <> 0 Then %>
-    <A HREF="<%=MM_moveFirst%>">&lt;&lt;</A> <A HREF="<%=MM_movePrev%>">&lt;</A>
+    <A HREF="<%=MM_moveFirst%>">首页</A> <A HREF="<%=MM_movePrev%>">上一页</A>
     <% End If ' end MM_offset <> 0 %>
     <%
-TFM_MiddlePages = 10
+TFM_MiddlePages = 30
 TFM_startLink = MM_offset/MM_size - int(TFM_middlePages/2)
 TFM_endLink = MM_offset/MM_size + int(TFM_middlePages/2) 
 If TFM_MiddlePages/2 <> int(TFM_MiddlePages/2) Then TFM_endLink = TFM_endLink + 1
@@ -462,72 +462,79 @@ end if
 next
 %>
 <% If Not MM_atTotal Then %>
-  <A HREF="<%=MM_moveNext%>">&gt;</A> <A HREF="<%=MM_moveLast%>">&gt;&gt;</A>
+  <A HREF="<%=MM_moveNext%>">下一页</A> <A HREF="<%=MM_moveLast%>">尾页</A>
   <% End If ' end Not MM_atTotal %>
 </p>
 </form></span>
 <% If Not booklist.EOF Or Not booklist.BOF Then %>
 <style>
-.bookmanagelist{ border:#000 1px solid; border-left:none; border-right:none;}
-.bookmanagelist td{ padding:4px}
-.diary_datatitle{ background:#f4f4f4}
+html{*overflow-x:hidden;*overflow-y:auto;}
+.btn{ background:transparent; box-shadow:none; letter-spacing:2px; font-size:12px; margin:0; outline:none; border:#7f9db9 1px solid; padding:2px 8px; display:inline-block; *display:inline; *zoom:1; vertical-align:middle}
+select,button,input{ vertical-align:middle;}
+.bookmanagewrap{margin:0; padding:0; overflow:hidden}
+.bookmanagelist{margin:0; padding:5px 0; border:none; border-top:#999 1px dashed}
+.bookmanagelist th{ padding:10px 0 5px; border:none; text-align:left}
+.bookmanagelist td{ padding:5px 0 10px; border:none}
+.bookmanagelist p{ margin:0; padding-top:5px; padding-right:10px;}
+.bookmanagelist th strong{font-family:Microsoft Yahei,sans-serif; font-weight:300}
+.bookmanagelist td strong{ color:#333}
 </style>
-<div style="zoom:1; overflow:hidden">
-<table class="bookmanagelist" cellspacing="0" border="0" cellpadding="0" style="width:100%; zoom:1">
-  <tr class="diary_datetitle">
-    <td style="border-bottom:#000 1px solid">ID</td>
-    <td style="border-bottom:#000 1px solid">书名</td>
-    <td style="border-bottom:#000 1px solid">出版社</td>
-    <td style="border-bottom:#000 1px solid">作者</td>
-    <td style="border-bottom:#000 1px solid">得到时间</td>
-    <td style="border-bottom:#000 1px solid">分类</td>
-    <td style="border-bottom:#000 1px solid">出版时间</td>
-    <td style="border-bottom:#000 1px solid">定价</td>
-    <td style="border-bottom:#000 1px solid">得到价格</td>
-    <td style="border-bottom:#000 1px solid">ISBN</td>
-    <td style="border-bottom:#000 1px solid">CLC</td>
-    <td style="border-bottom:#000 1px solid">LCC</td>
-    <td style="border-bottom:#000 1px solid">册数</td>
-    <td style="border-bottom:#000 1px solid">爸爸说</td>
-    <td style="border-bottom:#000 1px solid">妈妈说</td>
-    <td style="border-bottom:#000 1px solid">备注</td>
-    <td style="border-bottom:#000 1px solid" width="60">动作</td>
-  </tr>
-  <% 
+<table class="bookmanagewrap" cellspacing="0" border="0" cellpadding="0" width="100%">
+<% 
 While ((Repeat1__numRows <> 0) AND (NOT booklist.EOF)) 
 %>
-    <tr onMouseOver="this.bgColor='#EEEFFF'" onMouseOut="this.bgColor='#ffffff'">
-      <td height="30">&nbsp;<%=(booklist.Fields.Item("id").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_name").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_press").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_author").Value)%></td>
-      <td><div style="white-space:nowrap;">&nbsp;<%=(booklist.Fields.Item("book_gettime").Value)%></div></td>
-      <td><%=(booklist.Fields.Item("book_class").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_presstime").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_price").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_getprice").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_isbn").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_cnClassification").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_usClassification").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_count").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_dadsay").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_momsay").Value)%></td>
-      <td><%=(booklist.Fields.Item("book_note").Value)%></td>
-      <td><A HREF="bookedit.asp?<%= Server.HTMLEncode(MM_keepNone) & MM_joinChar(MM_keepNone) & "id=" & booklist.Fields.Item("id").Value %>">编辑</A> <A HREF="bookdel.asp?<%= Server.HTMLEncode(MM_keepNone) & MM_joinChar(MM_keepNone) & "id=" & booklist.Fields.Item("id").Value %>">删除</A></td>
-    </tr>
-    <% 
+  <tr>
+    <td onMouseOver="this.bgColor='#ffffee'" onMouseOut="this.bgColor='#ffffff'">
+      <table class="bookmanagelist" cellspacing="0" border="0" cellpadding="0" width="100%">
+        <tr>
+          <th rowspan="2" style="text-align:center; font-size:16px" width="6%">
+            <p><%=(booklist.Fields.Item("id").Value)%></p>
+          </th>
+          <th valign="top" colspan="4">
+            <p><strong style="font-size:20px"><%=(booklist.Fields.Item("book_name").Value)%></strong></p>
+          </th>
+        </tr>
+        <tr>
+          <td width="25%" valign="top">
+            <p><strong>作者：</strong><%=(booklist.Fields.Item("book_author").Value)%></p>
+            <p><strong>分类：</strong><%=(booklist.Fields.Item("book_class").Value)%></p>
+            <p><strong>出版：</strong><%=(booklist.Fields.Item("book_press").Value)%></p>
+            <p><strong>版次：</strong><%=(booklist.Fields.Item("book_presstime").Value)%></p>
+            <p><strong>定价：</strong><%=(booklist.Fields.Item("book_price").Value)%>，得到价格：<%=(booklist.Fields.Item("book_getprice").Value)%></p>
+          </td>
+          <td width="25%" valign="top">
+            <p><strong>得到时间：</strong><%=(booklist.Fields.Item("book_gettime").Value)%></p>
+            <p><strong>图书册数：</strong><%=(booklist.Fields.Item("book_count").Value)%></p>
+            <p><strong>国际标准书号ISBN：</strong><%=(booklist.Fields.Item("book_isbn").Value)%></p>
+            <p><strong>中国国家图书馆分类：</strong><%=(booklist.Fields.Item("book_cnClassification").Value)%></p>
+            <p><strong>美国国会图书馆分类：</strong><%=(booklist.Fields.Item("book_usClassification").Value)%></p>
+          </td>
+          <td width="30%" valign="top">
+            <p><strong>备注：</strong><%=(booklist.Fields.Item("book_note").Value)%></p>
+            <p><strong>爸爸说：</strong><%=(booklist.Fields.Item("book_dadsay").Value)%></p>
+            <p><strong>妈妈说：</strong><%=(booklist.Fields.Item("book_momsay").Value)%></p>
+          </td>
+          <td width="20%" style="text-align:center">
+<A class="btn" HREF="bookedit.asp?<%= Server.HTMLEncode(MM_keepNone) & MM_joinChar(MM_keepNone) & "id=" & booklist.Fields.Item("id").Value %>">编辑</A> <A class="btn" HREF="bookdel.asp?<%= Server.HTMLEncode(MM_keepNone) & MM_joinChar(MM_keepNone) & "id=" & booklist.Fields.Item("id").Value %>">删除</A>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+<% 
   Repeat1__index=Repeat1__index+1
   Repeat1__numRows=Repeat1__numRows-1
   booklist.MoveNext()
 Wend
 %>
-</table>
-</div>
 
 <% End If ' end Not booklist.EOF Or NOT booklist.BOF %>
+</table>
+
 <% If booklist.EOF And booklist.BOF Then %>
   搜索结果为空！
-  <% End If ' end booklist.EOF And booklist.BOF %>
+<% End If ' end booklist.EOF And booklist.BOF %>
+
 </body>
 </html>
 <%
