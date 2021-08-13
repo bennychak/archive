@@ -6,5 +6,5 @@
 ' Catalog=""
 ' Schema=""
 Dim MM_bien_STRING
-MM_bien_STRING = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\root\81\data\bien.asp"
+MM_bien_STRING = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\root\data\bien.asp"
 %>
